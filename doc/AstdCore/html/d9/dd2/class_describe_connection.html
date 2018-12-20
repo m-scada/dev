@@ -1,0 +1,1640 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.13"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>AstdCore Library: Класс DescribeConnection</title>
+<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../jquery.js"></script>
+<script type="text/javascript" src="../../dynsections.js"></script>
+<link href="../../navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../resize.js"></script>
+<script type="text/javascript" src="../../navtreedata.js"></script>
+<script type="text/javascript" src="../../navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+</script>
+<link href="../../search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../search/searchdata.js"></script>
+<script type="text/javascript" src="../../search/search.js"></script>
+<link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">AstdCore Library
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.8.13 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "../../search",false,'Поиск');
+</script>
+<script type="text/javascript" src="../../menudata.js"></script>
+<script type="text/javascript" src="../../menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('../../',true,false,'search.php','Поиск');
+  $(document).ready(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('d9/dd2/class_describe_connection.html','../../');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-types">Открытые типы</a> &#124;
+<a href="#pub-methods">Открытые члены</a> &#124;
+<a href="#pub-static-methods">Открытые статические члены</a> &#124;
+<a href="#properties">Свойства</a> &#124;
+<a href="../../d4/dd6/class_describe_connection-members.html">Полный список членов класса</a>  </div>
+  <div class="headertitle">
+<div class="title">Класс DescribeConnection</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p><code>#include &lt;<a class="el" href="../../d1/dfd/_describe_connection_8h_source.html">DescribeConnection.h</a>&gt;</code></p>
+<div class="dynheader">
+Граф наследования:DescribeConnection:</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="../../d9/dd2/class_describe_connection.png" usemap="#DescribeConnection_map" alt=""/>
+  <map id="DescribeConnection_map" name="DescribeConnection_map">
+<area href="../../db/d60/class_describe.html" alt="Describe" shape="rect" coords="0,0,168,24"/>
+<area href="../../dd/d4a/class_describe_connection_dummy.html" alt="DescribeConnectionDummy" shape="rect" coords="0,112,168,136"/>
+</map>
+ </div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
+Открытые типы</h2></td></tr>
+<tr class="memitem:adfd723192c36de0f64d3dcc822cae91d"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd2/class_describe_connection.html#adfd723192c36de0f64d3dcc822cae91d">Type</a> { <a class="el" href="../../d9/dd2/class_describe_connection.html#adfd723192c36de0f64d3dcc822cae91da0c951aa4243e1a1cc407704d21596b89">Type::Listener</a>, 
+<a class="el" href="../../d9/dd2/class_describe_connection.html#adfd723192c36de0f64d3dcc822cae91dae60340c5328bd1bdc50cd8f3efd83c88">Type::Outgoing</a>, 
+<a class="el" href="../../d9/dd2/class_describe_connection.html#adfd723192c36de0f64d3dcc822cae91da589ab34e870b80c8c7d035805452df19">Type::Incoming</a>, 
+<a class="el" href="../../d9/dd2/class_describe_connection.html#adfd723192c36de0f64d3dcc822cae91da916c74f40cb3a7d245c9f9eefde044db">Type::UnknownType</a> = -1
+ }</td></tr>
+<tr class="separator:adfd723192c36de0f64d3dcc822cae91d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_types_class_describe"><td colspan="2" onclick="javascript:toggleInherit('pub_types_class_describe')"><img src="../../closed.png" alt="-"/>&#160;Открытые типы унаследованные от <a class="el" href="../../db/d60/class_describe.html">Describe</a></td></tr>
+<tr class="memitem:aa71e75544f67f60e7739413aae34ad02 inherit pub_types_class_describe"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d60/class_describe.html#aa71e75544f67f60e7739413aae34ad02">TypeDescribe</a> { <br />
+&#160;&#160;<a class="el" href="../../db/d60/class_describe.html#aa71e75544f67f60e7739413aae34ad02a4afa80e77a07f7488ce4d1bdd8c4977a">TypeDescribe::Algorithm</a> = IDI_EDescribeOfAlgorithm, 
+<a class="el" href="../../db/d60/class_describe.html#aa71e75544f67f60e7739413aae34ad02ae727b00944f81e1d0a95c12886ac4641">TypeDescribe::Archive</a> = IDI_EDescribeOfArchive, 
+<a class="el" href="../../db/d60/class_describe.html#aa71e75544f67f60e7739413aae34ad02a10b4eb76294b70d7fd6df997ff06edb1">TypeDescribe::Complex</a> = IDI_EDescribeOfComplex, 
+<a class="el" href="../../db/d60/class_describe.html#aa71e75544f67f60e7739413aae34ad02ac2cc7082a89c1ad6631a2f66af5f00c0">TypeDescribe::Connection</a> = IDI_EDescribeOfComputer, 
+<br />
+&#160;&#160;<a class="el" href="../../db/d60/class_describe.html#aa71e75544f67f60e7739413aae34ad02ae0ac20adce6ffee48c7151b070aa5737">TypeDescribe::Device</a> = IDI_EDescribeOfIUDevice, 
+<a class="el" href="../../db/d60/class_describe.html#aa71e75544f67f60e7739413aae34ad02ab0f2b97dc5d2b76b26e040408bb1d8af">TypeDescribe::Folder</a> = IDI_EDescribeOfFolder, 
+<a class="el" href="../../db/d60/class_describe.html#aa71e75544f67f60e7739413aae34ad02a324118a6721dd6b8a9b9f4e327df2bf5">TypeDescribe::Input</a> = IDI_EDescribeOfInput, 
+<a class="el" href="../../db/d60/class_describe.html#aa71e75544f67f60e7739413aae34ad02ae55f75a29310d7b60f7ac1d390c8ae42">TypeDescribe::Module</a> = IDI_EDescribeOfModul, 
+<br />
+&#160;&#160;<a class="el" href="../../db/d60/class_describe.html#aa71e75544f67f60e7739413aae34ad02a83f499a540b1323009c200d6f8cc9396">TypeDescribe::Parameter</a> = IDI_EDescribeOfParameter, 
+<a class="el" href="../../db/d60/class_describe.html#aa71e75544f67f60e7739413aae34ad02a394a844cc3d6d99eb45b4e71afde2c99">TypeDescribe::Station</a> = IDI_EDescribeOfStation, 
+<a class="el" href="../../db/d60/class_describe.html#aa71e75544f67f60e7739413aae34ad02a84ddb07d15cabbefecb37c79122a197c">TypeDescribe::UserGroup</a> = IDI_EDescribeOfGroupUser, 
+<a class="el" href="../../db/d60/class_describe.html#aa71e75544f67f60e7739413aae34ad02a916c74f40cb3a7d245c9f9eefde044db">TypeDescribe::UnknownType</a> = IDI_ENonDescribe
+<br />
+ }</td></tr>
+<tr class="separator:aa71e75544f67f60e7739413aae34ad02 inherit pub_types_class_describe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Открытые члены</h2></td></tr>
+<tr class="memitem:aafdede38571da104b3023c7a61cc8054"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd2/class_describe_connection.html#aafdede38571da104b3023c7a61cc8054">Q_ENUM</a> (<a class="el" href="../../d9/dd2/class_describe_connection.html#adfd723192c36de0f64d3dcc822cae91d">Type</a>)</td></tr>
+<tr class="separator:aafdede38571da104b3023c7a61cc8054"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3421e1aa0357a411f34de00659b8baa5"><td class="memItemLeft" align="right" valign="top">CDescribeOfRegistrator *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd2/class_describe_connection.html#a3421e1aa0357a411f34de00659b8baa5">ptr</a> () const</td></tr>
+<tr class="separator:a3421e1aa0357a411f34de00659b8baa5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec6685eff9819cfade1bd5ab240a3e82"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/d6e/class_g_i_d___station.html">GID_Station</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd2/class_describe_connection.html#aec6685eff9819cfade1bd5ab240a3e82">gid</a> () const</td></tr>
+<tr class="separator:aec6685eff9819cfade1bd5ab240a3e82"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a35d60a96af8bbba9dfed6dc0a98ca46f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd2/class_describe_connection.html#a35d60a96af8bbba9dfed6dc0a98ca46f">setGid</a> (const <a class="el" href="../../d6/d6e/class_g_i_d___station.html">GID_Station</a> &amp;<a class="el" href="../../d9/dd2/class_describe_connection.html#acbf10033d79c633fdbd1c7e721e60154">gid</a>)</td></tr>
+<tr class="separator:a35d60a96af8bbba9dfed6dc0a98ca46f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c090f285e2d090e0c4d79bb497f1ef0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/dd2/class_describe_connection.html#adfd723192c36de0f64d3dcc822cae91d">Type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd2/class_describe_connection.html#a4c090f285e2d090e0c4d79bb497f1ef0">type</a> () const</td></tr>
+<tr class="separator:a4c090f285e2d090e0c4d79bb497f1ef0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac767ea2b3899a5543ff7796f4ac5c8a"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd2/class_describe_connection.html#aac767ea2b3899a5543ff7796f4ac5c8a">typeString</a> () const</td></tr>
+<tr class="separator:aac767ea2b3899a5543ff7796f4ac5c8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a56ad037ca268d421d97b276d44a542a2"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd2/class_describe_connection.html#a56ad037ca268d421d97b276d44a542a2">typeStringTr</a> () const</td></tr>
+<tr class="separator:a56ad037ca268d421d97b276d44a542a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa965cd06a695d77ff981947a8be14964"><td class="memItemLeft" align="right" valign="top">QIcon&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd2/class_describe_connection.html#aa965cd06a695d77ff981947a8be14964">typeIcon</a> () const</td></tr>
+<tr class="separator:aa965cd06a695d77ff981947a8be14964"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afeac1c1e86bb14435ea9ef173f052225"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd2/class_describe_connection.html#afeac1c1e86bb14435ea9ef173f052225">isListener</a> () const</td></tr>
+<tr class="separator:afeac1c1e86bb14435ea9ef173f052225"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aafdb11aaab2a2d5add9200f13624bee7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd2/class_describe_connection.html#aafdb11aaab2a2d5add9200f13624bee7">isOutgoing</a> () const</td></tr>
+<tr class="separator:aafdb11aaab2a2d5add9200f13624bee7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae9164e82b3e6ab44d8d0a3a1d876dcef"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd2/class_describe_connection.html#ae9164e82b3e6ab44d8d0a3a1d876dcef">isIncoming</a> () const</td></tr>
+<tr class="separator:ae9164e82b3e6ab44d8d0a3a1d876dcef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2bc3e2ad1daa14a33fa36e875c75307a"><td class="memItemLeft" align="right" valign="top">LPCTSTR&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd2/class_describe_connection.html#a2bc3e2ad1daa14a33fa36e875c75307a">rawName</a> () const</td></tr>
+<tr class="separator:a2bc3e2ad1daa14a33fa36e875c75307a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a678f8d6448c920451defc106a1932eb8"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd2/class_describe_connection.html#a678f8d6448c920451defc106a1932eb8">name</a> () const</td></tr>
+<tr class="separator:a678f8d6448c920451defc106a1932eb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb219e00fbad22fbcce9a80ea9dc5487"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd2/class_describe_connection.html#afb219e00fbad22fbcce9a80ea9dc5487">setName</a> (const QString &amp;str)</td></tr>
+<tr class="separator:afb219e00fbad22fbcce9a80ea9dc5487"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a828e30b53acad862fccfd911efad3425"><td class="memItemLeft" align="right" valign="top">LPCTSTR&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd2/class_describe_connection.html#a828e30b53acad862fccfd911efad3425">rawIpAddress</a> () const</td></tr>
+<tr class="separator:a828e30b53acad862fccfd911efad3425"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa5d964ee1a364f5d5a1dbc70ded990e8"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd2/class_describe_connection.html#aa5d964ee1a364f5d5a1dbc70ded990e8">ipAddress</a> () const</td></tr>
+<tr class="separator:aa5d964ee1a364f5d5a1dbc70ded990e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d547ea6bbf9738c294dc619be9662d9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd2/class_describe_connection.html#a7d547ea6bbf9738c294dc619be9662d9">setIpAddress</a> (const QString &amp;str)</td></tr>
+<tr class="separator:a7d547ea6bbf9738c294dc619be9662d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a24abf42f053ff0da914bd21feb890458"><td class="memItemLeft" align="right" valign="top">short&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd2/class_describe_connection.html#a24abf42f053ff0da914bd21feb890458">ipPort</a> () const</td></tr>
+<tr class="separator:a24abf42f053ff0da914bd21feb890458"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6fb785568ac901df377925ef8698bed6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd2/class_describe_connection.html#a6fb785568ac901df377925ef8698bed6">setIpPort</a> (short port)</td></tr>
+<tr class="separator:a6fb785568ac901df377925ef8698bed6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c8835ebceb8557968132f24fe8642e9"><td class="memItemLeft" align="right" valign="top">quint32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd2/class_describe_connection.html#a3c8835ebceb8557968132f24fe8642e9">receivedBytes</a> () const</td></tr>
+<tr class="separator:a3c8835ebceb8557968132f24fe8642e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c6321b7818083fcf8bf9cfe1dc31fc3"><td class="memItemLeft" align="right" valign="top">quint32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd2/class_describe_connection.html#a8c6321b7818083fcf8bf9cfe1dc31fc3">sentBytes</a> () const</td></tr>
+<tr class="separator:a8c6321b7818083fcf8bf9cfe1dc31fc3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e6cb0850285066d666459000a9ddb5b"><td class="memItemLeft" align="right" valign="top">quint32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd2/class_describe_connection.html#a0e6cb0850285066d666459000a9ddb5b">testMessages</a> () const</td></tr>
+<tr class="separator:a0e6cb0850285066d666459000a9ddb5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad4121dcfa028f91b6246ef57c9d5d088"><td class="memItemLeft" align="right" valign="top">quint32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd2/class_describe_connection.html#ad4121dcfa028f91b6246ef57c9d5d088">durationSilent</a> () const</td></tr>
+<tr class="separator:ad4121dcfa028f91b6246ef57c9d5d088"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abe19754921b020ba3077353c5b9e8b9b"><td class="memItemLeft" align="right" valign="top">LPCTSTR&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd2/class_describe_connection.html#abe19754921b020ba3077353c5b9e8b9b">rawLastError</a> () const</td></tr>
+<tr class="separator:abe19754921b020ba3077353c5b9e8b9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a823c187507ff612ca1b0b165a6748456"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd2/class_describe_connection.html#a823c187507ff612ca1b0b165a6748456">lastError</a> () const</td></tr>
+<tr class="separator:a823c187507ff612ca1b0b165a6748456"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad799cd6835cd0a203903e8a95cf6ece7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d7a/class_g_i_d___list.html">GID_List</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd2/class_describe_connection.html#ad799cd6835cd0a203903e8a95cf6ece7">gidListClients</a> () const</td></tr>
+<tr class="separator:ad799cd6835cd0a203903e8a95cf6ece7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af716fd1f1638a32e383f2b2fa4b865df"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/dd2/class_describe_connection.html">DescribeConnection</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd2/class_describe_connection.html#af716fd1f1638a32e383f2b2fa4b865df">operator=</a> (const <a class="el" href="../../d9/dd2/class_describe_connection.html">DescribeConnection</a> &amp;src)</td></tr>
+<tr class="separator:af716fd1f1638a32e383f2b2fa4b865df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac6c46f0d6fcf8cf6f695e30acedd5e6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/dd2/class_describe_connection.html">DescribeConnection</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd2/class_describe_connection.html#aac6c46f0d6fcf8cf6f695e30acedd5e6">operator=</a> (const <a class="el" href="../../db/d60/class_describe.html">Describe</a> &amp;src)</td></tr>
+<tr class="separator:aac6c46f0d6fcf8cf6f695e30acedd5e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aff50168f8e5799e8b1b03c826546dac6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/dd2/class_describe_connection.html">DescribeConnection</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd2/class_describe_connection.html#aff50168f8e5799e8b1b03c826546dac6">operator=</a> (CDescribeOfRegistrator *src)</td></tr>
+<tr class="separator:aff50168f8e5799e8b1b03c826546dac6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac48d9313125e9fe044d06a64c8d388b3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/dd2/class_describe_connection.html">DescribeConnection</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd2/class_describe_connection.html#ac48d9313125e9fe044d06a64c8d388b3">operator=</a> (CDescribe *src)</td></tr>
+<tr class="separator:ac48d9313125e9fe044d06a64c8d388b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a180f70d15682bb863e3c5bf5dd2bff0a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd2/class_describe_connection.html#a180f70d15682bb863e3c5bf5dd2bff0a">DescribeConnection</a> ()</td></tr>
+<tr class="separator:a180f70d15682bb863e3c5bf5dd2bff0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acaf50cb0561a512ce05658e8c971b869"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd2/class_describe_connection.html#acaf50cb0561a512ce05658e8c971b869">DescribeConnection</a> (const <a class="el" href="../../d9/dd2/class_describe_connection.html">DescribeConnection</a> &amp;src)</td></tr>
+<tr class="separator:acaf50cb0561a512ce05658e8c971b869"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e7eea007d046c6ee0b08e3b39d79764"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd2/class_describe_connection.html#a3e7eea007d046c6ee0b08e3b39d79764">DescribeConnection</a> (const <a class="el" href="../../db/d60/class_describe.html">Describe</a> &amp;src)</td></tr>
+<tr class="separator:a3e7eea007d046c6ee0b08e3b39d79764"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a11d58396ee383b40fc93691c806a4e1d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd2/class_describe_connection.html#a11d58396ee383b40fc93691c806a4e1d">DescribeConnection</a> (CDescribe *src)</td></tr>
+<tr class="separator:a11d58396ee383b40fc93691c806a4e1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab24f35edfe3147c29c8d766bf6ddbeda"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd2/class_describe_connection.html#ab24f35edfe3147c29c8d766bf6ddbeda">DescribeConnection</a> (CDescribeOfRegistrator *src)</td></tr>
+<tr class="separator:ab24f35edfe3147c29c8d766bf6ddbeda"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade7f7dc0ca9e9657863bfc33089cc6eb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd2/class_describe_connection.html#ade7f7dc0ca9e9657863bfc33089cc6eb">~DescribeConnection</a> ()</td></tr>
+<tr class="separator:ade7f7dc0ca9e9657863bfc33089cc6eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_class_describe"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_describe')"><img src="../../closed.png" alt="-"/>&#160;Открытые члены унаследованные от <a class="el" href="../../db/d60/class_describe.html">Describe</a></td></tr>
+<tr class="memitem:ad43080bdde85c5cd130e99a2668bf74b inherit pub_methods_class_describe"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d60/class_describe.html#ad43080bdde85c5cd130e99a2668bf74b">update</a> ()</td></tr>
+<tr class="separator:ad43080bdde85c5cd130e99a2668bf74b inherit pub_methods_class_describe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af37c1d46e14b526f909255926433810c inherit pub_methods_class_describe"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d60/class_describe.html#af37c1d46e14b526f909255926433810c">isNull</a> () const</td></tr>
+<tr class="separator:af37c1d46e14b526f909255926433810c inherit pub_methods_class_describe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a32253183978a8ae388e25d6b0a61bf7c inherit pub_methods_class_describe"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d60/class_describe.html#a32253183978a8ae388e25d6b0a61bf7c">isValid</a> () const</td></tr>
+<tr class="separator:a32253183978a8ae388e25d6b0a61bf7c inherit pub_methods_class_describe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac05d6b918fcf90986e15aba0cc6b017b inherit pub_methods_class_describe"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d60/class_describe.html#ac05d6b918fcf90986e15aba0cc6b017b">operator bool</a> () const</td></tr>
+<tr class="separator:ac05d6b918fcf90986e15aba0cc6b017b inherit pub_methods_class_describe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac1c86826d1c00111fb574450c717dcd5 inherit pub_methods_class_describe"><td class="memItemLeft" align="right" valign="top">CDescribe *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d60/class_describe.html#ac1c86826d1c00111fb574450c717dcd5">ptr</a> () const</td></tr>
+<tr class="separator:ac1c86826d1c00111fb574450c717dcd5 inherit pub_methods_class_describe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a46354297a3724b29ed15618b14f6c1c7 inherit pub_methods_class_describe"><td class="memItemLeft" align="right" valign="top">UINT&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d60/class_describe.html#a46354297a3724b29ed15618b14f6c1c7">idRecord</a> () const</td></tr>
+<tr class="separator:a46354297a3724b29ed15618b14f6c1c7 inherit pub_methods_class_describe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec08b67aa89187d504a99397110c4a9a inherit pub_methods_class_describe"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d60/class_describe.html#aec08b67aa89187d504a99397110c4a9a">clearIdRecord</a> ()</td></tr>
+<tr class="separator:aec08b67aa89187d504a99397110c4a9a inherit pub_methods_class_describe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a15f2cca7a90514dad604a5f39692c720 inherit pub_methods_class_describe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d7a/class_g_i_d___list.html">GID_List</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d60/class_describe.html#a15f2cca7a90514dad604a5f39692c720">gidListOwner</a> () const</td></tr>
+<tr class="separator:a15f2cca7a90514dad604a5f39692c720 inherit pub_methods_class_describe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aecc83648e99d036413b3c5ac8ed6d627 inherit pub_methods_class_describe"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d60/class_describe.html#aecc83648e99d036413b3c5ac8ed6d627">setGidListOwner</a> (const <a class="el" href="../../db/d7a/class_g_i_d___list.html">GID_List</a> &amp;gid)</td></tr>
+<tr class="separator:aecc83648e99d036413b3c5ac8ed6d627 inherit pub_methods_class_describe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad9f9b9e6dd733ad7d73e239b9a3417b1 inherit pub_methods_class_describe"><td class="memItemLeft" align="right" valign="top">CStatusRecord&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d60/class_describe.html#ad9f9b9e6dd733ad7d73e239b9a3417b1">status</a> () const</td></tr>
+<tr class="separator:ad9f9b9e6dd733ad7d73e239b9a3417b1 inherit pub_methods_class_describe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7b3e8770088af6b937849c6791059ef8 inherit pub_methods_class_describe"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d60/class_describe.html#a7b3e8770088af6b937849c6791059ef8">isWorking</a> () const</td></tr>
+<tr class="separator:a7b3e8770088af6b937849c6791059ef8 inherit pub_methods_class_describe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af37787caa6338c53ecf0b166165dc13a inherit pub_methods_class_describe"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d60/class_describe.html#af37787caa6338c53ecf0b166165dc13a">setWorking</a> (bool b)</td></tr>
+<tr class="separator:af37787caa6338c53ecf0b166165dc13a inherit pub_methods_class_describe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a43297967ab4a39ef29663a4c1ca05452 inherit pub_methods_class_describe"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d60/class_describe.html#a43297967ab4a39ef29663a4c1ca05452">resetWorking</a> ()</td></tr>
+<tr class="separator:a43297967ab4a39ef29663a4c1ca05452 inherit pub_methods_class_describe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae6fd442253242cb4edfa6daf8643e63e inherit pub_methods_class_describe"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d60/class_describe.html#ae6fd442253242cb4edfa6daf8643e63e">isEnableWork</a> () const</td></tr>
+<tr class="separator:ae6fd442253242cb4edfa6daf8643e63e inherit pub_methods_class_describe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afabc9274fc64b327b772448d1a310a07 inherit pub_methods_class_describe"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d60/class_describe.html#afabc9274fc64b327b772448d1a310a07">setEnableWork</a> (bool b)</td></tr>
+<tr class="separator:afabc9274fc64b327b772448d1a310a07 inherit pub_methods_class_describe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b54a08067f214fc5d0e45bf865d34ac inherit pub_methods_class_describe"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d60/class_describe.html#a4b54a08067f214fc5d0e45bf865d34ac">resetEnableWork</a> ()</td></tr>
+<tr class="separator:a4b54a08067f214fc5d0e45bf865d34ac inherit pub_methods_class_describe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7e9884734f359612051ea9458048307 inherit pub_methods_class_describe"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d60/class_describe.html#ac7e9884734f359612051ea9458048307">isError</a> () const</td></tr>
+<tr class="separator:ac7e9884734f359612051ea9458048307 inherit pub_methods_class_describe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adddf5df27c62fb0645b99b48b40ae423 inherit pub_methods_class_describe"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d60/class_describe.html#adddf5df27c62fb0645b99b48b40ae423">setError</a> (bool b)</td></tr>
+<tr class="separator:adddf5df27c62fb0645b99b48b40ae423 inherit pub_methods_class_describe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac42d2dcb0cb13c84dfee3f3c34fcd449 inherit pub_methods_class_describe"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d60/class_describe.html#ac42d2dcb0cb13c84dfee3f3c34fcd449">resetError</a> ()</td></tr>
+<tr class="separator:ac42d2dcb0cb13c84dfee3f3c34fcd449 inherit pub_methods_class_describe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc8db5c4882057449a13b5a752e1b32c inherit pub_methods_class_describe"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d60/class_describe.html#adc8db5c4882057449a13b5a752e1b32c">isSpare</a> () const</td></tr>
+<tr class="separator:adc8db5c4882057449a13b5a752e1b32c inherit pub_methods_class_describe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9252d113a106a41180f09b92de5a8439 inherit pub_methods_class_describe"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d60/class_describe.html#a9252d113a106a41180f09b92de5a8439">setSpare</a> (bool b)</td></tr>
+<tr class="separator:a9252d113a106a41180f09b92de5a8439 inherit pub_methods_class_describe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5d624592f8cc59049ca802c8575295d1 inherit pub_methods_class_describe"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d60/class_describe.html#a5d624592f8cc59049ca802c8575295d1">resetSpare</a> ()</td></tr>
+<tr class="separator:a5d624592f8cc59049ca802c8575295d1 inherit pub_methods_class_describe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a37039bce5c4d090e10feee0fc7e8c1dd inherit pub_methods_class_describe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d60/class_describe.html#aa71e75544f67f60e7739413aae34ad02">Describe::TypeDescribe</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d60/class_describe.html#a37039bce5c4d090e10feee0fc7e8c1dd">typeDescribe</a> () const</td></tr>
+<tr class="separator:a37039bce5c4d090e10feee0fc7e8c1dd inherit pub_methods_class_describe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6da285d5c2c5431734380e86f8ffd244 inherit pub_methods_class_describe"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d60/class_describe.html#a6da285d5c2c5431734380e86f8ffd244">typeDescribeString</a> () const</td></tr>
+<tr class="separator:a6da285d5c2c5431734380e86f8ffd244 inherit pub_methods_class_describe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5128ee2f17c7a4fbbe4a8ff34e3cd419 inherit pub_methods_class_describe"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d60/class_describe.html#a5128ee2f17c7a4fbbe4a8ff34e3cd419">isDescribeFolder</a> () const</td></tr>
+<tr class="separator:a5128ee2f17c7a4fbbe4a8ff34e3cd419 inherit pub_methods_class_describe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a04fb4f0cfae9955bb1cce9490b11905d inherit pub_methods_class_describe"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d60/class_describe.html#a04fb4f0cfae9955bb1cce9490b11905d">isDescribeComplex</a> () const</td></tr>
+<tr class="separator:a04fb4f0cfae9955bb1cce9490b11905d inherit pub_methods_class_describe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeeb7be8891bf7708659e679b4798bc19 inherit pub_methods_class_describe"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d60/class_describe.html#aeeb7be8891bf7708659e679b4798bc19">isDescribeModule</a> () const</td></tr>
+<tr class="separator:aeeb7be8891bf7708659e679b4798bc19 inherit pub_methods_class_describe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a510588bc0c1be677cbba78e62ea32933 inherit pub_methods_class_describe"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d60/class_describe.html#a510588bc0c1be677cbba78e62ea32933">isDescribeInput</a> () const</td></tr>
+<tr class="separator:a510588bc0c1be677cbba78e62ea32933 inherit pub_methods_class_describe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab50536aff27d39031fdd576da7d60c12 inherit pub_methods_class_describe"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d60/class_describe.html#ab50536aff27d39031fdd576da7d60c12">isDescribeParameter</a> () const</td></tr>
+<tr class="separator:ab50536aff27d39031fdd576da7d60c12 inherit pub_methods_class_describe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa2c44dc986b796dbfe0a4529ce5446a inherit pub_methods_class_describe"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d60/class_describe.html#afa2c44dc986b796dbfe0a4529ce5446a">isDescribeStation</a> () const</td></tr>
+<tr class="separator:afa2c44dc986b796dbfe0a4529ce5446a inherit pub_methods_class_describe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a50fbb5008af69c461aba9260c71ca590 inherit pub_methods_class_describe"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d60/class_describe.html#a50fbb5008af69c461aba9260c71ca590">isDescribeConnection</a> () const</td></tr>
+<tr class="separator:a50fbb5008af69c461aba9260c71ca590 inherit pub_methods_class_describe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a54448c91348ae9337b1f159443afb7aa inherit pub_methods_class_describe"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d60/class_describe.html#a54448c91348ae9337b1f159443afb7aa">isDescribeArchive</a> () const</td></tr>
+<tr class="separator:a54448c91348ae9337b1f159443afb7aa inherit pub_methods_class_describe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7fb41de912cce6c2718014b6f5abc11f inherit pub_methods_class_describe"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d60/class_describe.html#a7fb41de912cce6c2718014b6f5abc11f">isDescribeUserGroup</a> () const</td></tr>
+<tr class="separator:a7fb41de912cce6c2718014b6f5abc11f inherit pub_methods_class_describe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a72ce252e1cd834d9db2dba02342e9543 inherit pub_methods_class_describe"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d60/class_describe.html#a72ce252e1cd834d9db2dba02342e9543">isDescribeDevice</a> () const</td></tr>
+<tr class="separator:a72ce252e1cd834d9db2dba02342e9543 inherit pub_methods_class_describe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add45d4d666577ed5c26f80fcc48b9adb inherit pub_methods_class_describe"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d60/class_describe.html#add45d4d666577ed5c26f80fcc48b9adb">isDescribeAlgorithm</a> () const</td></tr>
+<tr class="separator:add45d4d666577ed5c26f80fcc48b9adb inherit pub_methods_class_describe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac8ed37bbd4516a20c02fae349c523d4a inherit pub_methods_class_describe"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d60/class_describe.html#ac8ed37bbd4516a20c02fae349c523d4a">reasonNotWorking</a> () const</td></tr>
+<tr class="separator:ac8ed37bbd4516a20c02fae349c523d4a inherit pub_methods_class_describe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4cdf6d3c8e44e7994bff1d431d7a1796 inherit pub_methods_class_describe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d60/class_describe.html">Describe</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d60/class_describe.html#a4cdf6d3c8e44e7994bff1d431d7a1796">operator=</a> (const <a class="el" href="../../db/d60/class_describe.html">Describe</a> &amp;src)</td></tr>
+<tr class="separator:a4cdf6d3c8e44e7994bff1d431d7a1796 inherit pub_methods_class_describe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa37b453c54c9c1f6ece9bff3a73b4c51 inherit pub_methods_class_describe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d60/class_describe.html">Describe</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d60/class_describe.html#aa37b453c54c9c1f6ece9bff3a73b4c51">operator=</a> (CDescribe *src)</td></tr>
+<tr class="separator:aa37b453c54c9c1f6ece9bff3a73b4c51 inherit pub_methods_class_describe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a62c2fcaa9cdce32a739032937f057af1 inherit pub_methods_class_describe"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d60/class_describe.html#a62c2fcaa9cdce32a739032937f057af1">operator==</a> (const <a class="el" href="../../db/d60/class_describe.html">Describe</a> &amp;src) const</td></tr>
+<tr class="separator:a62c2fcaa9cdce32a739032937f057af1 inherit pub_methods_class_describe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af9be6ba139d6c230fe4f73f003e0f60a inherit pub_methods_class_describe"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d60/class_describe.html#af9be6ba139d6c230fe4f73f003e0f60a">operator!=</a> (const <a class="el" href="../../db/d60/class_describe.html">Describe</a> &amp;src) const</td></tr>
+<tr class="separator:af9be6ba139d6c230fe4f73f003e0f60a inherit pub_methods_class_describe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6854bad9a7ac4b7877d4a89204b4130a inherit pub_methods_class_describe"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d60/class_describe.html#a6854bad9a7ac4b7877d4a89204b4130a">Describe</a> (CDescribe *src=nullptr)</td></tr>
+<tr class="separator:a6854bad9a7ac4b7877d4a89204b4130a inherit pub_methods_class_describe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6a26346b99ba93ac9c03882625646641 inherit pub_methods_class_describe"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d60/class_describe.html#a6a26346b99ba93ac9c03882625646641">Describe</a> (const <a class="el" href="../../db/d60/class_describe.html">Describe</a> &amp;src)</td></tr>
+<tr class="separator:a6a26346b99ba93ac9c03882625646641 inherit pub_methods_class_describe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef8daf8156e367a7a6f41c8de5718862 inherit pub_methods_class_describe"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d60/class_describe.html#aef8daf8156e367a7a6f41c8de5718862">~Describe</a> ()</td></tr>
+<tr class="separator:aef8daf8156e367a7a6f41c8de5718862 inherit pub_methods_class_describe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Открытые статические члены</h2></td></tr>
+<tr class="memitem:a690fb1c6a3e5a2ac4897be10d103ea58"><td class="memItemLeft" align="right" valign="top">static QStringList&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd2/class_describe_connection.html#a690fb1c6a3e5a2ac4897be10d103ea58">fields</a> ()</td></tr>
+<tr class="separator:a690fb1c6a3e5a2ac4897be10d103ea58"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a02da553b7a9cc53e88506f596ab36549"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../db/d60/class_describe.html#aa71e75544f67f60e7739413aae34ad02">Describe::TypeDescribe</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd2/class_describe_connection.html#a02da553b7a9cc53e88506f596ab36549">typeDescribe</a> ()</td></tr>
+<tr class="separator:a02da553b7a9cc53e88506f596ab36549"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeec653cfa694d70dd628fd397ab4d701"><td class="memItemLeft" align="right" valign="top">static QList&lt; <a class="el" href="../../d9/dd2/class_describe_connection.html#adfd723192c36de0f64d3dcc822cae91d">DescribeConnection::Type</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd2/class_describe_connection.html#aeec653cfa694d70dd628fd397ab4d701">types</a> ()</td></tr>
+<tr class="separator:aeec653cfa694d70dd628fd397ab4d701"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae4a34263d7a4e2ec780b3822f7ad58f2"><td class="memItemLeft" align="right" valign="top">static QStringList&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd2/class_describe_connection.html#ae4a34263d7a4e2ec780b3822f7ad58f2">typesString</a> ()</td></tr>
+<tr class="separator:ae4a34263d7a4e2ec780b3822f7ad58f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4db3b4a0e8f229fa82f316c1588d9d47"><td class="memItemLeft" align="right" valign="top">static QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd2/class_describe_connection.html#a4db3b4a0e8f229fa82f316c1588d9d47">typeString</a> (const <a class="el" href="../../d9/dd2/class_describe_connection.html#adfd723192c36de0f64d3dcc822cae91d">Type</a> &amp;<a class="el" href="../../d9/dd2/class_describe_connection.html#a8b8fad1810d6feaad0a147d8cc6d8dad">type</a>)</td></tr>
+<tr class="separator:a4db3b4a0e8f229fa82f316c1588d9d47"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5f4860c828d1690a1a928905b3cd0b51"><td class="memItemLeft" align="right" valign="top">static QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd2/class_describe_connection.html#a5f4860c828d1690a1a928905b3cd0b51">typeStringTr</a> (const <a class="el" href="../../d9/dd2/class_describe_connection.html#adfd723192c36de0f64d3dcc822cae91d">Type</a> &amp;<a class="el" href="../../d9/dd2/class_describe_connection.html#a8b8fad1810d6feaad0a147d8cc6d8dad">type</a>)</td></tr>
+<tr class="separator:a5f4860c828d1690a1a928905b3cd0b51"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a87a2b024e19b1c8b0a738489a27a6341"><td class="memItemLeft" align="right" valign="top">static QIcon&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd2/class_describe_connection.html#a87a2b024e19b1c8b0a738489a27a6341">typeIcon</a> (const <a class="el" href="../../d9/dd2/class_describe_connection.html#adfd723192c36de0f64d3dcc822cae91d">Type</a> &amp;<a class="el" href="../../d9/dd2/class_describe_connection.html#a8b8fad1810d6feaad0a147d8cc6d8dad">type</a>)</td></tr>
+<tr class="separator:a87a2b024e19b1c8b0a738489a27a6341"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a23f549331e67e89ff1da9e97fa62a674"><td class="memItemLeft" align="right" valign="top">static const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd2/class_describe_connection.html#a23f549331e67e89ff1da9e97fa62a674">lenName</a> ()</td></tr>
+<tr class="separator:a23f549331e67e89ff1da9e97fa62a674"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a22edc6130e826f549516185483aa8526"><td class="memItemLeft" align="right" valign="top">static const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd2/class_describe_connection.html#a22edc6130e826f549516185483aa8526">lenIpAddress</a> ()</td></tr>
+<tr class="separator:a22edc6130e826f549516185483aa8526"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1088ddb2a892968bfbebb17fd7fbe016"><td class="memItemLeft" align="right" valign="top">static const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd2/class_describe_connection.html#a1088ddb2a892968bfbebb17fd7fbe016">lenLastError</a> ()</td></tr>
+<tr class="separator:a1088ddb2a892968bfbebb17fd7fbe016"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_static_methods_class_describe"><td colspan="2" onclick="javascript:toggleInherit('pub_static_methods_class_describe')"><img src="../../closed.png" alt="-"/>&#160;Открытые статические члены унаследованные от <a class="el" href="../../db/d60/class_describe.html">Describe</a></td></tr>
+<tr class="memitem:a0974e62c88d7ac35a079dce525adf72e inherit pub_static_methods_class_describe"><td class="memItemLeft" align="right" valign="top">static QStringList&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d60/class_describe.html#a0974e62c88d7ac35a079dce525adf72e">fields</a> ()</td></tr>
+<tr class="separator:a0974e62c88d7ac35a079dce525adf72e inherit pub_static_methods_class_describe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a72d4d40afbfebc06fc8493fd2afc0e6e inherit pub_static_methods_class_describe"><td class="memItemLeft" align="right" valign="top">static QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d60/class_describe.html#a72d4d40afbfebc06fc8493fd2afc0e6e">typeDescribeString</a> (const <a class="el" href="../../db/d60/class_describe.html#aa71e75544f67f60e7739413aae34ad02">Describe::TypeDescribe</a> &amp;type)</td></tr>
+<tr class="separator:a72d4d40afbfebc06fc8493fd2afc0e6e inherit pub_static_methods_class_describe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abc3523d816ec39bf3c683257a60db189 inherit pub_static_methods_class_describe"><td class="memItemLeft" align="right" valign="top">static const QList&lt; <a class="el" href="../../db/d60/class_describe.html#aa71e75544f67f60e7739413aae34ad02">Describe::TypeDescribe</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d60/class_describe.html#abc3523d816ec39bf3c683257a60db189">types</a> ()</td></tr>
+<tr class="separator:abc3523d816ec39bf3c683257a60db189 inherit pub_static_methods_class_describe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac87b5a9002302b170d527236f56bc67b inherit pub_static_methods_class_describe"><td class="memItemLeft" align="right" valign="top">static QStringList&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d60/class_describe.html#ac87b5a9002302b170d527236f56bc67b">stringTypes</a> ()</td></tr>
+<tr class="separator:ac87b5a9002302b170d527236f56bc67b inherit pub_static_methods_class_describe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
+Свойства</h2></td></tr>
+<tr class="memitem:acbf10033d79c633fdbd1c7e721e60154"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/d6e/class_g_i_d___station.html">GID_Station</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd2/class_describe_connection.html#acbf10033d79c633fdbd1c7e721e60154">gid</a></td></tr>
+<tr class="separator:acbf10033d79c633fdbd1c7e721e60154"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b8fad1810d6feaad0a147d8cc6d8dad"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/dd2/class_describe_connection.html#adfd723192c36de0f64d3dcc822cae91d">Type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd2/class_describe_connection.html#a8b8fad1810d6feaad0a147d8cc6d8dad">type</a></td></tr>
+<tr class="separator:a8b8fad1810d6feaad0a147d8cc6d8dad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7239649abf3d5d287fdf8376daf978c0"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd2/class_describe_connection.html#a7239649abf3d5d287fdf8376daf978c0">name</a></td></tr>
+<tr class="separator:a7239649abf3d5d287fdf8376daf978c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8a866bd12dab52c774e5385d593f19cc"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd2/class_describe_connection.html#a8a866bd12dab52c774e5385d593f19cc">ipAddress</a></td></tr>
+<tr class="separator:a8a866bd12dab52c774e5385d593f19cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a04026117a02bd0fe7bc47b6ca08105e8"><td class="memItemLeft" align="right" valign="top">short <a class="el" href="../../d9/dd2/class_describe_connection.html#a24abf42f053ff0da914bd21feb890458">ipPort</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd2/class_describe_connection.html#a04026117a02bd0fe7bc47b6ca08105e8">READ</a></td></tr>
+<tr class="separator:a04026117a02bd0fe7bc47b6ca08105e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab670963292d30989548dba192e1e3b7d"><td class="memItemLeft" align="right" valign="top">quint32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd2/class_describe_connection.html#ab670963292d30989548dba192e1e3b7d">receivedBytes</a></td></tr>
+<tr class="separator:ab670963292d30989548dba192e1e3b7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a786410915782daacbd89391ac48d7027"><td class="memItemLeft" align="right" valign="top">quint32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd2/class_describe_connection.html#a786410915782daacbd89391ac48d7027">sentBytes</a></td></tr>
+<tr class="separator:a786410915782daacbd89391ac48d7027"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac5f639f9c58df105ae8f661511dc7841"><td class="memItemLeft" align="right" valign="top">quint32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd2/class_describe_connection.html#ac5f639f9c58df105ae8f661511dc7841">testMessages</a></td></tr>
+<tr class="separator:ac5f639f9c58df105ae8f661511dc7841"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb39ccbab987eaee0ad882a29363d41c"><td class="memItemLeft" align="right" valign="top">quint32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd2/class_describe_connection.html#afb39ccbab987eaee0ad882a29363d41c">durationSilent</a></td></tr>
+<tr class="separator:afb39ccbab987eaee0ad882a29363d41c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3d2b96876810040399646c6f2d76b770"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd2/class_describe_connection.html#a3d2b96876810040399646c6f2d76b770">lastError</a></td></tr>
+<tr class="separator:a3d2b96876810040399646c6f2d76b770"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6281048705e78e0318cebab67631860d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d7a/class_g_i_d___list.html">GID_List</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd2/class_describe_connection.html#a6281048705e78e0318cebab67631860d">gidListClients</a></td></tr>
+<tr class="separator:a6281048705e78e0318cebab67631860d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header properties_class_describe"><td colspan="2" onclick="javascript:toggleInherit('properties_class_describe')"><img src="../../closed.png" alt="-"/>&#160;Свойства унаследованные от <a class="el" href="../../db/d60/class_describe.html">Describe</a></td></tr>
+<tr class="memitem:a6c9d15eca492ee5f592d55716305ce27 inherit properties_class_describe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d60/class_describe.html#aa71e75544f67f60e7739413aae34ad02">TypeDescribe</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d60/class_describe.html#a6c9d15eca492ee5f592d55716305ce27">typeDescribe</a></td></tr>
+<tr class="separator:a6c9d15eca492ee5f592d55716305ce27 inherit properties_class_describe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac047e50d46167701f8f9a1624b43d061 inherit properties_class_describe"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d60/class_describe.html#ac047e50d46167701f8f9a1624b43d061">working</a></td></tr>
+<tr class="separator:ac047e50d46167701f8f9a1624b43d061 inherit properties_class_describe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b9e180c2c5d9b443ed77b50aa5498d7 inherit properties_class_describe"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d60/class_describe.html#a4b9e180c2c5d9b443ed77b50aa5498d7">enableWork</a></td></tr>
+<tr class="separator:a4b9e180c2c5d9b443ed77b50aa5498d7 inherit properties_class_describe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
+Дополнительные унаследованные члены</h2></td></tr>
+<tr class="inherit_header pro_methods_class_describe"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_class_describe')"><img src="../../closed.png" alt="-"/>&#160;Защищенные члены унаследованные от <a class="el" href="../../db/d60/class_describe.html">Describe</a></td></tr>
+<tr class="memitem:a87a32959047a67dc251e0052e8f8c0ef inherit pro_methods_class_describe"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d60/class_describe.html#a87a32959047a67dc251e0052e8f8c0ef">checkDescribePtr</a> (const CDescribe *d, const char *msg, const char *file, int line, const char *func) const</td></tr>
+<tr class="separator:a87a32959047a67dc251e0052e8f8c0ef inherit pro_methods_class_describe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_attribs_class_describe"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_class_describe')"><img src="../../closed.png" alt="-"/>&#160;Защищенные данные унаследованные от <a class="el" href="../../db/d60/class_describe.html">Describe</a></td></tr>
+<tr class="memitem:af23eabe44bf611c2d8b21cba4f5aec6d inherit pro_attribs_class_describe"><td class="memItemLeft" align="right" valign="top">CDescribe *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d60/class_describe.html#af23eabe44bf611c2d8b21cba4f5aec6d">m_describe</a></td></tr>
+<tr class="separator:af23eabe44bf611c2d8b21cba4f5aec6d inherit pro_attribs_class_describe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Перечисления</h2>
+<a id="adfd723192c36de0f64d3dcc822cae91d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adfd723192c36de0f64d3dcc822cae91d">&#9670;&nbsp;</a></span>Type</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../d9/dd2/class_describe_connection.html#adfd723192c36de0f64d3dcc822cae91d">DescribeConnection::Type</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Элементы перечислений</th></tr><tr><td class="fieldname"><a id="adfd723192c36de0f64d3dcc822cae91da0c951aa4243e1a1cc407704d21596b89"></a>Listener&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="adfd723192c36de0f64d3dcc822cae91dae60340c5328bd1bdc50cd8f3efd83c88"></a>Outgoing&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="adfd723192c36de0f64d3dcc822cae91da589ab34e870b80c8c7d035805452df19"></a>Incoming&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="adfd723192c36de0f64d3dcc822cae91da916c74f40cb3a7d245c9f9eefde044db"></a>UnknownType&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<h2 class="groupheader">Конструктор(ы)</h2>
+<a id="a180f70d15682bb863e3c5bf5dd2bff0a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a180f70d15682bb863e3c5bf5dd2bff0a">&#9670;&nbsp;</a></span>DescribeConnection() <span class="overload">[1/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">DescribeConnection::DescribeConnection </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="acaf50cb0561a512ce05658e8c971b869"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acaf50cb0561a512ce05658e8c971b869">&#9670;&nbsp;</a></span>DescribeConnection() <span class="overload">[2/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">DescribeConnection::DescribeConnection </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d9/dd2/class_describe_connection.html">DescribeConnection</a> &amp;&#160;</td>
+          <td class="paramname"><em>src</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3e7eea007d046c6ee0b08e3b39d79764"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3e7eea007d046c6ee0b08e3b39d79764">&#9670;&nbsp;</a></span>DescribeConnection() <span class="overload">[3/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">DescribeConnection::DescribeConnection </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../db/d60/class_describe.html">Describe</a> &amp;&#160;</td>
+          <td class="paramname"><em>src</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">explicit</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a11d58396ee383b40fc93691c806a4e1d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a11d58396ee383b40fc93691c806a4e1d">&#9670;&nbsp;</a></span>DescribeConnection() <span class="overload">[4/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">DescribeConnection::DescribeConnection </td>
+          <td>(</td>
+          <td class="paramtype">CDescribe *&#160;</td>
+          <td class="paramname"><em>src</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">explicit</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab24f35edfe3147c29c8d766bf6ddbeda"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab24f35edfe3147c29c8d766bf6ddbeda">&#9670;&nbsp;</a></span>DescribeConnection() <span class="overload">[5/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">DescribeConnection::DescribeConnection </td>
+          <td>(</td>
+          <td class="paramtype">CDescribeOfRegistrator *&#160;</td>
+          <td class="paramname"><em>src</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">explicit</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ade7f7dc0ca9e9657863bfc33089cc6eb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ade7f7dc0ca9e9657863bfc33089cc6eb">&#9670;&nbsp;</a></span>~DescribeConnection()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">DescribeConnection::~DescribeConnection </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Методы</h2>
+<a id="ad4121dcfa028f91b6246ef57c9d5d088"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad4121dcfa028f91b6246ef57c9d5d088">&#9670;&nbsp;</a></span>durationSilent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">quint32 DescribeConnection::durationSilent </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a690fb1c6a3e5a2ac4897be10d103ea58"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a690fb1c6a3e5a2ac4897be10d103ea58">&#9670;&nbsp;</a></span>fields()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static QStringList DescribeConnection::fields </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aec6685eff9819cfade1bd5ab240a3e82"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aec6685eff9819cfade1bd5ab240a3e82">&#9670;&nbsp;</a></span>gid()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d6/d6e/class_g_i_d___station.html">GID_Station</a> DescribeConnection::gid </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad799cd6835cd0a203903e8a95cf6ece7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad799cd6835cd0a203903e8a95cf6ece7">&#9670;&nbsp;</a></span>gidListClients()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../db/d7a/class_g_i_d___list.html">GID_List</a> DescribeConnection::gidListClients </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa5d964ee1a364f5d5a1dbc70ded990e8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa5d964ee1a364f5d5a1dbc70ded990e8">&#9670;&nbsp;</a></span>ipAddress()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString DescribeConnection::ipAddress </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a24abf42f053ff0da914bd21feb890458"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a24abf42f053ff0da914bd21feb890458">&#9670;&nbsp;</a></span>ipPort()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">short DescribeConnection::ipPort </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae9164e82b3e6ab44d8d0a3a1d876dcef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae9164e82b3e6ab44d8d0a3a1d876dcef">&#9670;&nbsp;</a></span>isIncoming()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool DescribeConnection::isIncoming </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afeac1c1e86bb14435ea9ef173f052225"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afeac1c1e86bb14435ea9ef173f052225">&#9670;&nbsp;</a></span>isListener()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool DescribeConnection::isListener </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aafdb11aaab2a2d5add9200f13624bee7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aafdb11aaab2a2d5add9200f13624bee7">&#9670;&nbsp;</a></span>isOutgoing()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool DescribeConnection::isOutgoing </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a823c187507ff612ca1b0b165a6748456"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a823c187507ff612ca1b0b165a6748456">&#9670;&nbsp;</a></span>lastError()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString DescribeConnection::lastError </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a22edc6130e826f549516185483aa8526"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a22edc6130e826f549516185483aa8526">&#9670;&nbsp;</a></span>lenIpAddress()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static const int DescribeConnection::lenIpAddress </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1088ddb2a892968bfbebb17fd7fbe016"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1088ddb2a892968bfbebb17fd7fbe016">&#9670;&nbsp;</a></span>lenLastError()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static const int DescribeConnection::lenLastError </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a23f549331e67e89ff1da9e97fa62a674"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a23f549331e67e89ff1da9e97fa62a674">&#9670;&nbsp;</a></span>lenName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static const int DescribeConnection::lenName </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a678f8d6448c920451defc106a1932eb8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a678f8d6448c920451defc106a1932eb8">&#9670;&nbsp;</a></span>name()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString DescribeConnection::name </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af716fd1f1638a32e383f2b2fa4b865df"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af716fd1f1638a32e383f2b2fa4b865df">&#9670;&nbsp;</a></span>operator=() <span class="overload">[1/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d9/dd2/class_describe_connection.html">DescribeConnection</a>&amp; DescribeConnection::operator= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d9/dd2/class_describe_connection.html">DescribeConnection</a> &amp;&#160;</td>
+          <td class="paramname"><em>src</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aac6c46f0d6fcf8cf6f695e30acedd5e6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aac6c46f0d6fcf8cf6f695e30acedd5e6">&#9670;&nbsp;</a></span>operator=() <span class="overload">[2/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d9/dd2/class_describe_connection.html">DescribeConnection</a>&amp; DescribeConnection::operator= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../db/d60/class_describe.html">Describe</a> &amp;&#160;</td>
+          <td class="paramname"><em>src</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aff50168f8e5799e8b1b03c826546dac6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aff50168f8e5799e8b1b03c826546dac6">&#9670;&nbsp;</a></span>operator=() <span class="overload">[3/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d9/dd2/class_describe_connection.html">DescribeConnection</a>&amp; DescribeConnection::operator= </td>
+          <td>(</td>
+          <td class="paramtype">CDescribeOfRegistrator *&#160;</td>
+          <td class="paramname"><em>src</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac48d9313125e9fe044d06a64c8d388b3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac48d9313125e9fe044d06a64c8d388b3">&#9670;&nbsp;</a></span>operator=() <span class="overload">[4/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d9/dd2/class_describe_connection.html">DescribeConnection</a>&amp; DescribeConnection::operator= </td>
+          <td>(</td>
+          <td class="paramtype">CDescribe *&#160;</td>
+          <td class="paramname"><em>src</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3421e1aa0357a411f34de00659b8baa5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3421e1aa0357a411f34de00659b8baa5">&#9670;&nbsp;</a></span>ptr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">CDescribeOfRegistrator* DescribeConnection::ptr </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aafdede38571da104b3023c7a61cc8054"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aafdede38571da104b3023c7a61cc8054">&#9670;&nbsp;</a></span>Q_ENUM()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">DescribeConnection::Q_ENUM </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d9/dd2/class_describe_connection.html#adfd723192c36de0f64d3dcc822cae91d">Type</a>&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a828e30b53acad862fccfd911efad3425"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a828e30b53acad862fccfd911efad3425">&#9670;&nbsp;</a></span>rawIpAddress()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">LPCTSTR DescribeConnection::rawIpAddress </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abe19754921b020ba3077353c5b9e8b9b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abe19754921b020ba3077353c5b9e8b9b">&#9670;&nbsp;</a></span>rawLastError()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">LPCTSTR DescribeConnection::rawLastError </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2bc3e2ad1daa14a33fa36e875c75307a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2bc3e2ad1daa14a33fa36e875c75307a">&#9670;&nbsp;</a></span>rawName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">LPCTSTR DescribeConnection::rawName </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3c8835ebceb8557968132f24fe8642e9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3c8835ebceb8557968132f24fe8642e9">&#9670;&nbsp;</a></span>receivedBytes()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">quint32 DescribeConnection::receivedBytes </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8c6321b7818083fcf8bf9cfe1dc31fc3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8c6321b7818083fcf8bf9cfe1dc31fc3">&#9670;&nbsp;</a></span>sentBytes()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">quint32 DescribeConnection::sentBytes </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a35d60a96af8bbba9dfed6dc0a98ca46f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a35d60a96af8bbba9dfed6dc0a98ca46f">&#9670;&nbsp;</a></span>setGid()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DescribeConnection::setGid </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d6/d6e/class_g_i_d___station.html">GID_Station</a> &amp;&#160;</td>
+          <td class="paramname"><em>gid</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7d547ea6bbf9738c294dc619be9662d9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d547ea6bbf9738c294dc619be9662d9">&#9670;&nbsp;</a></span>setIpAddress()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DescribeConnection::setIpAddress </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>str</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6fb785568ac901df377925ef8698bed6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6fb785568ac901df377925ef8698bed6">&#9670;&nbsp;</a></span>setIpPort()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DescribeConnection::setIpPort </td>
+          <td>(</td>
+          <td class="paramtype">short&#160;</td>
+          <td class="paramname"><em>port</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afb219e00fbad22fbcce9a80ea9dc5487"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afb219e00fbad22fbcce9a80ea9dc5487">&#9670;&nbsp;</a></span>setName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DescribeConnection::setName </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>str</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0e6cb0850285066d666459000a9ddb5b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0e6cb0850285066d666459000a9ddb5b">&#9670;&nbsp;</a></span>testMessages()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">quint32 DescribeConnection::testMessages </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4c090f285e2d090e0c4d79bb497f1ef0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4c090f285e2d090e0c4d79bb497f1ef0">&#9670;&nbsp;</a></span>type()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d9/dd2/class_describe_connection.html#adfd723192c36de0f64d3dcc822cae91d">Type</a> DescribeConnection::type </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a02da553b7a9cc53e88506f596ab36549"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a02da553b7a9cc53e88506f596ab36549">&#9670;&nbsp;</a></span>typeDescribe()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="../../db/d60/class_describe.html#aa71e75544f67f60e7739413aae34ad02">Describe::TypeDescribe</a> DescribeConnection::typeDescribe </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a87a2b024e19b1c8b0a738489a27a6341"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a87a2b024e19b1c8b0a738489a27a6341">&#9670;&nbsp;</a></span>typeIcon() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static QIcon DescribeConnection::typeIcon </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d9/dd2/class_describe_connection.html#adfd723192c36de0f64d3dcc822cae91d">Type</a> &amp;&#160;</td>
+          <td class="paramname"><em>type</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa965cd06a695d77ff981947a8be14964"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa965cd06a695d77ff981947a8be14964">&#9670;&nbsp;</a></span>typeIcon() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QIcon DescribeConnection::typeIcon </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aeec653cfa694d70dd628fd397ab4d701"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeec653cfa694d70dd628fd397ab4d701">&#9670;&nbsp;</a></span>types()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static QList&lt;<a class="el" href="../../d9/dd2/class_describe_connection.html#adfd723192c36de0f64d3dcc822cae91d">DescribeConnection::Type</a>&gt; DescribeConnection::types </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae4a34263d7a4e2ec780b3822f7ad58f2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae4a34263d7a4e2ec780b3822f7ad58f2">&#9670;&nbsp;</a></span>typesString()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static QStringList DescribeConnection::typesString </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4db3b4a0e8f229fa82f316c1588d9d47"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4db3b4a0e8f229fa82f316c1588d9d47">&#9670;&nbsp;</a></span>typeString() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static QString DescribeConnection::typeString </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d9/dd2/class_describe_connection.html#adfd723192c36de0f64d3dcc822cae91d">Type</a> &amp;&#160;</td>
+          <td class="paramname"><em>type</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aac767ea2b3899a5543ff7796f4ac5c8a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aac767ea2b3899a5543ff7796f4ac5c8a">&#9670;&nbsp;</a></span>typeString() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString DescribeConnection::typeString </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5f4860c828d1690a1a928905b3cd0b51"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5f4860c828d1690a1a928905b3cd0b51">&#9670;&nbsp;</a></span>typeStringTr() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static QString DescribeConnection::typeStringTr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d9/dd2/class_describe_connection.html#adfd723192c36de0f64d3dcc822cae91d">Type</a> &amp;&#160;</td>
+          <td class="paramname"><em>type</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a56ad037ca268d421d97b276d44a542a2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a56ad037ca268d421d97b276d44a542a2">&#9670;&nbsp;</a></span>typeStringTr() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString DescribeConnection::typeStringTr </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Полный список свойств</h2>
+<a id="afb39ccbab987eaee0ad882a29363d41c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afb39ccbab987eaee0ad882a29363d41c">&#9670;&nbsp;</a></span>durationSilent</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">quint32 DescribeConnection::durationSilent</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="acbf10033d79c633fdbd1c7e721e60154"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acbf10033d79c633fdbd1c7e721e60154">&#9670;&nbsp;</a></span>gid</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d6/d6e/class_g_i_d___station.html">GID_Station</a> DescribeConnection::gid</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6281048705e78e0318cebab67631860d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6281048705e78e0318cebab67631860d">&#9670;&nbsp;</a></span>gidListClients</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../db/d7a/class_g_i_d___list.html">GID_List</a> DescribeConnection::gidListClients</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8a866bd12dab52c774e5385d593f19cc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8a866bd12dab52c774e5385d593f19cc">&#9670;&nbsp;</a></span>ipAddress</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString DescribeConnection::ipAddress</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3d2b96876810040399646c6f2d76b770"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3d2b96876810040399646c6f2d76b770">&#9670;&nbsp;</a></span>lastError</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString DescribeConnection::lastError</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7239649abf3d5d287fdf8376daf978c0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7239649abf3d5d287fdf8376daf978c0">&#9670;&nbsp;</a></span>name</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString DescribeConnection::name</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a04026117a02bd0fe7bc47b6ca08105e8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a04026117a02bd0fe7bc47b6ca08105e8">&#9670;&nbsp;</a></span>READ</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">short <a class="el" href="../../d9/dd2/class_describe_connection.html#a24abf42f053ff0da914bd21feb890458">ipPort</a> DescribeConnection::READ</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab670963292d30989548dba192e1e3b7d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab670963292d30989548dba192e1e3b7d">&#9670;&nbsp;</a></span>receivedBytes</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">quint32 DescribeConnection::receivedBytes</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a786410915782daacbd89391ac48d7027"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a786410915782daacbd89391ac48d7027">&#9670;&nbsp;</a></span>sentBytes</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">quint32 DescribeConnection::sentBytes</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac5f639f9c58df105ae8f661511dc7841"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac5f639f9c58df105ae8f661511dc7841">&#9670;&nbsp;</a></span>testMessages</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">quint32 DescribeConnection::testMessages</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8b8fad1810d6feaad0a147d8cc6d8dad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8b8fad1810d6feaad0a147d8cc6d8dad">&#9670;&nbsp;</a></span>type</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d9/dd2/class_describe_connection.html#adfd723192c36de0f64d3dcc822cae91d">Type</a> DescribeConnection::type</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>Объявления и описания членов класса находятся в файле:<ul>
+<li>_contrib/Include/AstdCore/<a class="el" href="../../d1/dfd/_describe_connection_8h_source.html">DescribeConnection.h</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="../../d9/dd2/class_describe_connection.html">DescribeConnection</a></li>
+    <li class="footer">Создано системой
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
+  </ul>
+</div>
+</body>
+</html>

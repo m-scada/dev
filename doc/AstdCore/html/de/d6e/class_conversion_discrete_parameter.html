@@ -1,0 +1,1176 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.13"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>AstdCore Library: Класс ConversionDiscreteParameter</title>
+<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../jquery.js"></script>
+<script type="text/javascript" src="../../dynsections.js"></script>
+<link href="../../navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../resize.js"></script>
+<script type="text/javascript" src="../../navtreedata.js"></script>
+<script type="text/javascript" src="../../navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+</script>
+<link href="../../search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../search/searchdata.js"></script>
+<script type="text/javascript" src="../../search/search.js"></script>
+<link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">AstdCore Library
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.8.13 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "../../search",false,'Поиск');
+</script>
+<script type="text/javascript" src="../../menudata.js"></script>
+<script type="text/javascript" src="../../menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('../../',true,false,'search.php','Поиск');
+  $(document).ready(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('de/d6e/class_conversion_discrete_parameter.html','../../');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-types">Открытые типы</a> &#124;
+<a href="#pub-methods">Открытые члены</a> &#124;
+<a href="#pub-static-methods">Открытые статические члены</a> &#124;
+<a href="../../df/da9/class_conversion_discrete_parameter-members.html">Полный список членов класса</a>  </div>
+  <div class="headertitle">
+<div class="title">Класс ConversionDiscreteParameter</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p><code>#include &lt;<a class="el" href="../../d7/dda/_conversion_discrete_parameter_8h_source.html">ConversionDiscreteParameter.h</a>&gt;</code></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
+Открытые типы</h2></td></tr>
+<tr class="memitem:a8da1fa2996cf412f633fd6c7a5ccc281"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d6e/class_conversion_discrete_parameter.html#a8da1fa2996cf412f633fd6c7a5ccc281">Type</a> { <br />
+&#160;&#160;<a class="el" href="../../de/d6e/class_conversion_discrete_parameter.html#a8da1fa2996cf412f633fd6c7a5ccc281a51c45b795d5d18a3e4e0c37e8b20a141">Type::Table</a>, 
+<a class="el" href="../../de/d6e/class_conversion_discrete_parameter.html#a8da1fa2996cf412f633fd6c7a5ccc281ad207b4e0bce42a8f1555ce3a05e287f6">Type::Dec</a>, 
+<a class="el" href="../../de/d6e/class_conversion_discrete_parameter.html#a8da1fa2996cf412f633fd6c7a5ccc281a92640bd72988395b326c888614f8937a">Type::Hex</a>, 
+<a class="el" href="../../de/d6e/class_conversion_discrete_parameter.html#a8da1fa2996cf412f633fd6c7a5ccc281a807dbe7d1c25a633894d4a231b1c76d3">Type::Bin</a>, 
+<br />
+&#160;&#160;<a class="el" href="../../de/d6e/class_conversion_discrete_parameter.html#a8da1fa2996cf412f633fd6c7a5ccc281afc00d2df7568c9f6a766e80ec12f4e35">Type::TimeSec</a>, 
+<a class="el" href="../../de/d6e/class_conversion_discrete_parameter.html#a8da1fa2996cf412f633fd6c7a5ccc281a20ca68575f048f81f8aa24cd7e156337">Type::TimeSpanSec</a>, 
+<a class="el" href="../../de/d6e/class_conversion_discrete_parameter.html#a8da1fa2996cf412f633fd6c7a5ccc281a916c74f40cb3a7d245c9f9eefde044db">Type::UnknownType</a> = -1
+<br />
+ }</td></tr>
+<tr class="separator:a8da1fa2996cf412f633fd6c7a5ccc281"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad80e4cb3b070b736e31f78f49b05ce40"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d6e/class_conversion_discrete_parameter.html#ad80e4cb3b070b736e31f78f49b05ce40">NumberWidth</a> { <br />
+&#160;&#160;<a class="el" href="../../de/d6e/class_conversion_discrete_parameter.html#ad80e4cb3b070b736e31f78f49b05ce40a06b9281e396db002010bde1de57262eb">NumberWidth::Auto</a>, 
+<a class="el" href="../../de/d6e/class_conversion_discrete_parameter.html#ad80e4cb3b070b736e31f78f49b05ce40aa245c3230debe5c956484ecc6fa93877">NumberWidth::Byte</a>, 
+<a class="el" href="../../de/d6e/class_conversion_discrete_parameter.html#ad80e4cb3b070b736e31f78f49b05ce40a07a094a210794e74a0e5e1a1457a92ee">NumberWidth::Word</a>, 
+<a class="el" href="../../de/d6e/class_conversion_discrete_parameter.html#ad80e4cb3b070b736e31f78f49b05ce40a02641bfc4d9aec9dd2422ef66ee172e4">NumberWidth::DWord</a>, 
+<br />
+&#160;&#160;<a class="el" href="../../de/d6e/class_conversion_discrete_parameter.html#ad80e4cb3b070b736e31f78f49b05ce40a3e07efe918314a989c480fbd4c0c4536">NumberWidth::QWord</a>
+<br />
+ }</td></tr>
+<tr class="separator:ad80e4cb3b070b736e31f78f49b05ce40"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Открытые члены</h2></td></tr>
+<tr class="memitem:a87302a2430346d8cc03edc6b7257dd73"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d6e/class_conversion_discrete_parameter.html#a87302a2430346d8cc03edc6b7257dd73">Q_ENUM</a> (<a class="el" href="../../de/d6e/class_conversion_discrete_parameter.html#a8da1fa2996cf412f633fd6c7a5ccc281">Type</a>)</td></tr>
+<tr class="separator:a87302a2430346d8cc03edc6b7257dd73"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaeb363e26c87832df6c1b9b1801c5784"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d6e/class_conversion_discrete_parameter.html#aaeb363e26c87832df6c1b9b1801c5784">Q_ENUM</a> (<a class="el" href="../../de/d6e/class_conversion_discrete_parameter.html#ad80e4cb3b070b736e31f78f49b05ce40">NumberWidth</a>)</td></tr>
+<tr class="separator:aaeb363e26c87832df6c1b9b1801c5784"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa2a805b1d633d154dc7da4a6c4f18dcc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d8/d82/class_describe_parameter.html">DescribeParameter</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d6e/class_conversion_discrete_parameter.html#aa2a805b1d633d154dc7da4a6c4f18dcc">describe</a> () const</td></tr>
+<tr class="separator:aa2a805b1d633d154dc7da4a6c4f18dcc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac40045074b15701d31f6b9173b224de2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d6e/class_conversion_discrete_parameter.html#ac40045074b15701d31f6b9173b224de2">setType</a> (const <a class="el" href="../../de/d6e/class_conversion_discrete_parameter.html#a8da1fa2996cf412f633fd6c7a5ccc281">ConversionDiscreteParameter::Type</a> &amp;<a class="el" href="../../de/d6e/class_conversion_discrete_parameter.html#a2994675c2d3a6252cfe7f183af1630d7">type</a>)</td></tr>
+<tr class="separator:ac40045074b15701d31f6b9173b224de2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2994675c2d3a6252cfe7f183af1630d7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/d6e/class_conversion_discrete_parameter.html#a8da1fa2996cf412f633fd6c7a5ccc281">ConversionDiscreteParameter::Type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d6e/class_conversion_discrete_parameter.html#a2994675c2d3a6252cfe7f183af1630d7">type</a> () const</td></tr>
+<tr class="separator:a2994675c2d3a6252cfe7f183af1630d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e3caf518a11021933056a8e68f5b99e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d6e/class_conversion_discrete_parameter.html#a4e3caf518a11021933056a8e68f5b99e">isTypeTable</a> () const</td></tr>
+<tr class="separator:a4e3caf518a11021933056a8e68f5b99e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d2ba89ab640e234e8f83f2eb720c5bd"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d6e/class_conversion_discrete_parameter.html#a7d2ba89ab640e234e8f83f2eb720c5bd">isTypeDec</a> () const</td></tr>
+<tr class="separator:a7d2ba89ab640e234e8f83f2eb720c5bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad714554f055e5484edcc7d613cd6062e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d6e/class_conversion_discrete_parameter.html#ad714554f055e5484edcc7d613cd6062e">isTypeHex</a> () const</td></tr>
+<tr class="separator:ad714554f055e5484edcc7d613cd6062e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a05bc672e25e398d23267bf1aacf64a0b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d6e/class_conversion_discrete_parameter.html#a05bc672e25e398d23267bf1aacf64a0b">isTypeBin</a> () const</td></tr>
+<tr class="separator:a05bc672e25e398d23267bf1aacf64a0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac317c3b6b47cea546fe19f465be69fb5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d6e/class_conversion_discrete_parameter.html#ac317c3b6b47cea546fe19f465be69fb5">isTypeTimeSec</a> () const</td></tr>
+<tr class="separator:ac317c3b6b47cea546fe19f465be69fb5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4977d7ddf7e9d1ce9e202350286d4fac"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d6e/class_conversion_discrete_parameter.html#a4977d7ddf7e9d1ce9e202350286d4fac">isTypeTimeSpanSec</a> () const</td></tr>
+<tr class="separator:a4977d7ddf7e9d1ce9e202350286d4fac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a982114aee0095cd7aba0db975ced247e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/d6e/class_conversion_discrete_parameter.html#ad80e4cb3b070b736e31f78f49b05ce40">ConversionDiscreteParameter::NumberWidth</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d6e/class_conversion_discrete_parameter.html#a982114aee0095cd7aba0db975ced247e">numberWidth</a> () const</td></tr>
+<tr class="separator:a982114aee0095cd7aba0db975ced247e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0783b399e2c4aeb018493958d3e1ba03"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d6e/class_conversion_discrete_parameter.html#a0783b399e2c4aeb018493958d3e1ba03">setNumberWidth</a> (const <a class="el" href="../../de/d6e/class_conversion_discrete_parameter.html#ad80e4cb3b070b736e31f78f49b05ce40">ConversionDiscreteParameter::NumberWidth</a> &amp;<a class="el" href="../../de/d6e/class_conversion_discrete_parameter.html#a982114aee0095cd7aba0db975ced247e">numberWidth</a>)</td></tr>
+<tr class="separator:a0783b399e2c4aeb018493958d3e1ba03"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afdbafc3c150407839d59e14cc4415eb7"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d6e/class_conversion_discrete_parameter.html#afdbafc3c150407839d59e14cc4415eb7">numberWidthToString</a> () const</td></tr>
+<tr class="separator:afdbafc3c150407839d59e14cc4415eb7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a920a172f2300cb6962c57c8c18988535"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d6e/class_conversion_discrete_parameter.html#a920a172f2300cb6962c57c8c18988535">isUppercase</a> () const</td></tr>
+<tr class="separator:a920a172f2300cb6962c57c8c18988535"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa04451292a6aac50a2fe63b0fbc9d15f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d6e/class_conversion_discrete_parameter.html#aa04451292a6aac50a2fe63b0fbc9d15f">setUppercase</a> (bool b)</td></tr>
+<tr class="separator:aa04451292a6aac50a2fe63b0fbc9d15f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acda6edc218343e4f905dbb6797af784a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d6e/class_conversion_discrete_parameter.html#acda6edc218343e4f905dbb6797af784a">setCustom</a> (const QString &amp;str)</td></tr>
+<tr class="separator:acda6edc218343e4f905dbb6797af784a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0b30e278b0109ea7ab381860a1d2819b"><td class="memItemLeft" align="right" valign="top">const QString &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d6e/class_conversion_discrete_parameter.html#a0b30e278b0109ea7ab381860a1d2819b">custom</a> () const</td></tr>
+<tr class="separator:a0b30e278b0109ea7ab381860a1d2819b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a524f6522fcbc93acccbfec794de32e5b"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d6e/class_conversion_discrete_parameter.html#a524f6522fcbc93acccbfec794de32e5b">toString</a> () const</td></tr>
+<tr class="separator:a524f6522fcbc93acccbfec794de32e5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a685f973c92651ddd037346f99347e367"><td class="memItemLeft" align="right" valign="top">QVariant&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d6e/class_conversion_discrete_parameter.html#a685f973c92651ddd037346f99347e367">toVariant</a> () const</td></tr>
+<tr class="separator:a685f973c92651ddd037346f99347e367"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac358999d714df0d82b04e27a8ae0e83f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d6e/class_conversion_discrete_parameter.html#ac358999d714df0d82b04e27a8ae0e83f">operator==</a> (const <a class="el" href="../../de/d6e/class_conversion_discrete_parameter.html">ConversionDiscreteParameter</a> &amp;src) const</td></tr>
+<tr class="separator:ac358999d714df0d82b04e27a8ae0e83f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc3d23205aa5bf9b5b664f6b7861e205"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d6e/class_conversion_discrete_parameter.html#adc3d23205aa5bf9b5b664f6b7861e205">operator!=</a> (const <a class="el" href="../../de/d6e/class_conversion_discrete_parameter.html">ConversionDiscreteParameter</a> &amp;src) const</td></tr>
+<tr class="separator:adc3d23205aa5bf9b5b664f6b7861e205"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a73e87434765071fbb1f958c5e9fdb235"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d6e/class_conversion_discrete_parameter.html#a73e87434765071fbb1f958c5e9fdb235">ConversionDiscreteParameter</a> ()</td></tr>
+<tr class="separator:a73e87434765071fbb1f958c5e9fdb235"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa750d161a838f5742488f328a3953aaf"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d6e/class_conversion_discrete_parameter.html#aa750d161a838f5742488f328a3953aaf">ConversionDiscreteParameter</a> (const QString &amp;str)</td></tr>
+<tr class="separator:aa750d161a838f5742488f328a3953aaf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a955e265d5500d28205e923b395b3d522"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d6e/class_conversion_discrete_parameter.html#a955e265d5500d28205e923b395b3d522">ConversionDiscreteParameter</a> (const <a class="el" href="../../d8/d82/class_describe_parameter.html">DescribeParameter</a> &amp;desc)</td></tr>
+<tr class="separator:a955e265d5500d28205e923b395b3d522"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Открытые статические члены</h2></td></tr>
+<tr class="memitem:a76f7b2f0a2046c3133c88abec18ee9c9"><td class="memItemLeft" align="right" valign="top">static const QList&lt; QPair&lt; QString, <a class="el" href="../../de/d6e/class_conversion_discrete_parameter.html#a8da1fa2996cf412f633fd6c7a5ccc281">Type</a> &gt; &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d6e/class_conversion_discrete_parameter.html#a76f7b2f0a2046c3133c88abec18ee9c9">items</a> ()</td></tr>
+<tr class="separator:a76f7b2f0a2046c3133c88abec18ee9c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae46b42a04f5c031592ac77c7a4a1a2be"><td class="memItemLeft" align="right" valign="top">static QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d6e/class_conversion_discrete_parameter.html#ae46b42a04f5c031592ac77c7a4a1a2be">descriptionItem</a> (const <a class="el" href="../../de/d6e/class_conversion_discrete_parameter.html#a8da1fa2996cf412f633fd6c7a5ccc281">Type</a> &amp;conversion)</td></tr>
+<tr class="separator:ae46b42a04f5c031592ac77c7a4a1a2be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0371fb8db7b698d8fefed76398c5d5e5"><td class="memItemLeft" align="right" valign="top">static QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d6e/class_conversion_discrete_parameter.html#a0371fb8db7b698d8fefed76398c5d5e5">descriptionItem</a> (const QString &amp;str)</td></tr>
+<tr class="separator:a0371fb8db7b698d8fefed76398c5d5e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1da8efe78a57bfcbfabdaed90718fd77"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d6e/class_conversion_discrete_parameter.html#a1da8efe78a57bfcbfabdaed90718fd77">isDec</a> (const QString &amp;str)</td></tr>
+<tr class="separator:a1da8efe78a57bfcbfabdaed90718fd77"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a06d322a9f92c7bf0278da9ee647214e9"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d6e/class_conversion_discrete_parameter.html#a06d322a9f92c7bf0278da9ee647214e9">isHex</a> (const QString &amp;str)</td></tr>
+<tr class="separator:a06d322a9f92c7bf0278da9ee647214e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a41225f853a6b18c26aaa2dc04b235035"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d6e/class_conversion_discrete_parameter.html#a41225f853a6b18c26aaa2dc04b235035">isBin</a> (const QString &amp;str)</td></tr>
+<tr class="separator:a41225f853a6b18c26aaa2dc04b235035"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abcd699616c96d36fb45aab9b2826a908"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d6e/class_conversion_discrete_parameter.html#abcd699616c96d36fb45aab9b2826a908">isTimeSec</a> (const QString &amp;str)</td></tr>
+<tr class="separator:abcd699616c96d36fb45aab9b2826a908"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac0d54a0879d10ba35ff77521ff7c19c8"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d6e/class_conversion_discrete_parameter.html#ac0d54a0879d10ba35ff77521ff7c19c8">isTimeSpanSec</a> (const QString &amp;str)</td></tr>
+<tr class="separator:ac0d54a0879d10ba35ff77521ff7c19c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae254b138f0866d260f8ed799adfc98b7"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../de/d6e/class_conversion_discrete_parameter.html#ad80e4cb3b070b736e31f78f49b05ce40">NumberWidth</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d6e/class_conversion_discrete_parameter.html#ae254b138f0866d260f8ed799adfc98b7">numberWidthFromString</a> (const QString &amp;str)</td></tr>
+<tr class="separator:ae254b138f0866d260f8ed799adfc98b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af51c3ec8a991f3fdd5dd4b74423199bf"><td class="memItemLeft" align="right" valign="top">static QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d6e/class_conversion_discrete_parameter.html#af51c3ec8a991f3fdd5dd4b74423199bf">numberWidthToString</a> (const <a class="el" href="../../de/d6e/class_conversion_discrete_parameter.html#ad80e4cb3b070b736e31f78f49b05ce40">NumberWidth</a> &amp;w)</td></tr>
+<tr class="separator:af51c3ec8a991f3fdd5dd4b74423199bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e0a1cebd38667cd5122e2483434b5fc"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../de/d6e/class_conversion_discrete_parameter.html#ad80e4cb3b070b736e31f78f49b05ce40">NumberWidth</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d6e/class_conversion_discrete_parameter.html#a2e0a1cebd38667cd5122e2483434b5fc">identifyNumberWidth</a> (const quint64 &amp;v)</td></tr>
+<tr class="separator:a2e0a1cebd38667cd5122e2483434b5fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3370adabcb324f79049a6a4eff75463d"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../de/d6e/class_conversion_discrete_parameter.html">ConversionDiscreteParameter</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d6e/class_conversion_discrete_parameter.html#a3370adabcb324f79049a6a4eff75463d">fromString</a> (const QString &amp;str)</td></tr>
+<tr class="separator:a3370adabcb324f79049a6a4eff75463d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Перечисления</h2>
+<a id="ad80e4cb3b070b736e31f78f49b05ce40"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad80e4cb3b070b736e31f78f49b05ce40">&#9670;&nbsp;</a></span>NumberWidth</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../de/d6e/class_conversion_discrete_parameter.html#ad80e4cb3b070b736e31f78f49b05ce40">ConversionDiscreteParameter::NumberWidth</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Элементы перечислений</th></tr><tr><td class="fieldname"><a id="ad80e4cb3b070b736e31f78f49b05ce40a06b9281e396db002010bde1de57262eb"></a>Auto&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ad80e4cb3b070b736e31f78f49b05ce40aa245c3230debe5c956484ecc6fa93877"></a>Byte&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ad80e4cb3b070b736e31f78f49b05ce40a07a094a210794e74a0e5e1a1457a92ee"></a>Word&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ad80e4cb3b070b736e31f78f49b05ce40a02641bfc4d9aec9dd2422ef66ee172e4"></a>DWord&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ad80e4cb3b070b736e31f78f49b05ce40a3e07efe918314a989c480fbd4c0c4536"></a>QWord&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<a id="a8da1fa2996cf412f633fd6c7a5ccc281"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8da1fa2996cf412f633fd6c7a5ccc281">&#9670;&nbsp;</a></span>Type</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../de/d6e/class_conversion_discrete_parameter.html#a8da1fa2996cf412f633fd6c7a5ccc281">ConversionDiscreteParameter::Type</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Элементы перечислений</th></tr><tr><td class="fieldname"><a id="a8da1fa2996cf412f633fd6c7a5ccc281a51c45b795d5d18a3e4e0c37e8b20a141"></a>Table&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8da1fa2996cf412f633fd6c7a5ccc281ad207b4e0bce42a8f1555ce3a05e287f6"></a>Dec&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8da1fa2996cf412f633fd6c7a5ccc281a92640bd72988395b326c888614f8937a"></a>Hex&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8da1fa2996cf412f633fd6c7a5ccc281a807dbe7d1c25a633894d4a231b1c76d3"></a>Bin&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8da1fa2996cf412f633fd6c7a5ccc281afc00d2df7568c9f6a766e80ec12f4e35"></a>TimeSec&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8da1fa2996cf412f633fd6c7a5ccc281a20ca68575f048f81f8aa24cd7e156337"></a>TimeSpanSec&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8da1fa2996cf412f633fd6c7a5ccc281a916c74f40cb3a7d245c9f9eefde044db"></a>UnknownType&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<h2 class="groupheader">Конструктор(ы)</h2>
+<a id="a73e87434765071fbb1f958c5e9fdb235"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a73e87434765071fbb1f958c5e9fdb235">&#9670;&nbsp;</a></span>ConversionDiscreteParameter() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ConversionDiscreteParameter::ConversionDiscreteParameter </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa750d161a838f5742488f328a3953aaf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa750d161a838f5742488f328a3953aaf">&#9670;&nbsp;</a></span>ConversionDiscreteParameter() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ConversionDiscreteParameter::ConversionDiscreteParameter </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>str</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">explicit</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a955e265d5500d28205e923b395b3d522"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a955e265d5500d28205e923b395b3d522">&#9670;&nbsp;</a></span>ConversionDiscreteParameter() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ConversionDiscreteParameter::ConversionDiscreteParameter </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d8/d82/class_describe_parameter.html">DescribeParameter</a> &amp;&#160;</td>
+          <td class="paramname"><em>desc</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">explicit</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Методы</h2>
+<a id="a0b30e278b0109ea7ab381860a1d2819b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0b30e278b0109ea7ab381860a1d2819b">&#9670;&nbsp;</a></span>custom()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const QString&amp; ConversionDiscreteParameter::custom </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa2a805b1d633d154dc7da4a6c4f18dcc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa2a805b1d633d154dc7da4a6c4f18dcc">&#9670;&nbsp;</a></span>describe()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d8/d82/class_describe_parameter.html">DescribeParameter</a> ConversionDiscreteParameter::describe </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae46b42a04f5c031592ac77c7a4a1a2be"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae46b42a04f5c031592ac77c7a4a1a2be">&#9670;&nbsp;</a></span>descriptionItem() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static QString ConversionDiscreteParameter::descriptionItem </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../de/d6e/class_conversion_discrete_parameter.html#a8da1fa2996cf412f633fd6c7a5ccc281">Type</a> &amp;&#160;</td>
+          <td class="paramname"><em>conversion</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0371fb8db7b698d8fefed76398c5d5e5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0371fb8db7b698d8fefed76398c5d5e5">&#9670;&nbsp;</a></span>descriptionItem() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static QString ConversionDiscreteParameter::descriptionItem </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>str</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3370adabcb324f79049a6a4eff75463d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3370adabcb324f79049a6a4eff75463d">&#9670;&nbsp;</a></span>fromString()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="../../de/d6e/class_conversion_discrete_parameter.html">ConversionDiscreteParameter</a> ConversionDiscreteParameter::fromString </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>str</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2e0a1cebd38667cd5122e2483434b5fc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2e0a1cebd38667cd5122e2483434b5fc">&#9670;&nbsp;</a></span>identifyNumberWidth()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="../../de/d6e/class_conversion_discrete_parameter.html#ad80e4cb3b070b736e31f78f49b05ce40">NumberWidth</a> ConversionDiscreteParameter::identifyNumberWidth </td>
+          <td>(</td>
+          <td class="paramtype">const quint64 &amp;&#160;</td>
+          <td class="paramname"><em>v</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a41225f853a6b18c26aaa2dc04b235035"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a41225f853a6b18c26aaa2dc04b235035">&#9670;&nbsp;</a></span>isBin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool ConversionDiscreteParameter::isBin </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>str</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1da8efe78a57bfcbfabdaed90718fd77"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1da8efe78a57bfcbfabdaed90718fd77">&#9670;&nbsp;</a></span>isDec()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool ConversionDiscreteParameter::isDec </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>str</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a06d322a9f92c7bf0278da9ee647214e9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a06d322a9f92c7bf0278da9ee647214e9">&#9670;&nbsp;</a></span>isHex()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool ConversionDiscreteParameter::isHex </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>str</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abcd699616c96d36fb45aab9b2826a908"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abcd699616c96d36fb45aab9b2826a908">&#9670;&nbsp;</a></span>isTimeSec()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool ConversionDiscreteParameter::isTimeSec </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>str</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac0d54a0879d10ba35ff77521ff7c19c8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac0d54a0879d10ba35ff77521ff7c19c8">&#9670;&nbsp;</a></span>isTimeSpanSec()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool ConversionDiscreteParameter::isTimeSpanSec </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>str</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a05bc672e25e398d23267bf1aacf64a0b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a05bc672e25e398d23267bf1aacf64a0b">&#9670;&nbsp;</a></span>isTypeBin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ConversionDiscreteParameter::isTypeBin </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7d2ba89ab640e234e8f83f2eb720c5bd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d2ba89ab640e234e8f83f2eb720c5bd">&#9670;&nbsp;</a></span>isTypeDec()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ConversionDiscreteParameter::isTypeDec </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad714554f055e5484edcc7d613cd6062e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad714554f055e5484edcc7d613cd6062e">&#9670;&nbsp;</a></span>isTypeHex()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ConversionDiscreteParameter::isTypeHex </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4e3caf518a11021933056a8e68f5b99e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4e3caf518a11021933056a8e68f5b99e">&#9670;&nbsp;</a></span>isTypeTable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ConversionDiscreteParameter::isTypeTable </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac317c3b6b47cea546fe19f465be69fb5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac317c3b6b47cea546fe19f465be69fb5">&#9670;&nbsp;</a></span>isTypeTimeSec()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ConversionDiscreteParameter::isTypeTimeSec </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4977d7ddf7e9d1ce9e202350286d4fac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4977d7ddf7e9d1ce9e202350286d4fac">&#9670;&nbsp;</a></span>isTypeTimeSpanSec()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ConversionDiscreteParameter::isTypeTimeSpanSec </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a920a172f2300cb6962c57c8c18988535"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a920a172f2300cb6962c57c8c18988535">&#9670;&nbsp;</a></span>isUppercase()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ConversionDiscreteParameter::isUppercase </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a76f7b2f0a2046c3133c88abec18ee9c9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a76f7b2f0a2046c3133c88abec18ee9c9">&#9670;&nbsp;</a></span>items()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static const QList&lt;QPair&lt;QString, <a class="el" href="../../de/d6e/class_conversion_discrete_parameter.html#a8da1fa2996cf412f633fd6c7a5ccc281">Type</a>&gt; &gt;&amp; ConversionDiscreteParameter::items </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a982114aee0095cd7aba0db975ced247e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a982114aee0095cd7aba0db975ced247e">&#9670;&nbsp;</a></span>numberWidth()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../de/d6e/class_conversion_discrete_parameter.html#ad80e4cb3b070b736e31f78f49b05ce40">ConversionDiscreteParameter::NumberWidth</a> ConversionDiscreteParameter::numberWidth </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae254b138f0866d260f8ed799adfc98b7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae254b138f0866d260f8ed799adfc98b7">&#9670;&nbsp;</a></span>numberWidthFromString()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="../../de/d6e/class_conversion_discrete_parameter.html#ad80e4cb3b070b736e31f78f49b05ce40">NumberWidth</a> ConversionDiscreteParameter::numberWidthFromString </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>str</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af51c3ec8a991f3fdd5dd4b74423199bf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af51c3ec8a991f3fdd5dd4b74423199bf">&#9670;&nbsp;</a></span>numberWidthToString() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static QString ConversionDiscreteParameter::numberWidthToString </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../de/d6e/class_conversion_discrete_parameter.html#ad80e4cb3b070b736e31f78f49b05ce40">NumberWidth</a> &amp;&#160;</td>
+          <td class="paramname"><em>w</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afdbafc3c150407839d59e14cc4415eb7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afdbafc3c150407839d59e14cc4415eb7">&#9670;&nbsp;</a></span>numberWidthToString() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString ConversionDiscreteParameter::numberWidthToString </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="adc3d23205aa5bf9b5b664f6b7861e205"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adc3d23205aa5bf9b5b664f6b7861e205">&#9670;&nbsp;</a></span>operator!=()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ConversionDiscreteParameter::operator!= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../de/d6e/class_conversion_discrete_parameter.html">ConversionDiscreteParameter</a> &amp;&#160;</td>
+          <td class="paramname"><em>src</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac358999d714df0d82b04e27a8ae0e83f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac358999d714df0d82b04e27a8ae0e83f">&#9670;&nbsp;</a></span>operator==()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ConversionDiscreteParameter::operator== </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../de/d6e/class_conversion_discrete_parameter.html">ConversionDiscreteParameter</a> &amp;&#160;</td>
+          <td class="paramname"><em>src</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a87302a2430346d8cc03edc6b7257dd73"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a87302a2430346d8cc03edc6b7257dd73">&#9670;&nbsp;</a></span>Q_ENUM() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">ConversionDiscreteParameter::Q_ENUM </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../de/d6e/class_conversion_discrete_parameter.html#a8da1fa2996cf412f633fd6c7a5ccc281">Type</a>&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aaeb363e26c87832df6c1b9b1801c5784"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaeb363e26c87832df6c1b9b1801c5784">&#9670;&nbsp;</a></span>Q_ENUM() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">ConversionDiscreteParameter::Q_ENUM </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../de/d6e/class_conversion_discrete_parameter.html#ad80e4cb3b070b736e31f78f49b05ce40">NumberWidth</a>&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="acda6edc218343e4f905dbb6797af784a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acda6edc218343e4f905dbb6797af784a">&#9670;&nbsp;</a></span>setCustom()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ConversionDiscreteParameter::setCustom </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>str</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0783b399e2c4aeb018493958d3e1ba03"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0783b399e2c4aeb018493958d3e1ba03">&#9670;&nbsp;</a></span>setNumberWidth()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ConversionDiscreteParameter::setNumberWidth </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../de/d6e/class_conversion_discrete_parameter.html#ad80e4cb3b070b736e31f78f49b05ce40">ConversionDiscreteParameter::NumberWidth</a> &amp;&#160;</td>
+          <td class="paramname"><em>numberWidth</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac40045074b15701d31f6b9173b224de2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac40045074b15701d31f6b9173b224de2">&#9670;&nbsp;</a></span>setType()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ConversionDiscreteParameter::setType </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../de/d6e/class_conversion_discrete_parameter.html#a8da1fa2996cf412f633fd6c7a5ccc281">ConversionDiscreteParameter::Type</a> &amp;&#160;</td>
+          <td class="paramname"><em>type</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa04451292a6aac50a2fe63b0fbc9d15f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa04451292a6aac50a2fe63b0fbc9d15f">&#9670;&nbsp;</a></span>setUppercase()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ConversionDiscreteParameter::setUppercase </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>b</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a524f6522fcbc93acccbfec794de32e5b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a524f6522fcbc93acccbfec794de32e5b">&#9670;&nbsp;</a></span>toString()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString ConversionDiscreteParameter::toString </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a685f973c92651ddd037346f99347e367"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a685f973c92651ddd037346f99347e367">&#9670;&nbsp;</a></span>toVariant()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QVariant ConversionDiscreteParameter::toVariant </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2994675c2d3a6252cfe7f183af1630d7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2994675c2d3a6252cfe7f183af1630d7">&#9670;&nbsp;</a></span>type()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../de/d6e/class_conversion_discrete_parameter.html#a8da1fa2996cf412f633fd6c7a5ccc281">ConversionDiscreteParameter::Type</a> ConversionDiscreteParameter::type </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>Объявления и описания членов класса находятся в файле:<ul>
+<li>_contrib/Include/AstdCore/<a class="el" href="../../d7/dda/_conversion_discrete_parameter_8h_source.html">ConversionDiscreteParameter.h</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="../../de/d6e/class_conversion_discrete_parameter.html">ConversionDiscreteParameter</a></li>
+    <li class="footer">Создано системой
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
+  </ul>
+</div>
+</body>
+</html>

@@ -1,0 +1,2132 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.13"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>AstdCore Library: Класс ProjectConfig</title>
+<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../jquery.js"></script>
+<script type="text/javascript" src="../../dynsections.js"></script>
+<link href="../../navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../resize.js"></script>
+<script type="text/javascript" src="../../navtreedata.js"></script>
+<script type="text/javascript" src="../../navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+</script>
+<link href="../../search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../search/searchdata.js"></script>
+<script type="text/javascript" src="../../search/search.js"></script>
+<link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">AstdCore Library
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.8.13 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "../../search",false,'Поиск');
+</script>
+<script type="text/javascript" src="../../menudata.js"></script>
+<script type="text/javascript" src="../../menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('../../',true,false,'search.php','Поиск');
+  $(document).ready(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('d9/d73/class_project_config.html','../../');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-types">Открытые типы</a> &#124;
+<a href="#signals">Сигналы</a> &#124;
+<a href="#pub-methods">Открытые члены</a> &#124;
+<a href="#pub-static-methods">Открытые статические члены</a> &#124;
+<a href="#pub-static-attribs">Статические открытые данные</a> &#124;
+<a href="../../d2/d56/class_project_config-members.html">Полный список членов класса</a>  </div>
+  <div class="headertitle">
+<div class="title">Класс ProjectConfig</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p><code>#include &lt;<a class="el" href="../../d1/def/_project_config_8h_source.html">ProjectConfig.h</a>&gt;</code></p>
+<div class="dynheader">
+Граф наследования:ProjectConfig:</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="../../d9/d73/class_project_config.png" usemap="#ProjectConfig_map" alt=""/>
+  <map id="ProjectConfig_map" name="ProjectConfig_map">
+</map>
+ </div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
+Открытые типы</h2></td></tr>
+<tr class="memitem:aadc46c86182db1d1a1f199ca5cf42907"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d73/class_project_config.html#aadc46c86182db1d1a1f199ca5cf42907">TypeProject</a> { <a class="el" href="../../d9/d73/class_project_config.html#aadc46c86182db1d1a1f199ca5cf42907aabb93e7b8ca13e2202f96cd397b2dd66">TypeProjectClient</a> = 0, 
+<a class="el" href="../../d9/d73/class_project_config.html#aadc46c86182db1d1a1f199ca5cf42907a302bbde9790d05b0b55852433897b4ed">TypeProjectServerRegistration</a> = 1, 
+<a class="el" href="../../d9/d73/class_project_config.html#aadc46c86182db1d1a1f199ca5cf42907a89ce5e655f12e0a5531f60ee4ee1adf9">TypeProjectServerConfiguration</a> = 2, 
+<a class="el" href="../../d9/d73/class_project_config.html#aadc46c86182db1d1a1f199ca5cf42907adf753335c433440f61f45b48e68ed53d">TypeProjectUnknown</a> = -1
+ }</td></tr>
+<tr class="separator:aadc46c86182db1d1a1f199ca5cf42907"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc8ce295118f77aa22346459dcc816fd"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d73/class_project_config.html#adc8ce295118f77aa22346459dcc816fd">RuleBackup</a> { <a class="el" href="../../d9/d73/class_project_config.html#adc8ce295118f77aa22346459dcc816fda318fd692a5b53de0ba9c14e490ecdb83">NoRequiredBackup</a> = 0, 
+<a class="el" href="../../d9/d73/class_project_config.html#adc8ce295118f77aa22346459dcc816fda903d71bded86af26f010183836b4f69c">MakeBackupOnExit</a> = 1, 
+<a class="el" href="../../d9/d73/class_project_config.html#adc8ce295118f77aa22346459dcc816fdae098e82387e6661286874c4375cba062">AskAboutToBackup</a> = 2
+ }</td></tr>
+<tr class="separator:adc8ce295118f77aa22346459dcc816fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="signals"></a>
+Сигналы</h2></td></tr>
+<tr class="memitem:a1ea9da5de365bb056e35926e064f8c6a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d73/class_project_config.html#a1ea9da5de365bb056e35926e064f8c6a">projectFileChanged</a> ()</td></tr>
+<tr class="separator:a1ea9da5de365bb056e35926e064f8c6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1a1eb5dd909da33d90a8acacdd9a1e15"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d73/class_project_config.html#a1a1eb5dd909da33d90a8acacdd9a1e15">mnemoschemeSceneMinimalWidthChanged</a> ()</td></tr>
+<tr class="separator:a1a1eb5dd909da33d90a8acacdd9a1e15"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abe575455e4534968d4612a6e83902aeb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d73/class_project_config.html#abe575455e4534968d4612a6e83902aeb">mnemoschemeSceneMaximalWidthChanged</a> ()</td></tr>
+<tr class="separator:abe575455e4534968d4612a6e83902aeb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0136096bd30d2d923ac5d695cc639c14"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d73/class_project_config.html#a0136096bd30d2d923ac5d695cc639c14">mnemoschemeSceneMinimalHeightChanged</a> ()</td></tr>
+<tr class="separator:a0136096bd30d2d923ac5d695cc639c14"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a12720c9a0835c04da41cfa06407ddff4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d73/class_project_config.html#a12720c9a0835c04da41cfa06407ddff4">mnemoschemeSceneMaximalHeightChanged</a> ()</td></tr>
+<tr class="separator:a12720c9a0835c04da41cfa06407ddff4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Открытые члены</h2></td></tr>
+<tr class="memitem:a3bbffc594885cdafd458873bacdbbce8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d73/class_project_config.html#a3bbffc594885cdafd458873bacdbbce8">setPathFile</a> (const QString &amp;newPathNameFile)</td></tr>
+<tr class="separator:a3bbffc594885cdafd458873bacdbbce8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb3e6f20001064469f4b39df03f3c38f"><td class="memItemLeft" align="right" valign="top">const QString &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d73/class_project_config.html#adb3e6f20001064469f4b39df03f3c38f">pathFile</a> () const</td></tr>
+<tr class="separator:adb3e6f20001064469f4b39df03f3c38f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa02e77522d0110afd2d978e1b9c26f54"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d73/class_project_config.html#aa02e77522d0110afd2d978e1b9c26f54">Q_ENUM</a> (<a class="el" href="../../d9/d73/class_project_config.html#aadc46c86182db1d1a1f199ca5cf42907">TypeProject</a>)</td></tr>
+<tr class="separator:aa02e77522d0110afd2d978e1b9c26f54"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7248f606264bdbc408264f524a283b95"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d73/class_project_config.html#a7248f606264bdbc408264f524a283b95">Q_ENUM</a> (<a class="el" href="../../d9/d73/class_project_config.html#adc8ce295118f77aa22346459dcc816fd">RuleBackup</a>)</td></tr>
+<tr class="separator:a7248f606264bdbc408264f524a283b95"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a31fcb63434391fd86dfc35c659de7c23"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d73/class_project_config.html#a31fcb63434391fd86dfc35c659de7c23">create</a> ()</td></tr>
+<tr class="separator:a31fcb63434391fd86dfc35c659de7c23"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a010fef51b2359d53f1882ff59e748497"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d73/class_project_config.html#a010fef51b2359d53f1882ff59e748497">restore</a> (bool ignoreEmpty=false)</td></tr>
+<tr class="separator:a010fef51b2359d53f1882ff59e748497"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b8fab920f7811eb63aba8f65524bd72"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d73/class_project_config.html#a6b8fab920f7811eb63aba8f65524bd72">store</a> ()</td></tr>
+<tr class="separator:a6b8fab920f7811eb63aba8f65524bd72"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6886dfec68fbd0447dc4b026c29ed8de"><td class="memItemLeft" align="right" valign="top">libconfig::Config &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d73/class_project_config.html#a6886dfec68fbd0447dc4b026c29ed8de">config</a> ()</td></tr>
+<tr class="separator:a6886dfec68fbd0447dc4b026c29ed8de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab8c59f7b8124c91cc06e0939e66241ff"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d73/class_project_config.html#ab8c59f7b8124c91cc06e0939e66241ff">version</a> () const</td></tr>
+<tr class="separator:ab8c59f7b8124c91cc06e0939e66241ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a79cf77d2e7e1fddf6aa19e4ec27aa2ca"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d73/class_project_config.html#a79cf77d2e7e1fddf6aa19e4ec27aa2ca">created</a> () const</td></tr>
+<tr class="separator:a79cf77d2e7e1fddf6aa19e4ec27aa2ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae7cdce542957affb63ede2a769355973"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dc/dad/class_time_astd.html">TimeAstd</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d73/class_project_config.html#ae7cdce542957affb63ede2a769355973">timeStart</a> () const</td></tr>
+<tr class="separator:ae7cdce542957affb63ede2a769355973"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acc85d70b98a84ce90022bbacf88d482c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d73/class_project_config.html#acc85d70b98a84ce90022bbacf88d482c">setTimeStart</a> (const <a class="el" href="../../dc/dad/class_time_astd.html">TimeAstd</a> &amp;time)</td></tr>
+<tr class="separator:acc85d70b98a84ce90022bbacf88d482c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a82471cea4989fd704519f87f2319b139"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dc/dad/class_time_astd.html">TimeAstd</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d73/class_project_config.html#a82471cea4989fd704519f87f2319b139">timeStop</a> () const</td></tr>
+<tr class="separator:a82471cea4989fd704519f87f2319b139"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae53a0b32d89802a1a53513f6070b47c4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d73/class_project_config.html#ae53a0b32d89802a1a53513f6070b47c4">setTimeStop</a> (const <a class="el" href="../../dc/dad/class_time_astd.html">TimeAstd</a> &amp;time)</td></tr>
+<tr class="separator:ae53a0b32d89802a1a53513f6070b47c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb56bebb1c17988639e870d59736beca"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dc/d0e/class_time_astd_span.html">TimeAstdSpan</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d73/class_project_config.html#adb56bebb1c17988639e870d59736beca">timeSpanAtStart</a> (const <a class="el" href="../../dc/dad/class_time_astd.html">TimeAstd</a> &amp;time=<a class="el" href="../../dc/dad/class_time_astd.html#a36f03f9261f0970da3b6390e18c1a4e8">TimeAstd::currentTime</a>()) const</td></tr>
+<tr class="separator:adb56bebb1c17988639e870d59736beca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab2956f69dc603f7c15d93525e9922fc7"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d73/class_project_config.html#ab2956f69dc603f7c15d93525e9922fc7">projectDescription</a> (bool worked)</td></tr>
+<tr class="separator:ab2956f69dc603f7c15d93525e9922fc7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a339a30bb4cd315dbd4a18f9f6e6919f9"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d73/class_project_config.html#a339a30bb4cd315dbd4a18f9f6e6919f9">name</a> () const</td></tr>
+<tr class="separator:a339a30bb4cd315dbd4a18f9f6e6919f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa9bc5b5b869082fbfd67d30bd23a5083"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d73/class_project_config.html#aa9bc5b5b869082fbfd67d30bd23a5083">typeProjectString</a> () const</td></tr>
+<tr class="separator:aa9bc5b5b869082fbfd67d30bd23a5083"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d89337c6245b38cd86bfe34b5c469e0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d73/class_project_config.html#aadc46c86182db1d1a1f199ca5cf42907">TypeProject</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d73/class_project_config.html#a8d89337c6245b38cd86bfe34b5c469e0">typeProject</a> () const</td></tr>
+<tr class="separator:a8d89337c6245b38cd86bfe34b5c469e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac8009ae3e5682182bcff7f00cdcd849e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d73/class_project_config.html#ac8009ae3e5682182bcff7f00cdcd849e">isTypeProjectClient</a> () const</td></tr>
+<tr class="separator:ac8009ae3e5682182bcff7f00cdcd849e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa385a5f3b1f0d4b96cf576e1e8cdeb29"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d73/class_project_config.html#aa385a5f3b1f0d4b96cf576e1e8cdeb29">isTypeProjectServerRegistration</a> () const</td></tr>
+<tr class="separator:aa385a5f3b1f0d4b96cf576e1e8cdeb29"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a751eae0a6f84a12c94c112c61855b601"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d73/class_project_config.html#a751eae0a6f84a12c94c112c61855b601">isTypeProjectServerConfiguration</a> () const</td></tr>
+<tr class="separator:a751eae0a6f84a12c94c112c61855b601"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab03f21dd84de0aa5a3b4e5e2a405386d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d73/class_project_config.html#ab03f21dd84de0aa5a3b4e5e2a405386d">idStation</a> () const</td></tr>
+<tr class="separator:ab03f21dd84de0aa5a3b4e5e2a405386d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a43e1b9777a3b29429fbc38055beb36d2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d73/class_project_config.html#adc8ce295118f77aa22346459dcc816fd">RuleBackup</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d73/class_project_config.html#a43e1b9777a3b29429fbc38055beb36d2">ruleBackup</a> () const</td></tr>
+<tr class="separator:a43e1b9777a3b29429fbc38055beb36d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a965f36f0bad2eaff7ce69c52e490dc43"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d73/class_project_config.html#a965f36f0bad2eaff7ce69c52e490dc43">isNoRequiredBackup</a> () const</td></tr>
+<tr class="separator:a965f36f0bad2eaff7ce69c52e490dc43"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4aa514ed761bf80b0eed9da93826aef9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d73/class_project_config.html#a4aa514ed761bf80b0eed9da93826aef9">isMakeBackupOnExit</a> () const</td></tr>
+<tr class="separator:a4aa514ed761bf80b0eed9da93826aef9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e96d4277b895de7f685c18b3a88c284"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d73/class_project_config.html#a9e96d4277b895de7f685c18b3a88c284">isAskAboutToBackup</a> () const</td></tr>
+<tr class="separator:a9e96d4277b895de7f685c18b3a88c284"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1cd6476f5d548db00987c7b25c758c19"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d73/class_project_config.html#a1cd6476f5d548db00987c7b25c758c19">mnemoschemeSceneMinimalWidth</a> () const</td></tr>
+<tr class="separator:a1cd6476f5d548db00987c7b25c758c19"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a87d31bf31ed2eb35d87537de46c7dfb6"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d73/class_project_config.html#a87d31bf31ed2eb35d87537de46c7dfb6">mnemoschemeSceneMaximalWidth</a> () const</td></tr>
+<tr class="separator:a87d31bf31ed2eb35d87537de46c7dfb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1befe5539c15b6fee0add0b61b7dc7bc"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d73/class_project_config.html#a1befe5539c15b6fee0add0b61b7dc7bc">mnemoschemeSceneMinimalHeight</a> () const</td></tr>
+<tr class="separator:a1befe5539c15b6fee0add0b61b7dc7bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1169ebaf13839536725a34e1e89bb43e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d73/class_project_config.html#a1169ebaf13839536725a34e1e89bb43e">mnemoschemeSceneMaximalHeight</a> () const</td></tr>
+<tr class="separator:a1169ebaf13839536725a34e1e89bb43e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acfda4d276954b75df98534b1b42c6b16"><td class="memItemLeft" align="right" valign="top">QColor&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d73/class_project_config.html#acfda4d276954b75df98534b1b42c6b16">mnemoschemeSceneColorBackground</a> () const</td></tr>
+<tr class="separator:acfda4d276954b75df98534b1b42c6b16"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a181f4b03aacc25202432f1dcd4f5e8ce"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d73/class_project_config.html#a181f4b03aacc25202432f1dcd4f5e8ce">addressLocalServer</a> () const</td></tr>
+<tr class="separator:a181f4b03aacc25202432f1dcd4f5e8ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad22f662a47886d33d47988d7aa7e6fbd"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d73/class_project_config.html#ad22f662a47886d33d47988d7aa7e6fbd">portLocalServer</a> () const</td></tr>
+<tr class="separator:ad22f662a47886d33d47988d7aa7e6fbd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ace38f5f6fc33facf81e5eff510870f"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d73/class_project_config.html#a2ace38f5f6fc33facf81e5eff510870f">addressHostServer</a> () const</td></tr>
+<tr class="separator:a2ace38f5f6fc33facf81e5eff510870f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a66c3f37f9e08d94ee122b1cf90e51d65"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d73/class_project_config.html#a66c3f37f9e08d94ee122b1cf90e51d65">portHostServer</a> () const</td></tr>
+<tr class="separator:a66c3f37f9e08d94ee122b1cf90e51d65"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af3a4e1c84ebde417fd030ec21f72c664"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d73/class_project_config.html#af3a4e1c84ebde417fd030ec21f72c664">aliasHostServer</a> () const</td></tr>
+<tr class="separator:af3a4e1c84ebde417fd030ec21f72c664"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae70f055584e00b8206f178917e3a5912"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d73/class_project_config.html#ae70f055584e00b8206f178917e3a5912">fullAddressHostServer</a> () const</td></tr>
+<tr class="separator:ae70f055584e00b8206f178917e3a5912"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad57ce619b8a269071d45628b04943454"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d73/class_project_config.html#ad57ce619b8a269071d45628b04943454">useIntegrationServer</a> () const</td></tr>
+<tr class="separator:ad57ce619b8a269071d45628b04943454"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f616823ba91211b724ccb0d2f3efd01"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d73/class_project_config.html#a2f616823ba91211b724ccb0d2f3efd01">addressIntegrationServer</a> () const</td></tr>
+<tr class="separator:a2f616823ba91211b724ccb0d2f3efd01"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad94eac13d38613e41bceadfa5203207a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d73/class_project_config.html#ad94eac13d38613e41bceadfa5203207a">portIntegrationServer</a> () const</td></tr>
+<tr class="separator:ad94eac13d38613e41bceadfa5203207a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4f3316a45ffd05f61066e41745be8a31"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d73/class_project_config.html#a4f3316a45ffd05f61066e41745be8a31">aliasIntegrationServer</a> () const</td></tr>
+<tr class="separator:a4f3316a45ffd05f61066e41745be8a31"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a65f21ff99d14da3d59410293a2e24c82"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d73/class_project_config.html#a65f21ff99d14da3d59410293a2e24c82">fullAddressIntegrationServer</a> () const</td></tr>
+<tr class="separator:a65f21ff99d14da3d59410293a2e24c82"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa1bab6f39c57eafb3c25d67e204695d3"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d73/class_project_config.html#aa1bab6f39c57eafb3c25d67e204695d3">addressRepositoryServer</a> () const</td></tr>
+<tr class="separator:aa1bab6f39c57eafb3c25d67e204695d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8f8d93bf81ff14c35106351b14afbf5b"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d73/class_project_config.html#a8f8d93bf81ff14c35106351b14afbf5b">aliasRepositoryServer</a> () const</td></tr>
+<tr class="separator:a8f8d93bf81ff14c35106351b14afbf5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a21760875d5d3502f1653c67e5991682a"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d73/class_project_config.html#a21760875d5d3502f1653c67e5991682a">addressWebServer</a> () const</td></tr>
+<tr class="separator:a21760875d5d3502f1653c67e5991682a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7b97ce30e39ba50e72e17c341795c2e5"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d73/class_project_config.html#a7b97ce30e39ba50e72e17c341795c2e5">aliasWebServer</a> () const</td></tr>
+<tr class="separator:a7b97ce30e39ba50e72e17c341795c2e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac63fc02e4a39a7b1b76d016c9611b4ca"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d73/class_project_config.html#ac63fc02e4a39a7b1b76d016c9611b4ca">pathStorage</a> () const</td></tr>
+<tr class="separator:ac63fc02e4a39a7b1b76d016c9611b4ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a17a0b3fbb23a185e6efdbe0cc3ad2efd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d73/class_project_config.html#a17a0b3fbb23a185e6efdbe0cc3ad2efd">setName</a> (const QString &amp;<a class="el" href="../../d9/d73/class_project_config.html#a339a30bb4cd315dbd4a18f9f6e6919f9">name</a>)</td></tr>
+<tr class="separator:a17a0b3fbb23a185e6efdbe0cc3ad2efd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a87b1643234e58e2dec37e39578f3b9bd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d73/class_project_config.html#a87b1643234e58e2dec37e39578f3b9bd">setType</a> (const QString &amp;type)</td></tr>
+<tr class="separator:a87b1643234e58e2dec37e39578f3b9bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa0dbf6ed610c872ecb01d32e5dfb2f4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d73/class_project_config.html#afa0dbf6ed610c872ecb01d32e5dfb2f4">setIdStation</a> (int isStation)</td></tr>
+<tr class="separator:afa0dbf6ed610c872ecb01d32e5dfb2f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a639a64d75b1e7399311123ce65c104"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d73/class_project_config.html#a7a639a64d75b1e7399311123ce65c104">setRuleBackup</a> (const <a class="el" href="../../d9/d73/class_project_config.html#adc8ce295118f77aa22346459dcc816fd">RuleBackup</a> &amp;<a class="el" href="../../d9/d73/class_project_config.html#a43e1b9777a3b29429fbc38055beb36d2">ruleBackup</a>)</td></tr>
+<tr class="separator:a7a639a64d75b1e7399311123ce65c104"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a10f364da5f8e370a9196a115500b637b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d73/class_project_config.html#a10f364da5f8e370a9196a115500b637b">setMnemoschemeSceneMinimalWidth</a> (int w)</td></tr>
+<tr class="separator:a10f364da5f8e370a9196a115500b637b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a87045243e1a45802637191243da8582f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d73/class_project_config.html#a87045243e1a45802637191243da8582f">setMnemoschemeSceneMaximalWidth</a> (int w)</td></tr>
+<tr class="separator:a87045243e1a45802637191243da8582f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e5ad2befc6540bf0059e38e779e7858"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d73/class_project_config.html#a3e5ad2befc6540bf0059e38e779e7858">setMnemoschemeSceneMinimalHeight</a> (int h)</td></tr>
+<tr class="separator:a3e5ad2befc6540bf0059e38e779e7858"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a311e01555d4fe8708b1b61e9af458b36"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d73/class_project_config.html#a311e01555d4fe8708b1b61e9af458b36">setMnemoschemeSceneMaximalHeight</a> (int h)</td></tr>
+<tr class="separator:a311e01555d4fe8708b1b61e9af458b36"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e89c6e8461d0d130a4b02e847e8faa7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d73/class_project_config.html#a2e89c6e8461d0d130a4b02e847e8faa7">setMnemoschemeSceneColorBackground</a> (const QColor &amp;color)</td></tr>
+<tr class="separator:a2e89c6e8461d0d130a4b02e847e8faa7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf881f216ed4608d049be9ea2d6a4259"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d73/class_project_config.html#abf881f216ed4608d049be9ea2d6a4259">setAddressLocalServer</a> (const QString &amp;address)</td></tr>
+<tr class="separator:abf881f216ed4608d049be9ea2d6a4259"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a78bcb4cd85fa39b17c02d9ec2cc4e0fe"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d73/class_project_config.html#a78bcb4cd85fa39b17c02d9ec2cc4e0fe">setPortLocalServer</a> (int port)</td></tr>
+<tr class="separator:a78bcb4cd85fa39b17c02d9ec2cc4e0fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9c773fb1bd763b86b816e8ff5d869539"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d73/class_project_config.html#a9c773fb1bd763b86b816e8ff5d869539">setAddressHostServer</a> (const QString &amp;address)</td></tr>
+<tr class="separator:a9c773fb1bd763b86b816e8ff5d869539"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad1069163264efc79827cdb901a937556"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d73/class_project_config.html#ad1069163264efc79827cdb901a937556">setPortHostServer</a> (int port)</td></tr>
+<tr class="separator:ad1069163264efc79827cdb901a937556"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab7380d7e4dc3691cdb6b55f224275dd5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d73/class_project_config.html#ab7380d7e4dc3691cdb6b55f224275dd5">setAddressIntegrationServer</a> (const QString &amp;address)</td></tr>
+<tr class="separator:ab7380d7e4dc3691cdb6b55f224275dd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab3fe370178c493ca7cdbec51635f9010"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d73/class_project_config.html#ab3fe370178c493ca7cdbec51635f9010">setPortIntegrationServer</a> (int port)</td></tr>
+<tr class="separator:ab3fe370178c493ca7cdbec51635f9010"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3320609ad2a350347e469bfe669c4e5d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d73/class_project_config.html#a3320609ad2a350347e469bfe669c4e5d">setAddressWebServer</a> (const QString &amp;address)</td></tr>
+<tr class="separator:a3320609ad2a350347e469bfe669c4e5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab371c7df0f3d711772fac3933ceff485"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d73/class_project_config.html#ab371c7df0f3d711772fac3933ceff485">setAddressRepositoryServer</a> (const QString &amp;address)</td></tr>
+<tr class="separator:ab371c7df0f3d711772fac3933ceff485"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab256cbd2c797c08ef47521c0371af95d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d73/class_project_config.html#ab256cbd2c797c08ef47521c0371af95d">setPathStorage</a> (const QString &amp;path)</td></tr>
+<tr class="separator:ab256cbd2c797c08ef47521c0371af95d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afde33d550c58a2813975c6bcb6b006b4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d73/class_project_config.html#afde33d550c58a2813975c6bcb6b006b4">ProjectConfig</a> (const QString &amp;pathNameFile)</td></tr>
+<tr class="separator:afde33d550c58a2813975c6bcb6b006b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a600febf56740aa751b87321d7e51acaa"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d73/class_project_config.html#a600febf56740aa751b87321d7e51acaa">ProjectConfig</a> ()</td></tr>
+<tr class="separator:a600febf56740aa751b87321d7e51acaa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8581ca85aa5805e78bc493f04123b7a5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d73/class_project_config.html#a8581ca85aa5805e78bc493f04123b7a5">~ProjectConfig</a> ()</td></tr>
+<tr class="separator:a8581ca85aa5805e78bc493f04123b7a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Открытые статические члены</h2></td></tr>
+<tr class="memitem:a7c49a2676eb76356ed5dc2a1273cd61d"><td class="memItemLeft" align="right" valign="top">static const QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d73/class_project_config.html#a7c49a2676eb76356ed5dc2a1273cd61d">suffixFileProject</a> ()</td></tr>
+<tr class="separator:a7c49a2676eb76356ed5dc2a1273cd61d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa16c8e8510a9e219ded329abcb7824f5"><td class="memItemLeft" align="right" valign="top">static const QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d73/class_project_config.html#aa16c8e8510a9e219ded329abcb7824f5">dotSuffixFileProject</a> ()</td></tr>
+<tr class="separator:aa16c8e8510a9e219ded329abcb7824f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2dabc588ff6ea3c0de1c44ce2fa7d4d2"><td class="memItemLeft" align="right" valign="top">static const QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d73/class_project_config.html#a2dabc588ff6ea3c0de1c44ce2fa7d4d2">suffixFileProjectX</a> ()</td></tr>
+<tr class="separator:a2dabc588ff6ea3c0de1c44ce2fa7d4d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac6b19d5f71eb0787389710fde82b00df"><td class="memItemLeft" align="right" valign="top">static const QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d73/class_project_config.html#ac6b19d5f71eb0787389710fde82b00df">dotSuffixFileProjectX</a> ()</td></tr>
+<tr class="separator:ac6b19d5f71eb0787389710fde82b00df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1bdb42817e80c8975155d578d243cfbe"><td class="memItemLeft" align="right" valign="top">static const QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d73/class_project_config.html#a1bdb42817e80c8975155d578d243cfbe">mimeProject</a> ()</td></tr>
+<tr class="separator:a1bdb42817e80c8975155d578d243cfbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab6fa130e33062f89b7c363a0953f13da"><td class="memItemLeft" align="right" valign="top">static const QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d73/class_project_config.html#ab6fa130e33062f89b7c363a0953f13da">mimeProjectX</a> ()</td></tr>
+<tr class="separator:ab6fa130e33062f89b7c363a0953f13da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1d3a9084c658023c8811a17176063564"><td class="memItemLeft" align="right" valign="top">static QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d73/class_project_config.html#a1d3a9084c658023c8811a17176063564">typeProjectString</a> (const <a class="el" href="../../d9/d73/class_project_config.html#aadc46c86182db1d1a1f199ca5cf42907">TypeProject</a> &amp;type)</td></tr>
+<tr class="separator:a1d3a9084c658023c8811a17176063564"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
+Статические открытые данные</h2></td></tr>
+<tr class="memitem:a805c07de928823ec8538ccb112f41f0a"><td class="memItemLeft" align="right" valign="top">static const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d73/class_project_config.html#a805c07de928823ec8538ccb112f41f0a">currentVersion</a></td></tr>
+<tr class="separator:a805c07de928823ec8538ccb112f41f0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d88c03ac22b3cf8afe327d9a28fce06"><td class="memItemLeft" align="right" valign="top">static const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d73/class_project_config.html#a2d88c03ac22b3cf8afe327d9a28fce06">SectionCommon</a></td></tr>
+<tr class="separator:a2d88c03ac22b3cf8afe327d9a28fce06"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a33ea0647737b5952835488db589ef41d"><td class="memItemLeft" align="right" valign="top">static const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d73/class_project_config.html#a33ea0647737b5952835488db589ef41d">SectionNetwork</a></td></tr>
+<tr class="separator:a33ea0647737b5952835488db589ef41d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0aa5fda03c4031a744fe0cb902ec2993"><td class="memItemLeft" align="right" valign="top">static const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d73/class_project_config.html#a0aa5fda03c4031a744fe0cb902ec2993">SectionStorage</a></td></tr>
+<tr class="separator:a0aa5fda03c4031a744fe0cb902ec2993"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a99d44985557975ab56d9ecb41100ee3b"><td class="memItemLeft" align="right" valign="top">static const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d73/class_project_config.html#a99d44985557975ab56d9ecb41100ee3b">SectionMnemoscheme</a></td></tr>
+<tr class="separator:a99d44985557975ab56d9ecb41100ee3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afef2e0a3a14eadb364c24b27695c0c93"><td class="memItemLeft" align="right" valign="top">static const QColor&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d73/class_project_config.html#afef2e0a3a14eadb364c24b27695c0c93">mnemoschemeSceneColorBackgroundDefault</a></td></tr>
+<tr class="separator:afef2e0a3a14eadb364c24b27695c0c93"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae8db79f74c92dc2b44d9c30477475f54"><td class="memItemLeft" align="right" valign="top">static const double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d73/class_project_config.html#ae8db79f74c92dc2b44d9c30477475f54">mnemoschemeSceneMinimalWidthDefault</a></td></tr>
+<tr class="separator:ae8db79f74c92dc2b44d9c30477475f54"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1aab0a5e13054af23421d8da06cd6787"><td class="memItemLeft" align="right" valign="top">static const double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d73/class_project_config.html#a1aab0a5e13054af23421d8da06cd6787">mnemoschemeSceneMaximalWidthDefault</a></td></tr>
+<tr class="separator:a1aab0a5e13054af23421d8da06cd6787"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a84fbc7ebaa6bedf8b82db9ad6bcfcfd9"><td class="memItemLeft" align="right" valign="top">static const double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d73/class_project_config.html#a84fbc7ebaa6bedf8b82db9ad6bcfcfd9">mnemoschemeSceneMinimalHeightDefault</a></td></tr>
+<tr class="separator:a84fbc7ebaa6bedf8b82db9ad6bcfcfd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8117c3c0ca0854e82b66acf17e1d2d3d"><td class="memItemLeft" align="right" valign="top">static const double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d73/class_project_config.html#a8117c3c0ca0854e82b66acf17e1d2d3d">mnemoschemeSceneMaximalHeightDefault</a></td></tr>
+<tr class="separator:a8117c3c0ca0854e82b66acf17e1d2d3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Перечисления</h2>
+<a id="adc8ce295118f77aa22346459dcc816fd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adc8ce295118f77aa22346459dcc816fd">&#9670;&nbsp;</a></span>RuleBackup</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../d9/d73/class_project_config.html#adc8ce295118f77aa22346459dcc816fd">ProjectConfig::RuleBackup</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Элементы перечислений</th></tr><tr><td class="fieldname"><a id="adc8ce295118f77aa22346459dcc816fda318fd692a5b53de0ba9c14e490ecdb83"></a>NoRequiredBackup&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="adc8ce295118f77aa22346459dcc816fda903d71bded86af26f010183836b4f69c"></a>MakeBackupOnExit&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="adc8ce295118f77aa22346459dcc816fdae098e82387e6661286874c4375cba062"></a>AskAboutToBackup&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<a id="aadc46c86182db1d1a1f199ca5cf42907"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aadc46c86182db1d1a1f199ca5cf42907">&#9670;&nbsp;</a></span>TypeProject</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../d9/d73/class_project_config.html#aadc46c86182db1d1a1f199ca5cf42907">ProjectConfig::TypeProject</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Элементы перечислений</th></tr><tr><td class="fieldname"><a id="aadc46c86182db1d1a1f199ca5cf42907aabb93e7b8ca13e2202f96cd397b2dd66"></a>TypeProjectClient&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aadc46c86182db1d1a1f199ca5cf42907a302bbde9790d05b0b55852433897b4ed"></a>TypeProjectServerRegistration&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aadc46c86182db1d1a1f199ca5cf42907a89ce5e655f12e0a5531f60ee4ee1adf9"></a>TypeProjectServerConfiguration&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aadc46c86182db1d1a1f199ca5cf42907adf753335c433440f61f45b48e68ed53d"></a>TypeProjectUnknown&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<h2 class="groupheader">Конструктор(ы)</h2>
+<a id="afde33d550c58a2813975c6bcb6b006b4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afde33d550c58a2813975c6bcb6b006b4">&#9670;&nbsp;</a></span>ProjectConfig() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">ProjectConfig::ProjectConfig </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>pathNameFile</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a600febf56740aa751b87321d7e51acaa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a600febf56740aa751b87321d7e51acaa">&#9670;&nbsp;</a></span>ProjectConfig() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">ProjectConfig::ProjectConfig </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8581ca85aa5805e78bc493f04123b7a5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8581ca85aa5805e78bc493f04123b7a5">&#9670;&nbsp;</a></span>~ProjectConfig()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">ProjectConfig::~ProjectConfig </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Методы</h2>
+<a id="a2ace38f5f6fc33facf81e5eff510870f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2ace38f5f6fc33facf81e5eff510870f">&#9670;&nbsp;</a></span>addressHostServer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString ProjectConfig::addressHostServer </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2f616823ba91211b724ccb0d2f3efd01"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2f616823ba91211b724ccb0d2f3efd01">&#9670;&nbsp;</a></span>addressIntegrationServer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString ProjectConfig::addressIntegrationServer </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a181f4b03aacc25202432f1dcd4f5e8ce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a181f4b03aacc25202432f1dcd4f5e8ce">&#9670;&nbsp;</a></span>addressLocalServer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString ProjectConfig::addressLocalServer </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa1bab6f39c57eafb3c25d67e204695d3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa1bab6f39c57eafb3c25d67e204695d3">&#9670;&nbsp;</a></span>addressRepositoryServer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString ProjectConfig::addressRepositoryServer </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a21760875d5d3502f1653c67e5991682a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a21760875d5d3502f1653c67e5991682a">&#9670;&nbsp;</a></span>addressWebServer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString ProjectConfig::addressWebServer </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af3a4e1c84ebde417fd030ec21f72c664"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af3a4e1c84ebde417fd030ec21f72c664">&#9670;&nbsp;</a></span>aliasHostServer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString ProjectConfig::aliasHostServer </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4f3316a45ffd05f61066e41745be8a31"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4f3316a45ffd05f61066e41745be8a31">&#9670;&nbsp;</a></span>aliasIntegrationServer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString ProjectConfig::aliasIntegrationServer </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8f8d93bf81ff14c35106351b14afbf5b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8f8d93bf81ff14c35106351b14afbf5b">&#9670;&nbsp;</a></span>aliasRepositoryServer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString ProjectConfig::aliasRepositoryServer </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7b97ce30e39ba50e72e17c341795c2e5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7b97ce30e39ba50e72e17c341795c2e5">&#9670;&nbsp;</a></span>aliasWebServer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString ProjectConfig::aliasWebServer </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6886dfec68fbd0447dc4b026c29ed8de"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6886dfec68fbd0447dc4b026c29ed8de">&#9670;&nbsp;</a></span>config()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">libconfig::Config&amp; ProjectConfig::config </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a31fcb63434391fd86dfc35c659de7c23"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a31fcb63434391fd86dfc35c659de7c23">&#9670;&nbsp;</a></span>create()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ProjectConfig::create </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a79cf77d2e7e1fddf6aa19e4ec27aa2ca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a79cf77d2e7e1fddf6aa19e4ec27aa2ca">&#9670;&nbsp;</a></span>created()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString ProjectConfig::created </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa16c8e8510a9e219ded329abcb7824f5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa16c8e8510a9e219ded329abcb7824f5">&#9670;&nbsp;</a></span>dotSuffixFileProject()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static const QString ProjectConfig::dotSuffixFileProject </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac6b19d5f71eb0787389710fde82b00df"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac6b19d5f71eb0787389710fde82b00df">&#9670;&nbsp;</a></span>dotSuffixFileProjectX()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static const QString ProjectConfig::dotSuffixFileProjectX </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae70f055584e00b8206f178917e3a5912"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae70f055584e00b8206f178917e3a5912">&#9670;&nbsp;</a></span>fullAddressHostServer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString ProjectConfig::fullAddressHostServer </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a65f21ff99d14da3d59410293a2e24c82"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a65f21ff99d14da3d59410293a2e24c82">&#9670;&nbsp;</a></span>fullAddressIntegrationServer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString ProjectConfig::fullAddressIntegrationServer </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab03f21dd84de0aa5a3b4e5e2a405386d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab03f21dd84de0aa5a3b4e5e2a405386d">&#9670;&nbsp;</a></span>idStation()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int ProjectConfig::idStation </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9e96d4277b895de7f685c18b3a88c284"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9e96d4277b895de7f685c18b3a88c284">&#9670;&nbsp;</a></span>isAskAboutToBackup()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ProjectConfig::isAskAboutToBackup </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4aa514ed761bf80b0eed9da93826aef9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4aa514ed761bf80b0eed9da93826aef9">&#9670;&nbsp;</a></span>isMakeBackupOnExit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ProjectConfig::isMakeBackupOnExit </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a965f36f0bad2eaff7ce69c52e490dc43"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a965f36f0bad2eaff7ce69c52e490dc43">&#9670;&nbsp;</a></span>isNoRequiredBackup()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ProjectConfig::isNoRequiredBackup </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac8009ae3e5682182bcff7f00cdcd849e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac8009ae3e5682182bcff7f00cdcd849e">&#9670;&nbsp;</a></span>isTypeProjectClient()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ProjectConfig::isTypeProjectClient </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a751eae0a6f84a12c94c112c61855b601"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a751eae0a6f84a12c94c112c61855b601">&#9670;&nbsp;</a></span>isTypeProjectServerConfiguration()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ProjectConfig::isTypeProjectServerConfiguration </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa385a5f3b1f0d4b96cf576e1e8cdeb29"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa385a5f3b1f0d4b96cf576e1e8cdeb29">&#9670;&nbsp;</a></span>isTypeProjectServerRegistration()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ProjectConfig::isTypeProjectServerRegistration </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1bdb42817e80c8975155d578d243cfbe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1bdb42817e80c8975155d578d243cfbe">&#9670;&nbsp;</a></span>mimeProject()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static const QString ProjectConfig::mimeProject </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab6fa130e33062f89b7c363a0953f13da"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab6fa130e33062f89b7c363a0953f13da">&#9670;&nbsp;</a></span>mimeProjectX()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static const QString ProjectConfig::mimeProjectX </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="acfda4d276954b75df98534b1b42c6b16"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acfda4d276954b75df98534b1b42c6b16">&#9670;&nbsp;</a></span>mnemoschemeSceneColorBackground()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QColor ProjectConfig::mnemoschemeSceneColorBackground </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1169ebaf13839536725a34e1e89bb43e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1169ebaf13839536725a34e1e89bb43e">&#9670;&nbsp;</a></span>mnemoschemeSceneMaximalHeight()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int ProjectConfig::mnemoschemeSceneMaximalHeight </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a12720c9a0835c04da41cfa06407ddff4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a12720c9a0835c04da41cfa06407ddff4">&#9670;&nbsp;</a></span>mnemoschemeSceneMaximalHeightChanged</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ProjectConfig::mnemoschemeSceneMaximalHeightChanged </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a87d31bf31ed2eb35d87537de46c7dfb6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a87d31bf31ed2eb35d87537de46c7dfb6">&#9670;&nbsp;</a></span>mnemoschemeSceneMaximalWidth()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int ProjectConfig::mnemoschemeSceneMaximalWidth </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abe575455e4534968d4612a6e83902aeb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abe575455e4534968d4612a6e83902aeb">&#9670;&nbsp;</a></span>mnemoschemeSceneMaximalWidthChanged</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ProjectConfig::mnemoschemeSceneMaximalWidthChanged </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1befe5539c15b6fee0add0b61b7dc7bc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1befe5539c15b6fee0add0b61b7dc7bc">&#9670;&nbsp;</a></span>mnemoschemeSceneMinimalHeight()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int ProjectConfig::mnemoschemeSceneMinimalHeight </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0136096bd30d2d923ac5d695cc639c14"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0136096bd30d2d923ac5d695cc639c14">&#9670;&nbsp;</a></span>mnemoschemeSceneMinimalHeightChanged</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ProjectConfig::mnemoschemeSceneMinimalHeightChanged </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1cd6476f5d548db00987c7b25c758c19"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1cd6476f5d548db00987c7b25c758c19">&#9670;&nbsp;</a></span>mnemoschemeSceneMinimalWidth()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int ProjectConfig::mnemoschemeSceneMinimalWidth </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1a1eb5dd909da33d90a8acacdd9a1e15"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1a1eb5dd909da33d90a8acacdd9a1e15">&#9670;&nbsp;</a></span>mnemoschemeSceneMinimalWidthChanged</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ProjectConfig::mnemoschemeSceneMinimalWidthChanged </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a339a30bb4cd315dbd4a18f9f6e6919f9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a339a30bb4cd315dbd4a18f9f6e6919f9">&#9670;&nbsp;</a></span>name()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString ProjectConfig::name </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="adb3e6f20001064469f4b39df03f3c38f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adb3e6f20001064469f4b39df03f3c38f">&#9670;&nbsp;</a></span>pathFile()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const QString&amp; ProjectConfig::pathFile </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac63fc02e4a39a7b1b76d016c9611b4ca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac63fc02e4a39a7b1b76d016c9611b4ca">&#9670;&nbsp;</a></span>pathStorage()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString ProjectConfig::pathStorage </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a66c3f37f9e08d94ee122b1cf90e51d65"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a66c3f37f9e08d94ee122b1cf90e51d65">&#9670;&nbsp;</a></span>portHostServer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int ProjectConfig::portHostServer </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad94eac13d38613e41bceadfa5203207a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad94eac13d38613e41bceadfa5203207a">&#9670;&nbsp;</a></span>portIntegrationServer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int ProjectConfig::portIntegrationServer </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad22f662a47886d33d47988d7aa7e6fbd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad22f662a47886d33d47988d7aa7e6fbd">&#9670;&nbsp;</a></span>portLocalServer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int ProjectConfig::portLocalServer </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab2956f69dc603f7c15d93525e9922fc7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab2956f69dc603f7c15d93525e9922fc7">&#9670;&nbsp;</a></span>projectDescription()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString ProjectConfig::projectDescription </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>worked</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1ea9da5de365bb056e35926e064f8c6a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1ea9da5de365bb056e35926e064f8c6a">&#9670;&nbsp;</a></span>projectFileChanged</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ProjectConfig::projectFileChanged </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa02e77522d0110afd2d978e1b9c26f54"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa02e77522d0110afd2d978e1b9c26f54">&#9670;&nbsp;</a></span>Q_ENUM() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">ProjectConfig::Q_ENUM </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d9/d73/class_project_config.html#aadc46c86182db1d1a1f199ca5cf42907">TypeProject</a>&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7248f606264bdbc408264f524a283b95"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7248f606264bdbc408264f524a283b95">&#9670;&nbsp;</a></span>Q_ENUM() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">ProjectConfig::Q_ENUM </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d9/d73/class_project_config.html#adc8ce295118f77aa22346459dcc816fd">RuleBackup</a>&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a010fef51b2359d53f1882ff59e748497"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a010fef51b2359d53f1882ff59e748497">&#9670;&nbsp;</a></span>restore()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ProjectConfig::restore </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>ignoreEmpty</em> = <code>false</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a43e1b9777a3b29429fbc38055beb36d2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a43e1b9777a3b29429fbc38055beb36d2">&#9670;&nbsp;</a></span>ruleBackup()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d9/d73/class_project_config.html#adc8ce295118f77aa22346459dcc816fd">RuleBackup</a> ProjectConfig::ruleBackup </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9c773fb1bd763b86b816e8ff5d869539"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9c773fb1bd763b86b816e8ff5d869539">&#9670;&nbsp;</a></span>setAddressHostServer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ProjectConfig::setAddressHostServer </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>address</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab7380d7e4dc3691cdb6b55f224275dd5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab7380d7e4dc3691cdb6b55f224275dd5">&#9670;&nbsp;</a></span>setAddressIntegrationServer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ProjectConfig::setAddressIntegrationServer </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>address</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abf881f216ed4608d049be9ea2d6a4259"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abf881f216ed4608d049be9ea2d6a4259">&#9670;&nbsp;</a></span>setAddressLocalServer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ProjectConfig::setAddressLocalServer </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>address</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab371c7df0f3d711772fac3933ceff485"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab371c7df0f3d711772fac3933ceff485">&#9670;&nbsp;</a></span>setAddressRepositoryServer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ProjectConfig::setAddressRepositoryServer </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>address</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3320609ad2a350347e469bfe669c4e5d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3320609ad2a350347e469bfe669c4e5d">&#9670;&nbsp;</a></span>setAddressWebServer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ProjectConfig::setAddressWebServer </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>address</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afa0dbf6ed610c872ecb01d32e5dfb2f4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afa0dbf6ed610c872ecb01d32e5dfb2f4">&#9670;&nbsp;</a></span>setIdStation()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ProjectConfig::setIdStation </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>isStation</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2e89c6e8461d0d130a4b02e847e8faa7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2e89c6e8461d0d130a4b02e847e8faa7">&#9670;&nbsp;</a></span>setMnemoschemeSceneColorBackground()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ProjectConfig::setMnemoschemeSceneColorBackground </td>
+          <td>(</td>
+          <td class="paramtype">const QColor &amp;&#160;</td>
+          <td class="paramname"><em>color</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a311e01555d4fe8708b1b61e9af458b36"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a311e01555d4fe8708b1b61e9af458b36">&#9670;&nbsp;</a></span>setMnemoschemeSceneMaximalHeight()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ProjectConfig::setMnemoschemeSceneMaximalHeight </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>h</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a87045243e1a45802637191243da8582f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a87045243e1a45802637191243da8582f">&#9670;&nbsp;</a></span>setMnemoschemeSceneMaximalWidth()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ProjectConfig::setMnemoschemeSceneMaximalWidth </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>w</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3e5ad2befc6540bf0059e38e779e7858"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3e5ad2befc6540bf0059e38e779e7858">&#9670;&nbsp;</a></span>setMnemoschemeSceneMinimalHeight()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ProjectConfig::setMnemoschemeSceneMinimalHeight </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>h</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a10f364da5f8e370a9196a115500b637b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a10f364da5f8e370a9196a115500b637b">&#9670;&nbsp;</a></span>setMnemoschemeSceneMinimalWidth()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ProjectConfig::setMnemoschemeSceneMinimalWidth </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>w</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a17a0b3fbb23a185e6efdbe0cc3ad2efd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a17a0b3fbb23a185e6efdbe0cc3ad2efd">&#9670;&nbsp;</a></span>setName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ProjectConfig::setName </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>name</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3bbffc594885cdafd458873bacdbbce8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3bbffc594885cdafd458873bacdbbce8">&#9670;&nbsp;</a></span>setPathFile()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ProjectConfig::setPathFile </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>newPathNameFile</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab256cbd2c797c08ef47521c0371af95d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab256cbd2c797c08ef47521c0371af95d">&#9670;&nbsp;</a></span>setPathStorage()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ProjectConfig::setPathStorage </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>path</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad1069163264efc79827cdb901a937556"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad1069163264efc79827cdb901a937556">&#9670;&nbsp;</a></span>setPortHostServer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ProjectConfig::setPortHostServer </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>port</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab3fe370178c493ca7cdbec51635f9010"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab3fe370178c493ca7cdbec51635f9010">&#9670;&nbsp;</a></span>setPortIntegrationServer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ProjectConfig::setPortIntegrationServer </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>port</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a78bcb4cd85fa39b17c02d9ec2cc4e0fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a78bcb4cd85fa39b17c02d9ec2cc4e0fe">&#9670;&nbsp;</a></span>setPortLocalServer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ProjectConfig::setPortLocalServer </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>port</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7a639a64d75b1e7399311123ce65c104"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7a639a64d75b1e7399311123ce65c104">&#9670;&nbsp;</a></span>setRuleBackup()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ProjectConfig::setRuleBackup </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d9/d73/class_project_config.html#adc8ce295118f77aa22346459dcc816fd">RuleBackup</a> &amp;&#160;</td>
+          <td class="paramname"><em>ruleBackup</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="acc85d70b98a84ce90022bbacf88d482c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acc85d70b98a84ce90022bbacf88d482c">&#9670;&nbsp;</a></span>setTimeStart()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ProjectConfig::setTimeStart </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../dc/dad/class_time_astd.html">TimeAstd</a> &amp;&#160;</td>
+          <td class="paramname"><em>time</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae53a0b32d89802a1a53513f6070b47c4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae53a0b32d89802a1a53513f6070b47c4">&#9670;&nbsp;</a></span>setTimeStop()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ProjectConfig::setTimeStop </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../dc/dad/class_time_astd.html">TimeAstd</a> &amp;&#160;</td>
+          <td class="paramname"><em>time</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a87b1643234e58e2dec37e39578f3b9bd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a87b1643234e58e2dec37e39578f3b9bd">&#9670;&nbsp;</a></span>setType()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ProjectConfig::setType </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>type</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6b8fab920f7811eb63aba8f65524bd72"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6b8fab920f7811eb63aba8f65524bd72">&#9670;&nbsp;</a></span>store()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ProjectConfig::store </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7c49a2676eb76356ed5dc2a1273cd61d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7c49a2676eb76356ed5dc2a1273cd61d">&#9670;&nbsp;</a></span>suffixFileProject()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static const QString ProjectConfig::suffixFileProject </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2dabc588ff6ea3c0de1c44ce2fa7d4d2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2dabc588ff6ea3c0de1c44ce2fa7d4d2">&#9670;&nbsp;</a></span>suffixFileProjectX()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static const QString ProjectConfig::suffixFileProjectX </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="adb56bebb1c17988639e870d59736beca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adb56bebb1c17988639e870d59736beca">&#9670;&nbsp;</a></span>timeSpanAtStart()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../dc/d0e/class_time_astd_span.html">TimeAstdSpan</a> ProjectConfig::timeSpanAtStart </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../dc/dad/class_time_astd.html">TimeAstd</a> &amp;&#160;</td>
+          <td class="paramname"><em>time</em> = <code><a class="el" href="../../dc/dad/class_time_astd.html#a36f03f9261f0970da3b6390e18c1a4e8">TimeAstd::currentTime</a>()</code></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae7cdce542957affb63ede2a769355973"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae7cdce542957affb63ede2a769355973">&#9670;&nbsp;</a></span>timeStart()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../dc/dad/class_time_astd.html">TimeAstd</a> ProjectConfig::timeStart </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a82471cea4989fd704519f87f2319b139"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a82471cea4989fd704519f87f2319b139">&#9670;&nbsp;</a></span>timeStop()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../dc/dad/class_time_astd.html">TimeAstd</a> ProjectConfig::timeStop </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8d89337c6245b38cd86bfe34b5c469e0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8d89337c6245b38cd86bfe34b5c469e0">&#9670;&nbsp;</a></span>typeProject()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d9/d73/class_project_config.html#aadc46c86182db1d1a1f199ca5cf42907">TypeProject</a> ProjectConfig::typeProject </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1d3a9084c658023c8811a17176063564"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1d3a9084c658023c8811a17176063564">&#9670;&nbsp;</a></span>typeProjectString() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static QString ProjectConfig::typeProjectString </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d9/d73/class_project_config.html#aadc46c86182db1d1a1f199ca5cf42907">TypeProject</a> &amp;&#160;</td>
+          <td class="paramname"><em>type</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa9bc5b5b869082fbfd67d30bd23a5083"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa9bc5b5b869082fbfd67d30bd23a5083">&#9670;&nbsp;</a></span>typeProjectString() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString ProjectConfig::typeProjectString </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad57ce619b8a269071d45628b04943454"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad57ce619b8a269071d45628b04943454">&#9670;&nbsp;</a></span>useIntegrationServer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ProjectConfig::useIntegrationServer </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab8c59f7b8124c91cc06e0939e66241ff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab8c59f7b8124c91cc06e0939e66241ff">&#9670;&nbsp;</a></span>version()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString ProjectConfig::version </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Данные класса</h2>
+<a id="a805c07de928823ec8538ccb112f41f0a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a805c07de928823ec8538ccb112f41f0a">&#9670;&nbsp;</a></span>currentVersion</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const char* ProjectConfig::currentVersion</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afef2e0a3a14eadb364c24b27695c0c93"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afef2e0a3a14eadb364c24b27695c0c93">&#9670;&nbsp;</a></span>mnemoschemeSceneColorBackgroundDefault</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const QColor ProjectConfig::mnemoschemeSceneColorBackgroundDefault</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8117c3c0ca0854e82b66acf17e1d2d3d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8117c3c0ca0854e82b66acf17e1d2d3d">&#9670;&nbsp;</a></span>mnemoschemeSceneMaximalHeightDefault</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const double ProjectConfig::mnemoschemeSceneMaximalHeightDefault</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1aab0a5e13054af23421d8da06cd6787"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1aab0a5e13054af23421d8da06cd6787">&#9670;&nbsp;</a></span>mnemoschemeSceneMaximalWidthDefault</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const double ProjectConfig::mnemoschemeSceneMaximalWidthDefault</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a84fbc7ebaa6bedf8b82db9ad6bcfcfd9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a84fbc7ebaa6bedf8b82db9ad6bcfcfd9">&#9670;&nbsp;</a></span>mnemoschemeSceneMinimalHeightDefault</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const double ProjectConfig::mnemoschemeSceneMinimalHeightDefault</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae8db79f74c92dc2b44d9c30477475f54"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae8db79f74c92dc2b44d9c30477475f54">&#9670;&nbsp;</a></span>mnemoschemeSceneMinimalWidthDefault</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const double ProjectConfig::mnemoschemeSceneMinimalWidthDefault</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2d88c03ac22b3cf8afe327d9a28fce06"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2d88c03ac22b3cf8afe327d9a28fce06">&#9670;&nbsp;</a></span>SectionCommon</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const char* ProjectConfig::SectionCommon</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a99d44985557975ab56d9ecb41100ee3b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a99d44985557975ab56d9ecb41100ee3b">&#9670;&nbsp;</a></span>SectionMnemoscheme</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const char* ProjectConfig::SectionMnemoscheme</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a33ea0647737b5952835488db589ef41d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a33ea0647737b5952835488db589ef41d">&#9670;&nbsp;</a></span>SectionNetwork</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const char* ProjectConfig::SectionNetwork</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0aa5fda03c4031a744fe0cb902ec2993"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0aa5fda03c4031a744fe0cb902ec2993">&#9670;&nbsp;</a></span>SectionStorage</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const char* ProjectConfig::SectionStorage</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>Объявления и описания членов класса находятся в файле:<ul>
+<li>_contrib/Include/AstdCore/<a class="el" href="../../d1/def/_project_config_8h_source.html">ProjectConfig.h</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="../../d9/d73/class_project_config.html">ProjectConfig</a></li>
+    <li class="footer">Создано системой
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
+  </ul>
+</div>
+</body>
+</html>

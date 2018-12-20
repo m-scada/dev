@@ -1,0 +1,35 @@
+var class_state_object =
+[
+    [ "Status", "d4/d16/class_state_object.html#a3cb894c41d512314b535afaab7ef3bc7", [
+      [ "Unknown", "d4/d16/class_state_object.html#a3cb894c41d512314b535afaab7ef3bc7a9849dfc0f70d7d2936eddde78c0e284a", null ],
+      [ "Normal", "d4/d16/class_state_object.html#a3cb894c41d512314b535afaab7ef3bc7a9a7584bce471bff9a387a03fdf92a2d6", null ],
+      [ "Reserve", "d4/d16/class_state_object.html#a3cb894c41d512314b535afaab7ef3bc7a0e80bdc0d4640017cd02b7939aac295f", null ],
+      [ "Blocked", "d4/d16/class_state_object.html#a3cb894c41d512314b535afaab7ef3bc7a9926a381fccf3afd750dcf4667761145", null ],
+      [ "Preemergency", "d4/d16/class_state_object.html#a3cb894c41d512314b535afaab7ef3bc7ada49aa6b6ed678128dbcbf563de78895", null ],
+      [ "Emergency", "d4/d16/class_state_object.html#a3cb894c41d512314b535afaab7ef3bc7a12c5102f19e6825a81445b67776345cc", null ],
+      [ "Undefined", "d4/d16/class_state_object.html#a3cb894c41d512314b535afaab7ef3bc7a99553b1a546c26b6d8d0c115efc89ffb", null ],
+      [ "Refusal", "d4/d16/class_state_object.html#a3cb894c41d512314b535afaab7ef3bc7a52dd3e5b1f57d8fefa22af07ef8c9bf8", null ]
+    ] ],
+    [ "StateObject", "d4/d16/class_state_object.html#aef9aebd3b762117ba171e747128e321f", null ],
+    [ "StateObject", "d4/d16/class_state_object.html#a54a96e9237338d03da9dc440468b5a95", null ],
+    [ "StateObject", "d4/d16/class_state_object.html#a3db00b58d24410ffb7f5a642c83f4f8d", null ],
+    [ "StateObject", "d4/d16/class_state_object.html#a9d029c1785fe133eaa6ce25c62136c9a", null ],
+    [ "~StateObject", "d4/d16/class_state_object.html#ae4e97e7674985125e4d6889891d1f56f", null ],
+    [ "colorBack", "d4/d16/class_state_object.html#a5eec316f395e1567fedfbccfb7f7a14b", null ],
+    [ "colorFront", "d4/d16/class_state_object.html#a8bef614e596a945598994db2710d1ae4", null ],
+    [ "largeName", "d4/d16/class_state_object.html#a726e00548452c1c0640a58ac95139cb7", null ],
+    [ "name", "d4/d16/class_state_object.html#a9e25fc9d97629ef61d52d07a766adfa1", null ],
+    [ "operator QVariant", "d4/d16/class_state_object.html#ae781009150bb86a8543bc427dfb54c00", null ],
+    [ "operator!=", "d4/d16/class_state_object.html#a1b0508334e80c392e22cddb85dbeb9fc", null ],
+    [ "operator!=", "d4/d16/class_state_object.html#a7ea02ac8306878bb87a715adcf0ed786", null ],
+    [ "operator=", "d4/d16/class_state_object.html#a728aede75c96a800e8e7c2d19c8674bd", null ],
+    [ "operator=", "d4/d16/class_state_object.html#a4cc156b07161605e631e0c3c3aeb8c95", null ],
+    [ "operator=", "d4/d16/class_state_object.html#ae3f34881a45d7572c6d1e66dbff5c7c1", null ],
+    [ "operator=", "d4/d16/class_state_object.html#a6f397bee58f861c4e49bcf8debd8112d", null ],
+    [ "operator==", "d4/d16/class_state_object.html#aa656b53b1c51a50a7d443bc6dd96579d", null ],
+    [ "operator==", "d4/d16/class_state_object.html#af9831b1e469b61c8183b979bf72ce1df", null ],
+    [ "Q_ENUM", "d4/d16/class_state_object.html#abc16759ce7af7837400645917ffa609c", null ],
+    [ "shortName", "d4/d16/class_state_object.html#a7192777336262b71eeb3b73295be0b32", null ],
+    [ "toString", "d4/d16/class_state_object.html#a661d50300ff1da28d15974a524cf2024", null ],
+    [ "toVariant", "d4/d16/class_state_object.html#abcc09d892fb3731171e258e990902565", null ]
+];

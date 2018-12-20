@@ -1,0 +1,945 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.13"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>AstdCore Library: Класс AbstractValueSource</title>
+<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../jquery.js"></script>
+<script type="text/javascript" src="../../dynsections.js"></script>
+<link href="../../navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../resize.js"></script>
+<script type="text/javascript" src="../../navtreedata.js"></script>
+<script type="text/javascript" src="../../navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+</script>
+<link href="../../search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../search/searchdata.js"></script>
+<script type="text/javascript" src="../../search/search.js"></script>
+<link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">AstdCore Library
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.8.13 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "../../search",false,'Поиск');
+</script>
+<script type="text/javascript" src="../../menudata.js"></script>
+<script type="text/javascript" src="../../menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('../../',true,false,'search.php','Поиск');
+  $(document).ready(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('d0/d51/class_abstract_value_source.html','../../');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-types">Открытые типы</a> &#124;
+<a href="#signals">Сигналы</a> &#124;
+<a href="#pub-methods">Открытые члены</a> &#124;
+<a href="#pro-methods">Защищенные члены</a> &#124;
+<a href="#pro-attribs">Защищенные данные</a> &#124;
+<a href="../../d7/d2d/class_abstract_value_source-members.html">Полный список членов класса</a>  </div>
+  <div class="headertitle">
+<div class="title">Класс AbstractValueSource<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p><code>#include &lt;<a class="el" href="../../d8/df6/_abstract_value_source_8h_source.html">AbstractValueSource.h</a>&gt;</code></p>
+<div class="dynheader">
+Граф наследования:AbstractValueSource:</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="../../d0/d51/class_abstract_value_source.png" usemap="#AbstractValueSource_map" alt=""/>
+  <map id="AbstractValueSource_map" name="AbstractValueSource_map">
+<area href="../../d5/df2/class_value_source_device.html" alt="ValueSourceDevice" shape="rect" coords="0,112,144,136"/>
+<area href="../../df/d92/class_value_source_parameter.html" alt="ValueSourceParameter" shape="rect" coords="154,112,298,136"/>
+</map>
+ </div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
+Открытые типы</h2></td></tr>
+<tr class="memitem:ab3ca36361b42fdb4d5f211f07c59b07c"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d51/class_abstract_value_source.html#ab3ca36361b42fdb4d5f211f07c59b07c">Post</a> { <br />
+&#160;&#160;<a class="el" href="../../d0/d51/class_abstract_value_source.html#ab3ca36361b42fdb4d5f211f07c59b07ca1cdc9264aa0ca35dcad3d4f9f89de399">Nothing</a> = 0, 
+<a class="el" href="../../d0/d51/class_abstract_value_source.html#ab3ca36361b42fdb4d5f211f07c59b07ca56158d761ba55ed2ade74a924304174a">Vector</a> = STSPP_PostChgVectorValue, 
+<a class="el" href="../../d0/d51/class_abstract_value_source.html#ab3ca36361b42fdb4d5f211f07c59b07ca4bd8c781eda15760325cf500a327bc55">Value</a> = STSPP_PostChgValue, 
+<a class="el" href="../../d0/d51/class_abstract_value_source.html#ab3ca36361b42fdb4d5f211f07c59b07cad3014e3d653bcfac0a9d58850c49b182">Realtime</a> = Vector | Value, 
+<br />
+&#160;&#160;<a class="el" href="../../d0/d51/class_abstract_value_source.html#ab3ca36361b42fdb4d5f211f07c59b07caffd251b735f14ab4895bdc0b91f7a307">State</a> = STSPP_PostChgState, 
+<a class="el" href="../../d0/d51/class_abstract_value_source.html#ab3ca36361b42fdb4d5f211f07c59b07cabc1e90c162fc666fcd3f2b116caf9132">Blink</a> = STSPP_PostChgBlink, 
+<a class="el" href="../../d0/d51/class_abstract_value_source.html#ab3ca36361b42fdb4d5f211f07c59b07ca3ea8b5a7b58e05e50aa97dbd80cbdff0">ReflectFireEvent</a> = STSPP_ReflectFireEvent, 
+<a class="el" href="../../d0/d51/class_abstract_value_source.html#ab3ca36361b42fdb4d5f211f07c59b07cab5fd2f42d3103f3b4cafafe9a1bcfc93">OnlyForFireEvent</a> = 0x80000000
+<br />
+ }</td></tr>
+<tr class="separator:ab3ca36361b42fdb4d5f211f07c59b07c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="signals"></a>
+Сигналы</h2></td></tr>
+<tr class="memitem:aeaa702806908ce79be0cadf1b582dc62"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d51/class_abstract_value_source.html#aeaa702806908ce79be0cadf1b582dc62">describeChanged</a> ()</td></tr>
+<tr class="separator:aeaa702806908ce79be0cadf1b582dc62"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2af78533fc61084f684f4e34d8e6f4ad"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d51/class_abstract_value_source.html#a2af78533fc61084f684f4e34d8e6f4ad">describeConnected</a> ()</td></tr>
+<tr class="separator:a2af78533fc61084f684f4e34d8e6f4ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad9c20ce169a32105b2d71974014883d0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d51/class_abstract_value_source.html#ad9c20ce169a32105b2d71974014883d0">describeDisconnected</a> ()</td></tr>
+<tr class="separator:ad9c20ce169a32105b2d71974014883d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4236e4de46d7922c7fc31d86379dce3a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d51/class_abstract_value_source.html#a4236e4de46d7922c7fc31d86379dce3a">dataVectorChanged</a> (const <a class="el" href="../../d6/d8a/class_vector_event_ptr.html">VectorEventPtr</a> &amp;vector)</td></tr>
+<tr class="separator:a4236e4de46d7922c7fc31d86379dce3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad24e6fec5f2f95f464b63fef6f158493"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d51/class_abstract_value_source.html#ad24e6fec5f2f95f464b63fef6f158493">dataValueChanged</a> (const CValueEvent &amp;valueEvent)</td></tr>
+<tr class="separator:ad24e6fec5f2f95f464b63fef6f158493"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:addf733431cf953f84b1ecb52f6fc101c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d51/class_abstract_value_source.html#addf733431cf953f84b1ecb52f6fc101c">dataStateChanged</a> (const CValueEvent &amp;valueEvent)</td></tr>
+<tr class="separator:addf733431cf953f84b1ecb52f6fc101c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af4f71774aee5d9059e87a60b79a2ef82"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d51/class_abstract_value_source.html#af4f71774aee5d9059e87a60b79a2ef82">dataStateBlinkChanged</a> (const CValueEvent &amp;valueEvent)</td></tr>
+<tr class="separator:af4f71774aee5d9059e87a60b79a2ef82"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab91d783000368ef41ad4651f43d9ea3a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d51/class_abstract_value_source.html#ab91d783000368ef41ad4651f43d9ea3a">historyRequestReply</a> (const <a class="el" href="../../d6/d8a/class_vector_event_ptr.html">VectorEventPtr</a> &amp;vector)</td></tr>
+<tr class="separator:ab91d783000368ef41ad4651f43d9ea3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aca67b1d413b703c785fbba6af51dd69d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d51/class_abstract_value_source.html#aca67b1d413b703c785fbba6af51dd69d">historyRequestEnd</a> (const UINT &amp;idRequest)</td></tr>
+<tr class="separator:aca67b1d413b703c785fbba6af51dd69d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a307a4d031c787ad5ca2acb92cc3b2ca3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d51/class_abstract_value_source.html#a307a4d031c787ad5ca2acb92cc3b2ca3">lastEventRequestReply</a> (const CValueEvent &amp;valueEvent)</td></tr>
+<tr class="separator:a307a4d031c787ad5ca2acb92cc3b2ca3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Открытые члены</h2></td></tr>
+<tr class="memitem:ab5597e46eeffc71ae2ba57ad3a0149cc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d51/class_abstract_value_source.html#ab5597e46eeffc71ae2ba57ad3a0149cc">Q_ENUM</a> (<a class="el" href="../../d0/d51/class_abstract_value_source.html#ab3ca36361b42fdb4d5f211f07c59b07c">Post</a>)</td></tr>
+<tr class="separator:ab5597e46eeffc71ae2ba57ad3a0149cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ee8125c255413ed2ba8d3a9dd0805eb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d51/class_abstract_value_source.html#a9ee8125c255413ed2ba8d3a9dd0805eb">Q_DECLARE_FLAGS</a> (Posts, <a class="el" href="../../d0/d51/class_abstract_value_source.html#ab3ca36361b42fdb4d5f211f07c59b07c">Post</a>)</td></tr>
+<tr class="separator:a9ee8125c255413ed2ba8d3a9dd0805eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac85cd8f996b350342317ee22990a643"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d60/class_describe.html">Describe</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d51/class_abstract_value_source.html#aac85cd8f996b350342317ee22990a643">describe</a> () const</td></tr>
+<tr class="separator:aac85cd8f996b350342317ee22990a643"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6f57d1fda417477722d73f21dcf6bd69"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d51/class_abstract_value_source.html#a6f57d1fda417477722d73f21dcf6bd69">isOpened</a> () const</td></tr>
+<tr class="separator:a6f57d1fda417477722d73f21dcf6bd69"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a537b3682ddd3c6e06285bf7cfdc06f5f"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d51/class_abstract_value_source.html#a537b3682ddd3c6e06285bf7cfdc06f5f">open</a> (const Posts &amp;flags=Post::Nothing)</td></tr>
+<tr class="separator:a537b3682ddd3c6e06285bf7cfdc06f5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae8d74a63188609f6b4db9dc3358a84c4"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d51/class_abstract_value_source.html#ae8d74a63188609f6b4db9dc3358a84c4">close</a> ()</td></tr>
+<tr class="separator:ae8d74a63188609f6b4db9dc3358a84c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ce7c31fc9ef6559c21d7961c8e2f1b7"><td class="memItemLeft" align="right" valign="top">const Posts &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d51/class_abstract_value_source.html#a8ce7c31fc9ef6559c21d7961c8e2f1b7">posts</a> () const</td></tr>
+<tr class="separator:a8ce7c31fc9ef6559c21d7961c8e2f1b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a07068555d0f9f8af072b0bd69ab808f5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d51/class_abstract_value_source.html#a07068555d0f9f8af072b0bd69ab808f5">setPosts</a> (const Posts &amp;flags)</td></tr>
+<tr class="separator:a07068555d0f9f8af072b0bd69ab808f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af8fd90f9c9fc2f9728640a7a1bec7f2b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d51/class_abstract_value_source.html#af8fd90f9c9fc2f9728640a7a1bec7f2b">fireEvent</a> (const <a class="el" href="../../d6/d8a/class_vector_event_ptr.html">VectorEventPtr</a> &amp;vector)</td></tr>
+<tr class="separator:af8fd90f9c9fc2f9728640a7a1bec7f2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c6f9c3a94c7373cf628cdde937fe4c8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d51/class_abstract_value_source.html#a0c6f9c3a94c7373cf628cdde937fe4c8">fireEvent</a> (const <a class="el" href="../../d1/d45/class_value_event.html">ValueEvent</a> &amp;value)</td></tr>
+<tr class="separator:a0c6f9c3a94c7373cf628cdde937fe4c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0dab65f717d370b0e175aeb79f8a800a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d51/class_abstract_value_source.html#a0dab65f717d370b0e175aeb79f8a800a">fireEvent</a> (const CValueEvent &amp;value)</td></tr>
+<tr class="separator:a0dab65f717d370b0e175aeb79f8a800a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab225d2a25dfb49b456b3a753649431f0"><td class="memItemLeft" align="right" valign="top">CValueEvent&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d51/class_abstract_value_source.html#ab225d2a25dfb49b456b3a753649431f0">getLastEvent</a> () const</td></tr>
+<tr class="memdesc:ab225d2a25dfb49b456b3a753649431f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Получить последнее событие  <a href="#ab225d2a25dfb49b456b3a753649431f0">Подробнее...</a><br /></td></tr>
+<tr class="separator:ab225d2a25dfb49b456b3a753649431f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1d7d0b4362a304985c9300f33adf1ef1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d51/class_abstract_value_source.html#a1d7d0b4362a304985c9300f33adf1ef1">queryLastEvent</a> (const UINT &amp;idQuery=0) const</td></tr>
+<tr class="memdesc:a1d7d0b4362a304985c9300f33adf1ef1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Запросить последнее событие  <a href="#a1d7d0b4362a304985c9300f33adf1ef1">Подробнее...</a><br /></td></tr>
+<tr class="separator:a1d7d0b4362a304985c9300f33adf1ef1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5aacc7c454627251c065fb552d422c76"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d51/class_abstract_value_source.html#a5aacc7c454627251c065fb552d422c76">~AbstractValueSource</a> ()</td></tr>
+<tr class="separator:a5aacc7c454627251c065fb552d422c76"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Защищенные члены</h2></td></tr>
+<tr class="memitem:a935edef053496a9bdce2b1ab2ee39929"><td class="memItemLeft" align="right" valign="top">CParameter *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d51/class_abstract_value_source.html#a935edef053496a9bdce2b1ab2ee39929">getChannel</a> ()</td></tr>
+<tr class="separator:a935edef053496a9bdce2b1ab2ee39929"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a25c535c2644c2181cfbb3a6afc1c43"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d51/class_abstract_value_source.html#a9a25c535c2644c2181cfbb3a6afc1c43">createChannel</a> ()=0</td></tr>
+<tr class="separator:a9a25c535c2644c2181cfbb3a6afc1c43"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a02dfb5fb3e2156501373412dfde72c87"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d51/class_abstract_value_source.html#a02dfb5fb3e2156501373412dfde72c87">requestHistory</a> (const <a class="el" href="../../d4/d43/class_time_astd_range.html">TimeAstdRange</a> &amp;range, const UINT &amp;idRequest)</td></tr>
+<tr class="separator:a02dfb5fb3e2156501373412dfde72c87"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2a05a5da3013bb36908a6ea43e032a8b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d51/class_abstract_value_source.html#a2a05a5da3013bb36908a6ea43e032a8b">Q_DECLARE_PRIVATE</a> (<a class="el" href="../../d0/d51/class_abstract_value_source.html">AbstractValueSource</a>)</td></tr>
+<tr class="separator:a2a05a5da3013bb36908a6ea43e032a8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a98bc09fdfada314f893c05b17476ce6e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d51/class_abstract_value_source.html#a98bc09fdfada314f893c05b17476ce6e">AbstractValueSource</a> (QObject *parent=nullptr)</td></tr>
+<tr class="separator:a98bc09fdfada314f893c05b17476ce6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Защищенные данные</h2></td></tr>
+<tr class="memitem:affb101c034ab4cf1a06dbe9505f614ee"><td class="memItemLeft" align="right" valign="top">QScopedPointer&lt; AbstractValueSourcePrivate &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d51/class_abstract_value_source.html#affb101c034ab4cf1a06dbe9505f614ee">d_ptr</a></td></tr>
+<tr class="separator:affb101c034ab4cf1a06dbe9505f614ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Перечисления</h2>
+<a id="ab3ca36361b42fdb4d5f211f07c59b07c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab3ca36361b42fdb4d5f211f07c59b07c">&#9670;&nbsp;</a></span>Post</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../d0/d51/class_abstract_value_source.html#ab3ca36361b42fdb4d5f211f07c59b07c">AbstractValueSource::Post</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Элементы перечислений</th></tr><tr><td class="fieldname"><a id="ab3ca36361b42fdb4d5f211f07c59b07ca1cdc9264aa0ca35dcad3d4f9f89de399"></a>Nothing&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ab3ca36361b42fdb4d5f211f07c59b07ca56158d761ba55ed2ade74a924304174a"></a>Vector&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ab3ca36361b42fdb4d5f211f07c59b07ca4bd8c781eda15760325cf500a327bc55"></a>Value&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ab3ca36361b42fdb4d5f211f07c59b07cad3014e3d653bcfac0a9d58850c49b182"></a>Realtime&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ab3ca36361b42fdb4d5f211f07c59b07caffd251b735f14ab4895bdc0b91f7a307"></a>State&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ab3ca36361b42fdb4d5f211f07c59b07cabc1e90c162fc666fcd3f2b116caf9132"></a>Blink&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ab3ca36361b42fdb4d5f211f07c59b07ca3ea8b5a7b58e05e50aa97dbd80cbdff0"></a>ReflectFireEvent&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ab3ca36361b42fdb4d5f211f07c59b07cab5fd2f42d3103f3b4cafafe9a1bcfc93"></a>OnlyForFireEvent&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<h2 class="groupheader">Конструктор(ы)</h2>
+<a id="a98bc09fdfada314f893c05b17476ce6e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a98bc09fdfada314f893c05b17476ce6e">&#9670;&nbsp;</a></span>AbstractValueSource()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">AbstractValueSource::AbstractValueSource </td>
+          <td>(</td>
+          <td class="paramtype">QObject *&#160;</td>
+          <td class="paramname"><em>parent</em> = <code>nullptr</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5aacc7c454627251c065fb552d422c76"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5aacc7c454627251c065fb552d422c76">&#9670;&nbsp;</a></span>~AbstractValueSource()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual AbstractValueSource::~AbstractValueSource </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Методы</h2>
+<a id="ae8d74a63188609f6b4db9dc3358a84c4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae8d74a63188609f6b4db9dc3358a84c4">&#9670;&nbsp;</a></span>close()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool AbstractValueSource::close </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9a25c535c2644c2181cfbb3a6afc1c43"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9a25c535c2644c2181cfbb3a6afc1c43">&#9670;&nbsp;</a></span>createChannel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool AbstractValueSource::createChannel </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af4f71774aee5d9059e87a60b79a2ef82"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af4f71774aee5d9059e87a60b79a2ef82">&#9670;&nbsp;</a></span>dataStateBlinkChanged</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AbstractValueSource::dataStateBlinkChanged </td>
+          <td>(</td>
+          <td class="paramtype">const CValueEvent &amp;&#160;</td>
+          <td class="paramname"><em>valueEvent</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="addf733431cf953f84b1ecb52f6fc101c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#addf733431cf953f84b1ecb52f6fc101c">&#9670;&nbsp;</a></span>dataStateChanged</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AbstractValueSource::dataStateChanged </td>
+          <td>(</td>
+          <td class="paramtype">const CValueEvent &amp;&#160;</td>
+          <td class="paramname"><em>valueEvent</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad24e6fec5f2f95f464b63fef6f158493"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad24e6fec5f2f95f464b63fef6f158493">&#9670;&nbsp;</a></span>dataValueChanged</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AbstractValueSource::dataValueChanged </td>
+          <td>(</td>
+          <td class="paramtype">const CValueEvent &amp;&#160;</td>
+          <td class="paramname"><em>valueEvent</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4236e4de46d7922c7fc31d86379dce3a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4236e4de46d7922c7fc31d86379dce3a">&#9670;&nbsp;</a></span>dataVectorChanged</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AbstractValueSource::dataVectorChanged </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d6/d8a/class_vector_event_ptr.html">VectorEventPtr</a> &amp;&#160;</td>
+          <td class="paramname"><em>vector</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aac85cd8f996b350342317ee22990a643"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aac85cd8f996b350342317ee22990a643">&#9670;&nbsp;</a></span>describe()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../db/d60/class_describe.html">Describe</a> AbstractValueSource::describe </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aeaa702806908ce79be0cadf1b582dc62"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeaa702806908ce79be0cadf1b582dc62">&#9670;&nbsp;</a></span>describeChanged</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AbstractValueSource::describeChanged </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2af78533fc61084f684f4e34d8e6f4ad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2af78533fc61084f684f4e34d8e6f4ad">&#9670;&nbsp;</a></span>describeConnected</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AbstractValueSource::describeConnected </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad9c20ce169a32105b2d71974014883d0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad9c20ce169a32105b2d71974014883d0">&#9670;&nbsp;</a></span>describeDisconnected</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AbstractValueSource::describeDisconnected </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af8fd90f9c9fc2f9728640a7a1bec7f2b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af8fd90f9c9fc2f9728640a7a1bec7f2b">&#9670;&nbsp;</a></span>fireEvent() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool AbstractValueSource::fireEvent </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d6/d8a/class_vector_event_ptr.html">VectorEventPtr</a> &amp;&#160;</td>
+          <td class="paramname"><em>vector</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0c6f9c3a94c7373cf628cdde937fe4c8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0c6f9c3a94c7373cf628cdde937fe4c8">&#9670;&nbsp;</a></span>fireEvent() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool AbstractValueSource::fireEvent </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d1/d45/class_value_event.html">ValueEvent</a> &amp;&#160;</td>
+          <td class="paramname"><em>value</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0dab65f717d370b0e175aeb79f8a800a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0dab65f717d370b0e175aeb79f8a800a">&#9670;&nbsp;</a></span>fireEvent() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool AbstractValueSource::fireEvent </td>
+          <td>(</td>
+          <td class="paramtype">const CValueEvent &amp;&#160;</td>
+          <td class="paramname"><em>value</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a935edef053496a9bdce2b1ab2ee39929"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a935edef053496a9bdce2b1ab2ee39929">&#9670;&nbsp;</a></span>getChannel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">CParameter* AbstractValueSource::getChannel </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab225d2a25dfb49b456b3a753649431f0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab225d2a25dfb49b456b3a753649431f0">&#9670;&nbsp;</a></span>getLastEvent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">CValueEvent AbstractValueSource::getLastEvent </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Получить последнее событие </p>
+
+</div>
+</div>
+<a id="aca67b1d413b703c785fbba6af51dd69d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aca67b1d413b703c785fbba6af51dd69d">&#9670;&nbsp;</a></span>historyRequestEnd</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AbstractValueSource::historyRequestEnd </td>
+          <td>(</td>
+          <td class="paramtype">const UINT &amp;&#160;</td>
+          <td class="paramname"><em>idRequest</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab91d783000368ef41ad4651f43d9ea3a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab91d783000368ef41ad4651f43d9ea3a">&#9670;&nbsp;</a></span>historyRequestReply</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AbstractValueSource::historyRequestReply </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d6/d8a/class_vector_event_ptr.html">VectorEventPtr</a> &amp;&#160;</td>
+          <td class="paramname"><em>vector</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6f57d1fda417477722d73f21dcf6bd69"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6f57d1fda417477722d73f21dcf6bd69">&#9670;&nbsp;</a></span>isOpened()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool AbstractValueSource::isOpened </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a307a4d031c787ad5ca2acb92cc3b2ca3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a307a4d031c787ad5ca2acb92cc3b2ca3">&#9670;&nbsp;</a></span>lastEventRequestReply</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AbstractValueSource::lastEventRequestReply </td>
+          <td>(</td>
+          <td class="paramtype">const CValueEvent &amp;&#160;</td>
+          <td class="paramname"><em>valueEvent</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a537b3682ddd3c6e06285bf7cfdc06f5f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a537b3682ddd3c6e06285bf7cfdc06f5f">&#9670;&nbsp;</a></span>open()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool AbstractValueSource::open </td>
+          <td>(</td>
+          <td class="paramtype">const Posts &amp;&#160;</td>
+          <td class="paramname"><em>flags</em> = <code>Post::Nothing</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Переопределяется в <a class="el" href="../../df/d92/class_value_source_parameter.html#a93bf506b0399d89e679e013e89cea6b6">ValueSourceParameter</a> и <a class="el" href="../../d5/df2/class_value_source_device.html#a5cf46fb889784a55726c315b42f4b82c">ValueSourceDevice</a>.</p>
+
+</div>
+</div>
+<a id="a8ce7c31fc9ef6559c21d7961c8e2f1b7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8ce7c31fc9ef6559c21d7961c8e2f1b7">&#9670;&nbsp;</a></span>posts()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const Posts&amp; AbstractValueSource::posts </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9ee8125c255413ed2ba8d3a9dd0805eb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9ee8125c255413ed2ba8d3a9dd0805eb">&#9670;&nbsp;</a></span>Q_DECLARE_FLAGS()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">AbstractValueSource::Q_DECLARE_FLAGS </td>
+          <td>(</td>
+          <td class="paramtype">Posts&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d0/d51/class_abstract_value_source.html#ab3ca36361b42fdb4d5f211f07c59b07c">Post</a>&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2a05a5da3013bb36908a6ea43e032a8b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2a05a5da3013bb36908a6ea43e032a8b">&#9670;&nbsp;</a></span>Q_DECLARE_PRIVATE()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">AbstractValueSource::Q_DECLARE_PRIVATE </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d0/d51/class_abstract_value_source.html">AbstractValueSource</a>&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab5597e46eeffc71ae2ba57ad3a0149cc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab5597e46eeffc71ae2ba57ad3a0149cc">&#9670;&nbsp;</a></span>Q_ENUM()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">AbstractValueSource::Q_ENUM </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d0/d51/class_abstract_value_source.html#ab3ca36361b42fdb4d5f211f07c59b07c">Post</a>&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1d7d0b4362a304985c9300f33adf1ef1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1d7d0b4362a304985c9300f33adf1ef1">&#9670;&nbsp;</a></span>queryLastEvent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool AbstractValueSource::queryLastEvent </td>
+          <td>(</td>
+          <td class="paramtype">const UINT &amp;&#160;</td>
+          <td class="paramname"><em>idQuery</em> = <code>0</code></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Запросить последнее событие </p>
+
+</div>
+</div>
+<a id="a02dfb5fb3e2156501373412dfde72c87"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a02dfb5fb3e2156501373412dfde72c87">&#9670;&nbsp;</a></span>requestHistory()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool AbstractValueSource::requestHistory </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d4/d43/class_time_astd_range.html">TimeAstdRange</a> &amp;&#160;</td>
+          <td class="paramname"><em>range</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const UINT &amp;&#160;</td>
+          <td class="paramname"><em>idRequest</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Переопределяется в <a class="el" href="../../df/d92/class_value_source_parameter.html#a22e7326bd137b0c6ee4cdc89154cf1bf">ValueSourceParameter</a>.</p>
+
+</div>
+</div>
+<a id="a07068555d0f9f8af072b0bd69ab808f5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a07068555d0f9f8af072b0bd69ab808f5">&#9670;&nbsp;</a></span>setPosts()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AbstractValueSource::setPosts </td>
+          <td>(</td>
+          <td class="paramtype">const Posts &amp;&#160;</td>
+          <td class="paramname"><em>flags</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Данные класса</h2>
+<a id="affb101c034ab4cf1a06dbe9505f614ee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#affb101c034ab4cf1a06dbe9505f614ee">&#9670;&nbsp;</a></span>d_ptr</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QScopedPointer&lt;AbstractValueSourcePrivate&gt; AbstractValueSource::d_ptr</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>Объявления и описания членов класса находятся в файле:<ul>
+<li>_contrib/Include/AstdCore/<a class="el" href="../../d8/df6/_abstract_value_source_8h_source.html">AbstractValueSource.h</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="../../d0/d51/class_abstract_value_source.html">AbstractValueSource</a></li>
+    <li class="footer">Создано системой
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
+  </ul>
+</div>
+</body>
+</html>

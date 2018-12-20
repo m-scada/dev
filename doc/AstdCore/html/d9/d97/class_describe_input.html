@@ -1,0 +1,2269 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.13"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>AstdCore Library: Класс DescribeInput</title>
+<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../jquery.js"></script>
+<script type="text/javascript" src="../../dynsections.js"></script>
+<link href="../../navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../resize.js"></script>
+<script type="text/javascript" src="../../navtreedata.js"></script>
+<script type="text/javascript" src="../../navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+</script>
+<link href="../../search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../search/searchdata.js"></script>
+<script type="text/javascript" src="../../search/search.js"></script>
+<link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">AstdCore Library
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.8.13 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "../../search",false,'Поиск');
+</script>
+<script type="text/javascript" src="../../menudata.js"></script>
+<script type="text/javascript" src="../../menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('../../',true,false,'search.php','Поиск');
+  $(document).ready(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('d9/d97/class_describe_input.html','../../');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-types">Открытые типы</a> &#124;
+<a href="#pub-methods">Открытые члены</a> &#124;
+<a href="#pub-static-methods">Открытые статические члены</a> &#124;
+<a href="#properties">Свойства</a> &#124;
+<a href="../../dd/d19/class_describe_input-members.html">Полный список членов класса</a>  </div>
+  <div class="headertitle">
+<div class="title">Класс DescribeInput</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p><code>#include &lt;<a class="el" href="../../d1/ddf/_describe_input_8h_source.html">DescribeInput.h</a>&gt;</code></p>
+<div class="dynheader">
+Граф наследования:DescribeInput:</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="../../d9/d97/class_describe_input.png" usemap="#DescribeInput_map" alt=""/>
+  <map id="DescribeInput_map" name="DescribeInput_map">
+<area href="../../db/d60/class_describe.html" alt="Describe" shape="rect" coords="0,0,131,24"/>
+<area href="../../d5/d4b/class_describe_input_dummy.html" alt="DescribeInputDummy" shape="rect" coords="0,112,131,136"/>
+</map>
+ </div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
+Открытые типы</h2></td></tr>
+<tr class="memitem:abf2f13ba38363a56af7d30a7641c5a35"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d97/class_describe_input.html#abf2f13ba38363a56af7d30a7641c5a35">Type</a> { <br />
+&#160;&#160;<a class="el" href="../../d9/d97/class_describe_input.html#abf2f13ba38363a56af7d30a7641c5a35a04f4bd876f98b3ab1095598fcca71975">Type::AnalogInput</a> = IDI_DevInputAnal, 
+<a class="el" href="../../d9/d97/class_describe_input.html#abf2f13ba38363a56af7d30a7641c5a35a87d5951f826e76548afb6e6e32985b48">Type::DiscreteInput</a> = IDI_DevInputLogic, 
+<a class="el" href="../../d9/d97/class_describe_input.html#abf2f13ba38363a56af7d30a7641c5a35a6e2d1c6d37623990d2d3e0919ee03ff1">Type::StringInput</a> = IDI_DevInputString, 
+<a class="el" href="../../d9/d97/class_describe_input.html#abf2f13ba38363a56af7d30a7641c5a35ab7f10dcf952a352d8894d9abb84f567a">Type::AnalogOutput</a> = IDI_DevOutputAnal, 
+<br />
+&#160;&#160;<a class="el" href="../../d9/d97/class_describe_input.html#abf2f13ba38363a56af7d30a7641c5a35a73cc344c2a336f1173eb550599da472c">Type::DiscreteOutput</a> = IDI_DevOutputLogic, 
+<a class="el" href="../../d9/d97/class_describe_input.html#abf2f13ba38363a56af7d30a7641c5a35a916c74f40cb3a7d245c9f9eefde044db">Type::UnknownType</a> = -1
+<br />
+ }</td></tr>
+<tr class="separator:abf2f13ba38363a56af7d30a7641c5a35"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_types_class_describe"><td colspan="2" onclick="javascript:toggleInherit('pub_types_class_describe')"><img src="../../closed.png" alt="-"/>&#160;Открытые типы унаследованные от <a class="el" href="../../db/d60/class_describe.html">Describe</a></td></tr>
+<tr class="memitem:aa71e75544f67f60e7739413aae34ad02 inherit pub_types_class_describe"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d60/class_describe.html#aa71e75544f67f60e7739413aae34ad02">TypeDescribe</a> { <br />
+&#160;&#160;<a class="el" href="../../db/d60/class_describe.html#aa71e75544f67f60e7739413aae34ad02a4afa80e77a07f7488ce4d1bdd8c4977a">TypeDescribe::Algorithm</a> = IDI_EDescribeOfAlgorithm, 
+<a class="el" href="../../db/d60/class_describe.html#aa71e75544f67f60e7739413aae34ad02ae727b00944f81e1d0a95c12886ac4641">TypeDescribe::Archive</a> = IDI_EDescribeOfArchive, 
+<a class="el" href="../../db/d60/class_describe.html#aa71e75544f67f60e7739413aae34ad02a10b4eb76294b70d7fd6df997ff06edb1">TypeDescribe::Complex</a> = IDI_EDescribeOfComplex, 
+<a class="el" href="../../db/d60/class_describe.html#aa71e75544f67f60e7739413aae34ad02ac2cc7082a89c1ad6631a2f66af5f00c0">TypeDescribe::Connection</a> = IDI_EDescribeOfComputer, 
+<br />
+&#160;&#160;<a class="el" href="../../db/d60/class_describe.html#aa71e75544f67f60e7739413aae34ad02ae0ac20adce6ffee48c7151b070aa5737">TypeDescribe::Device</a> = IDI_EDescribeOfIUDevice, 
+<a class="el" href="../../db/d60/class_describe.html#aa71e75544f67f60e7739413aae34ad02ab0f2b97dc5d2b76b26e040408bb1d8af">TypeDescribe::Folder</a> = IDI_EDescribeOfFolder, 
+<a class="el" href="../../db/d60/class_describe.html#aa71e75544f67f60e7739413aae34ad02a324118a6721dd6b8a9b9f4e327df2bf5">TypeDescribe::Input</a> = IDI_EDescribeOfInput, 
+<a class="el" href="../../db/d60/class_describe.html#aa71e75544f67f60e7739413aae34ad02ae55f75a29310d7b60f7ac1d390c8ae42">TypeDescribe::Module</a> = IDI_EDescribeOfModul, 
+<br />
+&#160;&#160;<a class="el" href="../../db/d60/class_describe.html#aa71e75544f67f60e7739413aae34ad02a83f499a540b1323009c200d6f8cc9396">TypeDescribe::Parameter</a> = IDI_EDescribeOfParameter, 
+<a class="el" href="../../db/d60/class_describe.html#aa71e75544f67f60e7739413aae34ad02a394a844cc3d6d99eb45b4e71afde2c99">TypeDescribe::Station</a> = IDI_EDescribeOfStation, 
+<a class="el" href="../../db/d60/class_describe.html#aa71e75544f67f60e7739413aae34ad02a84ddb07d15cabbefecb37c79122a197c">TypeDescribe::UserGroup</a> = IDI_EDescribeOfGroupUser, 
+<a class="el" href="../../db/d60/class_describe.html#aa71e75544f67f60e7739413aae34ad02a916c74f40cb3a7d245c9f9eefde044db">TypeDescribe::UnknownType</a> = IDI_ENonDescribe
+<br />
+ }</td></tr>
+<tr class="separator:aa71e75544f67f60e7739413aae34ad02 inherit pub_types_class_describe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Открытые члены</h2></td></tr>
+<tr class="memitem:a35fe78035aebc34c2afee7bdd560690a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d97/class_describe_input.html#a35fe78035aebc34c2afee7bdd560690a">Q_ENUM</a> (<a class="el" href="../../d9/d97/class_describe_input.html#abf2f13ba38363a56af7d30a7641c5a35">Type</a>)</td></tr>
+<tr class="separator:a35fe78035aebc34c2afee7bdd560690a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae7201e083817f2ce219a970eec2696c7"><td class="memItemLeft" align="right" valign="top">CDescribeOfInput *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d97/class_describe_input.html#ae7201e083817f2ce219a970eec2696c7">ptr</a> () const</td></tr>
+<tr class="separator:ae7201e083817f2ce219a970eec2696c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9876c869ab8ffb670e5021a24a2a680d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d81/class_g_i_d___input.html">GID_Input</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d97/class_describe_input.html#a9876c869ab8ffb670e5021a24a2a680d">gid</a> () const</td></tr>
+<tr class="separator:a9876c869ab8ffb670e5021a24a2a680d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace793e106dde47df96971917dc5f8a65"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d97/class_describe_input.html#ace793e106dde47df96971917dc5f8a65">setGid</a> (const <a class="el" href="../../d0/d81/class_g_i_d___input.html">GID_Input</a> &amp;<a class="el" href="../../d9/d97/class_describe_input.html#adf2e3ab20fab7be09493cb55fad456de">gid</a>)</td></tr>
+<tr class="separator:ace793e106dde47df96971917dc5f8a65"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa9eacba599920bab0795c787959aeaf2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dc/d80/class_g_i_d___par.html">GID_Par</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d97/class_describe_input.html#aa9eacba599920bab0795c787959aeaf2">gidParameter</a> () const</td></tr>
+<tr class="separator:aa9eacba599920bab0795c787959aeaf2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5522ad3a2c4e697eabdd22cc4aee62f2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d97/class_describe_input.html#a5522ad3a2c4e697eabdd22cc4aee62f2">setGidParameter</a> (const <a class="el" href="../../dc/d80/class_g_i_d___par.html">GID_Par</a> &amp;<a class="el" href="../../d9/d97/class_describe_input.html#adf2e3ab20fab7be09493cb55fad456de">gid</a>)</td></tr>
+<tr class="separator:a5522ad3a2c4e697eabdd22cc4aee62f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7293a9dee7b3081e32cb311dccb6ca25"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d97/class_describe_input.html#a7293a9dee7b3081e32cb311dccb6ca25">setType</a> (const <a class="el" href="../../d9/d97/class_describe_input.html#abf2f13ba38363a56af7d30a7641c5a35">Type</a> &amp;<a class="el" href="../../d9/d97/class_describe_input.html#a84c234c3cb73f3615ae4156fe61e0d4a">type</a>)</td></tr>
+<tr class="separator:a7293a9dee7b3081e32cb311dccb6ca25"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0610d68888d20f458ffeb0b52b8eb23f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d97/class_describe_input.html#abf2f13ba38363a56af7d30a7641c5a35">Type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d97/class_describe_input.html#a0610d68888d20f458ffeb0b52b8eb23f">type</a> () const</td></tr>
+<tr class="separator:a0610d68888d20f458ffeb0b52b8eb23f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab484a6ac359704c778e5fbfebf8b9400"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d97/class_describe_input.html#ab484a6ac359704c778e5fbfebf8b9400">typeString</a> () const</td></tr>
+<tr class="separator:ab484a6ac359704c778e5fbfebf8b9400"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad564b5dc73285afa4f6b778d40dbbac3"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d97/class_describe_input.html#ad564b5dc73285afa4f6b778d40dbbac3">typeStringTr</a> () const</td></tr>
+<tr class="separator:ad564b5dc73285afa4f6b778d40dbbac3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9c43532b815d8347d8a1c15786449ec0"><td class="memItemLeft" align="right" valign="top">QPixmap&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d97/class_describe_input.html#a9c43532b815d8347d8a1c15786449ec0">typeIcon</a> () const</td></tr>
+<tr class="separator:a9c43532b815d8347d8a1c15786449ec0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6bbdc734f35e09972ee35518c5cf72c6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d97/class_describe_input.html#a6bbdc734f35e09972ee35518c5cf72c6">isAnalogInput</a> () const</td></tr>
+<tr class="separator:a6bbdc734f35e09972ee35518c5cf72c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae43ad3756f584b48337869a2c95ade3a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d97/class_describe_input.html#ae43ad3756f584b48337869a2c95ade3a">isDiscreteInput</a> () const</td></tr>
+<tr class="separator:ae43ad3756f584b48337869a2c95ade3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f8d18b11a631e68e6cae69eca120369"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d97/class_describe_input.html#a3f8d18b11a631e68e6cae69eca120369">isStringInput</a> () const</td></tr>
+<tr class="separator:a3f8d18b11a631e68e6cae69eca120369"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae87dee82d4817603e5f00f7bf38c3727"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d97/class_describe_input.html#ae87dee82d4817603e5f00f7bf38c3727">isAnalogOutput</a> () const</td></tr>
+<tr class="separator:ae87dee82d4817603e5f00f7bf38c3727"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a013bce9652cab5e86bba546f4fa0572f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d97/class_describe_input.html#a013bce9652cab5e86bba546f4fa0572f">isDiscreteOutput</a> () const</td></tr>
+<tr class="separator:a013bce9652cab5e86bba546f4fa0572f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a424a5f1b94819f0447c83fc6edff8f4d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d97/class_describe_input.html#a424a5f1b94819f0447c83fc6edff8f4d">isAnalog</a> () const</td></tr>
+<tr class="separator:a424a5f1b94819f0447c83fc6edff8f4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a959b17213d21eea4409b5de577f419db"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d97/class_describe_input.html#a959b17213d21eea4409b5de577f419db">isDiscrete</a> () const</td></tr>
+<tr class="separator:a959b17213d21eea4409b5de577f419db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acd20b1a557276529cca7277a0ce99adf"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d97/class_describe_input.html#acd20b1a557276529cca7277a0ce99adf">isString</a> () const</td></tr>
+<tr class="separator:acd20b1a557276529cca7277a0ce99adf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e694649a98ab88ce91715aa9951ef50"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d97/class_describe_input.html#a8e694649a98ab88ce91715aa9951ef50">isInput</a> () const</td></tr>
+<tr class="separator:a8e694649a98ab88ce91715aa9951ef50"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c28f7ac4d5be7aaa2941911edc17d38"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d97/class_describe_input.html#a0c28f7ac4d5be7aaa2941911edc17d38">isOutput</a> () const</td></tr>
+<tr class="separator:a0c28f7ac4d5be7aaa2941911edc17d38"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7905d77fbab54f16312ed1bc60eae92d"><td class="memItemLeft" align="right" valign="top">LPCTSTR&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d97/class_describe_input.html#a7905d77fbab54f16312ed1bc60eae92d">rawName</a> () const</td></tr>
+<tr class="separator:a7905d77fbab54f16312ed1bc60eae92d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa5a50c2f91ce8cdd7ecd75de47ff9138"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d97/class_describe_input.html#aa5a50c2f91ce8cdd7ecd75de47ff9138">name</a> () const</td></tr>
+<tr class="separator:aa5a50c2f91ce8cdd7ecd75de47ff9138"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a86b4ffc5201ff3f21e38fc203896dd6d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d97/class_describe_input.html#a86b4ffc5201ff3f21e38fc203896dd6d">setName</a> (const QString &amp;<a class="el" href="../../d9/d97/class_describe_input.html#a09e31f85d2d6b8578be57325c9240176">name</a>)</td></tr>
+<tr class="separator:a86b4ffc5201ff3f21e38fc203896dd6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a40c20ed64400bb58c3c237e3d4bf2e83"><td class="memItemLeft" align="right" valign="top">LPCTSTR&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d97/class_describe_input.html#a40c20ed64400bb58c3c237e3d4bf2e83">rawExtAddress</a> () const</td></tr>
+<tr class="separator:a40c20ed64400bb58c3c237e3d4bf2e83"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeede0f038d0b71e59e845e39e3bdbecc"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d97/class_describe_input.html#aeede0f038d0b71e59e845e39e3bdbecc">extAddress</a> () const</td></tr>
+<tr class="separator:aeede0f038d0b71e59e845e39e3bdbecc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4feaf08bcf92942fa84cdde45da078da"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d97/class_describe_input.html#a4feaf08bcf92942fa84cdde45da078da">setExtAddress</a> (const QString &amp;<a class="el" href="../../d9/d97/class_describe_input.html#a2e2c19b50ff92d924693de4098afd82b">extAddress</a>)</td></tr>
+<tr class="separator:a4feaf08bcf92942fa84cdde45da078da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b729da16311897052de062fd9e74ee3"><td class="memItemLeft" align="right" valign="top">LPCTSTR&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d97/class_describe_input.html#a5b729da16311897052de062fd9e74ee3">rawExtType</a> () const</td></tr>
+<tr class="separator:a5b729da16311897052de062fd9e74ee3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef9cb2ef41f9874853f6c7d6f1c3bd6a"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d97/class_describe_input.html#aef9cb2ef41f9874853f6c7d6f1c3bd6a">extType</a> () const</td></tr>
+<tr class="separator:aef9cb2ef41f9874853f6c7d6f1c3bd6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad9e7ec14868369625d0ada1748690419"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d97/class_describe_input.html#ad9e7ec14868369625d0ada1748690419">setExtType</a> (const QString &amp;<a class="el" href="../../d9/d97/class_describe_input.html#ab918f4e27a4400952f70209775df5d7c">extType</a>)</td></tr>
+<tr class="separator:ad9e7ec14868369625d0ada1748690419"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0db03e2f664e0673dfaf3f6aaba8ef47"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dc/dac/class_io_external_data.html">IoExternalData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d97/class_describe_input.html#a0db03e2f664e0673dfaf3f6aaba8ef47">ioExternalData</a> () const</td></tr>
+<tr class="separator:a0db03e2f664e0673dfaf3f6aaba8ef47"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a78421519e7543d2534b15b39ad3d11f4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d97/class_describe_input.html#a78421519e7543d2534b15b39ad3d11f4">setIoExternalData</a> (const <a class="el" href="../../dc/dac/class_io_external_data.html">IoExternalData</a> &amp;ioExtData)</td></tr>
+<tr class="separator:a78421519e7543d2534b15b39ad3d11f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abe24de8dac03e8f61e2fade8ad4d56ac"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d97/class_describe_input.html#abe24de8dac03e8f61e2fade8ad4d56ac">lockStream</a> () const</td></tr>
+<tr class="separator:abe24de8dac03e8f61e2fade8ad4d56ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ff121a8252bec9456e1c7ffb2aa0e2f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d97/class_describe_input.html#a0ff121a8252bec9456e1c7ffb2aa0e2f">setLockStream</a> (bool b)</td></tr>
+<tr class="separator:a0ff121a8252bec9456e1c7ffb2aa0e2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a88ab8fea31a0391b5555eca5d18e33"><td class="memItemLeft" align="right" valign="top">ERefusal&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d97/class_describe_input.html#a4a88ab8fea31a0391b5555eca5d18e33">typeRefusal</a> () const</td></tr>
+<tr class="separator:a4a88ab8fea31a0391b5555eca5d18e33"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a88e6b2b725fd29ede754a9c49e7306ee"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d97/class_describe_input.html#a88e6b2b725fd29ede754a9c49e7306ee">setTypeRefusal</a> (ERefusal refusal)</td></tr>
+<tr class="separator:a88e6b2b725fd29ede754a9c49e7306ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a355566caa9ff71c382e9bac156f75159"><td class="memItemLeft" align="right" valign="top">EAction&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d97/class_describe_input.html#a355566caa9ff71c382e9bac156f75159">typeAction</a> () const</td></tr>
+<tr class="separator:a355566caa9ff71c382e9bac156f75159"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a675efe0542a57865e8afb668c920bb17"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d97/class_describe_input.html#a675efe0542a57865e8afb668c920bb17">setTypeAction</a> (EAction action)</td></tr>
+<tr class="separator:a675efe0542a57865e8afb668c920bb17"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad74fd8e57b65dce28e6f413dadcc4106"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d97/class_describe_input.html#ad74fd8e57b65dce28e6f413dadcc4106">deadbands</a> () const</td></tr>
+<tr class="separator:ad74fd8e57b65dce28e6f413dadcc4106"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0cae19e316d5bf76058c82235e2b76a5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d97/class_describe_input.html#a0cae19e316d5bf76058c82235e2b76a5">setDeadbands</a> (const float &amp;<a class="el" href="../../d9/d97/class_describe_input.html#aef8bd4d6309d131bcd40cb499c2df0f8">deadbands</a>)</td></tr>
+<tr class="separator:a0cae19e316d5bf76058c82235e2b76a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a67299d6fd0e66b18a9463f257c5dfdd9"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d97/class_describe_input.html#a67299d6fd0e66b18a9463f257c5dfdd9">minValue</a> () const</td></tr>
+<tr class="separator:a67299d6fd0e66b18a9463f257c5dfdd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a94a83a48d61da803abe7e3056a8388c1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d97/class_describe_input.html#a94a83a48d61da803abe7e3056a8388c1">setMinValue</a> (const float &amp;v)</td></tr>
+<tr class="separator:a94a83a48d61da803abe7e3056a8388c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a68c9b15a09ba3d86d9a98d6c26d21fd1"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d97/class_describe_input.html#a68c9b15a09ba3d86d9a98d6c26d21fd1">maxValue</a> () const</td></tr>
+<tr class="separator:a68c9b15a09ba3d86d9a98d6c26d21fd1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a654527cc7905a9a49505ff869fc5d7c7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d97/class_describe_input.html#a654527cc7905a9a49505ff869fc5d7c7">setMaxValue</a> (const float &amp;v)</td></tr>
+<tr class="separator:a654527cc7905a9a49505ff869fc5d7c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a28b9cd57bd9b8fb6ae04574220eed541"><td class="memItemLeft" align="right" valign="top">quint32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d97/class_describe_input.html#a28b9cd57bd9b8fb6ae04574220eed541">periodGeneration</a> () const</td></tr>
+<tr class="separator:a28b9cd57bd9b8fb6ae04574220eed541"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abc6bbc9b60bd118a82a5adebd0f0ac6d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d97/class_describe_input.html#abc6bbc9b60bd118a82a5adebd0f0ac6d">setPeriodGeneration</a> (const quint32 &amp;period)</td></tr>
+<tr class="separator:abc6bbc9b60bd118a82a5adebd0f0ac6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab36d8898fe0620241b74451284e546be"><td class="memItemLeft" align="right" valign="top">LPCTSTR&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d97/class_describe_input.html#ab36d8898fe0620241b74451284e546be">rawOptions</a> () const</td></tr>
+<tr class="separator:ab36d8898fe0620241b74451284e546be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af9e1b2ed121e35be936dc34841a1d42f"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d97/class_describe_input.html#af9e1b2ed121e35be936dc34841a1d42f">options</a> () const</td></tr>
+<tr class="separator:af9e1b2ed121e35be936dc34841a1d42f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad97bf7ae092b3a8e6724fda6c8300f32"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d97/class_describe_input.html#ad97bf7ae092b3a8e6724fda6c8300f32">setOptions</a> (const QString &amp;<a class="el" href="../../d9/d97/class_describe_input.html#ab26f2b8a0446c33b32a6e8f73622c50d">options</a>)</td></tr>
+<tr class="separator:ad97bf7ae092b3a8e6724fda6c8300f32"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a13564777f3148b2992e1823e5a5fe80a"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d97/class_describe_input.html#a13564777f3148b2992e1823e5a5fe80a">reasonNotWorking</a> () const</td></tr>
+<tr class="separator:a13564777f3148b2992e1823e5a5fe80a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ee3c3ac9147ec78c66628f530f17c85"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d97/class_describe_input.html">DescribeInput</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d97/class_describe_input.html#a2ee3c3ac9147ec78c66628f530f17c85">operator=</a> (const <a class="el" href="../../d9/d97/class_describe_input.html">DescribeInput</a> &amp;src)</td></tr>
+<tr class="separator:a2ee3c3ac9147ec78c66628f530f17c85"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a235bc7f0815cf392963090e9d068dc8e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d97/class_describe_input.html">DescribeInput</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d97/class_describe_input.html#a235bc7f0815cf392963090e9d068dc8e">operator=</a> (const <a class="el" href="../../db/d60/class_describe.html">Describe</a> &amp;src)</td></tr>
+<tr class="separator:a235bc7f0815cf392963090e9d068dc8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb27da902f79603892ffa006aeafc5d7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d97/class_describe_input.html">DescribeInput</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d97/class_describe_input.html#abb27da902f79603892ffa006aeafc5d7">operator=</a> (CDescribeOfInput *src)</td></tr>
+<tr class="separator:abb27da902f79603892ffa006aeafc5d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aebc8a4c7e0922a110bf92424a4187fd6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d97/class_describe_input.html">DescribeInput</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d97/class_describe_input.html#aebc8a4c7e0922a110bf92424a4187fd6">operator=</a> (CDescribe *src)</td></tr>
+<tr class="separator:aebc8a4c7e0922a110bf92424a4187fd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad9c42e6e2994b89097c7d3905b6abd27"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d97/class_describe_input.html#ad9c42e6e2994b89097c7d3905b6abd27">DescribeInput</a> ()</td></tr>
+<tr class="separator:ad9c42e6e2994b89097c7d3905b6abd27"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad47c03b5c758514a9bf1e59813b73240"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d97/class_describe_input.html#ad47c03b5c758514a9bf1e59813b73240">DescribeInput</a> (const <a class="el" href="../../d9/d97/class_describe_input.html">DescribeInput</a> &amp;src)</td></tr>
+<tr class="separator:ad47c03b5c758514a9bf1e59813b73240"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acd4b4264b4269cf65e1b1a02bcfb9e4e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d97/class_describe_input.html#acd4b4264b4269cf65e1b1a02bcfb9e4e">DescribeInput</a> (const <a class="el" href="../../db/d60/class_describe.html">Describe</a> &amp;src)</td></tr>
+<tr class="separator:acd4b4264b4269cf65e1b1a02bcfb9e4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e0911e945dbe3fcbc15a42722a85d97"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d97/class_describe_input.html#a2e0911e945dbe3fcbc15a42722a85d97">DescribeInput</a> (CDescribe *src)</td></tr>
+<tr class="separator:a2e0911e945dbe3fcbc15a42722a85d97"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a592edcaa9ddb87c9951765cea78612ef"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d97/class_describe_input.html#a592edcaa9ddb87c9951765cea78612ef">DescribeInput</a> (CDescribeOfInput *src)</td></tr>
+<tr class="separator:a592edcaa9ddb87c9951765cea78612ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa855704dcb418179847c8312bd7b1dfd"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d97/class_describe_input.html#aa855704dcb418179847c8312bd7b1dfd">DescribeInput</a> (const <a class="el" href="../../d0/d81/class_g_i_d___input.html">GID_Input</a> &amp;<a class="el" href="../../d9/d97/class_describe_input.html#adf2e3ab20fab7be09493cb55fad456de">gid</a>)</td></tr>
+<tr class="separator:aa855704dcb418179847c8312bd7b1dfd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a75cf8702b296714475efac4f23bbb4e6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d97/class_describe_input.html#a75cf8702b296714475efac4f23bbb4e6">~DescribeInput</a> ()</td></tr>
+<tr class="separator:a75cf8702b296714475efac4f23bbb4e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_class_describe"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_describe')"><img src="../../closed.png" alt="-"/>&#160;Открытые члены унаследованные от <a class="el" href="../../db/d60/class_describe.html">Describe</a></td></tr>
+<tr class="memitem:ad43080bdde85c5cd130e99a2668bf74b inherit pub_methods_class_describe"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d60/class_describe.html#ad43080bdde85c5cd130e99a2668bf74b">update</a> ()</td></tr>
+<tr class="separator:ad43080bdde85c5cd130e99a2668bf74b inherit pub_methods_class_describe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af37c1d46e14b526f909255926433810c inherit pub_methods_class_describe"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d60/class_describe.html#af37c1d46e14b526f909255926433810c">isNull</a> () const</td></tr>
+<tr class="separator:af37c1d46e14b526f909255926433810c inherit pub_methods_class_describe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a32253183978a8ae388e25d6b0a61bf7c inherit pub_methods_class_describe"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d60/class_describe.html#a32253183978a8ae388e25d6b0a61bf7c">isValid</a> () const</td></tr>
+<tr class="separator:a32253183978a8ae388e25d6b0a61bf7c inherit pub_methods_class_describe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac05d6b918fcf90986e15aba0cc6b017b inherit pub_methods_class_describe"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d60/class_describe.html#ac05d6b918fcf90986e15aba0cc6b017b">operator bool</a> () const</td></tr>
+<tr class="separator:ac05d6b918fcf90986e15aba0cc6b017b inherit pub_methods_class_describe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac1c86826d1c00111fb574450c717dcd5 inherit pub_methods_class_describe"><td class="memItemLeft" align="right" valign="top">CDescribe *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d60/class_describe.html#ac1c86826d1c00111fb574450c717dcd5">ptr</a> () const</td></tr>
+<tr class="separator:ac1c86826d1c00111fb574450c717dcd5 inherit pub_methods_class_describe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a46354297a3724b29ed15618b14f6c1c7 inherit pub_methods_class_describe"><td class="memItemLeft" align="right" valign="top">UINT&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d60/class_describe.html#a46354297a3724b29ed15618b14f6c1c7">idRecord</a> () const</td></tr>
+<tr class="separator:a46354297a3724b29ed15618b14f6c1c7 inherit pub_methods_class_describe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec08b67aa89187d504a99397110c4a9a inherit pub_methods_class_describe"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d60/class_describe.html#aec08b67aa89187d504a99397110c4a9a">clearIdRecord</a> ()</td></tr>
+<tr class="separator:aec08b67aa89187d504a99397110c4a9a inherit pub_methods_class_describe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a15f2cca7a90514dad604a5f39692c720 inherit pub_methods_class_describe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d7a/class_g_i_d___list.html">GID_List</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d60/class_describe.html#a15f2cca7a90514dad604a5f39692c720">gidListOwner</a> () const</td></tr>
+<tr class="separator:a15f2cca7a90514dad604a5f39692c720 inherit pub_methods_class_describe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aecc83648e99d036413b3c5ac8ed6d627 inherit pub_methods_class_describe"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d60/class_describe.html#aecc83648e99d036413b3c5ac8ed6d627">setGidListOwner</a> (const <a class="el" href="../../db/d7a/class_g_i_d___list.html">GID_List</a> &amp;gid)</td></tr>
+<tr class="separator:aecc83648e99d036413b3c5ac8ed6d627 inherit pub_methods_class_describe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad9f9b9e6dd733ad7d73e239b9a3417b1 inherit pub_methods_class_describe"><td class="memItemLeft" align="right" valign="top">CStatusRecord&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d60/class_describe.html#ad9f9b9e6dd733ad7d73e239b9a3417b1">status</a> () const</td></tr>
+<tr class="separator:ad9f9b9e6dd733ad7d73e239b9a3417b1 inherit pub_methods_class_describe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7b3e8770088af6b937849c6791059ef8 inherit pub_methods_class_describe"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d60/class_describe.html#a7b3e8770088af6b937849c6791059ef8">isWorking</a> () const</td></tr>
+<tr class="separator:a7b3e8770088af6b937849c6791059ef8 inherit pub_methods_class_describe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af37787caa6338c53ecf0b166165dc13a inherit pub_methods_class_describe"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d60/class_describe.html#af37787caa6338c53ecf0b166165dc13a">setWorking</a> (bool b)</td></tr>
+<tr class="separator:af37787caa6338c53ecf0b166165dc13a inherit pub_methods_class_describe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a43297967ab4a39ef29663a4c1ca05452 inherit pub_methods_class_describe"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d60/class_describe.html#a43297967ab4a39ef29663a4c1ca05452">resetWorking</a> ()</td></tr>
+<tr class="separator:a43297967ab4a39ef29663a4c1ca05452 inherit pub_methods_class_describe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae6fd442253242cb4edfa6daf8643e63e inherit pub_methods_class_describe"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d60/class_describe.html#ae6fd442253242cb4edfa6daf8643e63e">isEnableWork</a> () const</td></tr>
+<tr class="separator:ae6fd442253242cb4edfa6daf8643e63e inherit pub_methods_class_describe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afabc9274fc64b327b772448d1a310a07 inherit pub_methods_class_describe"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d60/class_describe.html#afabc9274fc64b327b772448d1a310a07">setEnableWork</a> (bool b)</td></tr>
+<tr class="separator:afabc9274fc64b327b772448d1a310a07 inherit pub_methods_class_describe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b54a08067f214fc5d0e45bf865d34ac inherit pub_methods_class_describe"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d60/class_describe.html#a4b54a08067f214fc5d0e45bf865d34ac">resetEnableWork</a> ()</td></tr>
+<tr class="separator:a4b54a08067f214fc5d0e45bf865d34ac inherit pub_methods_class_describe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7e9884734f359612051ea9458048307 inherit pub_methods_class_describe"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d60/class_describe.html#ac7e9884734f359612051ea9458048307">isError</a> () const</td></tr>
+<tr class="separator:ac7e9884734f359612051ea9458048307 inherit pub_methods_class_describe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adddf5df27c62fb0645b99b48b40ae423 inherit pub_methods_class_describe"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d60/class_describe.html#adddf5df27c62fb0645b99b48b40ae423">setError</a> (bool b)</td></tr>
+<tr class="separator:adddf5df27c62fb0645b99b48b40ae423 inherit pub_methods_class_describe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac42d2dcb0cb13c84dfee3f3c34fcd449 inherit pub_methods_class_describe"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d60/class_describe.html#ac42d2dcb0cb13c84dfee3f3c34fcd449">resetError</a> ()</td></tr>
+<tr class="separator:ac42d2dcb0cb13c84dfee3f3c34fcd449 inherit pub_methods_class_describe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc8db5c4882057449a13b5a752e1b32c inherit pub_methods_class_describe"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d60/class_describe.html#adc8db5c4882057449a13b5a752e1b32c">isSpare</a> () const</td></tr>
+<tr class="separator:adc8db5c4882057449a13b5a752e1b32c inherit pub_methods_class_describe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9252d113a106a41180f09b92de5a8439 inherit pub_methods_class_describe"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d60/class_describe.html#a9252d113a106a41180f09b92de5a8439">setSpare</a> (bool b)</td></tr>
+<tr class="separator:a9252d113a106a41180f09b92de5a8439 inherit pub_methods_class_describe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5d624592f8cc59049ca802c8575295d1 inherit pub_methods_class_describe"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d60/class_describe.html#a5d624592f8cc59049ca802c8575295d1">resetSpare</a> ()</td></tr>
+<tr class="separator:a5d624592f8cc59049ca802c8575295d1 inherit pub_methods_class_describe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a37039bce5c4d090e10feee0fc7e8c1dd inherit pub_methods_class_describe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d60/class_describe.html#aa71e75544f67f60e7739413aae34ad02">Describe::TypeDescribe</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d60/class_describe.html#a37039bce5c4d090e10feee0fc7e8c1dd">typeDescribe</a> () const</td></tr>
+<tr class="separator:a37039bce5c4d090e10feee0fc7e8c1dd inherit pub_methods_class_describe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6da285d5c2c5431734380e86f8ffd244 inherit pub_methods_class_describe"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d60/class_describe.html#a6da285d5c2c5431734380e86f8ffd244">typeDescribeString</a> () const</td></tr>
+<tr class="separator:a6da285d5c2c5431734380e86f8ffd244 inherit pub_methods_class_describe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5128ee2f17c7a4fbbe4a8ff34e3cd419 inherit pub_methods_class_describe"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d60/class_describe.html#a5128ee2f17c7a4fbbe4a8ff34e3cd419">isDescribeFolder</a> () const</td></tr>
+<tr class="separator:a5128ee2f17c7a4fbbe4a8ff34e3cd419 inherit pub_methods_class_describe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a04fb4f0cfae9955bb1cce9490b11905d inherit pub_methods_class_describe"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d60/class_describe.html#a04fb4f0cfae9955bb1cce9490b11905d">isDescribeComplex</a> () const</td></tr>
+<tr class="separator:a04fb4f0cfae9955bb1cce9490b11905d inherit pub_methods_class_describe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeeb7be8891bf7708659e679b4798bc19 inherit pub_methods_class_describe"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d60/class_describe.html#aeeb7be8891bf7708659e679b4798bc19">isDescribeModule</a> () const</td></tr>
+<tr class="separator:aeeb7be8891bf7708659e679b4798bc19 inherit pub_methods_class_describe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a510588bc0c1be677cbba78e62ea32933 inherit pub_methods_class_describe"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d60/class_describe.html#a510588bc0c1be677cbba78e62ea32933">isDescribeInput</a> () const</td></tr>
+<tr class="separator:a510588bc0c1be677cbba78e62ea32933 inherit pub_methods_class_describe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab50536aff27d39031fdd576da7d60c12 inherit pub_methods_class_describe"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d60/class_describe.html#ab50536aff27d39031fdd576da7d60c12">isDescribeParameter</a> () const</td></tr>
+<tr class="separator:ab50536aff27d39031fdd576da7d60c12 inherit pub_methods_class_describe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa2c44dc986b796dbfe0a4529ce5446a inherit pub_methods_class_describe"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d60/class_describe.html#afa2c44dc986b796dbfe0a4529ce5446a">isDescribeStation</a> () const</td></tr>
+<tr class="separator:afa2c44dc986b796dbfe0a4529ce5446a inherit pub_methods_class_describe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a50fbb5008af69c461aba9260c71ca590 inherit pub_methods_class_describe"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d60/class_describe.html#a50fbb5008af69c461aba9260c71ca590">isDescribeConnection</a> () const</td></tr>
+<tr class="separator:a50fbb5008af69c461aba9260c71ca590 inherit pub_methods_class_describe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a54448c91348ae9337b1f159443afb7aa inherit pub_methods_class_describe"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d60/class_describe.html#a54448c91348ae9337b1f159443afb7aa">isDescribeArchive</a> () const</td></tr>
+<tr class="separator:a54448c91348ae9337b1f159443afb7aa inherit pub_methods_class_describe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7fb41de912cce6c2718014b6f5abc11f inherit pub_methods_class_describe"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d60/class_describe.html#a7fb41de912cce6c2718014b6f5abc11f">isDescribeUserGroup</a> () const</td></tr>
+<tr class="separator:a7fb41de912cce6c2718014b6f5abc11f inherit pub_methods_class_describe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a72ce252e1cd834d9db2dba02342e9543 inherit pub_methods_class_describe"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d60/class_describe.html#a72ce252e1cd834d9db2dba02342e9543">isDescribeDevice</a> () const</td></tr>
+<tr class="separator:a72ce252e1cd834d9db2dba02342e9543 inherit pub_methods_class_describe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add45d4d666577ed5c26f80fcc48b9adb inherit pub_methods_class_describe"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d60/class_describe.html#add45d4d666577ed5c26f80fcc48b9adb">isDescribeAlgorithm</a> () const</td></tr>
+<tr class="separator:add45d4d666577ed5c26f80fcc48b9adb inherit pub_methods_class_describe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac8ed37bbd4516a20c02fae349c523d4a inherit pub_methods_class_describe"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d60/class_describe.html#ac8ed37bbd4516a20c02fae349c523d4a">reasonNotWorking</a> () const</td></tr>
+<tr class="separator:ac8ed37bbd4516a20c02fae349c523d4a inherit pub_methods_class_describe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4cdf6d3c8e44e7994bff1d431d7a1796 inherit pub_methods_class_describe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d60/class_describe.html">Describe</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d60/class_describe.html#a4cdf6d3c8e44e7994bff1d431d7a1796">operator=</a> (const <a class="el" href="../../db/d60/class_describe.html">Describe</a> &amp;src)</td></tr>
+<tr class="separator:a4cdf6d3c8e44e7994bff1d431d7a1796 inherit pub_methods_class_describe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa37b453c54c9c1f6ece9bff3a73b4c51 inherit pub_methods_class_describe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d60/class_describe.html">Describe</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d60/class_describe.html#aa37b453c54c9c1f6ece9bff3a73b4c51">operator=</a> (CDescribe *src)</td></tr>
+<tr class="separator:aa37b453c54c9c1f6ece9bff3a73b4c51 inherit pub_methods_class_describe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a62c2fcaa9cdce32a739032937f057af1 inherit pub_methods_class_describe"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d60/class_describe.html#a62c2fcaa9cdce32a739032937f057af1">operator==</a> (const <a class="el" href="../../db/d60/class_describe.html">Describe</a> &amp;src) const</td></tr>
+<tr class="separator:a62c2fcaa9cdce32a739032937f057af1 inherit pub_methods_class_describe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af9be6ba139d6c230fe4f73f003e0f60a inherit pub_methods_class_describe"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d60/class_describe.html#af9be6ba139d6c230fe4f73f003e0f60a">operator!=</a> (const <a class="el" href="../../db/d60/class_describe.html">Describe</a> &amp;src) const</td></tr>
+<tr class="separator:af9be6ba139d6c230fe4f73f003e0f60a inherit pub_methods_class_describe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6854bad9a7ac4b7877d4a89204b4130a inherit pub_methods_class_describe"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d60/class_describe.html#a6854bad9a7ac4b7877d4a89204b4130a">Describe</a> (CDescribe *src=nullptr)</td></tr>
+<tr class="separator:a6854bad9a7ac4b7877d4a89204b4130a inherit pub_methods_class_describe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6a26346b99ba93ac9c03882625646641 inherit pub_methods_class_describe"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d60/class_describe.html#a6a26346b99ba93ac9c03882625646641">Describe</a> (const <a class="el" href="../../db/d60/class_describe.html">Describe</a> &amp;src)</td></tr>
+<tr class="separator:a6a26346b99ba93ac9c03882625646641 inherit pub_methods_class_describe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef8daf8156e367a7a6f41c8de5718862 inherit pub_methods_class_describe"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d60/class_describe.html#aef8daf8156e367a7a6f41c8de5718862">~Describe</a> ()</td></tr>
+<tr class="separator:aef8daf8156e367a7a6f41c8de5718862 inherit pub_methods_class_describe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Открытые статические члены</h2></td></tr>
+<tr class="memitem:aa323ee2736c40aaacfce9f7dd8879aab"><td class="memItemLeft" align="right" valign="top">static QStringList&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d97/class_describe_input.html#aa323ee2736c40aaacfce9f7dd8879aab">fields</a> ()</td></tr>
+<tr class="separator:aa323ee2736c40aaacfce9f7dd8879aab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3baddfd0a4b224ee4697bec0960c1cbc"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d9/d97/class_describe_input.html">DescribeInput</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d97/class_describe_input.html#a3baddfd0a4b224ee4697bec0960c1cbc">find</a> (const <a class="el" href="../../d0/d81/class_g_i_d___input.html">GID_Input</a> &amp;<a class="el" href="../../d9/d97/class_describe_input.html#adf2e3ab20fab7be09493cb55fad456de">gid</a>)</td></tr>
+<tr class="separator:a3baddfd0a4b224ee4697bec0960c1cbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a654ced95abb19cf80a147dcc0df7eee1"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../db/d60/class_describe.html#aa71e75544f67f60e7739413aae34ad02">Describe::TypeDescribe</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d97/class_describe_input.html#a654ced95abb19cf80a147dcc0df7eee1">typeDescribe</a> ()</td></tr>
+<tr class="separator:a654ced95abb19cf80a147dcc0df7eee1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac9fa9ee49ede91560858d20692630ff8"><td class="memItemLeft" align="right" valign="top">static QList&lt; <a class="el" href="../../d9/d97/class_describe_input.html#abf2f13ba38363a56af7d30a7641c5a35">DescribeInput::Type</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d97/class_describe_input.html#ac9fa9ee49ede91560858d20692630ff8">types</a> ()</td></tr>
+<tr class="separator:ac9fa9ee49ede91560858d20692630ff8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a45e890b28fe2fe8f015b2ad4968c5a33"><td class="memItemLeft" align="right" valign="top">static QStringList&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d97/class_describe_input.html#a45e890b28fe2fe8f015b2ad4968c5a33">typesString</a> ()</td></tr>
+<tr class="separator:a45e890b28fe2fe8f015b2ad4968c5a33"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1945bbe1d8746823dfb4ede6689aea9d"><td class="memItemLeft" align="right" valign="top">static QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d97/class_describe_input.html#a1945bbe1d8746823dfb4ede6689aea9d">typeString</a> (const <a class="el" href="../../d9/d97/class_describe_input.html#abf2f13ba38363a56af7d30a7641c5a35">DescribeInput::Type</a> &amp;<a class="el" href="../../d9/d97/class_describe_input.html#a84c234c3cb73f3615ae4156fe61e0d4a">type</a>)</td></tr>
+<tr class="separator:a1945bbe1d8746823dfb4ede6689aea9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a649cc0107e53b09934a6ad272c5d24ac"><td class="memItemLeft" align="right" valign="top">static QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d97/class_describe_input.html#a649cc0107e53b09934a6ad272c5d24ac">typeStringTr</a> (const <a class="el" href="../../d9/d97/class_describe_input.html#abf2f13ba38363a56af7d30a7641c5a35">DescribeInput::Type</a> &amp;<a class="el" href="../../d9/d97/class_describe_input.html#a84c234c3cb73f3615ae4156fe61e0d4a">type</a>)</td></tr>
+<tr class="separator:a649cc0107e53b09934a6ad272c5d24ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa78f28f0352d4cb6dea875a5e5f2e570"><td class="memItemLeft" align="right" valign="top">static QPixmap&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d97/class_describe_input.html#aa78f28f0352d4cb6dea875a5e5f2e570">typeIcon</a> (const <a class="el" href="../../d9/d97/class_describe_input.html#abf2f13ba38363a56af7d30a7641c5a35">DescribeInput::Type</a> &amp;<a class="el" href="../../d9/d97/class_describe_input.html#a84c234c3cb73f3615ae4156fe61e0d4a">type</a>)</td></tr>
+<tr class="separator:aa78f28f0352d4cb6dea875a5e5f2e570"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a493e0fcc2c96ed1bbccd17d3302c8eef"><td class="memItemLeft" align="right" valign="top">static const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d97/class_describe_input.html#a493e0fcc2c96ed1bbccd17d3302c8eef">lenName</a> ()</td></tr>
+<tr class="separator:a493e0fcc2c96ed1bbccd17d3302c8eef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a85dfeca606a6255673280756cac91a6b"><td class="memItemLeft" align="right" valign="top">static const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d97/class_describe_input.html#a85dfeca606a6255673280756cac91a6b">lenExtAddress</a> ()</td></tr>
+<tr class="separator:a85dfeca606a6255673280756cac91a6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a74d39347176037087a06496e46865961"><td class="memItemLeft" align="right" valign="top">static const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d97/class_describe_input.html#a74d39347176037087a06496e46865961">lenExtType</a> ()</td></tr>
+<tr class="separator:a74d39347176037087a06496e46865961"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad1a03cd94fe6917c8ee3f96989daf00a"><td class="memItemLeft" align="right" valign="top">static const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d97/class_describe_input.html#ad1a03cd94fe6917c8ee3f96989daf00a">lenOptions</a> ()</td></tr>
+<tr class="separator:ad1a03cd94fe6917c8ee3f96989daf00a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_static_methods_class_describe"><td colspan="2" onclick="javascript:toggleInherit('pub_static_methods_class_describe')"><img src="../../closed.png" alt="-"/>&#160;Открытые статические члены унаследованные от <a class="el" href="../../db/d60/class_describe.html">Describe</a></td></tr>
+<tr class="memitem:a0974e62c88d7ac35a079dce525adf72e inherit pub_static_methods_class_describe"><td class="memItemLeft" align="right" valign="top">static QStringList&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d60/class_describe.html#a0974e62c88d7ac35a079dce525adf72e">fields</a> ()</td></tr>
+<tr class="separator:a0974e62c88d7ac35a079dce525adf72e inherit pub_static_methods_class_describe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a72d4d40afbfebc06fc8493fd2afc0e6e inherit pub_static_methods_class_describe"><td class="memItemLeft" align="right" valign="top">static QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d60/class_describe.html#a72d4d40afbfebc06fc8493fd2afc0e6e">typeDescribeString</a> (const <a class="el" href="../../db/d60/class_describe.html#aa71e75544f67f60e7739413aae34ad02">Describe::TypeDescribe</a> &amp;type)</td></tr>
+<tr class="separator:a72d4d40afbfebc06fc8493fd2afc0e6e inherit pub_static_methods_class_describe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abc3523d816ec39bf3c683257a60db189 inherit pub_static_methods_class_describe"><td class="memItemLeft" align="right" valign="top">static const QList&lt; <a class="el" href="../../db/d60/class_describe.html#aa71e75544f67f60e7739413aae34ad02">Describe::TypeDescribe</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d60/class_describe.html#abc3523d816ec39bf3c683257a60db189">types</a> ()</td></tr>
+<tr class="separator:abc3523d816ec39bf3c683257a60db189 inherit pub_static_methods_class_describe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac87b5a9002302b170d527236f56bc67b inherit pub_static_methods_class_describe"><td class="memItemLeft" align="right" valign="top">static QStringList&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d60/class_describe.html#ac87b5a9002302b170d527236f56bc67b">stringTypes</a> ()</td></tr>
+<tr class="separator:ac87b5a9002302b170d527236f56bc67b inherit pub_static_methods_class_describe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
+Свойства</h2></td></tr>
+<tr class="memitem:a84c234c3cb73f3615ae4156fe61e0d4a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d97/class_describe_input.html#abf2f13ba38363a56af7d30a7641c5a35">Type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d97/class_describe_input.html#a84c234c3cb73f3615ae4156fe61e0d4a">type</a></td></tr>
+<tr class="separator:a84c234c3cb73f3615ae4156fe61e0d4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf2e3ab20fab7be09493cb55fad456de"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d81/class_g_i_d___input.html">GID_Input</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d97/class_describe_input.html#adf2e3ab20fab7be09493cb55fad456de">gid</a></td></tr>
+<tr class="separator:adf2e3ab20fab7be09493cb55fad456de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8bb3a57464bb9d9228b0fde454d31f79"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dc/d80/class_g_i_d___par.html">GID_Par</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d97/class_describe_input.html#a8bb3a57464bb9d9228b0fde454d31f79">gidParameter</a></td></tr>
+<tr class="separator:a8bb3a57464bb9d9228b0fde454d31f79"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a09e31f85d2d6b8578be57325c9240176"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d97/class_describe_input.html#a09e31f85d2d6b8578be57325c9240176">name</a></td></tr>
+<tr class="separator:a09e31f85d2d6b8578be57325c9240176"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e2c19b50ff92d924693de4098afd82b"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d97/class_describe_input.html#a2e2c19b50ff92d924693de4098afd82b">extAddress</a></td></tr>
+<tr class="separator:a2e2c19b50ff92d924693de4098afd82b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab918f4e27a4400952f70209775df5d7c"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d97/class_describe_input.html#ab918f4e27a4400952f70209775df5d7c">extType</a></td></tr>
+<tr class="separator:ab918f4e27a4400952f70209775df5d7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a93563dce05af882d9e3e2d297316498d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d97/class_describe_input.html#a93563dce05af882d9e3e2d297316498d">lockStream</a></td></tr>
+<tr class="separator:a93563dce05af882d9e3e2d297316498d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a13a99329ba7552b0fa2c271addc45ba5"><td class="memItemLeft" align="right" valign="top">ERefusal&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d97/class_describe_input.html#a13a99329ba7552b0fa2c271addc45ba5">typeRefusal</a></td></tr>
+<tr class="separator:a13a99329ba7552b0fa2c271addc45ba5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a306208824751c8264df42b432e78c3d0"><td class="memItemLeft" align="right" valign="top">EAction&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d97/class_describe_input.html#a306208824751c8264df42b432e78c3d0">typeAction</a></td></tr>
+<tr class="separator:a306208824751c8264df42b432e78c3d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef8bd4d6309d131bcd40cb499c2df0f8"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d97/class_describe_input.html#aef8bd4d6309d131bcd40cb499c2df0f8">deadbands</a></td></tr>
+<tr class="separator:aef8bd4d6309d131bcd40cb499c2df0f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a575564e08a505cbef819b5a9eb6a7b05"><td class="memItemLeft" align="right" valign="top">quint32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d97/class_describe_input.html#a575564e08a505cbef819b5a9eb6a7b05">periodGeneration</a></td></tr>
+<tr class="separator:a575564e08a505cbef819b5a9eb6a7b05"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab26f2b8a0446c33b32a6e8f73622c50d"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d97/class_describe_input.html#ab26f2b8a0446c33b32a6e8f73622c50d">options</a></td></tr>
+<tr class="separator:ab26f2b8a0446c33b32a6e8f73622c50d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header properties_class_describe"><td colspan="2" onclick="javascript:toggleInherit('properties_class_describe')"><img src="../../closed.png" alt="-"/>&#160;Свойства унаследованные от <a class="el" href="../../db/d60/class_describe.html">Describe</a></td></tr>
+<tr class="memitem:a6c9d15eca492ee5f592d55716305ce27 inherit properties_class_describe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d60/class_describe.html#aa71e75544f67f60e7739413aae34ad02">TypeDescribe</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d60/class_describe.html#a6c9d15eca492ee5f592d55716305ce27">typeDescribe</a></td></tr>
+<tr class="separator:a6c9d15eca492ee5f592d55716305ce27 inherit properties_class_describe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac047e50d46167701f8f9a1624b43d061 inherit properties_class_describe"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d60/class_describe.html#ac047e50d46167701f8f9a1624b43d061">working</a></td></tr>
+<tr class="separator:ac047e50d46167701f8f9a1624b43d061 inherit properties_class_describe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b9e180c2c5d9b443ed77b50aa5498d7 inherit properties_class_describe"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d60/class_describe.html#a4b9e180c2c5d9b443ed77b50aa5498d7">enableWork</a></td></tr>
+<tr class="separator:a4b9e180c2c5d9b443ed77b50aa5498d7 inherit properties_class_describe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
+Дополнительные унаследованные члены</h2></td></tr>
+<tr class="inherit_header pro_methods_class_describe"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_class_describe')"><img src="../../closed.png" alt="-"/>&#160;Защищенные члены унаследованные от <a class="el" href="../../db/d60/class_describe.html">Describe</a></td></tr>
+<tr class="memitem:a87a32959047a67dc251e0052e8f8c0ef inherit pro_methods_class_describe"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d60/class_describe.html#a87a32959047a67dc251e0052e8f8c0ef">checkDescribePtr</a> (const CDescribe *d, const char *msg, const char *file, int line, const char *func) const</td></tr>
+<tr class="separator:a87a32959047a67dc251e0052e8f8c0ef inherit pro_methods_class_describe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_attribs_class_describe"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_class_describe')"><img src="../../closed.png" alt="-"/>&#160;Защищенные данные унаследованные от <a class="el" href="../../db/d60/class_describe.html">Describe</a></td></tr>
+<tr class="memitem:af23eabe44bf611c2d8b21cba4f5aec6d inherit pro_attribs_class_describe"><td class="memItemLeft" align="right" valign="top">CDescribe *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d60/class_describe.html#af23eabe44bf611c2d8b21cba4f5aec6d">m_describe</a></td></tr>
+<tr class="separator:af23eabe44bf611c2d8b21cba4f5aec6d inherit pro_attribs_class_describe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Перечисления</h2>
+<a id="abf2f13ba38363a56af7d30a7641c5a35"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abf2f13ba38363a56af7d30a7641c5a35">&#9670;&nbsp;</a></span>Type</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../d9/d97/class_describe_input.html#abf2f13ba38363a56af7d30a7641c5a35">DescribeInput::Type</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Элементы перечислений</th></tr><tr><td class="fieldname"><a id="abf2f13ba38363a56af7d30a7641c5a35a04f4bd876f98b3ab1095598fcca71975"></a>AnalogInput&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="abf2f13ba38363a56af7d30a7641c5a35a87d5951f826e76548afb6e6e32985b48"></a>DiscreteInput&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="abf2f13ba38363a56af7d30a7641c5a35a6e2d1c6d37623990d2d3e0919ee03ff1"></a>StringInput&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="abf2f13ba38363a56af7d30a7641c5a35ab7f10dcf952a352d8894d9abb84f567a"></a>AnalogOutput&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="abf2f13ba38363a56af7d30a7641c5a35a73cc344c2a336f1173eb550599da472c"></a>DiscreteOutput&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="abf2f13ba38363a56af7d30a7641c5a35a916c74f40cb3a7d245c9f9eefde044db"></a>UnknownType&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<h2 class="groupheader">Конструктор(ы)</h2>
+<a id="ad9c42e6e2994b89097c7d3905b6abd27"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad9c42e6e2994b89097c7d3905b6abd27">&#9670;&nbsp;</a></span>DescribeInput() <span class="overload">[1/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">DescribeInput::DescribeInput </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad47c03b5c758514a9bf1e59813b73240"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad47c03b5c758514a9bf1e59813b73240">&#9670;&nbsp;</a></span>DescribeInput() <span class="overload">[2/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">DescribeInput::DescribeInput </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d9/d97/class_describe_input.html">DescribeInput</a> &amp;&#160;</td>
+          <td class="paramname"><em>src</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="acd4b4264b4269cf65e1b1a02bcfb9e4e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acd4b4264b4269cf65e1b1a02bcfb9e4e">&#9670;&nbsp;</a></span>DescribeInput() <span class="overload">[3/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">DescribeInput::DescribeInput </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../db/d60/class_describe.html">Describe</a> &amp;&#160;</td>
+          <td class="paramname"><em>src</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">explicit</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2e0911e945dbe3fcbc15a42722a85d97"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2e0911e945dbe3fcbc15a42722a85d97">&#9670;&nbsp;</a></span>DescribeInput() <span class="overload">[4/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">DescribeInput::DescribeInput </td>
+          <td>(</td>
+          <td class="paramtype">CDescribe *&#160;</td>
+          <td class="paramname"><em>src</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">explicit</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a592edcaa9ddb87c9951765cea78612ef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a592edcaa9ddb87c9951765cea78612ef">&#9670;&nbsp;</a></span>DescribeInput() <span class="overload">[5/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">DescribeInput::DescribeInput </td>
+          <td>(</td>
+          <td class="paramtype">CDescribeOfInput *&#160;</td>
+          <td class="paramname"><em>src</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">explicit</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa855704dcb418179847c8312bd7b1dfd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa855704dcb418179847c8312bd7b1dfd">&#9670;&nbsp;</a></span>DescribeInput() <span class="overload">[6/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">DescribeInput::DescribeInput </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d0/d81/class_g_i_d___input.html">GID_Input</a> &amp;&#160;</td>
+          <td class="paramname"><em>gid</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">explicit</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a75cf8702b296714475efac4f23bbb4e6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a75cf8702b296714475efac4f23bbb4e6">&#9670;&nbsp;</a></span>~DescribeInput()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">DescribeInput::~DescribeInput </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Методы</h2>
+<a id="ad74fd8e57b65dce28e6f413dadcc4106"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad74fd8e57b65dce28e6f413dadcc4106">&#9670;&nbsp;</a></span>deadbands()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float DescribeInput::deadbands </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aeede0f038d0b71e59e845e39e3bdbecc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeede0f038d0b71e59e845e39e3bdbecc">&#9670;&nbsp;</a></span>extAddress()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString DescribeInput::extAddress </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aef9cb2ef41f9874853f6c7d6f1c3bd6a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aef9cb2ef41f9874853f6c7d6f1c3bd6a">&#9670;&nbsp;</a></span>extType()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString DescribeInput::extType </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa323ee2736c40aaacfce9f7dd8879aab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa323ee2736c40aaacfce9f7dd8879aab">&#9670;&nbsp;</a></span>fields()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static QStringList DescribeInput::fields </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3baddfd0a4b224ee4697bec0960c1cbc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3baddfd0a4b224ee4697bec0960c1cbc">&#9670;&nbsp;</a></span>find()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="../../d9/d97/class_describe_input.html">DescribeInput</a> DescribeInput::find </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d0/d81/class_g_i_d___input.html">GID_Input</a> &amp;&#160;</td>
+          <td class="paramname"><em>gid</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9876c869ab8ffb670e5021a24a2a680d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9876c869ab8ffb670e5021a24a2a680d">&#9670;&nbsp;</a></span>gid()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d0/d81/class_g_i_d___input.html">GID_Input</a> DescribeInput::gid </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa9eacba599920bab0795c787959aeaf2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa9eacba599920bab0795c787959aeaf2">&#9670;&nbsp;</a></span>gidParameter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../dc/d80/class_g_i_d___par.html">GID_Par</a> DescribeInput::gidParameter </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0db03e2f664e0673dfaf3f6aaba8ef47"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0db03e2f664e0673dfaf3f6aaba8ef47">&#9670;&nbsp;</a></span>ioExternalData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../dc/dac/class_io_external_data.html">IoExternalData</a> DescribeInput::ioExternalData </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a424a5f1b94819f0447c83fc6edff8f4d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a424a5f1b94819f0447c83fc6edff8f4d">&#9670;&nbsp;</a></span>isAnalog()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool DescribeInput::isAnalog </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6bbdc734f35e09972ee35518c5cf72c6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6bbdc734f35e09972ee35518c5cf72c6">&#9670;&nbsp;</a></span>isAnalogInput()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool DescribeInput::isAnalogInput </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae87dee82d4817603e5f00f7bf38c3727"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae87dee82d4817603e5f00f7bf38c3727">&#9670;&nbsp;</a></span>isAnalogOutput()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool DescribeInput::isAnalogOutput </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a959b17213d21eea4409b5de577f419db"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a959b17213d21eea4409b5de577f419db">&#9670;&nbsp;</a></span>isDiscrete()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool DescribeInput::isDiscrete </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae43ad3756f584b48337869a2c95ade3a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae43ad3756f584b48337869a2c95ade3a">&#9670;&nbsp;</a></span>isDiscreteInput()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool DescribeInput::isDiscreteInput </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a013bce9652cab5e86bba546f4fa0572f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a013bce9652cab5e86bba546f4fa0572f">&#9670;&nbsp;</a></span>isDiscreteOutput()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool DescribeInput::isDiscreteOutput </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8e694649a98ab88ce91715aa9951ef50"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8e694649a98ab88ce91715aa9951ef50">&#9670;&nbsp;</a></span>isInput()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool DescribeInput::isInput </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0c28f7ac4d5be7aaa2941911edc17d38"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0c28f7ac4d5be7aaa2941911edc17d38">&#9670;&nbsp;</a></span>isOutput()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool DescribeInput::isOutput </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="acd20b1a557276529cca7277a0ce99adf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acd20b1a557276529cca7277a0ce99adf">&#9670;&nbsp;</a></span>isString()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool DescribeInput::isString </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3f8d18b11a631e68e6cae69eca120369"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3f8d18b11a631e68e6cae69eca120369">&#9670;&nbsp;</a></span>isStringInput()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool DescribeInput::isStringInput </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a85dfeca606a6255673280756cac91a6b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a85dfeca606a6255673280756cac91a6b">&#9670;&nbsp;</a></span>lenExtAddress()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static const int DescribeInput::lenExtAddress </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a74d39347176037087a06496e46865961"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a74d39347176037087a06496e46865961">&#9670;&nbsp;</a></span>lenExtType()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static const int DescribeInput::lenExtType </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a493e0fcc2c96ed1bbccd17d3302c8eef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a493e0fcc2c96ed1bbccd17d3302c8eef">&#9670;&nbsp;</a></span>lenName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static const int DescribeInput::lenName </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad1a03cd94fe6917c8ee3f96989daf00a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad1a03cd94fe6917c8ee3f96989daf00a">&#9670;&nbsp;</a></span>lenOptions()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static const int DescribeInput::lenOptions </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abe24de8dac03e8f61e2fade8ad4d56ac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abe24de8dac03e8f61e2fade8ad4d56ac">&#9670;&nbsp;</a></span>lockStream()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool DescribeInput::lockStream </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a68c9b15a09ba3d86d9a98d6c26d21fd1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a68c9b15a09ba3d86d9a98d6c26d21fd1">&#9670;&nbsp;</a></span>maxValue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float DescribeInput::maxValue </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a67299d6fd0e66b18a9463f257c5dfdd9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a67299d6fd0e66b18a9463f257c5dfdd9">&#9670;&nbsp;</a></span>minValue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float DescribeInput::minValue </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa5a50c2f91ce8cdd7ecd75de47ff9138"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa5a50c2f91ce8cdd7ecd75de47ff9138">&#9670;&nbsp;</a></span>name()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString DescribeInput::name </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2ee3c3ac9147ec78c66628f530f17c85"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2ee3c3ac9147ec78c66628f530f17c85">&#9670;&nbsp;</a></span>operator=() <span class="overload">[1/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d9/d97/class_describe_input.html">DescribeInput</a>&amp; DescribeInput::operator= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d9/d97/class_describe_input.html">DescribeInput</a> &amp;&#160;</td>
+          <td class="paramname"><em>src</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a235bc7f0815cf392963090e9d068dc8e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a235bc7f0815cf392963090e9d068dc8e">&#9670;&nbsp;</a></span>operator=() <span class="overload">[2/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d9/d97/class_describe_input.html">DescribeInput</a>&amp; DescribeInput::operator= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../db/d60/class_describe.html">Describe</a> &amp;&#160;</td>
+          <td class="paramname"><em>src</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abb27da902f79603892ffa006aeafc5d7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abb27da902f79603892ffa006aeafc5d7">&#9670;&nbsp;</a></span>operator=() <span class="overload">[3/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d9/d97/class_describe_input.html">DescribeInput</a>&amp; DescribeInput::operator= </td>
+          <td>(</td>
+          <td class="paramtype">CDescribeOfInput *&#160;</td>
+          <td class="paramname"><em>src</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aebc8a4c7e0922a110bf92424a4187fd6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aebc8a4c7e0922a110bf92424a4187fd6">&#9670;&nbsp;</a></span>operator=() <span class="overload">[4/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d9/d97/class_describe_input.html">DescribeInput</a>&amp; DescribeInput::operator= </td>
+          <td>(</td>
+          <td class="paramtype">CDescribe *&#160;</td>
+          <td class="paramname"><em>src</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af9e1b2ed121e35be936dc34841a1d42f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af9e1b2ed121e35be936dc34841a1d42f">&#9670;&nbsp;</a></span>options()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString DescribeInput::options </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a28b9cd57bd9b8fb6ae04574220eed541"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a28b9cd57bd9b8fb6ae04574220eed541">&#9670;&nbsp;</a></span>periodGeneration()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">quint32 DescribeInput::periodGeneration </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae7201e083817f2ce219a970eec2696c7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae7201e083817f2ce219a970eec2696c7">&#9670;&nbsp;</a></span>ptr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">CDescribeOfInput* DescribeInput::ptr </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a35fe78035aebc34c2afee7bdd560690a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a35fe78035aebc34c2afee7bdd560690a">&#9670;&nbsp;</a></span>Q_ENUM()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">DescribeInput::Q_ENUM </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d9/d97/class_describe_input.html#abf2f13ba38363a56af7d30a7641c5a35">Type</a>&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a40c20ed64400bb58c3c237e3d4bf2e83"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a40c20ed64400bb58c3c237e3d4bf2e83">&#9670;&nbsp;</a></span>rawExtAddress()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">LPCTSTR DescribeInput::rawExtAddress </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5b729da16311897052de062fd9e74ee3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5b729da16311897052de062fd9e74ee3">&#9670;&nbsp;</a></span>rawExtType()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">LPCTSTR DescribeInput::rawExtType </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7905d77fbab54f16312ed1bc60eae92d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7905d77fbab54f16312ed1bc60eae92d">&#9670;&nbsp;</a></span>rawName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">LPCTSTR DescribeInput::rawName </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab36d8898fe0620241b74451284e546be"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab36d8898fe0620241b74451284e546be">&#9670;&nbsp;</a></span>rawOptions()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">LPCTSTR DescribeInput::rawOptions </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a13564777f3148b2992e1823e5a5fe80a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a13564777f3148b2992e1823e5a5fe80a">&#9670;&nbsp;</a></span>reasonNotWorking()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString DescribeInput::reasonNotWorking </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0cae19e316d5bf76058c82235e2b76a5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0cae19e316d5bf76058c82235e2b76a5">&#9670;&nbsp;</a></span>setDeadbands()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DescribeInput::setDeadbands </td>
+          <td>(</td>
+          <td class="paramtype">const float &amp;&#160;</td>
+          <td class="paramname"><em>deadbands</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4feaf08bcf92942fa84cdde45da078da"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4feaf08bcf92942fa84cdde45da078da">&#9670;&nbsp;</a></span>setExtAddress()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DescribeInput::setExtAddress </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>extAddress</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad9e7ec14868369625d0ada1748690419"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad9e7ec14868369625d0ada1748690419">&#9670;&nbsp;</a></span>setExtType()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DescribeInput::setExtType </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>extType</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ace793e106dde47df96971917dc5f8a65"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ace793e106dde47df96971917dc5f8a65">&#9670;&nbsp;</a></span>setGid()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DescribeInput::setGid </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d0/d81/class_g_i_d___input.html">GID_Input</a> &amp;&#160;</td>
+          <td class="paramname"><em>gid</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5522ad3a2c4e697eabdd22cc4aee62f2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5522ad3a2c4e697eabdd22cc4aee62f2">&#9670;&nbsp;</a></span>setGidParameter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DescribeInput::setGidParameter </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../dc/d80/class_g_i_d___par.html">GID_Par</a> &amp;&#160;</td>
+          <td class="paramname"><em>gid</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a78421519e7543d2534b15b39ad3d11f4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a78421519e7543d2534b15b39ad3d11f4">&#9670;&nbsp;</a></span>setIoExternalData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DescribeInput::setIoExternalData </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../dc/dac/class_io_external_data.html">IoExternalData</a> &amp;&#160;</td>
+          <td class="paramname"><em>ioExtData</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0ff121a8252bec9456e1c7ffb2aa0e2f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0ff121a8252bec9456e1c7ffb2aa0e2f">&#9670;&nbsp;</a></span>setLockStream()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DescribeInput::setLockStream </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>b</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a654527cc7905a9a49505ff869fc5d7c7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a654527cc7905a9a49505ff869fc5d7c7">&#9670;&nbsp;</a></span>setMaxValue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DescribeInput::setMaxValue </td>
+          <td>(</td>
+          <td class="paramtype">const float &amp;&#160;</td>
+          <td class="paramname"><em>v</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a94a83a48d61da803abe7e3056a8388c1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a94a83a48d61da803abe7e3056a8388c1">&#9670;&nbsp;</a></span>setMinValue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DescribeInput::setMinValue </td>
+          <td>(</td>
+          <td class="paramtype">const float &amp;&#160;</td>
+          <td class="paramname"><em>v</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a86b4ffc5201ff3f21e38fc203896dd6d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a86b4ffc5201ff3f21e38fc203896dd6d">&#9670;&nbsp;</a></span>setName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DescribeInput::setName </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>name</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad97bf7ae092b3a8e6724fda6c8300f32"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad97bf7ae092b3a8e6724fda6c8300f32">&#9670;&nbsp;</a></span>setOptions()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DescribeInput::setOptions </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>options</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abc6bbc9b60bd118a82a5adebd0f0ac6d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abc6bbc9b60bd118a82a5adebd0f0ac6d">&#9670;&nbsp;</a></span>setPeriodGeneration()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DescribeInput::setPeriodGeneration </td>
+          <td>(</td>
+          <td class="paramtype">const quint32 &amp;&#160;</td>
+          <td class="paramname"><em>period</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7293a9dee7b3081e32cb311dccb6ca25"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7293a9dee7b3081e32cb311dccb6ca25">&#9670;&nbsp;</a></span>setType()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DescribeInput::setType </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d9/d97/class_describe_input.html#abf2f13ba38363a56af7d30a7641c5a35">Type</a> &amp;&#160;</td>
+          <td class="paramname"><em>type</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a675efe0542a57865e8afb668c920bb17"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a675efe0542a57865e8afb668c920bb17">&#9670;&nbsp;</a></span>setTypeAction()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DescribeInput::setTypeAction </td>
+          <td>(</td>
+          <td class="paramtype">EAction&#160;</td>
+          <td class="paramname"><em>action</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a88e6b2b725fd29ede754a9c49e7306ee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a88e6b2b725fd29ede754a9c49e7306ee">&#9670;&nbsp;</a></span>setTypeRefusal()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DescribeInput::setTypeRefusal </td>
+          <td>(</td>
+          <td class="paramtype">ERefusal&#160;</td>
+          <td class="paramname"><em>refusal</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0610d68888d20f458ffeb0b52b8eb23f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0610d68888d20f458ffeb0b52b8eb23f">&#9670;&nbsp;</a></span>type()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d9/d97/class_describe_input.html#abf2f13ba38363a56af7d30a7641c5a35">Type</a> DescribeInput::type </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a355566caa9ff71c382e9bac156f75159"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a355566caa9ff71c382e9bac156f75159">&#9670;&nbsp;</a></span>typeAction()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">EAction DescribeInput::typeAction </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a654ced95abb19cf80a147dcc0df7eee1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a654ced95abb19cf80a147dcc0df7eee1">&#9670;&nbsp;</a></span>typeDescribe()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="../../db/d60/class_describe.html#aa71e75544f67f60e7739413aae34ad02">Describe::TypeDescribe</a> DescribeInput::typeDescribe </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa78f28f0352d4cb6dea875a5e5f2e570"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa78f28f0352d4cb6dea875a5e5f2e570">&#9670;&nbsp;</a></span>typeIcon() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static QPixmap DescribeInput::typeIcon </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d9/d97/class_describe_input.html#abf2f13ba38363a56af7d30a7641c5a35">DescribeInput::Type</a> &amp;&#160;</td>
+          <td class="paramname"><em>type</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9c43532b815d8347d8a1c15786449ec0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9c43532b815d8347d8a1c15786449ec0">&#9670;&nbsp;</a></span>typeIcon() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QPixmap DescribeInput::typeIcon </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4a88ab8fea31a0391b5555eca5d18e33"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4a88ab8fea31a0391b5555eca5d18e33">&#9670;&nbsp;</a></span>typeRefusal()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">ERefusal DescribeInput::typeRefusal </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac9fa9ee49ede91560858d20692630ff8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac9fa9ee49ede91560858d20692630ff8">&#9670;&nbsp;</a></span>types()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static QList&lt;<a class="el" href="../../d9/d97/class_describe_input.html#abf2f13ba38363a56af7d30a7641c5a35">DescribeInput::Type</a>&gt; DescribeInput::types </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a45e890b28fe2fe8f015b2ad4968c5a33"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a45e890b28fe2fe8f015b2ad4968c5a33">&#9670;&nbsp;</a></span>typesString()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static QStringList DescribeInput::typesString </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1945bbe1d8746823dfb4ede6689aea9d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1945bbe1d8746823dfb4ede6689aea9d">&#9670;&nbsp;</a></span>typeString() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static QString DescribeInput::typeString </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d9/d97/class_describe_input.html#abf2f13ba38363a56af7d30a7641c5a35">DescribeInput::Type</a> &amp;&#160;</td>
+          <td class="paramname"><em>type</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab484a6ac359704c778e5fbfebf8b9400"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab484a6ac359704c778e5fbfebf8b9400">&#9670;&nbsp;</a></span>typeString() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString DescribeInput::typeString </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a649cc0107e53b09934a6ad272c5d24ac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a649cc0107e53b09934a6ad272c5d24ac">&#9670;&nbsp;</a></span>typeStringTr() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static QString DescribeInput::typeStringTr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d9/d97/class_describe_input.html#abf2f13ba38363a56af7d30a7641c5a35">DescribeInput::Type</a> &amp;&#160;</td>
+          <td class="paramname"><em>type</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad564b5dc73285afa4f6b778d40dbbac3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad564b5dc73285afa4f6b778d40dbbac3">&#9670;&nbsp;</a></span>typeStringTr() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString DescribeInput::typeStringTr </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Полный список свойств</h2>
+<a id="aef8bd4d6309d131bcd40cb499c2df0f8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aef8bd4d6309d131bcd40cb499c2df0f8">&#9670;&nbsp;</a></span>deadbands</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float DescribeInput::deadbands</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2e2c19b50ff92d924693de4098afd82b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2e2c19b50ff92d924693de4098afd82b">&#9670;&nbsp;</a></span>extAddress</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString DescribeInput::extAddress</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab918f4e27a4400952f70209775df5d7c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab918f4e27a4400952f70209775df5d7c">&#9670;&nbsp;</a></span>extType</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString DescribeInput::extType</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="adf2e3ab20fab7be09493cb55fad456de"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adf2e3ab20fab7be09493cb55fad456de">&#9670;&nbsp;</a></span>gid</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d0/d81/class_g_i_d___input.html">GID_Input</a> DescribeInput::gid</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8bb3a57464bb9d9228b0fde454d31f79"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8bb3a57464bb9d9228b0fde454d31f79">&#9670;&nbsp;</a></span>gidParameter</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../dc/d80/class_g_i_d___par.html">GID_Par</a> DescribeInput::gidParameter</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a93563dce05af882d9e3e2d297316498d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a93563dce05af882d9e3e2d297316498d">&#9670;&nbsp;</a></span>lockStream</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool DescribeInput::lockStream</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a09e31f85d2d6b8578be57325c9240176"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a09e31f85d2d6b8578be57325c9240176">&#9670;&nbsp;</a></span>name</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString DescribeInput::name</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab26f2b8a0446c33b32a6e8f73622c50d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab26f2b8a0446c33b32a6e8f73622c50d">&#9670;&nbsp;</a></span>options</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString DescribeInput::options</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a575564e08a505cbef819b5a9eb6a7b05"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a575564e08a505cbef819b5a9eb6a7b05">&#9670;&nbsp;</a></span>periodGeneration</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">quint32 DescribeInput::periodGeneration</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a84c234c3cb73f3615ae4156fe61e0d4a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a84c234c3cb73f3615ae4156fe61e0d4a">&#9670;&nbsp;</a></span>type</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d9/d97/class_describe_input.html#abf2f13ba38363a56af7d30a7641c5a35">Type</a> DescribeInput::type</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a306208824751c8264df42b432e78c3d0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a306208824751c8264df42b432e78c3d0">&#9670;&nbsp;</a></span>typeAction</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">EAction DescribeInput::typeAction</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a13a99329ba7552b0fa2c271addc45ba5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a13a99329ba7552b0fa2c271addc45ba5">&#9670;&nbsp;</a></span>typeRefusal</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ERefusal DescribeInput::typeRefusal</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>Объявления и описания членов класса находятся в файле:<ul>
+<li>_contrib/Include/AstdCore/<a class="el" href="../../d1/ddf/_describe_input_8h_source.html">DescribeInput.h</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="../../d9/d97/class_describe_input.html">DescribeInput</a></li>
+    <li class="footer">Создано системой
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
+  </ul>
+</div>
+</body>
+</html>

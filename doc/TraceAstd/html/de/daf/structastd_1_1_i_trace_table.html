@@ -1,0 +1,1225 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.13"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>TraceAstd Library: Структура astd::ITraceTable</title>
+<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../jquery.js"></script>
+<script type="text/javascript" src="../../dynsections.js"></script>
+<link href="../../navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../resize.js"></script>
+<script type="text/javascript" src="../../navtreedata.js"></script>
+<script type="text/javascript" src="../../navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+</script>
+<link href="../../search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../search/searchdata.js"></script>
+<script type="text/javascript" src="../../search/search.js"></script>
+<link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="../../imain_frame.ico"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">TraceAstd Library
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.8.13 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "../../search",false,'Поиск');
+</script>
+<script type="text/javascript" src="../../menudata.js"></script>
+<script type="text/javascript" src="../../menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('../../',true,false,'search.php','Поиск');
+  $(document).ready(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('de/daf/structastd_1_1_i_trace_table.html','../../');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-types">Открытые типы</a> &#124;
+<a href="#pub-methods">Открытые члены</a> &#124;
+<a href="../../dd/d7a/structastd_1_1_i_trace_table-members.html">Полный список членов класса</a>  </div>
+  <div class="headertitle">
+<div class="title">Структура astd::ITraceTable<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p><code>#include &lt;<a class="el" href="../../d3/d42/_trace_astd_lib_8h_source.html">TraceAstdLib.h</a>&gt;</code></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
+Открытые типы</h2></td></tr>
+<tr class="memitem:a3f0763ffc750c74a64e1a1b0dae325d5"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/daf/structastd_1_1_i_trace_table.html#a3f0763ffc750c74a64e1a1b0dae325d5">Format</a> { <a class="el" href="../../de/daf/structastd_1_1_i_trace_table.html#a3f0763ffc750c74a64e1a1b0dae325d5a488f532ca50215b24fdd14a44de3889a">decimal</a>, 
+<a class="el" href="../../de/daf/structastd_1_1_i_trace_table.html#a3f0763ffc750c74a64e1a1b0dae325d5a34402f62f0294d3d0b77430432c58ca2">hex</a>, 
+<a class="el" href="../../de/daf/structastd_1_1_i_trace_table.html#a3f0763ffc750c74a64e1a1b0dae325d5ae398398d2e26f998bd7085fbe1a07af7">binary</a>
+ }</td></tr>
+<tr class="separator:a3f0763ffc750c74a64e1a1b0dae325d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Открытые члены</h2></td></tr>
+<tr class="memitem:a5c1353fd6e06131ea981fbdde70a5d3e"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/daf/structastd_1_1_i_trace_table.html#a5c1353fd6e06131ea981fbdde70a5d3e">setName</a> (int item, const QString &amp;name)=0</td></tr>
+<tr class="separator:a5c1353fd6e06131ea981fbdde70a5d3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0f01c62ddd198fd013e488b96679a433"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/daf/structastd_1_1_i_trace_table.html#a0f01c62ddd198fd013e488b96679a433">setName</a> (int item, LPCWSTR name)=0</td></tr>
+<tr class="separator:a0f01c62ddd198fd013e488b96679a433"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a90ac895f6dbc5deee25db974734cf307"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/daf/structastd_1_1_i_trace_table.html#a90ac895f6dbc5deee25db974734cf307">setName</a> (int item, LPCSTR name)=0</td></tr>
+<tr class="separator:a90ac895f6dbc5deee25db974734cf307"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab2b4f148db3a25e43fb98f3bd54667bc"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/daf/structastd_1_1_i_trace_table.html#ab2b4f148db3a25e43fb98f3bd54667bc">setValueSuffix</a> (int item, const QString &amp;value)=0</td></tr>
+<tr class="separator:ab2b4f148db3a25e43fb98f3bd54667bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a12cf5425718bddcfcfde377abad3645a"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/daf/structastd_1_1_i_trace_table.html#a12cf5425718bddcfcfde377abad3645a">setValueSuffix</a> (int item, LPCWSTR value)=0</td></tr>
+<tr class="separator:a12cf5425718bddcfcfde377abad3645a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acd7bc7c02699336dfa959eeba3bf4f98"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/daf/structastd_1_1_i_trace_table.html#acd7bc7c02699336dfa959eeba3bf4f98">setValueSuffix</a> (int item, LPCSTR value)=0</td></tr>
+<tr class="separator:acd7bc7c02699336dfa959eeba3bf4f98"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf2d4c33a1ce20f1c0a7b2c423b077a0"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/daf/structastd_1_1_i_trace_table.html#abf2d4c33a1ce20f1c0a7b2c423b077a0">setValue</a> (int item, const QString &amp;value)=0</td></tr>
+<tr class="separator:abf2d4c33a1ce20f1c0a7b2c423b077a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d0005787e82aca5274f2b8356e105a5"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/daf/structastd_1_1_i_trace_table.html#a6d0005787e82aca5274f2b8356e105a5">setValue</a> (int item, LPCWSTR value)=0</td></tr>
+<tr class="separator:a6d0005787e82aca5274f2b8356e105a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ea128ea59dcce349450c0abd9c2c546"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/daf/structastd_1_1_i_trace_table.html#a0ea128ea59dcce349450c0abd9c2c546">setValue</a> (int item, LPCSTR value)=0</td></tr>
+<tr class="separator:a0ea128ea59dcce349450c0abd9c2c546"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1a2cbe5c0f7acf11d75529eecdc482c0"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/daf/structastd_1_1_i_trace_table.html#a1a2cbe5c0f7acf11d75529eecdc482c0">setValue</a> (int item, char value, <a class="el" href="../../de/daf/structastd_1_1_i_trace_table.html#a3f0763ffc750c74a64e1a1b0dae325d5">Format</a> f=<a class="el" href="../../de/daf/structastd_1_1_i_trace_table.html#a3f0763ffc750c74a64e1a1b0dae325d5a488f532ca50215b24fdd14a44de3889a">decimal</a>)=0</td></tr>
+<tr class="separator:a1a2cbe5c0f7acf11d75529eecdc482c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3edce7f55d11a273d7db9db313a97504"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/daf/structastd_1_1_i_trace_table.html#a3edce7f55d11a273d7db9db313a97504">setValue</a> (int item, unsigned char value, <a class="el" href="../../de/daf/structastd_1_1_i_trace_table.html#a3f0763ffc750c74a64e1a1b0dae325d5">Format</a> f=<a class="el" href="../../de/daf/structastd_1_1_i_trace_table.html#a3f0763ffc750c74a64e1a1b0dae325d5a488f532ca50215b24fdd14a44de3889a">decimal</a>)=0</td></tr>
+<tr class="separator:a3edce7f55d11a273d7db9db313a97504"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeef2f5fb98756baa8b1a8cf73e7f99a7"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/daf/structastd_1_1_i_trace_table.html#aeef2f5fb98756baa8b1a8cf73e7f99a7">setValue</a> (int item, short value, <a class="el" href="../../de/daf/structastd_1_1_i_trace_table.html#a3f0763ffc750c74a64e1a1b0dae325d5">Format</a> f=<a class="el" href="../../de/daf/structastd_1_1_i_trace_table.html#a3f0763ffc750c74a64e1a1b0dae325d5a488f532ca50215b24fdd14a44de3889a">decimal</a>)=0</td></tr>
+<tr class="separator:aeef2f5fb98756baa8b1a8cf73e7f99a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a356bf76fd625b1208cd14a1cb296e51f"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/daf/structastd_1_1_i_trace_table.html#a356bf76fd625b1208cd14a1cb296e51f">setValue</a> (int item, unsigned short value, <a class="el" href="../../de/daf/structastd_1_1_i_trace_table.html#a3f0763ffc750c74a64e1a1b0dae325d5">Format</a> f=<a class="el" href="../../de/daf/structastd_1_1_i_trace_table.html#a3f0763ffc750c74a64e1a1b0dae325d5a488f532ca50215b24fdd14a44de3889a">decimal</a>)=0</td></tr>
+<tr class="separator:a356bf76fd625b1208cd14a1cb296e51f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad8683715b1e8ec6f49c7cb93c2710297"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/daf/structastd_1_1_i_trace_table.html#ad8683715b1e8ec6f49c7cb93c2710297">setValue</a> (int item, long value, <a class="el" href="../../de/daf/structastd_1_1_i_trace_table.html#a3f0763ffc750c74a64e1a1b0dae325d5">Format</a> f=<a class="el" href="../../de/daf/structastd_1_1_i_trace_table.html#a3f0763ffc750c74a64e1a1b0dae325d5a488f532ca50215b24fdd14a44de3889a">decimal</a>)=0</td></tr>
+<tr class="separator:ad8683715b1e8ec6f49c7cb93c2710297"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a41f26e4e29086f29ea39ad2f7ce5d7"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/daf/structastd_1_1_i_trace_table.html#a7a41f26e4e29086f29ea39ad2f7ce5d7">setValue</a> (int item, unsigned long value, <a class="el" href="../../de/daf/structastd_1_1_i_trace_table.html#a3f0763ffc750c74a64e1a1b0dae325d5">Format</a> f=<a class="el" href="../../de/daf/structastd_1_1_i_trace_table.html#a3f0763ffc750c74a64e1a1b0dae325d5a488f532ca50215b24fdd14a44de3889a">decimal</a>)=0</td></tr>
+<tr class="separator:a7a41f26e4e29086f29ea39ad2f7ce5d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a592ab56f85037bd72d8d748a6f4575ff"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/daf/structastd_1_1_i_trace_table.html#a592ab56f85037bd72d8d748a6f4575ff">setValue</a> (int item, int value, <a class="el" href="../../de/daf/structastd_1_1_i_trace_table.html#a3f0763ffc750c74a64e1a1b0dae325d5">Format</a> f=<a class="el" href="../../de/daf/structastd_1_1_i_trace_table.html#a3f0763ffc750c74a64e1a1b0dae325d5a488f532ca50215b24fdd14a44de3889a">decimal</a>)=0</td></tr>
+<tr class="separator:a592ab56f85037bd72d8d748a6f4575ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae9a12e84e9745a28af67f376ed8c34dd"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/daf/structastd_1_1_i_trace_table.html#ae9a12e84e9745a28af67f376ed8c34dd">setValue</a> (int item, unsigned int value, <a class="el" href="../../de/daf/structastd_1_1_i_trace_table.html#a3f0763ffc750c74a64e1a1b0dae325d5">Format</a> f=<a class="el" href="../../de/daf/structastd_1_1_i_trace_table.html#a3f0763ffc750c74a64e1a1b0dae325d5a488f532ca50215b24fdd14a44de3889a">decimal</a>)=0</td></tr>
+<tr class="separator:ae9a12e84e9745a28af67f376ed8c34dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b263303f6f2e3d9e6a0cb60b4c22de6"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/daf/structastd_1_1_i_trace_table.html#a5b263303f6f2e3d9e6a0cb60b4c22de6">setValue</a> (int item, __int64 value, <a class="el" href="../../de/daf/structastd_1_1_i_trace_table.html#a3f0763ffc750c74a64e1a1b0dae325d5">Format</a> f=<a class="el" href="../../de/daf/structastd_1_1_i_trace_table.html#a3f0763ffc750c74a64e1a1b0dae325d5a488f532ca50215b24fdd14a44de3889a">decimal</a>)=0</td></tr>
+<tr class="separator:a5b263303f6f2e3d9e6a0cb60b4c22de6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a046de603f461cc1a95831e8db2d869c6"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/daf/structastd_1_1_i_trace_table.html#a046de603f461cc1a95831e8db2d869c6">setValue</a> (int item, unsigned __int64 value, <a class="el" href="../../de/daf/structastd_1_1_i_trace_table.html#a3f0763ffc750c74a64e1a1b0dae325d5">Format</a> f=<a class="el" href="../../de/daf/structastd_1_1_i_trace_table.html#a3f0763ffc750c74a64e1a1b0dae325d5a488f532ca50215b24fdd14a44de3889a">decimal</a>)=0</td></tr>
+<tr class="separator:a046de603f461cc1a95831e8db2d869c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae8325009d5ea34d1a03db8fc517d3fda"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/daf/structastd_1_1_i_trace_table.html#ae8325009d5ea34d1a03db8fc517d3fda">setValue</a> (int item, float value, int precision=3)=0</td></tr>
+<tr class="separator:ae8325009d5ea34d1a03db8fc517d3fda"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ca713e8823d91751bd9df5510d8be8a"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/daf/structastd_1_1_i_trace_table.html#a1ca713e8823d91751bd9df5510d8be8a">setValue</a> (int item, double value, int precision=3)=0</td></tr>
+<tr class="separator:a1ca713e8823d91751bd9df5510d8be8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab0c7d6d9719510871e2de0c9edf309e9"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/daf/structastd_1_1_i_trace_table.html#ab0c7d6d9719510871e2de0c9edf309e9">release</a> ()=0</td></tr>
+<tr class="separator:ab0c7d6d9719510871e2de0c9edf309e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b072ae6115d55e6af98ed85d068857e"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/daf/structastd_1_1_i_trace_table.html#a8b072ae6115d55e6af98ed85d068857e">removeAll</a> ()=0</td></tr>
+<tr class="separator:a8b072ae6115d55e6af98ed85d068857e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade77b547ce1778f9367b8e32a34aebcc"><td class="memItemLeft" align="right" valign="top">virtual QList&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/daf/structastd_1_1_i_trace_table.html#ade77b547ce1778f9367b8e32a34aebcc">items</a> () const =0</td></tr>
+<tr class="separator:ade77b547ce1778f9367b8e32a34aebcc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a745f5c860878563202edb679103ce5d9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/daf/structastd_1_1_i_trace_table.html#a745f5c860878563202edb679103ce5d9">setName</a> (int item, const QString &amp;name, const QString &amp;suffix)</td></tr>
+<tr class="separator:a745f5c860878563202edb679103ce5d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a523fa4e6fe239efb14b73ed2ae6d56e8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/daf/structastd_1_1_i_trace_table.html#a523fa4e6fe239efb14b73ed2ae6d56e8">setName</a> (int item, LPCWSTR name, LPCWSTR suffix)</td></tr>
+<tr class="separator:a523fa4e6fe239efb14b73ed2ae6d56e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d7020a2bdf4ff97064a13c8df663a26"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/daf/structastd_1_1_i_trace_table.html#a6d7020a2bdf4ff97064a13c8df663a26">setName</a> (int item, LPCSTR name, LPCSTR suffix)</td></tr>
+<tr class="separator:a6d7020a2bdf4ff97064a13c8df663a26"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Перечисления</h2>
+<a id="a3f0763ffc750c74a64e1a1b0dae325d5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3f0763ffc750c74a64e1a1b0dae325d5">&#9670;&nbsp;</a></span>Format</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../de/daf/structastd_1_1_i_trace_table.html#a3f0763ffc750c74a64e1a1b0dae325d5">astd::ITraceTable::Format</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Элементы перечислений</th></tr><tr><td class="fieldname"><a id="a3f0763ffc750c74a64e1a1b0dae325d5a488f532ca50215b24fdd14a44de3889a"></a>decimal&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3f0763ffc750c74a64e1a1b0dae325d5a34402f62f0294d3d0b77430432c58ca2"></a>hex&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3f0763ffc750c74a64e1a1b0dae325d5ae398398d2e26f998bd7085fbe1a07af7"></a>binary&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<h2 class="groupheader">Методы</h2>
+<a id="ade77b547ce1778f9367b8e32a34aebcc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ade77b547ce1778f9367b8e32a34aebcc">&#9670;&nbsp;</a></span>items()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual QList&lt;int&gt; astd::ITraceTable::items </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab0c7d6d9719510871e2de0c9edf309e9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab0c7d6d9719510871e2de0c9edf309e9">&#9670;&nbsp;</a></span>release()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void astd::ITraceTable::release </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8b072ae6115d55e6af98ed85d068857e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8b072ae6115d55e6af98ed85d068857e">&#9670;&nbsp;</a></span>removeAll()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void astd::ITraceTable::removeAll </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5c1353fd6e06131ea981fbdde70a5d3e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5c1353fd6e06131ea981fbdde70a5d3e">&#9670;&nbsp;</a></span>setName() <span class="overload">[1/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void astd::ITraceTable::setName </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>item</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>name</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0f01c62ddd198fd013e488b96679a433"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0f01c62ddd198fd013e488b96679a433">&#9670;&nbsp;</a></span>setName() <span class="overload">[2/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void astd::ITraceTable::setName </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>item</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">LPCWSTR&#160;</td>
+          <td class="paramname"><em>name</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a90ac895f6dbc5deee25db974734cf307"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a90ac895f6dbc5deee25db974734cf307">&#9670;&nbsp;</a></span>setName() <span class="overload">[3/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void astd::ITraceTable::setName </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>item</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">LPCSTR&#160;</td>
+          <td class="paramname"><em>name</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a745f5c860878563202edb679103ce5d9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a745f5c860878563202edb679103ce5d9">&#9670;&nbsp;</a></span>setName() <span class="overload">[4/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void astd::ITraceTable::setName </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>item</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>suffix</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a523fa4e6fe239efb14b73ed2ae6d56e8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a523fa4e6fe239efb14b73ed2ae6d56e8">&#9670;&nbsp;</a></span>setName() <span class="overload">[5/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void astd::ITraceTable::setName </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>item</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">LPCWSTR&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">LPCWSTR&#160;</td>
+          <td class="paramname"><em>suffix</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6d7020a2bdf4ff97064a13c8df663a26"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6d7020a2bdf4ff97064a13c8df663a26">&#9670;&nbsp;</a></span>setName() <span class="overload">[6/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void astd::ITraceTable::setName </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>item</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">LPCSTR&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">LPCSTR&#160;</td>
+          <td class="paramname"><em>suffix</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abf2d4c33a1ce20f1c0a7b2c423b077a0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abf2d4c33a1ce20f1c0a7b2c423b077a0">&#9670;&nbsp;</a></span>setValue() <span class="overload">[1/15]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void astd::ITraceTable::setValue </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>item</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6d0005787e82aca5274f2b8356e105a5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6d0005787e82aca5274f2b8356e105a5">&#9670;&nbsp;</a></span>setValue() <span class="overload">[2/15]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void astd::ITraceTable::setValue </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>item</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">LPCWSTR&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0ea128ea59dcce349450c0abd9c2c546"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0ea128ea59dcce349450c0abd9c2c546">&#9670;&nbsp;</a></span>setValue() <span class="overload">[3/15]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void astd::ITraceTable::setValue </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>item</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">LPCSTR&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1a2cbe5c0f7acf11d75529eecdc482c0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1a2cbe5c0f7acf11d75529eecdc482c0">&#9670;&nbsp;</a></span>setValue() <span class="overload">[4/15]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void astd::ITraceTable::setValue </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>item</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char&#160;</td>
+          <td class="paramname"><em>value</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../de/daf/structastd_1_1_i_trace_table.html#a3f0763ffc750c74a64e1a1b0dae325d5">Format</a>&#160;</td>
+          <td class="paramname"><em>f</em> = <code><a class="el" href="../../de/daf/structastd_1_1_i_trace_table.html#a3f0763ffc750c74a64e1a1b0dae325d5a488f532ca50215b24fdd14a44de3889a">decimal</a></code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3edce7f55d11a273d7db9db313a97504"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3edce7f55d11a273d7db9db313a97504">&#9670;&nbsp;</a></span>setValue() <span class="overload">[5/15]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void astd::ITraceTable::setValue </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>item</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">unsigned char&#160;</td>
+          <td class="paramname"><em>value</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../de/daf/structastd_1_1_i_trace_table.html#a3f0763ffc750c74a64e1a1b0dae325d5">Format</a>&#160;</td>
+          <td class="paramname"><em>f</em> = <code><a class="el" href="../../de/daf/structastd_1_1_i_trace_table.html#a3f0763ffc750c74a64e1a1b0dae325d5a488f532ca50215b24fdd14a44de3889a">decimal</a></code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aeef2f5fb98756baa8b1a8cf73e7f99a7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeef2f5fb98756baa8b1a8cf73e7f99a7">&#9670;&nbsp;</a></span>setValue() <span class="overload">[6/15]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void astd::ITraceTable::setValue </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>item</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">short&#160;</td>
+          <td class="paramname"><em>value</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../de/daf/structastd_1_1_i_trace_table.html#a3f0763ffc750c74a64e1a1b0dae325d5">Format</a>&#160;</td>
+          <td class="paramname"><em>f</em> = <code><a class="el" href="../../de/daf/structastd_1_1_i_trace_table.html#a3f0763ffc750c74a64e1a1b0dae325d5a488f532ca50215b24fdd14a44de3889a">decimal</a></code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a356bf76fd625b1208cd14a1cb296e51f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a356bf76fd625b1208cd14a1cb296e51f">&#9670;&nbsp;</a></span>setValue() <span class="overload">[7/15]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void astd::ITraceTable::setValue </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>item</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">unsigned short&#160;</td>
+          <td class="paramname"><em>value</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../de/daf/structastd_1_1_i_trace_table.html#a3f0763ffc750c74a64e1a1b0dae325d5">Format</a>&#160;</td>
+          <td class="paramname"><em>f</em> = <code><a class="el" href="../../de/daf/structastd_1_1_i_trace_table.html#a3f0763ffc750c74a64e1a1b0dae325d5a488f532ca50215b24fdd14a44de3889a">decimal</a></code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad8683715b1e8ec6f49c7cb93c2710297"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad8683715b1e8ec6f49c7cb93c2710297">&#9670;&nbsp;</a></span>setValue() <span class="overload">[8/15]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void astd::ITraceTable::setValue </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>item</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">long&#160;</td>
+          <td class="paramname"><em>value</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../de/daf/structastd_1_1_i_trace_table.html#a3f0763ffc750c74a64e1a1b0dae325d5">Format</a>&#160;</td>
+          <td class="paramname"><em>f</em> = <code><a class="el" href="../../de/daf/structastd_1_1_i_trace_table.html#a3f0763ffc750c74a64e1a1b0dae325d5a488f532ca50215b24fdd14a44de3889a">decimal</a></code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7a41f26e4e29086f29ea39ad2f7ce5d7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7a41f26e4e29086f29ea39ad2f7ce5d7">&#9670;&nbsp;</a></span>setValue() <span class="overload">[9/15]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void astd::ITraceTable::setValue </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>item</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">unsigned long&#160;</td>
+          <td class="paramname"><em>value</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../de/daf/structastd_1_1_i_trace_table.html#a3f0763ffc750c74a64e1a1b0dae325d5">Format</a>&#160;</td>
+          <td class="paramname"><em>f</em> = <code><a class="el" href="../../de/daf/structastd_1_1_i_trace_table.html#a3f0763ffc750c74a64e1a1b0dae325d5a488f532ca50215b24fdd14a44de3889a">decimal</a></code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a592ab56f85037bd72d8d748a6f4575ff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a592ab56f85037bd72d8d748a6f4575ff">&#9670;&nbsp;</a></span>setValue() <span class="overload">[10/15]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void astd::ITraceTable::setValue </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>item</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>value</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../de/daf/structastd_1_1_i_trace_table.html#a3f0763ffc750c74a64e1a1b0dae325d5">Format</a>&#160;</td>
+          <td class="paramname"><em>f</em> = <code><a class="el" href="../../de/daf/structastd_1_1_i_trace_table.html#a3f0763ffc750c74a64e1a1b0dae325d5a488f532ca50215b24fdd14a44de3889a">decimal</a></code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae9a12e84e9745a28af67f376ed8c34dd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae9a12e84e9745a28af67f376ed8c34dd">&#9670;&nbsp;</a></span>setValue() <span class="overload">[11/15]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void astd::ITraceTable::setValue </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>item</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">unsigned int&#160;</td>
+          <td class="paramname"><em>value</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../de/daf/structastd_1_1_i_trace_table.html#a3f0763ffc750c74a64e1a1b0dae325d5">Format</a>&#160;</td>
+          <td class="paramname"><em>f</em> = <code><a class="el" href="../../de/daf/structastd_1_1_i_trace_table.html#a3f0763ffc750c74a64e1a1b0dae325d5a488f532ca50215b24fdd14a44de3889a">decimal</a></code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5b263303f6f2e3d9e6a0cb60b4c22de6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5b263303f6f2e3d9e6a0cb60b4c22de6">&#9670;&nbsp;</a></span>setValue() <span class="overload">[12/15]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void astd::ITraceTable::setValue </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>item</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">__int64&#160;</td>
+          <td class="paramname"><em>value</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../de/daf/structastd_1_1_i_trace_table.html#a3f0763ffc750c74a64e1a1b0dae325d5">Format</a>&#160;</td>
+          <td class="paramname"><em>f</em> = <code><a class="el" href="../../de/daf/structastd_1_1_i_trace_table.html#a3f0763ffc750c74a64e1a1b0dae325d5a488f532ca50215b24fdd14a44de3889a">decimal</a></code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a046de603f461cc1a95831e8db2d869c6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a046de603f461cc1a95831e8db2d869c6">&#9670;&nbsp;</a></span>setValue() <span class="overload">[13/15]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void astd::ITraceTable::setValue </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>item</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">unsigned __int64&#160;</td>
+          <td class="paramname"><em>value</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../de/daf/structastd_1_1_i_trace_table.html#a3f0763ffc750c74a64e1a1b0dae325d5">Format</a>&#160;</td>
+          <td class="paramname"><em>f</em> = <code><a class="el" href="../../de/daf/structastd_1_1_i_trace_table.html#a3f0763ffc750c74a64e1a1b0dae325d5a488f532ca50215b24fdd14a44de3889a">decimal</a></code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae8325009d5ea34d1a03db8fc517d3fda"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae8325009d5ea34d1a03db8fc517d3fda">&#9670;&nbsp;</a></span>setValue() <span class="overload">[14/15]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void astd::ITraceTable::setValue </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>item</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>value</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>precision</em> = <code>3</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1ca713e8823d91751bd9df5510d8be8a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1ca713e8823d91751bd9df5510d8be8a">&#9670;&nbsp;</a></span>setValue() <span class="overload">[15/15]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void astd::ITraceTable::setValue </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>item</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>value</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>precision</em> = <code>3</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab2b4f148db3a25e43fb98f3bd54667bc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab2b4f148db3a25e43fb98f3bd54667bc">&#9670;&nbsp;</a></span>setValueSuffix() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void astd::ITraceTable::setValueSuffix </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>item</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a12cf5425718bddcfcfde377abad3645a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a12cf5425718bddcfcfde377abad3645a">&#9670;&nbsp;</a></span>setValueSuffix() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void astd::ITraceTable::setValueSuffix </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>item</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">LPCWSTR&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="acd7bc7c02699336dfa959eeba3bf4f98"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acd7bc7c02699336dfa959eeba3bf4f98">&#9670;&nbsp;</a></span>setValueSuffix() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void astd::ITraceTable::setValueSuffix </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>item</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">LPCSTR&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>Объявления и описания членов структуры находятся в файле:<ul>
+<li>_contrib/Include/TraceAstd/<a class="el" href="../../d3/d42/_trace_astd_lib_8h_source.html">TraceAstdLib.h</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="../../d9/d4f/namespaceastd.html">astd</a></li><li class="navelem"><a class="el" href="../../de/daf/structastd_1_1_i_trace_table.html">ITraceTable</a></li>
+    <li class="footer">Создано системой
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
+  </ul>
+</div>
+</body>
+</html>

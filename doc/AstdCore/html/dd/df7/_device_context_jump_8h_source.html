@@ -1,0 +1,120 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.13"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>AstdCore Library: Исходный файл _contrib/Include/AstdCore/DeviceContextJump.h</title>
+<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../jquery.js"></script>
+<script type="text/javascript" src="../../dynsections.js"></script>
+<link href="../../navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../resize.js"></script>
+<script type="text/javascript" src="../../navtreedata.js"></script>
+<script type="text/javascript" src="../../navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+</script>
+<link href="../../search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../search/searchdata.js"></script>
+<script type="text/javascript" src="../../search/search.js"></script>
+<link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">AstdCore Library
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.8.13 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "../../search",false,'Поиск');
+</script>
+<script type="text/javascript" src="../../menudata.js"></script>
+<script type="text/javascript" src="../../menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('../../',true,false,'search.php','Поиск');
+  $(document).ready(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('dd/df7/_device_context_jump_8h_source.html','../../');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">DeviceContextJump.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="../../dd/df7/_device_context_jump_8h.html">См. документацию.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#pragma once</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;</div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d7/df8/_enum_device_interface_8h.html">EnumDeviceInterface.h</a>&quot;</span></div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;Vek_InterfaceContextJumper.h&gt;</span></div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;</div><div class="line"><a name="l00006"></a><span class="lineno"><a class="line" href="../../dd/df7/_device_context_jump_8h.html#a67aa2f4954655c396fab84950ff2bac5">    6</a></span>&#160;<span class="keyword">using</span> <a class="code" href="../../d3/dd6/classastdcore_1_1_device_interface_enum_t.html">DeviceContextJumpEnum</a> = <a class="code" href="../../d3/dd6/classastdcore_1_1_device_interface_enum_t.html">astdcore::DeviceInterfaceEnumT&lt;ContextJumperInterface, ali_ContextJumperInterface&gt;</a>;</div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;</div><div class="line"><a name="l00008"></a><span class="lineno"><a class="line" href="../../de/dba/class_device_context_jump.html">    8</a></span>&#160;<span class="keyword">class </span><a class="code" href="../../de/dba/class_device_context_jump.html">DeviceContextJump</a> : <span class="keyword">public</span> <a class="code" href="../../d3/dd6/classastdcore_1_1_device_interface_enum_t.html">DeviceContextJumpEnum</a></div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;{</div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="comment">//  typedef astdcore::DeviceInterfaceEnumT&lt;ContextJumperInterface, ali_ContextJumperInterface&gt; baseClass;</span></div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;</div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="keyword">public</span>:</div><div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="../../de/dba/class_device_context_jump.html#aaabcb90a1cd56aa0ae05065b43015723">   13</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../de/dba/class_device_context_jump.html#aaabcb90a1cd56aa0ae05065b43015723">sortByName</a>()</div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    {</div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;        Q_ASSERT(<a class="code" href="../../d3/dd6/classastdcore_1_1_device_interface_enum_t.html#a2a4d88ca495c447fa97d7e18f1648a63">isCreated</a>());</div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;        std::sort(<a class="code" href="../../d3/dd6/classastdcore_1_1_device_interface_enum_t.html#a7ecc0de9bee0507a726c59e31ceebc96">m_interfaces</a>.begin(), <a class="code" href="../../d3/dd6/classastdcore_1_1_device_interface_enum_t.html#a7ecc0de9bee0507a726c59e31ceebc96">m_interfaces</a>.end(), [](<span class="keyword">const</span> <a class="code" href="../../d9/d7b/classastdcore_1_1_device_interface_enum_t_1_1_interface_lock_ptr.html">Pointer</a>&amp; a, <span class="keyword">const</span> <a class="code" href="../../d9/d7b/classastdcore_1_1_device_interface_enum_t_1_1_interface_lock_ptr.html">Pointer</a>&amp; b)</div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;        {</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;            <span class="keywordflow">return</span> a.<a class="code" href="../../d9/d7b/classastdcore_1_1_device_interface_enum_t_1_1_interface_lock_ptr.html#a50015318ad6bf9f8f6683a0cced4918c">getDescribe</a>().<a class="code" href="../../db/d75/class_describe_device.html#a7f692048807d0fd00b6e66d8199e00d0">name</a>() &lt; b.getDescribe().name();</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;        });</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    }</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="keyword">public</span>:</div><div class="line"><a name="l00023"></a><span class="lineno"><a class="line" href="../../de/dba/class_device_context_jump.html#a8e3b722c5a4e764806c4d8b11a0a5257">   23</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../de/dba/class_device_context_jump.html#a8e3b722c5a4e764806c4d8b11a0a5257">jump</a>(<span class="keyword">const</span> ContextJump&amp; context)</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    {</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        Q_ASSERT(<a class="code" href="../../d3/dd6/classastdcore_1_1_device_interface_enum_t.html#a2a4d88ca495c447fa97d7e18f1648a63">isCreated</a>());</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        <span class="keywordflow">if</span>(<a class="code" href="../../d3/dd6/classastdcore_1_1_device_interface_enum_t.html#a242b250d6a4d28c7baabf85d50f2ce84">isValid</a>())</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        {</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;            <span class="keywordflow">for</span>(<a class="code" href="../../d3/dd6/classastdcore_1_1_device_interface_enum_t.html#abd844ec8bcbfb3748d1770b8b06ca7d3">iterator</a> it = <a class="code" href="../../d3/dd6/classastdcore_1_1_device_interface_enum_t.html#a1c9bec386bae25b9e4484bab497c890b">begin</a>(); it != <a class="code" href="../../d3/dd6/classastdcore_1_1_device_interface_enum_t.html#a4e528c9829dbac356ada2e65c10c4207">end</a>(); ++it)</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;                (*it)-&gt;Jump(context);</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;        }</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    }</div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;</div><div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="../../de/dba/class_device_context_jump.html#a12a84353f7630732f69db36f3419495b">   33</a></span>&#160;    <a class="code" href="../../de/dba/class_device_context_jump.html#a12a84353f7630732f69db36f3419495b">DeviceContextJump</a>(IIUDeviceImp* device) : <a class="code" href="../../d3/dd6/classastdcore_1_1_device_interface_enum_t.html">DeviceContextJumpEnum</a>(device)</div><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    {</div><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        <a class="code" href="../../d3/dd6/classastdcore_1_1_device_interface_enum_t.html#aaeaff9bbb0f0d51e27fe30caeca8b032">create</a>();</div><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    }</div><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;};</div><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;</div><div class="line"><a name="l00039"></a><span class="lineno"><a class="line" href="../../d6/d59/class_device_context_jump_by_g_i_d.html">   39</a></span>&#160;<span class="keyword">class </span><a class="code" href="../../d6/d59/class_device_context_jump_by_g_i_d.html">DeviceContextJumpByGID</a> : <span class="keyword">public</span> <a class="code" href="../../de/dba/class_device_context_jump.html">DeviceContextJump</a></div><div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;{</div><div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <a class="code" href="../../df/d6d/class_g_i_d___device.html">GID_Device</a> m_gidDevice;</div><div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;</div><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <span class="comment">// ISelectorDevice</span></div><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <span class="keyword">virtual</span> BOOL <a class="code" href="../../d3/dd6/classastdcore_1_1_device_interface_enum_t.html#aa2710d56a837fc8a05f1813d452f6c50">Enable</a>(CDescribeOfIUDevice* pDesc, BOOL&amp; bContinue)</div><div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    {</div><div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        Q_UNUSED(bContinue);</div><div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        Q_UNUSED(pDesc);</div><div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        <span class="keywordflow">return</span> (<a class="code" href="../../db/d75/class_describe_device.html">DescribeDevice</a>(pDesc).gid() == m_gidDevice);</div><div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    }</div><div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;</div><div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;<span class="keyword">public</span>:</div><div class="line"><a name="l00052"></a><span class="lineno"><a class="line" href="../../d6/d59/class_device_context_jump_by_g_i_d.html#a71c5b2357ab42d0e96cd1146080cbc78">   52</a></span>&#160;    <a class="code" href="../../d6/d59/class_device_context_jump_by_g_i_d.html#a71c5b2357ab42d0e96cd1146080cbc78">DeviceContextJumpByGID</a>(IIUDeviceImp* device, <span class="keyword">const</span> <a class="code" href="../../df/d6d/class_g_i_d___device.html">GID_Device</a>&amp; gidDevice) : <a class="code" href="../../de/dba/class_device_context_jump.html">DeviceContextJump</a>(device), m_gidDevice(gidDevice)</div><div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    {</div><div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;        <a class="code" href="../../d3/dd6/classastdcore_1_1_device_interface_enum_t.html#aaeaff9bbb0f0d51e27fe30caeca8b032">create</a>(); <span class="comment">// чтобы применился фильтр по GID</span></div><div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    }</div><div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;};</div><div class="ttc" id="classastdcore_1_1_device_interface_enum_t_1_1_interface_lock_ptr_html_a50015318ad6bf9f8f6683a0cced4918c"><div class="ttname"><a href="../../d9/d7b/classastdcore_1_1_device_interface_enum_t_1_1_interface_lock_ptr.html#a50015318ad6bf9f8f6683a0cced4918c">astdcore::DeviceInterfaceEnumT::InterfaceLockPtr::getDescribe</a></div><div class="ttdeci">DescribeDevice getDescribe() const</div><div class="ttdef"><b>Definition:</b> EnumDeviceInterface.h:96</div></div>
+<div class="ttc" id="class_device_context_jump_html_aaabcb90a1cd56aa0ae05065b43015723"><div class="ttname"><a href="../../de/dba/class_device_context_jump.html#aaabcb90a1cd56aa0ae05065b43015723">DeviceContextJump::sortByName</a></div><div class="ttdeci">void sortByName()</div><div class="ttdef"><b>Definition:</b> DeviceContextJump.h:13</div></div>
+<div class="ttc" id="classastdcore_1_1_device_interface_enum_t_html"><div class="ttname"><a href="../../d3/dd6/classastdcore_1_1_device_interface_enum_t.html">astdcore::DeviceInterfaceEnumT</a></div><div class="ttdef"><b>Definition:</b> EnumDeviceInterface.h:8</div></div>
+<div class="ttc" id="classastdcore_1_1_device_interface_enum_t_html_a242b250d6a4d28c7baabf85d50f2ce84"><div class="ttname"><a href="../../d3/dd6/classastdcore_1_1_device_interface_enum_t.html#a242b250d6a4d28c7baabf85d50f2ce84">astdcore::DeviceInterfaceEnumT::isValid</a></div><div class="ttdeci">bool isValid() const</div><div class="ttdef"><b>Definition:</b> EnumDeviceInterface.h:196</div></div>
+<div class="ttc" id="classastdcore_1_1_device_interface_enum_t_html_a2a4d88ca495c447fa97d7e18f1648a63"><div class="ttname"><a href="../../d3/dd6/classastdcore_1_1_device_interface_enum_t.html#a2a4d88ca495c447fa97d7e18f1648a63">astdcore::DeviceInterfaceEnumT::isCreated</a></div><div class="ttdeci">bool isCreated() const</div><div class="ttdef"><b>Definition:</b> EnumDeviceInterface.h:191</div></div>
+<div class="ttc" id="classastdcore_1_1_device_interface_enum_t_html_abd844ec8bcbfb3748d1770b8b06ca7d3"><div class="ttname"><a href="../../d3/dd6/classastdcore_1_1_device_interface_enum_t.html#abd844ec8bcbfb3748d1770b8b06ca7d3">astdcore::DeviceInterfaceEnumT::iterator</a></div><div class="ttdeci">InterfaceContainer::iterator iterator</div><div class="ttdef"><b>Definition:</b> EnumDeviceInterface.h:172</div></div>
+<div class="ttc" id="classastdcore_1_1_device_interface_enum_t_html_aa2710d56a837fc8a05f1813d452f6c50"><div class="ttname"><a href="../../d3/dd6/classastdcore_1_1_device_interface_enum_t.html#aa2710d56a837fc8a05f1813d452f6c50">astdcore::DeviceInterfaceEnumT::Enable</a></div><div class="ttdeci">virtual BOOL Enable(CDescribeOfIUDevice *pDesc, BOOL &amp;bContinue)</div><div class="ttdef"><b>Definition:</b> EnumDeviceInterface.h:183</div></div>
+<div class="ttc" id="classastdcore_1_1_device_interface_enum_t_html_a4e528c9829dbac356ada2e65c10c4207"><div class="ttname"><a href="../../d3/dd6/classastdcore_1_1_device_interface_enum_t.html#a4e528c9829dbac356ada2e65c10c4207">astdcore::DeviceInterfaceEnumT::end</a></div><div class="ttdeci">iterator end()</div><div class="ttdef"><b>Definition:</b> EnumDeviceInterface.h:220</div></div>
+<div class="ttc" id="class_device_context_jump_by_g_i_d_html"><div class="ttname"><a href="../../d6/d59/class_device_context_jump_by_g_i_d.html">DeviceContextJumpByGID</a></div><div class="ttdef"><b>Definition:</b> DeviceContextJump.h:39</div></div>
+<div class="ttc" id="classastdcore_1_1_device_interface_enum_t_html_aaeaff9bbb0f0d51e27fe30caeca8b032"><div class="ttname"><a href="../../d3/dd6/classastdcore_1_1_device_interface_enum_t.html#aaeaff9bbb0f0d51e27fe30caeca8b032">astdcore::DeviceInterfaceEnumT::create</a></div><div class="ttdeci">bool create()</div><div class="ttdef"><b>Definition:</b> EnumDeviceInterface.h:231</div></div>
+<div class="ttc" id="classastdcore_1_1_device_interface_enum_t_html_a7ecc0de9bee0507a726c59e31ceebc96"><div class="ttname"><a href="../../d3/dd6/classastdcore_1_1_device_interface_enum_t.html#a7ecc0de9bee0507a726c59e31ceebc96">astdcore::DeviceInterfaceEnumT::m_interfaces</a></div><div class="ttdeci">InterfaceContainer m_interfaces</div><div class="ttdef"><b>Definition:</b> EnumDeviceInterface.h:179</div></div>
+<div class="ttc" id="classastdcore_1_1_device_interface_enum_t_html_a1c9bec386bae25b9e4484bab497c890b"><div class="ttname"><a href="../../d3/dd6/classastdcore_1_1_device_interface_enum_t.html#a1c9bec386bae25b9e4484bab497c890b">astdcore::DeviceInterfaceEnumT::begin</a></div><div class="ttdeci">iterator begin()</div><div class="ttdef"><b>Definition:</b> EnumDeviceInterface.h:211</div></div>
+<div class="ttc" id="class_device_context_jump_html"><div class="ttname"><a href="../../de/dba/class_device_context_jump.html">DeviceContextJump</a></div><div class="ttdef"><b>Definition:</b> DeviceContextJump.h:8</div></div>
+<div class="ttc" id="class_device_context_jump_html_a8e3b722c5a4e764806c4d8b11a0a5257"><div class="ttname"><a href="../../de/dba/class_device_context_jump.html#a8e3b722c5a4e764806c4d8b11a0a5257">DeviceContextJump::jump</a></div><div class="ttdeci">void jump(const ContextJump &amp;context)</div><div class="ttdef"><b>Definition:</b> DeviceContextJump.h:23</div></div>
+<div class="ttc" id="class_describe_device_html"><div class="ttname"><a href="../../db/d75/class_describe_device.html">DescribeDevice</a></div><div class="ttdef"><b>Definition:</b> DescribeDevice.h:12</div></div>
+<div class="ttc" id="class_g_i_d___device_html"><div class="ttname"><a href="../../df/d6d/class_g_i_d___device.html">GID_Device</a></div><div class="ttdef"><b>Definition:</b> GID_Device.h:7</div></div>
+<div class="ttc" id="class_describe_device_html_a7f692048807d0fd00b6e66d8199e00d0"><div class="ttname"><a href="../../db/d75/class_describe_device.html#a7f692048807d0fd00b6e66d8199e00d0">DescribeDevice::name</a></div><div class="ttdeci">QString name</div><div class="ttdef"><b>Definition:</b> DescribeDevice.h:31</div></div>
+<div class="ttc" id="_enum_device_interface_8h_html"><div class="ttname"><a href="../../d7/df8/_enum_device_interface_8h.html">EnumDeviceInterface.h</a></div></div>
+<div class="ttc" id="class_device_context_jump_html_a12a84353f7630732f69db36f3419495b"><div class="ttname"><a href="../../de/dba/class_device_context_jump.html#a12a84353f7630732f69db36f3419495b">DeviceContextJump::DeviceContextJump</a></div><div class="ttdeci">DeviceContextJump(IIUDeviceImp *device)</div><div class="ttdef"><b>Definition:</b> DeviceContextJump.h:33</div></div>
+<div class="ttc" id="classastdcore_1_1_device_interface_enum_t_1_1_interface_lock_ptr_html"><div class="ttname"><a href="../../d9/d7b/classastdcore_1_1_device_interface_enum_t_1_1_interface_lock_ptr.html">astdcore::DeviceInterfaceEnumT::InterfaceLockPtr</a></div><div class="ttdef"><b>Definition:</b> EnumDeviceInterface.h:69</div></div>
+<div class="ttc" id="class_device_context_jump_by_g_i_d_html_a71c5b2357ab42d0e96cd1146080cbc78"><div class="ttname"><a href="../../d6/d59/class_device_context_jump_by_g_i_d.html#a71c5b2357ab42d0e96cd1146080cbc78">DeviceContextJumpByGID::DeviceContextJumpByGID</a></div><div class="ttdeci">DeviceContextJumpByGID(IIUDeviceImp *device, const GID_Device &amp;gidDevice)</div><div class="ttdef"><b>Definition:</b> DeviceContextJump.h:52</div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="../../dir_34d4f82ac0ce68cc283c82309062e108.html">_contrib</a></li><li class="navelem"><a class="el" href="../../dir_720ab58a94709603d186104b45fe972e.html">Include</a></li><li class="navelem"><a class="el" href="../../dir_80de6486d62bd6b69076e2edc3481d55.html">AstdCore</a></li><li class="navelem"><a class="el" href="../../dd/df7/_device_context_jump_8h.html">DeviceContextJump.h</a></li>
+    <li class="footer">Создано системой
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
+  </ul>
+</div>
+</body>
+</html>

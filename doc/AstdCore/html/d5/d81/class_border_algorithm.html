@@ -1,0 +1,691 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.13"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>AstdCore Library: Класс BorderAlgorithm</title>
+<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../jquery.js"></script>
+<script type="text/javascript" src="../../dynsections.js"></script>
+<link href="../../navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../resize.js"></script>
+<script type="text/javascript" src="../../navtreedata.js"></script>
+<script type="text/javascript" src="../../navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+</script>
+<link href="../../search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../search/searchdata.js"></script>
+<script type="text/javascript" src="../../search/search.js"></script>
+<link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">AstdCore Library
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.8.13 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "../../search",false,'Поиск');
+</script>
+<script type="text/javascript" src="../../menudata.js"></script>
+<script type="text/javascript" src="../../menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('../../',true,false,'search.php','Поиск');
+  $(document).ready(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('d5/d81/class_border_algorithm.html','../../');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-types">Открытые типы</a> &#124;
+<a href="#pub-methods">Открытые члены</a> &#124;
+<a href="#pub-static-methods">Открытые статические члены</a> &#124;
+<a href="../../d9/d11/class_border_algorithm-members.html">Полный список членов класса</a>  </div>
+  <div class="headertitle">
+<div class="title">Класс BorderAlgorithm</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p><code>#include &lt;<a class="el" href="../../d9/db2/_border_algorithm_8h_source.html">BorderAlgorithm.h</a>&gt;</code></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
+Открытые типы</h2></td></tr>
+<tr class="memitem:a7df27eb718de19c25614d0029422a9b8"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d81/class_border_algorithm.html#a7df27eb718de19c25614d0029422a9b8">Type</a> { <br />
+&#160;&#160;<a class="el" href="../../d5/d81/class_border_algorithm.html#a7df27eb718de19c25614d0029422a9b8af80a4ad87fee7c9fdc19b7769495fdb5">Type::Nothing</a> = CPropertyAnalogParameter::e_algorithmClassic, 
+<a class="el" href="../../d5/d81/class_border_algorithm.html#a7df27eb718de19c25614d0029422a9b8a8f497c1a3d15af9e0c215019f26b887d">Type::Delay</a> = CPropertyAnalogParameter::e_algorithmDelay, 
+<a class="el" href="../../d5/d81/class_border_algorithm.html#a7df27eb718de19c25614d0029422a9b8a48c7c41b72e1d678923ce3571aa65b2d">Type::Step</a> = CPropertyAnalogParameter::e_algorithmStep, 
+<a class="el" href="../../d5/d81/class_border_algorithm.html#a7df27eb718de19c25614d0029422a9b8af2094d0bf3814b2581ebd980ad098ca4">Type::Hysteresis</a> = CPropertyAnalogParameter::e_algorithmHysteresis, 
+<br />
+&#160;&#160;<a class="el" href="../../d5/d81/class_border_algorithm.html#a7df27eb718de19c25614d0029422a9b8a916c74f40cb3a7d245c9f9eefde044db">Type::UnknownType</a> = -1
+<br />
+ }</td></tr>
+<tr class="separator:a7df27eb718de19c25614d0029422a9b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Открытые члены</h2></td></tr>
+<tr class="memitem:ac707f7dc56c0a6b76852a94fd5ab545c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d81/class_border_algorithm.html#ac707f7dc56c0a6b76852a94fd5ab545c">Q_ENUMS</a> (<a class="el" href="../../d5/d81/class_border_algorithm.html#a7df27eb718de19c25614d0029422a9b8">Type</a>)</td></tr>
+<tr class="separator:ac707f7dc56c0a6b76852a94fd5ab545c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7fefff0cb318d7478270ddb9943f88ea"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d81/class_border_algorithm.html#a7fefff0cb318d7478270ddb9943f88ea">isValid</a> () const</td></tr>
+<tr class="separator:a7fefff0cb318d7478270ddb9943f88ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a739015d4e6fc57a18c6bc1a831ec2340"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d81/class_border_algorithm.html#a7df27eb718de19c25614d0029422a9b8">Type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d81/class_border_algorithm.html#a739015d4e6fc57a18c6bc1a831ec2340">type</a> () const</td></tr>
+<tr class="separator:a739015d4e6fc57a18c6bc1a831ec2340"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3982febd86f320b59c1a97bfe6ba491b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d81/class_border_algorithm.html#a3982febd86f320b59c1a97bfe6ba491b">setType</a> (const <a class="el" href="../../d5/d81/class_border_algorithm.html#a7df27eb718de19c25614d0029422a9b8">Type</a> &amp;a)</td></tr>
+<tr class="separator:a3982febd86f320b59c1a97bfe6ba491b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a519064cf36012bb3decf740792d3e412"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d81/class_border_algorithm.html#a519064cf36012bb3decf740792d3e412">typeToString</a> () const</td></tr>
+<tr class="separator:a519064cf36012bb3decf740792d3e412"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9256066b3d0b2866a15cf62687f44b59"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d81/class_border_algorithm.html#a9256066b3d0b2866a15cf62687f44b59">typeToStringTr</a> () const</td></tr>
+<tr class="separator:a9256066b3d0b2866a15cf62687f44b59"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ad8b72dd8658d60fa390b053866a693"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d81/class_border_algorithm.html#a0ad8b72dd8658d60fa390b053866a693">isNothing</a> () const</td></tr>
+<tr class="separator:a0ad8b72dd8658d60fa390b053866a693"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa0139efdd18da80e3cb74748fbba3de0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d81/class_border_algorithm.html#aa0139efdd18da80e3cb74748fbba3de0">isDelay</a> () const</td></tr>
+<tr class="separator:aa0139efdd18da80e3cb74748fbba3de0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0cf8c1823e4497a7f153e9f1301e972d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d81/class_border_algorithm.html#a0cf8c1823e4497a7f153e9f1301e972d">isStep</a> () const</td></tr>
+<tr class="separator:a0cf8c1823e4497a7f153e9f1301e972d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa3b42ff7da63c18ab80595e0ec131f08"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d81/class_border_algorithm.html#aa3b42ff7da63c18ab80595e0ec131f08">isHysteresis</a> () const</td></tr>
+<tr class="separator:aa3b42ff7da63c18ab80595e0ec131f08"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac47c745ae3600e836365e916994d80cd"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d81/class_border_algorithm.html#ac47c745ae3600e836365e916994d80cd">hasAlgorithm</a> () const</td></tr>
+<tr class="separator:ac47c745ae3600e836365e916994d80cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f07339fb12d536e9e376a20eba499ef"><td class="memItemLeft" align="right" valign="top">const CPropertyAnalogParameter::CAlgorithmDelay &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d81/class_border_algorithm.html#a9f07339fb12d536e9e376a20eba499ef">delay</a> () const</td></tr>
+<tr class="separator:a9f07339fb12d536e9e376a20eba499ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5095426c4e97379e92b2a22426f24158"><td class="memItemLeft" align="right" valign="top">const CPropertyAnalogParameter::CAlgorithmStep &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d81/class_border_algorithm.html#a5095426c4e97379e92b2a22426f24158">step</a> () const</td></tr>
+<tr class="separator:a5095426c4e97379e92b2a22426f24158"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc81f5b6550ef692252aa886c2c6e257"><td class="memItemLeft" align="right" valign="top">const CPropertyAnalogParameter::CAlgorithmHysteresis &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d81/class_border_algorithm.html#afc81f5b6550ef692252aa886c2c6e257">hysteresis</a> () const</td></tr>
+<tr class="separator:afc81f5b6550ef692252aa886c2c6e257"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c5d47426e956b0aca5b6b5e9f12b01f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d81/class_border_algorithm.html">BorderAlgorithm</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d81/class_border_algorithm.html#a2c5d47426e956b0aca5b6b5e9f12b01f">operator=</a> (const <a class="el" href="../../d5/d81/class_border_algorithm.html">BorderAlgorithm</a> &amp;src)</td></tr>
+<tr class="separator:a2c5d47426e956b0aca5b6b5e9f12b01f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e540cb033885ffc752b4f5f24d5a30d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d81/class_border_algorithm.html">BorderAlgorithm</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d81/class_border_algorithm.html#a4e540cb033885ffc752b4f5f24d5a30d">operator=</a> (CPropertyAnalogParameter::CAlgorithm &amp;src)</td></tr>
+<tr class="separator:a4e540cb033885ffc752b4f5f24d5a30d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8281b5aa87d668053c66aaa27f484460"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d81/class_border_algorithm.html#a8281b5aa87d668053c66aaa27f484460">BorderAlgorithm</a> ()</td></tr>
+<tr class="separator:a8281b5aa87d668053c66aaa27f484460"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab9ac761c32b2528f7f23c0bf81b85ea4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d81/class_border_algorithm.html#ab9ac761c32b2528f7f23c0bf81b85ea4">BorderAlgorithm</a> (const <a class="el" href="../../d5/d81/class_border_algorithm.html">BorderAlgorithm</a> &amp;src)</td></tr>
+<tr class="separator:ab9ac761c32b2528f7f23c0bf81b85ea4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa02ba5fad34e99ecb9aff44310bcc2a0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d81/class_border_algorithm.html#aa02ba5fad34e99ecb9aff44310bcc2a0">BorderAlgorithm</a> (CPropertyAnalogParameter::CAlgorithm &amp;src)</td></tr>
+<tr class="separator:aa02ba5fad34e99ecb9aff44310bcc2a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7c5dbc128b69e8f742303044b41be477"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d81/class_border_algorithm.html#a7c5dbc128b69e8f742303044b41be477">~BorderAlgorithm</a> ()</td></tr>
+<tr class="separator:a7c5dbc128b69e8f742303044b41be477"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Открытые статические члены</h2></td></tr>
+<tr class="memitem:a9880372fcea437670b7ceb2cbaba09a2"><td class="memItemLeft" align="right" valign="top">static QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d81/class_border_algorithm.html#a9880372fcea437670b7ceb2cbaba09a2">typeToString</a> (const <a class="el" href="../../d5/d81/class_border_algorithm.html#a7df27eb718de19c25614d0029422a9b8">BorderAlgorithm::Type</a> &amp;<a class="el" href="../../d5/d81/class_border_algorithm.html#a739015d4e6fc57a18c6bc1a831ec2340">type</a>)</td></tr>
+<tr class="separator:a9880372fcea437670b7ceb2cbaba09a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c2b4995ec0f7c29cd72fbec2af36311"><td class="memItemLeft" align="right" valign="top">static QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d81/class_border_algorithm.html#a3c2b4995ec0f7c29cd72fbec2af36311">typeToStringTr</a> (const <a class="el" href="../../d5/d81/class_border_algorithm.html#a7df27eb718de19c25614d0029422a9b8">BorderAlgorithm::Type</a> &amp;<a class="el" href="../../d5/d81/class_border_algorithm.html#a739015d4e6fc57a18c6bc1a831ec2340">type</a>)</td></tr>
+<tr class="separator:a3c2b4995ec0f7c29cd72fbec2af36311"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Перечисления</h2>
+<a id="a7df27eb718de19c25614d0029422a9b8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7df27eb718de19c25614d0029422a9b8">&#9670;&nbsp;</a></span>Type</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../d5/d81/class_border_algorithm.html#a7df27eb718de19c25614d0029422a9b8">BorderAlgorithm::Type</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Элементы перечислений</th></tr><tr><td class="fieldname"><a id="a7df27eb718de19c25614d0029422a9b8af80a4ad87fee7c9fdc19b7769495fdb5"></a>Nothing&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a7df27eb718de19c25614d0029422a9b8a8f497c1a3d15af9e0c215019f26b887d"></a>Delay&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a7df27eb718de19c25614d0029422a9b8a48c7c41b72e1d678923ce3571aa65b2d"></a>Step&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a7df27eb718de19c25614d0029422a9b8af2094d0bf3814b2581ebd980ad098ca4"></a>Hysteresis&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a7df27eb718de19c25614d0029422a9b8a916c74f40cb3a7d245c9f9eefde044db"></a>UnknownType&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<h2 class="groupheader">Конструктор(ы)</h2>
+<a id="a8281b5aa87d668053c66aaa27f484460"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8281b5aa87d668053c66aaa27f484460">&#9670;&nbsp;</a></span>BorderAlgorithm() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">BorderAlgorithm::BorderAlgorithm </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab9ac761c32b2528f7f23c0bf81b85ea4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab9ac761c32b2528f7f23c0bf81b85ea4">&#9670;&nbsp;</a></span>BorderAlgorithm() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">BorderAlgorithm::BorderAlgorithm </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d5/d81/class_border_algorithm.html">BorderAlgorithm</a> &amp;&#160;</td>
+          <td class="paramname"><em>src</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa02ba5fad34e99ecb9aff44310bcc2a0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa02ba5fad34e99ecb9aff44310bcc2a0">&#9670;&nbsp;</a></span>BorderAlgorithm() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">BorderAlgorithm::BorderAlgorithm </td>
+          <td>(</td>
+          <td class="paramtype">CPropertyAnalogParameter::CAlgorithm &amp;&#160;</td>
+          <td class="paramname"><em>src</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">explicit</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7c5dbc128b69e8f742303044b41be477"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7c5dbc128b69e8f742303044b41be477">&#9670;&nbsp;</a></span>~BorderAlgorithm()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">BorderAlgorithm::~BorderAlgorithm </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Методы</h2>
+<a id="a9f07339fb12d536e9e376a20eba499ef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9f07339fb12d536e9e376a20eba499ef">&#9670;&nbsp;</a></span>delay()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const CPropertyAnalogParameter::CAlgorithmDelay&amp; BorderAlgorithm::delay </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac47c745ae3600e836365e916994d80cd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac47c745ae3600e836365e916994d80cd">&#9670;&nbsp;</a></span>hasAlgorithm()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool BorderAlgorithm::hasAlgorithm </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afc81f5b6550ef692252aa886c2c6e257"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afc81f5b6550ef692252aa886c2c6e257">&#9670;&nbsp;</a></span>hysteresis()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const CPropertyAnalogParameter::CAlgorithmHysteresis&amp; BorderAlgorithm::hysteresis </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa0139efdd18da80e3cb74748fbba3de0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa0139efdd18da80e3cb74748fbba3de0">&#9670;&nbsp;</a></span>isDelay()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool BorderAlgorithm::isDelay </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa3b42ff7da63c18ab80595e0ec131f08"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa3b42ff7da63c18ab80595e0ec131f08">&#9670;&nbsp;</a></span>isHysteresis()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool BorderAlgorithm::isHysteresis </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0ad8b72dd8658d60fa390b053866a693"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0ad8b72dd8658d60fa390b053866a693">&#9670;&nbsp;</a></span>isNothing()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool BorderAlgorithm::isNothing </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0cf8c1823e4497a7f153e9f1301e972d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0cf8c1823e4497a7f153e9f1301e972d">&#9670;&nbsp;</a></span>isStep()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool BorderAlgorithm::isStep </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7fefff0cb318d7478270ddb9943f88ea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7fefff0cb318d7478270ddb9943f88ea">&#9670;&nbsp;</a></span>isValid()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool BorderAlgorithm::isValid </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2c5d47426e956b0aca5b6b5e9f12b01f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2c5d47426e956b0aca5b6b5e9f12b01f">&#9670;&nbsp;</a></span>operator=() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d5/d81/class_border_algorithm.html">BorderAlgorithm</a>&amp; BorderAlgorithm::operator= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d5/d81/class_border_algorithm.html">BorderAlgorithm</a> &amp;&#160;</td>
+          <td class="paramname"><em>src</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4e540cb033885ffc752b4f5f24d5a30d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4e540cb033885ffc752b4f5f24d5a30d">&#9670;&nbsp;</a></span>operator=() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d5/d81/class_border_algorithm.html">BorderAlgorithm</a>&amp; BorderAlgorithm::operator= </td>
+          <td>(</td>
+          <td class="paramtype">CPropertyAnalogParameter::CAlgorithm &amp;&#160;</td>
+          <td class="paramname"><em>src</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac707f7dc56c0a6b76852a94fd5ab545c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac707f7dc56c0a6b76852a94fd5ab545c">&#9670;&nbsp;</a></span>Q_ENUMS()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">BorderAlgorithm::Q_ENUMS </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d5/d81/class_border_algorithm.html#a7df27eb718de19c25614d0029422a9b8">Type</a>&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3982febd86f320b59c1a97bfe6ba491b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3982febd86f320b59c1a97bfe6ba491b">&#9670;&nbsp;</a></span>setType()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BorderAlgorithm::setType </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d5/d81/class_border_algorithm.html#a7df27eb718de19c25614d0029422a9b8">Type</a> &amp;&#160;</td>
+          <td class="paramname"><em>a</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5095426c4e97379e92b2a22426f24158"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5095426c4e97379e92b2a22426f24158">&#9670;&nbsp;</a></span>step()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const CPropertyAnalogParameter::CAlgorithmStep&amp; BorderAlgorithm::step </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a739015d4e6fc57a18c6bc1a831ec2340"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a739015d4e6fc57a18c6bc1a831ec2340">&#9670;&nbsp;</a></span>type()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d5/d81/class_border_algorithm.html#a7df27eb718de19c25614d0029422a9b8">Type</a> BorderAlgorithm::type </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9880372fcea437670b7ceb2cbaba09a2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9880372fcea437670b7ceb2cbaba09a2">&#9670;&nbsp;</a></span>typeToString() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static QString BorderAlgorithm::typeToString </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d5/d81/class_border_algorithm.html#a7df27eb718de19c25614d0029422a9b8">BorderAlgorithm::Type</a> &amp;&#160;</td>
+          <td class="paramname"><em>type</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a519064cf36012bb3decf740792d3e412"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a519064cf36012bb3decf740792d3e412">&#9670;&nbsp;</a></span>typeToString() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString BorderAlgorithm::typeToString </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3c2b4995ec0f7c29cd72fbec2af36311"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3c2b4995ec0f7c29cd72fbec2af36311">&#9670;&nbsp;</a></span>typeToStringTr() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static QString BorderAlgorithm::typeToStringTr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d5/d81/class_border_algorithm.html#a7df27eb718de19c25614d0029422a9b8">BorderAlgorithm::Type</a> &amp;&#160;</td>
+          <td class="paramname"><em>type</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9256066b3d0b2866a15cf62687f44b59"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9256066b3d0b2866a15cf62687f44b59">&#9670;&nbsp;</a></span>typeToStringTr() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString BorderAlgorithm::typeToStringTr </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>Объявления и описания членов класса находятся в файле:<ul>
+<li>_contrib/Include/AstdCore/<a class="el" href="../../d9/db2/_border_algorithm_8h_source.html">BorderAlgorithm.h</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="../../d5/d81/class_border_algorithm.html">BorderAlgorithm</a></li>
+    <li class="footer">Создано системой
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
+  </ul>
+</div>
+</body>
+</html>

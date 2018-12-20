@@ -1,0 +1,26 @@
+var class_permission =
+[
+    [ "Permission", "d5/db9/class_permission.html#a15a34bd401252f431c0876efdd32a024", null ],
+    [ "Permission", "d5/db9/class_permission.html#a461138cb7c524b71d6ec7951af686eab", null ],
+    [ "Permission", "d5/db9/class_permission.html#a610adcba174eef80db60c2b799827101", null ],
+    [ "~Permission", "d5/db9/class_permission.html#a2104bf93e9a027401469fc28f243eef8", null ],
+    [ "isAll", "d5/db9/class_permission.html#a0262368312822f6d9fc6ef9cc6fdea7d", null ],
+    [ "isNegative", "d5/db9/class_permission.html#ad557dad5fef0b6d0f7e15ed00e8222fc", null ],
+    [ "isStation", "d5/db9/class_permission.html#aeabb6dce6fa9d20a7ea1b56284a071cd", null ],
+    [ "isUserGroup", "d5/db9/class_permission.html#a4c0fab7a465b51c1410833e474dc23f5", null ],
+    [ "operator!=", "d5/db9/class_permission.html#a612aeea4d5078a15cf500bf6aff58a59", null ],
+    [ "operator!=", "d5/db9/class_permission.html#ac0fbc242e64ec4ec47504c1e3f00eb9f", null ],
+    [ "operator=", "d5/db9/class_permission.html#ae6f1c90d59aa05b9bc9f4a5f6d40fe20", null ],
+    [ "operator=", "d5/db9/class_permission.html#a3ab7420b0e28f30025b89a4023bbce70", null ],
+    [ "operator==", "d5/db9/class_permission.html#af6e08e02619bbef1a1a8f051808b44fe", null ],
+    [ "operator==", "d5/db9/class_permission.html#a2183247a2af4351f903ef55ed6da14a4", null ],
+    [ "setAll", "d5/db9/class_permission.html#a7bf9bb3754ac5dc3749a236911b9c8d8", null ],
+    [ "setNegative", "d5/db9/class_permission.html#af33d413d9975dc6b7e142384cdd71866", null ],
+    [ "setStation", "d5/db9/class_permission.html#a16e83a997102ba9896360731b365b23c", null ],
+    [ "setUserGroup", "d5/db9/class_permission.html#a1bff78f4fcba36e5529b30672e9abc9c", null ],
+    [ "station", "d5/db9/class_permission.html#a9f0b1cfc82c0bdcfb1f2d95bf0daacf7", null ],
+    [ "toCGID_Location", "d5/db9/class_permission.html#a5ae78ef674db98818320d80cbdfcc610", null ],
+    [ "toString", "d5/db9/class_permission.html#a1ca71f190f2d9dbaa5c481e6d0dc7c49", null ],
+    [ "toStringHTML", "d5/db9/class_permission.html#a91505fee244bcba959d66c1516e15ae4", null ],
+    [ "userGroup", "d5/db9/class_permission.html#a7e56200b5172e18051c2dcfd33cb243f", null ]
+];
