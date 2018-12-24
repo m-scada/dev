@@ -1,6 +1,7 @@
 var searchData=
 [
   ['uchar',['UChar',['../dc/dac/class_io_external_data.html#a2657c948b927f630d4c7f17297cb86b8af97d5cb62f8cf5dbb26c17171dd5fe69',1,'IoExternalData']]],
+  ['uformatunits',['uformatUnits',['../d8/d82/class_describe_parameter.html#afc672c6d9f6bdaa5ad946ef89315bcd3',1,'DescribeParameter']]],
   ['uint',['UInt',['../dc/dac/class_io_external_data.html#a2657c948b927f630d4c7f17297cb86b8a0b1291eded63143ac04709711274785a',1,'IoExternalData']]],
   ['undefined',['Undefined',['../d4/d16/class_state_object.html#a3cb894c41d512314b535afaab7ef3bc7a99553b1a546c26b6d8d0c115efc89ffb',1,'StateObject']]],
   ['units',['units',['../d8/d82/class_describe_parameter.html#a279168c2fe7f9591920f3dbb89a23d2c',1,'DescribeParameter::units()'],['../d8/d82/class_describe_parameter.html#af8158af317f21351b3116c3c2fd56008',1,'DescribeParameter::units() const']]],

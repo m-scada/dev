@@ -66,5 +66,6 @@ var searchData=
   ['mnemoschemesceneminimalwidthchanged',['mnemoschemeSceneMinimalWidthChanged',['../d9/d73/class_project_config.html#a1a1eb5dd909da33d90a8acacdd9a1e15',1,'ProjectConfig']]],
   ['mnemoschemesceneminimalwidthdefault',['mnemoschemeSceneMinimalWidthDefault',['../d9/d73/class_project_config.html#ae8db79f74c92dc2b44d9c30477475f54',1,'ProjectConfig']]],
   ['module',['Module',['../db/d60/class_describe.html#aa71e75544f67f60e7739413aae34ad02ae55f75a29310d7b60f7ac1d390c8ae42',1,'Describe']]],
-  ['msgnotify',['msgNotify',['../de/d25/class_receiver_host.html#a732382cb8697223e5c51e58f6df964b1',1,'ReceiverHost']]]
+  ['msgnotify',['msgNotify',['../de/d25/class_receiver_host.html#a732382cb8697223e5c51e58f6df964b1',1,'ReceiverHost']]],
+  ['my_5fgadget',['MY_GADGET',['../dc/dbb/_gadget_macro_8h.html#afbb5144570bab17833076b081bbd93a9',1,'GadgetMacro.h']]]
 ];

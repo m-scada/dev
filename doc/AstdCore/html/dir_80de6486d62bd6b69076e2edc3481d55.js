@@ -126,7 +126,9 @@ var dir_80de6486d62bd6b69076e2edc3481d55 =
     [ "DescribeStationList.h", "dd/dca/_describe_station_list_8h.html", [
       [ "DescribeStationList", "d6/d3e/class_describe_station_list.html", "d6/d3e/class_describe_station_list" ],
       [ "FilterById", "d8/de0/class_describe_station_list_1_1_filter_by_id.html", "d8/de0/class_describe_station_list_1_1_filter_by_id" ],
-      [ "FilterByName", "d0/d29/class_describe_station_list_1_1_filter_by_name.html", "d0/d29/class_describe_station_list_1_1_filter_by_name" ]
+      [ "FilterByName", "d0/d29/class_describe_station_list_1_1_filter_by_name.html", "d0/d29/class_describe_station_list_1_1_filter_by_name" ],
+      [ "FilterByIp", "d7/d59/class_describe_station_list_1_1_filter_by_ip.html", "d7/d59/class_describe_station_list_1_1_filter_by_ip" ],
+      [ "FilterByProject", "dd/d9a/class_describe_station_list_1_1_filter_by_project.html", "dd/d9a/class_describe_station_list_1_1_filter_by_project" ]
     ] ],
     [ "DescribeStationListObject.h", "d8/d67/_describe_station_list_object_8h.html", [
       [ "DescribeStationListObject", "d9/d6e/class_describe_station_list_object.html", "d9/d6e/class_describe_station_list_object" ]
@@ -153,6 +155,7 @@ var dir_80de6486d62bd6b69076e2edc3481d55 =
       [ "InterfaceList", "d2/d9d/classastdcore_1_1_device_interface_enum_t_1_1_interface_list.html", "d2/d9d/classastdcore_1_1_device_interface_enum_t_1_1_interface_list" ]
     ] ],
     [ "EventSource.h", "d7/dcc/_event_source_8h.html", "d7/dcc/_event_source_8h" ],
+    [ "GadgetMacro.h", "dc/dbb/_gadget_macro_8h.html", "dc/dbb/_gadget_macro_8h" ],
     [ "GID_Algorithm.h", "d4/d37/_g_i_d___algorithm_8h.html", "d4/d37/_g_i_d___algorithm_8h" ],
     [ "GID_Archive.h", "d9/d01/_g_i_d___archive_8h.html", "d9/d01/_g_i_d___archive_8h" ],
     [ "GID_Device.h", "d9/d5c/_g_i_d___device_8h.html", [

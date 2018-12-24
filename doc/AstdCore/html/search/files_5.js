@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['gadgetmacro_2eh',['GadgetMacro.h',['../dc/dbb/_gadget_macro_8h.html',1,'']]],
   ['gid_5falgorithm_2eh',['GID_Algorithm.h',['../d4/d37/_g_i_d___algorithm_8h.html',1,'']]],
   ['gid_5farchive_2eh',['GID_Archive.h',['../d9/d01/_g_i_d___archive_8h.html',1,'']]],
   ['gid_5fdevice_2eh',['GID_Device.h',['../d9/d5c/_g_i_d___device_8h.html',1,'']]],

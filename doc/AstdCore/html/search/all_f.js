@@ -24,7 +24,7 @@ var searchData=
   ['permission_2eh',['Permission.h',['../de/d5a/_permission_8h.html',1,'']]],
   ['pinghost',['pingHost',['../d7/dbe/_astd_core_utils_8h.html#ad2dae30a7ae7aee44eaa8ac739af1541',1,'AstdCoreUtils.h']]],
   ['plugin',['plugin',['../de/d38/class_core_device.html#acdd9206b368cfe139353623b39973fb0',1,'CoreDevice']]],
-  ['pointer',['Pointer',['../d3/dd6/classastdcore_1_1_device_interface_enum_t.html#ab4b1714d29d643aaa42a23a7618bd740',1,'astdcore::DeviceInterfaceEnumT::Pointer()'],['../da/ddf/classstd_1_1allocator__common__heap.html#a075b416b88b829dc6cfe4a1e0cdaa269',1,'std::allocator_common_heap::pointer()'],['../d7/d29/classstd_1_1allocator__owner__heap.html#a75c44bab713d2a098a8dc85c04767606',1,'std::allocator_owner_heap::pointer()']]],
+  ['pointer',['pointer',['../da/ddf/classstd_1_1allocator__common__heap.html#a075b416b88b829dc6cfe4a1e0cdaa269',1,'std::allocator_common_heap::pointer()'],['../d7/d29/classstd_1_1allocator__owner__heap.html#a75c44bab713d2a098a8dc85c04767606',1,'std::allocator_owner_heap::pointer()'],['../d3/dd6/classastdcore_1_1_device_interface_enum_t.html#ab4b1714d29d643aaa42a23a7618bd740',1,'astdcore::DeviceInterfaceEnumT::Pointer()']]],
   ['portbugtrapserver',['portBugtrapServer',['../de/db7/class_application_config.html#ab07e628bc71d532eb58f74d4259844c2',1,'ApplicationConfig']]],
   ['porthostserver',['portHostServer',['../d9/d73/class_project_config.html#a66c3f37f9e08d94ee122b1cf90e51d65',1,'ProjectConfig']]],
   ['portintegrationserver',['portIntegrationServer',['../d9/d73/class_project_config.html#ad94eac13d38613e41bceadfa5203207a',1,'ProjectConfig']]],

@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['gadgetmacro_2eh',['GadgetMacro.h',['../dc/dbb/_gadget_macro_8h.html',1,'']]],
   ['getaddressaliases',['getAddressAliases',['../d1/d2c/namespaceproject.html#aa1d96b08e51ac7b98bd012b8ba8e3519',1,'project']]],
   ['getchannel',['getChannel',['../d0/d51/class_abstract_value_source.html#a935edef053496a9bdce2b1ab2ee39929',1,'AbstractValueSource']]],
   ['getdescribe',['getDescribe',['../d9/d7b/classastdcore_1_1_device_interface_enum_t_1_1_interface_lock_ptr.html#a50015318ad6bf9f8f6683a0cced4918c',1,'astdcore::DeviceInterfaceEnumT::InterfaceLockPtr']]],

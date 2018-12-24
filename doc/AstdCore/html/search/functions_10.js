@@ -4,6 +4,7 @@ var searchData=
   ['rawextaddress',['rawExtAddress',['../d9/d97/class_describe_input.html#a40c20ed64400bb58c3c237e3d4bf2e83',1,'DescribeInput']]],
   ['rawexttype',['rawExtType',['../d9/d97/class_describe_input.html#a5b729da16311897052de062fd9e74ee3',1,'DescribeInput']]],
   ['rawfilename',['rawFileName',['../d0/d5d/class_describe_algorithm.html#a39cd733b8423f4801dd596dae8a4e115',1,'DescribeAlgorithm']]],
+  ['rawformatunits',['rawFormatUnits',['../d8/d82/class_describe_parameter.html#ae9f2d84c4236f5dbd73077bd4f047902',1,'DescribeParameter']]],
   ['rawglobaloptions',['rawGlobalOptions',['../db/d75/class_describe_device.html#aa649ce9518bb2170271d69525c89b022',1,'DescribeDevice']]],
   ['rawipaddress',['rawIpAddress',['../d9/dd2/class_describe_connection.html#a828e30b53acad862fccfd911efad3425',1,'DescribeConnection::rawIpAddress()'],['../d1/d9b/class_describe_station.html#a29d54d59c882e49e9a2f2faca23dc362',1,'DescribeStation::rawIpAddress()']]],
   ['rawlasterror',['rawLastError',['../d9/dd2/class_describe_connection.html#abe19754921b020ba3077353c5b9e8b9b',1,'DescribeConnection']]],

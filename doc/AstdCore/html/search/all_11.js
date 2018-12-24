@@ -4,6 +4,7 @@ var searchData=
   ['rawextaddress',['rawExtAddress',['../d9/d97/class_describe_input.html#a40c20ed64400bb58c3c237e3d4bf2e83',1,'DescribeInput']]],
   ['rawexttype',['rawExtType',['../d9/d97/class_describe_input.html#a5b729da16311897052de062fd9e74ee3',1,'DescribeInput']]],
   ['rawfilename',['rawFileName',['../d0/d5d/class_describe_algorithm.html#a39cd733b8423f4801dd596dae8a4e115',1,'DescribeAlgorithm']]],
+  ['rawformatunits',['rawFormatUnits',['../d8/d82/class_describe_parameter.html#ae9f2d84c4236f5dbd73077bd4f047902',1,'DescribeParameter']]],
   ['rawglobaloptions',['rawGlobalOptions',['../db/d75/class_describe_device.html#aa649ce9518bb2170271d69525c89b022',1,'DescribeDevice']]],
   ['rawipaddress',['rawIpAddress',['../d9/dd2/class_describe_connection.html#a828e30b53acad862fccfd911efad3425',1,'DescribeConnection::rawIpAddress()'],['../d1/d9b/class_describe_station.html#a29d54d59c882e49e9a2f2faca23dc362',1,'DescribeStation::rawIpAddress()']]],
   ['rawlasterror',['rawLastError',['../d9/dd2/class_describe_connection.html#abe19754921b020ba3077353c5b9e8b9b',1,'DescribeConnection']]],
@@ -52,7 +53,7 @@ var searchData=
   ['resetworking',['resetWorking',['../db/d60/class_describe.html#a43297967ab4a39ef29663a4c1ca05452',1,'Describe']]],
   ['restore',['restore',['../de/db7/class_application_config.html#ae3828c5b623ebbfecfeb85118f3d191c',1,'ApplicationConfig::restore()'],['../d9/d73/class_project_config.html#a010fef51b2359d53f1882ff59e748497',1,'ProjectConfig::restore()'],['../df/d44/class_signal_generator.html#a6493871ab65856d6ce9e1243ade514f7',1,'SignalGenerator::restore()']]],
   ['rewind',['rewind',['../de/de3/class_vector_enumerator.html#a909ee4320311f5a86353d0f06f2b70ea',1,'VectorEnumerator']]],
-  ['rulebackup',['RuleBackup',['../d9/d73/class_project_config.html#adc8ce295118f77aa22346459dcc816fd',1,'ProjectConfig::RuleBackup()'],['../d9/d73/class_project_config.html#a43e1b9777a3b29429fbc38055beb36d2',1,'ProjectConfig::ruleBackup() const']]],
+  ['rulebackup',['ruleBackup',['../d9/d73/class_project_config.html#a43e1b9777a3b29429fbc38055beb36d2',1,'ProjectConfig::ruleBackup() const'],['../d9/d73/class_project_config.html#adc8ce295118f77aa22346459dcc816fd',1,'ProjectConfig::RuleBackup()']]],
   ['ruleenableblink',['ruleEnableBlink',['../d8/d82/class_describe_parameter.html#a8b478c6d55a0ee1aa5762e02d0e0583b',1,'DescribeParameter']]],
   ['running',['Running',['../d5/df2/class_value_source_device.html#a6d945da5540bd605603106828a5c563ca5bda814c4aedb126839228f1a3d92f09',1,'ValueSourceDevice']]]
 ];
