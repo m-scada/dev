@@ -53,7 +53,7 @@ var searchData=
   ['resetworking',['resetWorking',['../db/d60/class_describe.html#a43297967ab4a39ef29663a4c1ca05452',1,'Describe']]],
   ['restore',['restore',['../de/db7/class_application_config.html#ae3828c5b623ebbfecfeb85118f3d191c',1,'ApplicationConfig::restore()'],['../d9/d73/class_project_config.html#a010fef51b2359d53f1882ff59e748497',1,'ProjectConfig::restore()'],['../df/d44/class_signal_generator.html#a6493871ab65856d6ce9e1243ade514f7',1,'SignalGenerator::restore()']]],
   ['rewind',['rewind',['../de/de3/class_vector_enumerator.html#a909ee4320311f5a86353d0f06f2b70ea',1,'VectorEnumerator']]],
-  ['rulebackup',['ruleBackup',['../d9/d73/class_project_config.html#a43e1b9777a3b29429fbc38055beb36d2',1,'ProjectConfig::ruleBackup() const'],['../d9/d73/class_project_config.html#adc8ce295118f77aa22346459dcc816fd',1,'ProjectConfig::RuleBackup()']]],
+  ['rulebackup',['RuleBackup',['../d9/d73/class_project_config.html#adc8ce295118f77aa22346459dcc816fd',1,'ProjectConfig::RuleBackup()'],['../d9/d73/class_project_config.html#a43e1b9777a3b29429fbc38055beb36d2',1,'ProjectConfig::ruleBackup() const']]],
   ['ruleenableblink',['ruleEnableBlink',['../d8/d82/class_describe_parameter.html#a8b478c6d55a0ee1aa5762e02d0e0583b',1,'DescribeParameter']]],
   ['running',['Running',['../d5/df2/class_value_source_device.html#a6d945da5540bd605603106828a5c563ca5bda814c4aedb126839228f1a3d92f09',1,'ValueSourceDevice']]]
 ];

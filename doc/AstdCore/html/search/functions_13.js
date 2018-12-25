@@ -11,12 +11,12 @@ var searchData=
   ['useintegrationserver',['useIntegrationServer',['../d9/d73/class_project_config.html#ad57ce619b8a269071d45628b04943454',1,'ProjectConfig']]],
   ['useopeggl',['useOpegGL',['../de/db7/class_application_config.html#a6a1115988e9e1530a5338fd7cbf7ffe9',1,'ApplicationConfig']]],
   ['userauxdata',['userAuxData',['../d6/d8a/class_vector_event_ptr.html#a0b32fab8818fd371cdc664f960a45ea7',1,'VectorEventPtr']]],
+  ['usercustomproxyserver',['userCustomProxyServer',['../de/db7/class_application_config.html#af8e5b9bd9a518155906d992414348850',1,'ApplicationConfig']]],
   ['userdata',['userData',['../d6/d8a/class_vector_event_ptr.html#accfc236f21ba8b3c524e726a0e77d269',1,'VectorEventPtr']]],
   ['userepositoryserver',['useRepositoryServer',['../de/db7/class_application_config.html#ae63a8a90ab1973f72e01ce959c2aa625',1,'ApplicationConfig']]],
   ['usergroup',['userGroup',['../d5/db9/class_permission.html#a7e56200b5172e18051c2dcfd33cb243f',1,'Permission']]],
   ['usergrouptoicon',['userGroupToIcon',['../d9/d15/_g_i_d___user_group_8h.html#a638bcf3614411865053276514aec802b',1,'GID_UserGroup.h']]],
   ['usergrouptostring',['userGroupToString',['../d9/d15/_g_i_d___user_group_8h.html#a0363efebc1652aab14391107115efc64',1,'GID_UserGroup.h']]],
-  ['userproxyserver',['userProxyServer',['../de/db7/class_application_config.html#a200528acf07875ec8101a4931e5f3910',1,'ApplicationConfig']]],
   ['usetelemetryserver',['useTelemetryServer',['../de/db7/class_application_config.html#aa12c480a428678961c495c41e9e31c7d',1,'ApplicationConfig']]],
   ['useupdateserver',['useUpdateServer',['../de/db7/class_application_config.html#a93f9c7436bf888a89ee99bb1bbc95420',1,'ApplicationConfig']]],
   ['usewebserver',['useWebServer',['../de/db7/class_application_config.html#a4c718a4e32469a38a3dda82c80f86b73',1,'ApplicationConfig']]]

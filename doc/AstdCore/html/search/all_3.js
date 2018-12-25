@@ -59,6 +59,6 @@ var searchData=
   ['currentversion',['currentVersion',['../de/db7/class_application_config.html#a9c7aa4a11a73ee6757c5a890d10deb1d',1,'ApplicationConfig::currentVersion()'],['../d9/d73/class_project_config.html#a805c07de928823ec8538ccb112f41f0a',1,'ProjectConfig::currentVersion()']]],
   ['curve',['curve',['../df/d44/class_signal_generator.html#a9c1a30d1b918e0f3b21be6df159a8d15',1,'SignalGenerator']]],
   ['curvechanged',['curveChanged',['../df/d44/class_signal_generator.html#aa0264dd548b8147db473b0e2ac05e049',1,'SignalGenerator']]],
-  ['custom',['custom',['../de/d6e/class_conversion_discrete_parameter.html#a0b30e278b0109ea7ab381860a1d2819b',1,'ConversionDiscreteParameter']]],
+  ['custom',['Custom',['../de/db7/class_application_config.html#a2c16c14308673705c320e12f7215d13ea90589c47f06eb971d548591f23c285af',1,'ApplicationConfig::Custom()'],['../de/d6e/class_conversion_discrete_parameter.html#a0b30e278b0109ea7ab381860a1d2819b',1,'ConversionDiscreteParameter::custom()']]],
   ['cvectorset',['CVectorSet',['../d4/d52/_history_engine_8h.html#a00690561e496bb9be9422ba61dc93545',1,'HistoryEngine.h']]]
 ];

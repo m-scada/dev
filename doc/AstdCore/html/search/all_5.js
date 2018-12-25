@@ -4,7 +4,6 @@ var searchData=
   ['enable',['Enable',['../d4/da1/class_device_applet_service.html#acadb78e854d06990637c98665d10eb69',1,'DeviceAppletService::Enable()'],['../d3/dd6/classastdcore_1_1_device_interface_enum_t.html#aa2710d56a837fc8a05f1813d452f6c50',1,'astdcore::DeviceInterfaceEnumT::Enable()']]],
   ['enabledbugtrap',['enabledBugtrap',['../de/db7/class_application_config.html#abee9ce281b9770ca7e7c9d76e0b9b9f5',1,'ApplicationConfig']]],
   ['enabledcollectiontelemetry',['enabledCollectionTelemetry',['../de/db7/class_application_config.html#a2aece981875095d04971278a621f6608',1,'ApplicationConfig']]],
-  ['enabledproxyserver',['enabledProxyServer',['../de/db7/class_application_config.html#a7818c822ec8a7f0531f40eea6fa8e487',1,'ApplicationConfig']]],
   ['enabledupdateserver',['enabledUpdateServer',['../de/db7/class_application_config.html#af210900f05b544e86dbb2b2c7b02c555',1,'ApplicationConfig']]],
   ['enablewarningifdisabled',['enableWarningIfDisabled',['../de/db7/class_application_config.html#a7a8a096aab0dfe4e07effc1faf777b37',1,'ApplicationConfig']]],
   ['enablework',['enableWork',['../db/d60/class_describe.html#a4b9e180c2c5d9b443ed77b50aa5498d7',1,'Describe']]],
