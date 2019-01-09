@@ -5,6 +5,7 @@ var searchData=
   ['namedevice',['nameDevice',['../db/d75/class_describe_device.html#a14527572c4eeecc059a9a40c4578a0e6',1,'DescribeDevice']]],
   ['namedevicedll',['nameDeviceDll',['../db/d75/class_describe_device.html#a76c2467f6c00ecef72e9e2aae66a5afc',1,'DescribeDevice']]],
   ['namefolder',['nameFolder',['../d8/d82/class_describe_parameter.html#ad2154539c75b5553fc2c40c2176b6f44',1,'DescribeParameter']]],
+  ['namepoint',['namePoint',['../d6/d38/class_message_service.html#a3566a7489eae5d94a74be368a33b1379',1,'MessageService']]],
   ['names',['names',['../df/dbb/class_describe_complex_list.html#a5873efe5da4f15835160747250b4a0a6',1,'DescribeComplexList::names()'],['../d5/de0/class_describe_list_t.html#afabff8e206e607f4be7847d22a934bc7',1,'DescribeListT::names()']]],
   ['namewithoutfolder',['nameWithoutFolder',['../d8/d82/class_describe_parameter.html#a7964c2228117085c26713c90db772b43',1,'DescribeParameter']]],
   ['note',['note',['../d0/d5d/class_describe_algorithm.html#a5aa526a57ca555482b2bfc1339067b3f',1,'DescribeAlgorithm::note()'],['../d1/d9b/class_describe_station.html#ad5edf38e957841712ee20aafbbb97839',1,'DescribeStation::note()']]],

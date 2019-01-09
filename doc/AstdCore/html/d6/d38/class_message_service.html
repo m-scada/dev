@@ -84,6 +84,7 @@ $(document).ready(function(){initNavTree('d6/d38/class_message_service.html','..
 <a href="#signals">Сигналы</a> &#124;
 <a href="#pub-methods">Открытые члены</a> &#124;
 <a href="#pub-static-methods">Открытые статические члены</a> &#124;
+<a href="#pro-methods">Защищенные члены</a> &#124;
 <a href="../../d7/d32/class_message_service-members.html">Полный список членов класса</a>  </div>
   <div class="headertitle">
 <div class="title">Класс MessageService</div>  </div>
@@ -102,29 +103,25 @@ $(document).ready(function(){initNavTree('d6/d38/class_message_service.html','..
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="signals"></a>
 Сигналы</h2></td></tr>
-<tr class="memitem:ad38f4e0580b41f14794628004aeeb2c7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d38/class_message_service.html#ad38f4e0580b41f14794628004aeeb2c7">messageReceived</a> (<a class="el" href="../../d5/dea/_message_service_8h.html#ab526de9163d2a9ade9857d2a9cb80421">SPMessagePtr</a> msg)</td></tr>
-<tr class="separator:ad38f4e0580b41f14794628004aeeb2c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad0ef7085eea2ba32d54e6a6182aaedd6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d38/class_message_service.html#ad0ef7085eea2ba32d54e6a6182aaedd6">messageReceived</a> (const <a class="el" href="../../d5/dea/_message_service_8h.html#ae716a54b0e40e53cffbe3cab27793c0b">SPMessagePtr</a> msg)</td></tr>
+<tr class="separator:ad0ef7085eea2ba32d54e6a6182aaedd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Открытые члены</h2></td></tr>
+<tr class="memitem:a3566a7489eae5d94a74be368a33b1379"><td class="memItemLeft" align="right" valign="top">const QString &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d38/class_message_service.html#a3566a7489eae5d94a74be368a33b1379">namePoint</a> () const</td></tr>
+<tr class="separator:a3566a7489eae5d94a74be368a33b1379"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae02a8d2d59fbe74559bb9e06101bdcb9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d38/class_message_service.html#ae02a8d2d59fbe74559bb9e06101bdcb9">sendMessage</a> (const QString &amp;host, const QByteArray &amp;arg1, const QByteArray &amp;arg2=QByteArray())</td></tr>
 <tr class="separator:ae02a8d2d59fbe74559bb9e06101bdcb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2f1b2c277a39998ded061090c7fa2fa0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d38/class_message_service.html#a2f1b2c277a39998ded061090c7fa2fa0">sendMessage</a> (const QString &amp;host, const QString &amp;arg1, const QString &amp;arg2=QString())</td></tr>
-<tr class="separator:a2f1b2c277a39998ded061090c7fa2fa0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a02b9e9c0cd70558b52bdb01a99c5bbfc"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d38/class_message_service.html#a02b9e9c0cd70558b52bdb01a99c5bbfc">sendMessage</a> (const <a class="el" href="../../d6/d6e/class_g_i_d___station.html">GID_Station</a> &amp;gidHost, const QByteArray &amp;arg1, const QByteArray &amp;arg2=QByteArray())</td></tr>
 <tr class="separator:a02b9e9c0cd70558b52bdb01a99c5bbfc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a230f9781096a3ad7573a41b7eda58f93"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d38/class_message_service.html#a230f9781096a3ad7573a41b7eda58f93">sendMessage</a> (const <a class="el" href="../../d6/d6e/class_g_i_d___station.html">GID_Station</a> &amp;gidHost, const QString &amp;arg1, const QString &amp;arg2=QString())</td></tr>
-<tr class="separator:a230f9781096a3ad7573a41b7eda58f93"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aae6b8ef0c938544ec76bb62df25746d9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d38/class_message_service.html#aae6b8ef0c938544ec76bb62df25746d9">sendMessage</a> (const QString &amp;host, const QString &amp;nameOtherService, const QByteArray &amp;arg1, const QByteArray &amp;arg2=QByteArray())</td></tr>
-<tr class="separator:aae6b8ef0c938544ec76bb62df25746d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3197d13ce4f7ba399190a9ca1ed8920c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d38/class_message_service.html#a3197d13ce4f7ba399190a9ca1ed8920c">sendMessage</a> (const QString &amp;host, const QString &amp;nameOtherService, const QString &amp;arg1, const QString &amp;arg2=QString())</td></tr>
-<tr class="separator:a3197d13ce4f7ba399190a9ca1ed8920c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a516b5c621f69e13c7ea5be7564f97a71"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d38/class_message_service.html#a516b5c621f69e13c7ea5be7564f97a71">sendMessage</a> (const <a class="el" href="../../d6/d6e/class_g_i_d___station.html">GID_Station</a> &amp;gidHost, const QString &amp;nameOtherService, const QByteArray &amp;arg1, const QByteArray &amp;arg2=QByteArray())</td></tr>
-<tr class="separator:a516b5c621f69e13c7ea5be7564f97a71"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a68251a3f729e7ae297792c1e1291e64b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d38/class_message_service.html#a68251a3f729e7ae297792c1e1291e64b">sendMessage</a> (const <a class="el" href="../../d6/d6e/class_g_i_d___station.html">GID_Station</a> &amp;gidHost, const QString &amp;nameOtherService, const QString &amp;arg1, const QString &amp;arg2=QString())</td></tr>
-<tr class="separator:a68251a3f729e7ae297792c1e1291e64b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af6bb7cd8552aafca4e3df8c960c3a5d6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d38/class_message_service.html#af6bb7cd8552aafca4e3df8c960c3a5d6">MessageService</a> (const QString &amp;nameService, QObject *parent)</td></tr>
-<tr class="separator:af6bb7cd8552aafca4e3df8c960c3a5d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad29dab444a7908e5fcd55e85331704bf"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d38/class_message_service.html#ad29dab444a7908e5fcd55e85331704bf">sendMessage</a> (const QString &amp;<a class="el" href="../../d6/d38/class_message_service.html#a3566a7489eae5d94a74be368a33b1379">namePoint</a>, const QString &amp;host, const QByteArray &amp;arg1, const QByteArray &amp;arg2=QByteArray())</td></tr>
+<tr class="separator:ad29dab444a7908e5fcd55e85331704bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acae6b8ef95e9313117affc1590874329"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d38/class_message_service.html#acae6b8ef95e9313117affc1590874329">sendMessage</a> (const QString &amp;<a class="el" href="../../d6/d38/class_message_service.html#a3566a7489eae5d94a74be368a33b1379">namePoint</a>, const <a class="el" href="../../d6/d6e/class_g_i_d___station.html">GID_Station</a> &amp;gidHost, const QByteArray &amp;arg1, const QByteArray &amp;arg2=QByteArray())</td></tr>
+<tr class="separator:acae6b8ef95e9313117affc1590874329"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a65e63fd0ee9384735d5f776fbba590c7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d38/class_message_service.html#a65e63fd0ee9384735d5f776fbba590c7">sendReplyMessage</a> (const <a class="el" href="../../d5/dea/_message_service_8h.html#ae716a54b0e40e53cffbe3cab27793c0b">SPMessagePtr</a> &amp;msg, const QByteArray &amp;arg1, const QByteArray &amp;arg2=QByteArray())</td></tr>
+<tr class="separator:a65e63fd0ee9384735d5f776fbba590c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad3d0a4c4b494d342fa341c55922b4d01"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d38/class_message_service.html#ad3d0a4c4b494d342fa341c55922b4d01">MessageService</a> (const QString &amp;<a class="el" href="../../d6/d38/class_message_service.html#a3566a7489eae5d94a74be368a33b1379">namePoint</a>, QObject *parent)</td></tr>
+<tr class="separator:ad3d0a4c4b494d342fa341c55922b4d01"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a30cf180c293a07270c88deb82d11a180"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d38/class_message_service.html#a30cf180c293a07270c88deb82d11a180">~MessageService</a> ()</td></tr>
 <tr class="separator:a30cf180c293a07270c88deb82d11a180"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -132,10 +129,17 @@ $(document).ready(function(){initNavTree('d6/d38/class_message_service.html','..
 Открытые статические члены</h2></td></tr>
 <tr class="memitem:a246125b27cfbbecbfb53be1b70719b52"><td class="memItemLeft" align="right" valign="top">static QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d38/class_message_service.html#a246125b27cfbbecbfb53be1b70719b52">addressFromGidStation</a> (const <a class="el" href="../../d6/d6e/class_g_i_d___station.html">GID_Station</a> &amp;gidStation)</td></tr>
 <tr class="separator:a246125b27cfbbecbfb53be1b70719b52"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Защищенные члены</h2></td></tr>
+<tr class="memitem:abe2a2d7ade3930c1b9c7906a8d53c0c5"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d38/class_message_service.html#abe2a2d7ade3930c1b9c7906a8d53c0c5">sendMessage</a> (const QByteArray &amp;host, const QByteArray &amp;arg1, const QByteArray &amp;arg2=QByteArray())</td></tr>
+<tr class="separator:abe2a2d7ade3930c1b9c7906a8d53c0c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac1dc38e14df8beca31a6f27820e26735"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d38/class_message_service.html#ac1dc38e14df8beca31a6f27820e26735">sendMessage</a> (const QByteArray &amp;<a class="el" href="../../d6/d38/class_message_service.html#a3566a7489eae5d94a74be368a33b1379">namePoint</a>, const QByteArray &amp;host, const QByteArray &amp;arg1, const QByteArray &amp;arg2=QByteArray())</td></tr>
+<tr class="separator:ac1dc38e14df8beca31a6f27820e26735"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Конструктор(ы)</h2>
-<a id="af6bb7cd8552aafca4e3df8c960c3a5d6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af6bb7cd8552aafca4e3df8c960c3a5d6">&#9670;&nbsp;</a></span>MessageService()</h2>
+<a id="ad3d0a4c4b494d342fa341c55922b4d01"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad3d0a4c4b494d342fa341c55922b4d01">&#9670;&nbsp;</a></span>MessageService()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -144,7 +148,7 @@ $(document).ready(function(){initNavTree('d6/d38/class_message_service.html','..
           <td class="memname">MessageService::MessageService </td>
           <td>(</td>
           <td class="paramtype">const QString &amp;&#160;</td>
-          <td class="paramname"><em>nameService</em>, </td>
+          <td class="paramname"><em>namePoint</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -214,8 +218,8 @@ $(document).ready(function(){initNavTree('d6/d38/class_message_service.html','..
 
 </div>
 </div>
-<a id="ad38f4e0580b41f14794628004aeeb2c7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad38f4e0580b41f14794628004aeeb2c7">&#9670;&nbsp;</a></span>messageReceived</h2>
+<a id="ad0ef7085eea2ba32d54e6a6182aaedd6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad0ef7085eea2ba32d54e6a6182aaedd6">&#9670;&nbsp;</a></span>messageReceived</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -226,7 +230,7 @@ $(document).ready(function(){initNavTree('d6/d38/class_message_service.html','..
         <tr>
           <td class="memname">void MessageService::messageReceived </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d5/dea/_message_service_8h.html#ab526de9163d2a9ade9857d2a9cb80421">SPMessagePtr</a>&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../d5/dea/_message_service_8h.html#ae716a54b0e40e53cffbe3cab27793c0b">SPMessagePtr</a>&#160;</td>
           <td class="paramname"><em>msg</em></td><td>)</td>
           <td></td>
         </tr>
@@ -240,8 +244,115 @@ $(document).ready(function(){initNavTree('d6/d38/class_message_service.html','..
 
 </div>
 </div>
+<a id="a3566a7489eae5d94a74be368a33b1379"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3566a7489eae5d94a74be368a33b1379">&#9670;&nbsp;</a></span>namePoint()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const QString&amp; MessageService::namePoint </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abe2a2d7ade3930c1b9c7906a8d53c0c5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abe2a2d7ade3930c1b9c7906a8d53c0c5">&#9670;&nbsp;</a></span>sendMessage() <span class="overload">[1/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool MessageService::sendMessage </td>
+          <td>(</td>
+          <td class="paramtype">const QByteArray &amp;&#160;</td>
+          <td class="paramname"><em>host</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QByteArray &amp;&#160;</td>
+          <td class="paramname"><em>arg1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QByteArray &amp;&#160;</td>
+          <td class="paramname"><em>arg2</em> = <code>QByteArray()</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac1dc38e14df8beca31a6f27820e26735"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac1dc38e14df8beca31a6f27820e26735">&#9670;&nbsp;</a></span>sendMessage() <span class="overload">[2/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool MessageService::sendMessage </td>
+          <td>(</td>
+          <td class="paramtype">const QByteArray &amp;&#160;</td>
+          <td class="paramname"><em>namePoint</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QByteArray &amp;&#160;</td>
+          <td class="paramname"><em>host</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QByteArray &amp;&#160;</td>
+          <td class="paramname"><em>arg1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QByteArray &amp;&#160;</td>
+          <td class="paramname"><em>arg2</em> = <code>QByteArray()</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ae02a8d2d59fbe74559bb9e06101bdcb9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae02a8d2d59fbe74559bb9e06101bdcb9">&#9670;&nbsp;</a></span>sendMessage() <span class="overload">[1/8]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ae02a8d2d59fbe74559bb9e06101bdcb9">&#9670;&nbsp;</a></span>sendMessage() <span class="overload">[3/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -263,40 +374,6 @@ $(document).ready(function(){initNavTree('d6/d38/class_message_service.html','..
           <td></td>
           <td class="paramtype">const QByteArray &amp;&#160;</td>
           <td class="paramname"><em>arg2</em> = <code>QByteArray()</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a2f1b2c277a39998ded061090c7fa2fa0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2f1b2c277a39998ded061090c7fa2fa0">&#9670;&nbsp;</a></span>sendMessage() <span class="overload">[2/8]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool MessageService::sendMessage </td>
-          <td>(</td>
-          <td class="paramtype">const QString &amp;&#160;</td>
-          <td class="paramname"><em>host</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const QString &amp;&#160;</td>
-          <td class="paramname"><em>arg1</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const QString &amp;&#160;</td>
-          <td class="paramname"><em>arg2</em> = <code>QString()</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -309,7 +386,7 @@ $(document).ready(function(){initNavTree('d6/d38/class_message_service.html','..
 </div>
 </div>
 <a id="a02b9e9c0cd70558b52bdb01a99c5bbfc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a02b9e9c0cd70558b52bdb01a99c5bbfc">&#9670;&nbsp;</a></span>sendMessage() <span class="overload">[3/8]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a02b9e9c0cd70558b52bdb01a99c5bbfc">&#9670;&nbsp;</a></span>sendMessage() <span class="overload">[4/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -342,8 +419,8 @@ $(document).ready(function(){initNavTree('d6/d38/class_message_service.html','..
 
 </div>
 </div>
-<a id="a230f9781096a3ad7573a41b7eda58f93"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a230f9781096a3ad7573a41b7eda58f93">&#9670;&nbsp;</a></span>sendMessage() <span class="overload">[4/8]</span></h2>
+<a id="ad29dab444a7908e5fcd55e85331704bf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad29dab444a7908e5fcd55e85331704bf">&#9670;&nbsp;</a></span>sendMessage() <span class="overload">[5/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -351,48 +428,54 @@ $(document).ready(function(){initNavTree('d6/d38/class_message_service.html','..
         <tr>
           <td class="memname">bool MessageService::sendMessage </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../d6/d6e/class_g_i_d___station.html">GID_Station</a> &amp;&#160;</td>
-          <td class="paramname"><em>gidHost</em>, </td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>namePoint</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const QString &amp;&#160;</td>
-          <td class="paramname"><em>arg1</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const QString &amp;&#160;</td>
-          <td class="paramname"><em>arg2</em> = <code>QString()</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aae6b8ef0c938544ec76bb62df25746d9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aae6b8ef0c938544ec76bb62df25746d9">&#9670;&nbsp;</a></span>sendMessage() <span class="overload">[5/8]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool MessageService::sendMessage </td>
-          <td>(</td>
           <td class="paramtype">const QString &amp;&#160;</td>
           <td class="paramname"><em>host</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">const QByteArray &amp;&#160;</td>
+          <td class="paramname"><em>arg1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QByteArray &amp;&#160;</td>
+          <td class="paramname"><em>arg2</em> = <code>QByteArray()</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="acae6b8ef95e9313117affc1590874329"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acae6b8ef95e9313117affc1590874329">&#9670;&nbsp;</a></span>sendMessage() <span class="overload">[6/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MessageService::sendMessage </td>
+          <td>(</td>
           <td class="paramtype">const QString &amp;&#160;</td>
-          <td class="paramname"><em>nameOtherService</em>, </td>
+          <td class="paramname"><em>namePoint</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="../../d6/d6e/class_g_i_d___station.html">GID_Station</a> &amp;&#160;</td>
+          <td class="paramname"><em>gidHost</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -416,63 +499,17 @@ $(document).ready(function(){initNavTree('d6/d38/class_message_service.html','..
 
 </div>
 </div>
-<a id="a3197d13ce4f7ba399190a9ca1ed8920c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3197d13ce4f7ba399190a9ca1ed8920c">&#9670;&nbsp;</a></span>sendMessage() <span class="overload">[6/8]</span></h2>
+<a id="a65e63fd0ee9384735d5f776fbba590c7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a65e63fd0ee9384735d5f776fbba590c7">&#9670;&nbsp;</a></span>sendReplyMessage()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">bool MessageService::sendMessage </td>
+          <td class="memname">bool MessageService::sendReplyMessage </td>
           <td>(</td>
-          <td class="paramtype">const QString &amp;&#160;</td>
-          <td class="paramname"><em>host</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const QString &amp;&#160;</td>
-          <td class="paramname"><em>nameOtherService</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const QString &amp;&#160;</td>
-          <td class="paramname"><em>arg1</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const QString &amp;&#160;</td>
-          <td class="paramname"><em>arg2</em> = <code>QString()</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a516b5c621f69e13c7ea5be7564f97a71"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a516b5c621f69e13c7ea5be7564f97a71">&#9670;&nbsp;</a></span>sendMessage() <span class="overload">[7/8]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool MessageService::sendMessage </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../d6/d6e/class_g_i_d___station.html">GID_Station</a> &amp;&#160;</td>
-          <td class="paramname"><em>gidHost</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const QString &amp;&#160;</td>
-          <td class="paramname"><em>nameOtherService</em>, </td>
+          <td class="paramtype">const <a class="el" href="../../d5/dea/_message_service_8h.html#ae716a54b0e40e53cffbe3cab27793c0b">SPMessagePtr</a> &amp;&#160;</td>
+          <td class="paramname"><em>msg</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -485,46 +522,6 @@ $(document).ready(function(){initNavTree('d6/d38/class_message_service.html','..
           <td></td>
           <td class="paramtype">const QByteArray &amp;&#160;</td>
           <td class="paramname"><em>arg2</em> = <code>QByteArray()</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a68251a3f729e7ae297792c1e1291e64b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a68251a3f729e7ae297792c1e1291e64b">&#9670;&nbsp;</a></span>sendMessage() <span class="overload">[8/8]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool MessageService::sendMessage </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../d6/d6e/class_g_i_d___station.html">GID_Station</a> &amp;&#160;</td>
-          <td class="paramname"><em>gidHost</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const QString &amp;&#160;</td>
-          <td class="paramname"><em>nameOtherService</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const QString &amp;&#160;</td>
-          <td class="paramname"><em>arg1</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const QString &amp;&#160;</td>
-          <td class="paramname"><em>arg2</em> = <code>QString()</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
