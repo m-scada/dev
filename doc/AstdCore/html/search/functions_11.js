@@ -202,7 +202,7 @@ var searchData=
   ['store',['store',['../de/db7/class_application_config.html#afc9e06114d5754d01850fdf27cdf07fd',1,'ApplicationConfig::store()'],['../d9/d73/class_project_config.html#a6b8fab920f7811eb63aba8f65524bd72',1,'ProjectConfig::store()']]],
   ['streamenablealert',['streamEnableAlert',['../d8/d82/class_describe_parameter.html#a1cdf1de956fee6958ba30b6c7ce60abf',1,'DescribeParameter']]],
   ['streamenableblink',['streamEnableBlink',['../d8/d82/class_describe_parameter.html#ad0072700ebcec619cd3fa8983cfa3723',1,'DescribeParameter']]],
-  ['string',['String',['../dc/d80/class_g_i_d___par.html#a943ff650ff695946445a208ced229853',1,'GID_Par::String()'],['../de/dcd/class_property_string_parameter.html#ad83db4693d56eb7afb6a59ee99351ce1',1,'PropertyStringParameter::string()']]],
+  ['string',['string',['../de/dcd/class_property_string_parameter.html#ad83db4693d56eb7afb6a59ee99351ce1',1,'PropertyStringParameter::string()'],['../dc/d80/class_g_i_d___par.html#a943ff650ff695946445a208ced229853',1,'GID_Par::String()']]],
   ['stringstateobjects',['stringStateObjects',['../de/d80/class_property_discrete_parameter.html#a0c0c438a15dc7456801037195db2d36e',1,'PropertyDiscreteParameter']]],
   ['stringtypes',['stringTypes',['../db/d60/class_describe.html#ac87b5a9002302b170d527236f56bc67b',1,'Describe']]],
   ['subtractrange',['subtractRange',['../d4/d43/class_time_astd_range.html#af4ac4909f365c0607cc435acb3c0b2eb',1,'TimeAstdRange::subtractRange(const TimeAstdRange &amp;a, const TimeAstdRange &amp;b)'],['../d4/d43/class_time_astd_range.html#ace4b4f94d74aa7430088002589089b99',1,'TimeAstdRange::subtractRange(const TimeAstdRange &amp;r) const']]],

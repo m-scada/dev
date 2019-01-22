@@ -68,6 +68,7 @@ var class_describe_device =
     [ "typeStringTr", "db/d75/class_describe_device.html#a62ea6f5b8e6316c56bdbb740df777ff5", null ],
     [ "borderSleepingForExit", "db/d75/class_describe_device.html#a28b0c5651b851ac7be7a335bc5e6e976", null ],
     [ "dequeExecute", "db/d75/class_describe_device.html#a16d806f1128f7f552b2e8eea99dfa42a", null ],
+    [ "enableWork", "db/d75/class_describe_device.html#a1e9dba28f9c46e2c80c6045eed7ee6d8", null ],
     [ "gid", "db/d75/class_describe_device.html#aa29bf6883527bb03065c709b9cdf9f4e", null ],
     [ "gidDiagParameter", "db/d75/class_describe_device.html#a4e1eb9bc1daf189761f812a204989140", null ],
     [ "globalOptions", "db/d75/class_describe_device.html#ab55f95484b8c57ef906f29d146444858", null ],
@@ -78,5 +79,7 @@ var class_describe_device =
     [ "name", "db/d75/class_describe_device.html#a7f692048807d0fd00b6e66d8199e00d0", null ],
     [ "nameDevice", "db/d75/class_describe_device.html#a81689fa9b991ac029fce96b90648dcc5", null ],
     [ "permission", "db/d75/class_describe_device.html#ad24f56d4ebf30ada92412528a532f711", null ],
-    [ "type", "db/d75/class_describe_device.html#a46a4daafdb7ec63a74f9133e04a4213b", null ]
+    [ "type", "db/d75/class_describe_device.html#a46a4daafdb7ec63a74f9133e04a4213b", null ],
+    [ "typeDescribe", "db/d75/class_describe_device.html#aa76283acb83f4be606d9f9f4c7a61567", null ],
+    [ "working", "db/d75/class_describe_device.html#a1fe19cddae96f1ef29ab34c2a3e94917", null ]
 ];

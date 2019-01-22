@@ -58,8 +58,5 @@ var class_describe =
     [ "typeDescribe", "db/d60/class_describe.html#a37039bce5c4d090e10feee0fc7e8c1dd", null ],
     [ "typeDescribeString", "db/d60/class_describe.html#a6da285d5c2c5431734380e86f8ffd244", null ],
     [ "update", "db/d60/class_describe.html#ad43080bdde85c5cd130e99a2668bf74b", null ],
-    [ "m_describe", "db/d60/class_describe.html#af23eabe44bf611c2d8b21cba4f5aec6d", null ],
-    [ "enableWork", "db/d60/class_describe.html#a4b9e180c2c5d9b443ed77b50aa5498d7", null ],
-    [ "typeDescribe", "db/d60/class_describe.html#a6c9d15eca492ee5f592d55716305ce27", null ],
-    [ "working", "db/d60/class_describe.html#ac047e50d46167701f8f9a1624b43d061", null ]
+    [ "m_describe", "db/d60/class_describe.html#af23eabe44bf611c2d8b21cba4f5aec6d", null ]
 ];

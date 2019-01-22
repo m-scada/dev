@@ -43,6 +43,7 @@ var class_describe_connection =
     [ "typeString", "d9/dd2/class_describe_connection.html#aac767ea2b3899a5543ff7796f4ac5c8a", null ],
     [ "typeStringTr", "d9/dd2/class_describe_connection.html#a56ad037ca268d421d97b276d44a542a2", null ],
     [ "durationSilent", "d9/dd2/class_describe_connection.html#afb39ccbab987eaee0ad882a29363d41c", null ],
+    [ "enableWork", "d9/dd2/class_describe_connection.html#a749e812230d67a233d5e297047c9a269", null ],
     [ "gid", "d9/dd2/class_describe_connection.html#acbf10033d79c633fdbd1c7e721e60154", null ],
     [ "gidListClients", "d9/dd2/class_describe_connection.html#a6281048705e78e0318cebab67631860d", null ],
     [ "ipAddress", "d9/dd2/class_describe_connection.html#a8a866bd12dab52c774e5385d593f19cc", null ],
@@ -52,5 +53,7 @@ var class_describe_connection =
     [ "receivedBytes", "d9/dd2/class_describe_connection.html#ab670963292d30989548dba192e1e3b7d", null ],
     [ "sentBytes", "d9/dd2/class_describe_connection.html#a786410915782daacbd89391ac48d7027", null ],
     [ "testMessages", "d9/dd2/class_describe_connection.html#ac5f639f9c58df105ae8f661511dc7841", null ],
-    [ "type", "d9/dd2/class_describe_connection.html#a8b8fad1810d6feaad0a147d8cc6d8dad", null ]
+    [ "type", "d9/dd2/class_describe_connection.html#a8b8fad1810d6feaad0a147d8cc6d8dad", null ],
+    [ "typeDescribe", "d9/dd2/class_describe_connection.html#a3091af46e13e1afb7abcc9157ae16eb5", null ],
+    [ "working", "d9/dd2/class_describe_connection.html#ab1c9e5b036ddc4c74a4ece61592a9691", null ]
 ];

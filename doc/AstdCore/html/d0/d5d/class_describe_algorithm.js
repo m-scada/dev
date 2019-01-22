@@ -26,10 +26,13 @@ var class_describe_algorithm =
     [ "setName", "d0/d5d/class_describe_algorithm.html#a8bdb24255d40b6afce3a15b836f217c0", null ],
     [ "setNote", "d0/d5d/class_describe_algorithm.html#a5c527f5fbf6b53e2bf0e7e1ec808ecb4", null ],
     [ "setOptions", "d0/d5d/class_describe_algorithm.html#a4c53fe33aab2fd5035067da4a9481bf1", null ],
+    [ "enableWork", "d0/d5d/class_describe_algorithm.html#a5abdf35f4842e5506696773dde44f474", null ],
     [ "fileName", "d0/d5d/class_describe_algorithm.html#a09cc25dffe03d59b6b17bcd4a8821319", null ],
     [ "gid", "d0/d5d/class_describe_algorithm.html#ad4023d95a026c16c816ff2ca628270fc", null ],
     [ "gidDiagParameter", "d0/d5d/class_describe_algorithm.html#af3431afc4b0d96772950b8e4616e40f1", null ],
     [ "name", "d0/d5d/class_describe_algorithm.html#a2a978dcdd20468cfe77f69942b096df4", null ],
     [ "note", "d0/d5d/class_describe_algorithm.html#a66b62467eaf5cb1520aad547d3058e0f", null ],
-    [ "options", "d0/d5d/class_describe_algorithm.html#a897bec3dc90bcc90f1c5bc4e54fcaadd", null ]
+    [ "options", "d0/d5d/class_describe_algorithm.html#a897bec3dc90bcc90f1c5bc4e54fcaadd", null ],
+    [ "typeDescribe", "d0/d5d/class_describe_algorithm.html#ad559a228a1d8008ae1267cbf358e3401", null ],
+    [ "working", "d0/d5d/class_describe_algorithm.html#a41f5c57eea7b694e61598c10d9f163e6", null ]
 ];

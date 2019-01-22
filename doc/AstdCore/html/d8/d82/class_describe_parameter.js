@@ -100,6 +100,7 @@ var class_describe_parameter =
     [ "typeString", "d8/d82/class_describe_parameter.html#ae3c4c1ecde7d1f44ea11e43f2df4fbf3", null ],
     [ "typeStringTr", "d8/d82/class_describe_parameter.html#aff79ce299c2e379fb3622b31016135e9", null ],
     [ "units", "d8/d82/class_describe_parameter.html#af8158af317f21351b3116c3c2fd56008", null ],
+    [ "enableWork", "d8/d82/class_describe_parameter.html#a5acc7cc92b176fb308e40e65eae37a59", null ],
     [ "gid", "d8/d82/class_describe_parameter.html#ab38633e390bbf2532854298d64fd6c1a", null ],
     [ "gidArchive", "d8/d82/class_describe_parameter.html#a61c8372db5c2d5993594f30e59c26e72", null ],
     [ "gidFolder", "d8/d82/class_describe_parameter.html#a775e14551ab5a95b8d552b714c435a34", null ],
@@ -109,6 +110,8 @@ var class_describe_parameter =
     [ "shortName", "d8/d82/class_describe_parameter.html#a04348c189eeef7157e9744c24fddcbd4", null ],
     [ "sourceInfo", "d8/d82/class_describe_parameter.html#a2228671ada3f8da555f52322a6b59918", null ],
     [ "type", "d8/d82/class_describe_parameter.html#a7af97d7f0b4ecab882297659355387b0", null ],
+    [ "typeDescribe", "d8/d82/class_describe_parameter.html#a87e04fd69dc934188838b613ca3b1c75", null ],
     [ "uformatUnits", "d8/d82/class_describe_parameter.html#afc672c6d9f6bdaa5ad946ef89315bcd3", null ],
-    [ "units", "d8/d82/class_describe_parameter.html#a279168c2fe7f9591920f3dbb89a23d2c", null ]
+    [ "units", "d8/d82/class_describe_parameter.html#a279168c2fe7f9591920f3dbb89a23d2c", null ],
+    [ "working", "d8/d82/class_describe_parameter.html#a51f9b7ee50712338da3b42bb68ffe052", null ]
 ];

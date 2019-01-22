@@ -70,6 +70,7 @@ var class_describe_input =
     [ "typeString", "d9/d97/class_describe_input.html#ab484a6ac359704c778e5fbfebf8b9400", null ],
     [ "typeStringTr", "d9/d97/class_describe_input.html#ad564b5dc73285afa4f6b778d40dbbac3", null ],
     [ "deadbands", "d9/d97/class_describe_input.html#aef8bd4d6309d131bcd40cb499c2df0f8", null ],
+    [ "enableWork", "d9/d97/class_describe_input.html#add39880709ab4cf8981e5adbd99b060b", null ],
     [ "extAddress", "d9/d97/class_describe_input.html#a2e2c19b50ff92d924693de4098afd82b", null ],
     [ "extType", "d9/d97/class_describe_input.html#ab918f4e27a4400952f70209775df5d7c", null ],
     [ "gid", "d9/d97/class_describe_input.html#adf2e3ab20fab7be09493cb55fad456de", null ],
@@ -80,5 +81,7 @@ var class_describe_input =
     [ "periodGeneration", "d9/d97/class_describe_input.html#a575564e08a505cbef819b5a9eb6a7b05", null ],
     [ "type", "d9/d97/class_describe_input.html#a84c234c3cb73f3615ae4156fe61e0d4a", null ],
     [ "typeAction", "d9/d97/class_describe_input.html#a306208824751c8264df42b432e78c3d0", null ],
-    [ "typeRefusal", "d9/d97/class_describe_input.html#a13a99329ba7552b0fa2c271addc45ba5", null ]
+    [ "typeDescribe", "d9/d97/class_describe_input.html#ac2be221c7bd93934f88539daf4fce2d1", null ],
+    [ "typeRefusal", "d9/d97/class_describe_input.html#a13a99329ba7552b0fa2c271addc45ba5", null ],
+    [ "working", "d9/d97/class_describe_input.html#ab50198fb9578b75b76fc51b3e7d25116", null ]
 ];

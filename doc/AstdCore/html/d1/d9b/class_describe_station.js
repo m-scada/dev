@@ -48,6 +48,7 @@ var class_describe_station =
     [ "typeIcon", "d1/d9b/class_describe_station.html#ae654f7d02e3508094a8dbd8ba3b02e39", null ],
     [ "typeString", "d1/d9b/class_describe_station.html#ac5b9d69b40fe20b796f1fbcc97a2717f", null ],
     [ "typeStringTr", "d1/d9b/class_describe_station.html#a0a2f7531f0d189b0b1a08edbb0b34530", null ],
+    [ "enableWork", "d1/d9b/class_describe_station.html#ac970fc0e144bda633e3ebf41cb551905", null ],
     [ "gid", "d1/d9b/class_describe_station.html#a561aa7d387381249e925fa30f859e795", null ],
     [ "gidUserGroup", "d1/d9b/class_describe_station.html#a5c5abc402c7ff26fbaa73b9e1445cc68", null ],
     [ "ipAddress", "d1/d9b/class_describe_station.html#af55b4bf46d82c368d86edd1be9a6b1e4", null ],
@@ -57,5 +58,7 @@ var class_describe_station =
     [ "note", "d1/d9b/class_describe_station.html#a197d60041ba467fc5a90c2e7cf0eb87e", null ],
     [ "options", "d1/d9b/class_describe_station.html#ab60b9f9a20174fbe6d03e95a2f07f4e4", null ],
     [ "READ", "d1/d9b/class_describe_station.html#ad3a35b3033278a1238242833adc41271", null ],
-    [ "type", "d1/d9b/class_describe_station.html#a660a59dd34b38ca9b93a28ab7c521343", null ]
+    [ "type", "d1/d9b/class_describe_station.html#a660a59dd34b38ca9b93a28ab7c521343", null ],
+    [ "typeDescribe", "d1/d9b/class_describe_station.html#ad297a0de7fad9211a7b8902392626c76", null ],
+    [ "working", "d1/d9b/class_describe_station.html#aad899654e2edf60a3164faba22fce44b", null ]
 ];

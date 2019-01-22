@@ -24,8 +24,11 @@ var class_describe_archive =
     [ "setName", "dc/d40/class_describe_archive.html#a14a07bb103fdcc8e4312416d25765947", null ],
     [ "setPeriodSaveDuplicateEvent", "dc/d40/class_describe_archive.html#ad4fb03c320ac7a794d9eb4c60a2292af", null ],
     [ "durationStore", "dc/d40/class_describe_archive.html#a88a68d1a9eba31e9173ff8fb01a0754e", null ],
+    [ "enableWork", "dc/d40/class_describe_archive.html#a7fe9b328f140608934c5f2342f08fa58", null ],
     [ "eventPerRecord", "dc/d40/class_describe_archive.html#ada0d91f578a50d631e23fc968d09eb25", null ],
     [ "gid", "dc/d40/class_describe_archive.html#abf168e434d5280c5b69f0403f4c2c304", null ],
     [ "name", "dc/d40/class_describe_archive.html#a7178ca978e1e74e1a797ea275eacec7a", null ],
-    [ "periodSaveDuplicateEvent", "dc/d40/class_describe_archive.html#a7c8033dbb74b590524ce445c0e33ec07", null ]
+    [ "periodSaveDuplicateEvent", "dc/d40/class_describe_archive.html#a7c8033dbb74b590524ce445c0e33ec07", null ],
+    [ "typeDescribe", "dc/d40/class_describe_archive.html#ab54db001dfc0ed7d943ac2e16939bab3", null ],
+    [ "working", "dc/d40/class_describe_archive.html#a1c13aeb1de14dfbbee117eaafc5ac3e5", null ]
 ];

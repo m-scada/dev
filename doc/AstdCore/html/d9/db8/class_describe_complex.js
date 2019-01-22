@@ -27,10 +27,12 @@ var class_describe_complex =
     [ "setGidListModule", "d9/db8/class_describe_complex.html#a2b1bb2135973db47b5925571053feb36", null ],
     [ "setName", "d9/db8/class_describe_complex.html#a4202396bb41cc468c85d371658a571c7", null ],
     [ "setOptions", "d9/db8/class_describe_complex.html#a2ba2cac9b53ba77e0d7d92b5e893a07b", null ],
+    [ "enableWork", "d9/db8/class_describe_complex.html#a4d7661bd54bd2080e2c99ce029441178", null ],
     [ "gid", "d9/db8/class_describe_complex.html#a5428a2b3dfc35e53dab96f22250d49a8", null ],
     [ "gidDevice", "d9/db8/class_describe_complex.html#ae17d0f5b41a975c2c82cd657532495f4", null ],
     [ "gidDiagParameter", "d9/db8/class_describe_complex.html#a6b18d15bbbd6f417f22089a32204fa54", null ],
-    [ "gidListModule", "d9/db8/class_describe_complex.html#a9f682aa5c4204570bae15deb0d9c8212", null ],
     [ "name", "d9/db8/class_describe_complex.html#a0074607304136f17d1b7be3bc416889c", null ],
-    [ "options", "d9/db8/class_describe_complex.html#aecfcd64fb602a51e00cd318bf396ed08", null ]
+    [ "options", "d9/db8/class_describe_complex.html#aecfcd64fb602a51e00cd318bf396ed08", null ],
+    [ "typeDescribe", "d9/db8/class_describe_complex.html#a131ebb687a288dd0a93b87739a1e9a1d", null ],
+    [ "working", "d9/db8/class_describe_complex.html#ae3379e0793b1b962ade55e92d3de2569", null ]
 ];

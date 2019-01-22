@@ -18,5 +18,6 @@ var class_describe_user_group =
     [ "setGid", "d4/d19/class_describe_user_group.html#a79af8bbd389b3e5430410fff24896a2a", null ],
     [ "setName", "d4/d19/class_describe_user_group.html#af095b440f6c37f298d693883a9c39fe8", null ],
     [ "gid", "d4/d19/class_describe_user_group.html#aed0ce6703a25432faf39bede919e05f6", null ],
-    [ "name", "d4/d19/class_describe_user_group.html#a1b6f9a4cb6fc8254e7548c15a62cf033", null ]
+    [ "name", "d4/d19/class_describe_user_group.html#a1b6f9a4cb6fc8254e7548c15a62cf033", null ],
+    [ "typeDescribe", "d4/d19/class_describe_user_group.html#a2f4ea819f03e82f493a8bc1233dec72d", null ]
 ];

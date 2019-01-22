@@ -41,10 +41,12 @@ var class_describe_module =
     [ "type", "d6/d65/class_describe_module.html#a9c08b52db7ad2e6b4affde4745499069", null ],
     [ "typeString", "d6/d65/class_describe_module.html#a0e3a7776c7facac3d222bf4a26181e1a", null ],
     [ "typeStringTr", "d6/d65/class_describe_module.html#a2135636ffc9e100ff40beefcfe3dd734", null ],
+    [ "enableWork", "d6/d65/class_describe_module.html#a2b45ccc93d772970cda7ad6b9f1daeee", null ],
     [ "gid", "d6/d65/class_describe_module.html#a1ab70f1788e7005775fd3904a1e345a8", null ],
     [ "gidDiagParameter", "d6/d65/class_describe_module.html#ab38421ffec4df23d1103289125e00c63", null ],
-    [ "gidListInput", "d6/d65/class_describe_module.html#a2481719b58ee6575c9e599e62053f405", null ],
     [ "name", "d6/d65/class_describe_module.html#a69b42aeeec267802707deb6e10b18968", null ],
     [ "options", "d6/d65/class_describe_module.html#adf9919ccfbcaaff2fae8750e1b762c05", null ],
-    [ "type", "d6/d65/class_describe_module.html#ae8a88d8f4aedf8c9d37e2e58b3c1e746", null ]
+    [ "type", "d6/d65/class_describe_module.html#ae8a88d8f4aedf8c9d37e2e58b3c1e746", null ],
+    [ "typeDescribe", "d6/d65/class_describe_module.html#ad27273d15154d27de95c85afbe6b8b9b", null ],
+    [ "working", "d6/d65/class_describe_module.html#a7bf2dfcfdb28de850e6e73db131df7b5", null ]
 ];
