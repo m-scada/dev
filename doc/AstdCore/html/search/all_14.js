@@ -21,7 +21,7 @@ var searchData=
   ['usercustomproxyserver',['userCustomProxyServer',['../de/db7/class_application_config.html#af8e5b9bd9a518155906d992414348850',1,'ApplicationConfig']]],
   ['userdata',['userData',['../d6/d8a/class_vector_event_ptr.html#accfc236f21ba8b3c524e726a0e77d269',1,'VectorEventPtr']]],
   ['userepositoryserver',['useRepositoryServer',['../de/db7/class_application_config.html#ae63a8a90ab1973f72e01ce959c2aa625',1,'ApplicationConfig']]],
-  ['usergroup',['UserGroup',['../db/d60/class_describe.html#aa71e75544f67f60e7739413aae34ad02a84ddb07d15cabbefecb37c79122a197c',1,'Describe::UserGroup()'],['../d5/db9/class_permission.html#a7e56200b5172e18051c2dcfd33cb243f',1,'Permission::userGroup()']]],
+  ['usergroup',['userGroup',['../d5/db9/class_permission.html#a7e56200b5172e18051c2dcfd33cb243f',1,'Permission::userGroup()'],['../db/d60/class_describe.html#aa71e75544f67f60e7739413aae34ad02a84ddb07d15cabbefecb37c79122a197c',1,'Describe::UserGroup()']]],
   ['usergrouptoicon',['userGroupToIcon',['../d9/d15/_g_i_d___user_group_8h.html#a638bcf3614411865053276514aec802b',1,'GID_UserGroup.h']]],
   ['usergrouptostring',['userGroupToString',['../d9/d15/_g_i_d___user_group_8h.html#a0363efebc1652aab14391107115efc64',1,'GID_UserGroup.h']]],
   ['userservice',['UserService',['../db/d75/class_describe_device.html#a4d64804ecf9eb79e66ad0ae6addff709a79716315e5509ee9e9c583b3d0f9f0a1',1,'DescribeDevice']]],

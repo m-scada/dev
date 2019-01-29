@@ -210,5 +210,6 @@ var searchData=
   ['suffixfileprojectx',['suffixFileProjectX',['../d9/d73/class_project_config.html#a2dabc588ff6ea3c0de1c44ce2fa7d4d2',1,'ProjectConfig']]],
   ['supportupdateserver',['supportUpdateServer',['../de/db7/class_application_config.html#a87c0bc2276d287fde7091fb0de64c919',1,'ApplicationConfig']]],
   ['systemerrortostring',['systemErrorToString',['../d7/dbe/_astd_core_utils_8h.html#afc4b43827891e2375ee35b67b89872dd',1,'AstdCoreUtils.h']]],
-  ['systemtime',['systemTime',['../dc/dad/class_time_astd.html#a75857824dbcafc76ab431bafd9ad0d7e',1,'TimeAstd']]]
+  ['systemtime',['systemTime',['../dc/dad/class_time_astd.html#a75857824dbcafc76ab431bafd9ad0d7e',1,'TimeAstd']]],
+  ['systemtimeshift',['systemTimeShift',['../dc/dad/class_time_astd.html#a98f231507c8070526fc8cf5f9bdaabc2',1,'TimeAstd']]]
 ];
