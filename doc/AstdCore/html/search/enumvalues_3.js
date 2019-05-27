@@ -6,6 +6,7 @@ var searchData=
   ['discrete',['Discrete',['../d8/d82/class_describe_parameter.html#a08868400730da4db7f33a7ce05c4996da4984667940802dedc139aa7a430a6553',1,'DescribeParameter']]],
   ['discreteinput',['DiscreteInput',['../d9/d97/class_describe_input.html#abf2f13ba38363a56af7d30a7641c5a35a87d5951f826e76548afb6e6e32985b48',1,'DescribeInput']]],
   ['discreteoutput',['DiscreteOutput',['../d9/d97/class_describe_input.html#abf2f13ba38363a56af7d30a7641c5a35a73cc344c2a336f1173eb550599da472c',1,'DescribeInput']]],
-  ['double',['Double',['../dc/dac/class_io_external_data.html#a2657c948b927f630d4c7f17297cb86b8ad909d38d705ce75386dd86e611a82f5b',1,'IoExternalData']]],
+  ['double',['Double',['../dc/dac/class_io_external_data.html#a3042c65206f3ac130bcc5eba48d725bead909d38d705ce75386dd86e611a82f5b',1,'IoExternalData']]],
+  ['doublearray',['DoubleArray',['../dc/dac/class_io_external_data.html#a3042c65206f3ac130bcc5eba48d725bea5d361c16229fc173f679fcac5a76446f',1,'IoExternalData']]],
   ['dword',['DWord',['../de/d6e/class_conversion_discrete_parameter.html#ad80e4cb3b070b736e31f78f49b05ce40a02641bfc4d9aec9dd2422ef66ee172e4',1,'ConversionDiscreteParameter']]]
 ];

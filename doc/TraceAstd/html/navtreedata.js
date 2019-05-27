@@ -14,8 +14,8 @@ var NAVTREE =
       [ "Алфавитный указатель классов", "classes.html", null ],
       [ "Иерархия классов", "hierarchy.html", "hierarchy" ],
       [ "Члены классов", "functions.html", [
-        [ "Указатель", "functions.html", null ],
-        [ "Функции", "functions_func.html", null ],
+        [ "Указатель", "functions.html", "functions_dup" ],
+        [ "Функции", "functions_func.html", "functions_func" ],
         [ "Переменные", "functions_vars.html", null ],
         [ "Перечисления", "functions_enum.html", null ],
         [ "Элементы перечислений", "functions_eval.html", null ],

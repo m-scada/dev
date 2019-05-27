@@ -20,6 +20,7 @@ var searchData=
   ['reasonnotworking',['reasonNotWorking',['../db/d60/class_describe.html#ac8ed37bbd4516a20c02fae349c523d4a',1,'Describe::reasonNotWorking()'],['../d9/db8/class_describe_complex.html#a0f3274222366b1f7eee0af4695f2f4de',1,'DescribeComplex::reasonNotWorking()'],['../db/d75/class_describe_device.html#a0bf5714b5e6fac6b5ea8afa6bf15caa5',1,'DescribeDevice::reasonNotWorking()'],['../d9/d97/class_describe_input.html#a13564777f3148b2992e1823e5a5fe80a',1,'DescribeInput::reasonNotWorking()'],['../d6/d65/class_describe_module.html#a1418b7d312d969e6d3c92bf73d7a40e1',1,'DescribeModule::reasonNotWorking()']]],
   ['recalcstate',['recalcState',['../d8/d20/class_event_source.html#a4a5116a1aa5f645034abdcee2f2944db',1,'EventSource']]],
   ['receivedbytes',['receivedBytes',['../d9/dd2/class_describe_connection.html#a3c8835ebceb8557968132f24fe8642e9',1,'DescribeConnection']]],
+  ['receivepoint',['receivePoint',['../d3/d28/class_compress_manager.html#a4bcaa83823cedf03bbbf56fe462fe726',1,'CompressManager']]],
   ['receiverhost',['ReceiverHost',['../de/d25/class_receiver_host.html#ab6648327f3d85282d62ccbd4e347d495',1,'ReceiverHost']]],
   ['receiverimpl',['ReceiverImpl',['../d9/d2f/class_receiver_impl.html#a4d94e6201bc69a83f3a69c8e961fe875',1,'ReceiverImpl']]],
   ['refreshall',['refreshAll',['../dd/d2b/class_history_engine.html#a2954103e75f8d5a7f9bbf7c178909138',1,'HistoryEngine']]],
@@ -42,6 +43,7 @@ var searchData=
   ['resetspare',['resetSpare',['../db/d60/class_describe.html#a5d624592f8cc59049ca802c8575295d1',1,'Describe']]],
   ['resetworking',['resetWorking',['../db/d60/class_describe.html#a43297967ab4a39ef29663a4c1ca05452',1,'Describe']]],
   ['restore',['restore',['../de/db7/class_application_config.html#ae3828c5b623ebbfecfeb85118f3d191c',1,'ApplicationConfig::restore()'],['../d9/d73/class_project_config.html#a010fef51b2359d53f1882ff59e748497',1,'ProjectConfig::restore()'],['../df/d44/class_signal_generator.html#a6493871ab65856d6ce9e1243ade514f7',1,'SignalGenerator::restore()']]],
+  ['returnfromreserve',['returnFromReserve',['../d8/d82/class_describe_parameter.html#a35aab1ae8e7ed8827fa6fa199941aa4b',1,'DescribeParameter']]],
   ['rewind',['rewind',['../de/de3/class_vector_enumerator.html#a909ee4320311f5a86353d0f06f2b70ea',1,'VectorEnumerator']]],
   ['rulebackup',['ruleBackup',['../d9/d73/class_project_config.html#a43e1b9777a3b29429fbc38055beb36d2',1,'ProjectConfig']]],
   ['ruleenableblink',['ruleEnableBlink',['../d8/d82/class_describe_parameter.html#a8b478c6d55a0ee1aa5762e02d0e0583b',1,'DescribeParameter']]]

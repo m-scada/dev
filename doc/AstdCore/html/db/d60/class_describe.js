@@ -17,6 +17,7 @@ var class_describe =
     [ "Describe", "db/d60/class_describe.html#a6854bad9a7ac4b7877d4a89204b4130a", null ],
     [ "Describe", "db/d60/class_describe.html#a6a26346b99ba93ac9c03882625646641", null ],
     [ "~Describe", "db/d60/class_describe.html#aef8daf8156e367a7a6f41c8de5718862", null ],
+    [ "checkDescribe", "db/d60/class_describe.html#a15ed33558a84ec3c6addd463b5596c7f", null ],
     [ "checkDescribePtr", "db/d60/class_describe.html#a87a32959047a67dc251e0052e8f8c0ef", null ],
     [ "clearIdRecord", "db/d60/class_describe.html#aec08b67aa89187d504a99397110c4a9a", null ],
     [ "gidListOwner", "db/d60/class_describe.html#a15f2cca7a90514dad604a5f39692c720", null ],

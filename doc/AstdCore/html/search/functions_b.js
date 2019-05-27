@@ -6,7 +6,7 @@ var searchData=
   ['maxcountstate',['maxCountState',['../de/d80/class_property_discrete_parameter.html#ac28b484de7a61c7bad6251a0622f4a9c',1,'PropertyDiscreteParameter']]],
   ['maximum',['maximum',['../df/d44/class_signal_generator.html#a7b00c29f2fc40bbfae2d180640ebf32d',1,'SignalGenerator']]],
   ['maximumchanged',['maximumChanged',['../df/d44/class_signal_generator.html#a7518960a7b452da7b8a3adc606d792ae',1,'SignalGenerator']]],
-  ['maxprecision',['maxPrecision',['../d0/d66/class_property_analog_parameter.html#a1c82554cd1b706e36f6f80501b57de40',1,'PropertyAnalogParameter']]],
+  ['maxprecision',['maxPrecision',['../d0/d66/class_property_analog_parameter.html#aeb801ebbca928addfb31b6e292c0277d',1,'PropertyAnalogParameter']]],
   ['maxvalue',['maxValue',['../d9/d97/class_describe_input.html#a68c9b15a09ba3d86d9a98d6c26d21fd1',1,'DescribeInput']]],
   ['maxviewport',['maxViewport',['../d0/d66/class_property_analog_parameter.html#ae76f56fe1bce6a8344df0e5291e524b0',1,'PropertyAnalogParameter']]],
   ['messagereceived',['messageReceived',['../d6/d38/class_message_service.html#ad0ef7085eea2ba32d54e6a6182aaedd6',1,'MessageService']]],
@@ -16,7 +16,8 @@ var searchData=
   ['mimeprojectx',['mimeProjectX',['../d9/d73/class_project_config.html#ab6fa130e33062f89b7c363a0953f13da',1,'ProjectConfig']]],
   ['minimum',['minimum',['../df/d44/class_signal_generator.html#a6b99029689c0630f045539f0746bb1c6',1,'SignalGenerator']]],
   ['minimumchanged',['minimumChanged',['../df/d44/class_signal_generator.html#ab06a89fca9805ceb419583d2800041f6',1,'SignalGenerator']]],
-  ['minprecision',['minPrecision',['../d0/d66/class_property_analog_parameter.html#ae1698bd3af63720339c220fb08363e64',1,'PropertyAnalogParameter']]],
+  ['minprecision',['minPrecision',['../d0/d66/class_property_analog_parameter.html#ae0c6f1f526187b56ba252c98d2cef9ca',1,'PropertyAnalogParameter']]],
+  ['minutesto',['minutesTo',['../dc/dad/class_time_astd.html#aceb54964c381001387dbdc4f9bf281d8',1,'TimeAstd']]],
   ['minvalue',['minValue',['../d9/d97/class_describe_input.html#a67299d6fd0e66b18a9463f257c5dfdd9',1,'DescribeInput']]],
   ['minviewport',['minViewport',['../d0/d66/class_property_analog_parameter.html#a01844dbfd0df3284d8e54b7d67fdd348',1,'PropertyAnalogParameter']]],
   ['mnemoschemescenecolorbackground',['mnemoschemeSceneColorBackground',['../d9/d73/class_project_config.html#acfda4d276954b75df98534b1b42c6b16',1,'ProjectConfig']]],
@@ -28,5 +29,6 @@ var searchData=
   ['mnemoschemesceneminimalheightchanged',['mnemoschemeSceneMinimalHeightChanged',['../d9/d73/class_project_config.html#a0136096bd30d2d923ac5d695cc639c14',1,'ProjectConfig']]],
   ['mnemoschemesceneminimalwidth',['mnemoschemeSceneMinimalWidth',['../d9/d73/class_project_config.html#a1cd6476f5d548db00987c7b25c758c19',1,'ProjectConfig']]],
   ['mnemoschemesceneminimalwidthchanged',['mnemoschemeSceneMinimalWidthChanged',['../d9/d73/class_project_config.html#a1a1eb5dd909da33d90a8acacdd9a1e15',1,'ProjectConfig']]],
+  ['msecsto',['msecsTo',['../dc/dad/class_time_astd.html#a42aea5047264600ec5ca405cb6c2237b',1,'TimeAstd']]],
   ['msgnotify',['msgNotify',['../de/d25/class_receiver_host.html#a732382cb8697223e5c51e58f6df964b1',1,'ReceiverHost']]]
 ];

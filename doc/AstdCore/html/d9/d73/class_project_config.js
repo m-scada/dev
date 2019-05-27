@@ -23,6 +23,7 @@ var class_project_config =
     [ "aliasIntegrationServer", "d9/d73/class_project_config.html#a4f3316a45ffd05f61066e41745be8a31", null ],
     [ "aliasRepositoryServer", "d9/d73/class_project_config.html#a8f8d93bf81ff14c35106351b14afbf5b", null ],
     [ "aliasWebServer", "d9/d73/class_project_config.html#a7b97ce30e39ba50e72e17c341795c2e5", null ],
+    [ "config", "d9/d73/class_project_config.html#a15ab809d7774124c05f4a833fd0f999c", null ],
     [ "config", "d9/d73/class_project_config.html#a6886dfec68fbd0447dc4b026c29ed8de", null ],
     [ "create", "d9/d73/class_project_config.html#a31fcb63434391fd86dfc35c659de7c23", null ],
     [ "created", "d9/d73/class_project_config.html#a79cf77d2e7e1fddf6aa19e4ec27aa2ca", null ],
@@ -45,6 +46,7 @@ var class_project_config =
     [ "mnemoschemeSceneMinimalWidth", "d9/d73/class_project_config.html#a1cd6476f5d548db00987c7b25c758c19", null ],
     [ "mnemoschemeSceneMinimalWidthChanged", "d9/d73/class_project_config.html#a1a1eb5dd909da33d90a8acacdd9a1e15", null ],
     [ "name", "d9/d73/class_project_config.html#a339a30bb4cd315dbd4a18f9f6e6919f9", null ],
+    [ "options", "d9/d73/class_project_config.html#a043541382d5a7f3031e86439f91cdcf2", null ],
     [ "pathFile", "d9/d73/class_project_config.html#adb3e6f20001064469f4b39df03f3c38f", null ],
     [ "pathStorage", "d9/d73/class_project_config.html#ac63fc02e4a39a7b1b76d016c9611b4ca", null ],
     [ "portHostServer", "d9/d73/class_project_config.html#a66c3f37f9e08d94ee122b1cf90e51d65", null ],
@@ -52,6 +54,7 @@ var class_project_config =
     [ "portLocalServer", "d9/d73/class_project_config.html#ad22f662a47886d33d47988d7aa7e6fbd", null ],
     [ "projectDescription", "d9/d73/class_project_config.html#ab2956f69dc603f7c15d93525e9922fc7", null ],
     [ "projectFileChanged", "d9/d73/class_project_config.html#a1ea9da5de365bb056e35926e064f8c6a", null ],
+    [ "Q_DECLARE_PRIVATE", "d9/d73/class_project_config.html#a6e029df318ca4dc6c074a02b149d70dd", null ],
     [ "Q_ENUM", "d9/d73/class_project_config.html#aa02e77522d0110afd2d978e1b9c26f54", null ],
     [ "Q_ENUM", "d9/d73/class_project_config.html#a7248f606264bdbc408264f524a283b95", null ],
     [ "restore", "d9/d73/class_project_config.html#a010fef51b2359d53f1882ff59e748497", null ],
@@ -68,6 +71,7 @@ var class_project_config =
     [ "setMnemoschemeSceneMinimalHeight", "d9/d73/class_project_config.html#a3e5ad2befc6540bf0059e38e779e7858", null ],
     [ "setMnemoschemeSceneMinimalWidth", "d9/d73/class_project_config.html#a10f364da5f8e370a9196a115500b637b", null ],
     [ "setName", "d9/d73/class_project_config.html#a17a0b3fbb23a185e6efdbe0cc3ad2efd", null ],
+    [ "setOptions", "d9/d73/class_project_config.html#adf43cd8afe1e59db8f7942a7b5c9bf00", null ],
     [ "setPathFile", "d9/d73/class_project_config.html#a3bbffc594885cdafd458873bacdbbce8", null ],
     [ "setPathStorage", "d9/d73/class_project_config.html#ab256cbd2c797c08ef47521c0371af95d", null ],
     [ "setPortHostServer", "d9/d73/class_project_config.html#ad1069163264efc79827cdb901a937556", null ],
@@ -84,5 +88,6 @@ var class_project_config =
     [ "typeProject", "d9/d73/class_project_config.html#a8d89337c6245b38cd86bfe34b5c469e0", null ],
     [ "typeProjectString", "d9/d73/class_project_config.html#aa9bc5b5b869082fbfd67d30bd23a5083", null ],
     [ "useIntegrationServer", "d9/d73/class_project_config.html#ad57ce619b8a269071d45628b04943454", null ],
-    [ "version", "d9/d73/class_project_config.html#ab8c59f7b8124c91cc06e0939e66241ff", null ]
+    [ "version", "d9/d73/class_project_config.html#ab8c59f7b8124c91cc06e0939e66241ff", null ],
+    [ "d_ptr", "d9/d73/class_project_config.html#a444c81d354d92479b884fa47ad37888f", null ]
 ];

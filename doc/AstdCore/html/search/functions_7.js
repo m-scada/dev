@@ -12,6 +12,7 @@ var searchData=
   ['historyengine',['HistoryEngine',['../dd/d2b/class_history_engine.html#a8abed37b77784554f5a4cf016ceb65a8',1,'HistoryEngine::HistoryEngine()=delete'],['../dd/d2b/class_history_engine.html#a8205376a9b34dbc9a06c93b7337741bf',1,'HistoryEngine::HistoryEngine(EventSource *pEventSource, INotifyHistoryEngine *notify=nullptr)'],['../dd/d2b/class_history_engine.html#abdfc44a18d064710b7a704f16c75a497',1,'HistoryEngine::HistoryEngine(ValueSourceParameter *pEventSource, INotifyHistoryEngine *notify=nullptr)']]],
   ['historyrequestend',['historyRequestEnd',['../d0/d51/class_abstract_value_source.html#aca67b1d413b703c785fbba6af51dd69d',1,'AbstractValueSource']]],
   ['historyrequestreply',['historyRequestReply',['../d0/d51/class_abstract_value_source.html#ab91d783000368ef41ad4651f43d9ea3a',1,'AbstractValueSource']]],
+  ['hoursto',['hoursTo',['../dc/dad/class_time_astd.html#a33923b8320d5ebfb6da6082f0744a848',1,'TimeAstd']]],
   ['hwnd',['hWnd',['../d2/d03/class_notifier_describe_list.html#a9949185989880219b6fa47b97c6c24f9',1,'NotifierDescribeList']]],
   ['hysteresis',['hysteresis',['../d5/d81/class_border_algorithm.html#afc81f5b6550ef692252aa886c2c6e257',1,'BorderAlgorithm']]]
 ];

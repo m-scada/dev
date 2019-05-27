@@ -3,6 +3,7 @@ var class_g_i_d___station =
     [ "GID_Station", "d6/d6e/class_g_i_d___station.html#af9e3e64edc573d5d4eac2c685f2c0002", null ],
     [ "GID_Station", "d6/d6e/class_g_i_d___station.html#a953b49b434e1aa682bfa13c94b12b354", null ],
     [ "GID_Station", "d6/d6e/class_g_i_d___station.html#a236b5d3ca8d82e1c91b6e3bf6e4f8906", null ],
+    [ "GID_Station", "d6/d6e/class_g_i_d___station.html#a65c19e24d1aac5b8e5f1c30afeeac242", null ],
     [ "clear", "d6/d6e/class_g_i_d___station.html#ac67155175cc581a62e1858d7bc55357c", null ],
     [ "isEmpty", "d6/d6e/class_g_i_d___station.html#ade50a22a9a25d2aaa38469cdf45865dc", null ],
     [ "isSelf", "d6/d6e/class_g_i_d___station.html#a13c08445265fb872478a684d194050c4", null ],

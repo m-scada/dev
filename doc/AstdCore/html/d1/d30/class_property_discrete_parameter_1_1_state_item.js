@@ -6,6 +6,7 @@ var class_property_discrete_parameter_1_1_state_item =
     [ "StateItem", "d1/d30/class_property_discrete_parameter_1_1_state_item.html#a36466837b7efe7d2d74f072cd927309f", null ],
     [ "caption", "d1/d30/class_property_discrete_parameter_1_1_state_item.html#ae59bd304bc1c6599000c04fcf2716233", null ],
     [ "operator!=", "d1/d30/class_property_discrete_parameter_1_1_state_item.html#a6345b62368d77a822f2d816802e20d8d", null ],
+    [ "operator<", "d1/d30/class_property_discrete_parameter_1_1_state_item.html#a1574e7bc6dcf46cff05c47c527ea7e0c", null ],
     [ "operator=", "d1/d30/class_property_discrete_parameter_1_1_state_item.html#ac8d1ca9a64f8b705dcfd4230d8305fef", null ],
     [ "operator=", "d1/d30/class_property_discrete_parameter_1_1_state_item.html#a6c8765d138874a8467a04d008622b256", null ],
     [ "operator==", "d1/d30/class_property_discrete_parameter_1_1_state_item.html#a6df25d545e4f3de0ed8d549d1cd2180b", null ],

@@ -7,6 +7,7 @@ var class_property_discrete_parameter =
     [ "PropertyDiscreteParameter", "de/d80/class_property_discrete_parameter.html#aec219f8d861c17b150228612c2b2127e", null ],
     [ "~PropertyDiscreteParameter", "de/d80/class_property_discrete_parameter.html#a86b71e38700cd99bea8f1196a7508796", null ],
     [ "captions", "de/d80/class_property_discrete_parameter.html#aa4b34a0780d2509ba11dfe837b5ba8db", null ],
+    [ "change", "de/d80/class_property_discrete_parameter.html#a049a0d6bdd99fb04c8a24776596cf6f9", null ],
     [ "count", "de/d80/class_property_discrete_parameter.html#a30bfe16707c2d02b2d6a7621c936fc2e", null ],
     [ "hasEmptyCaptions", "de/d80/class_property_discrete_parameter.html#a54666bedeeb3b8110a37a8c91f149377", null ],
     [ "isValid", "de/d80/class_property_discrete_parameter.html#ad88ce82418103441d2d2adc54795a932", null ],

@@ -84,6 +84,8 @@ $(document).ready(function(){initNavTree('de/daf/structastd_1_1_i_trace_table.ht
   <div class="summary">
 <a href="#pub-types">Открытые типы</a> &#124;
 <a href="#pub-methods">Открытые члены</a> &#124;
+<a href="#pro-methods">Защищенные члены</a> &#124;
+<a href="#friends">Друзья</a> &#124;
 <a href="../../dd/d7a/structastd_1_1_i_trace_table-members.html">Полный список членов класса</a>  </div>
   <div class="headertitle">
 <div class="title">Структура astd::ITraceTable<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
@@ -144,8 +146,6 @@ $(document).ready(function(){initNavTree('de/daf/structastd_1_1_i_trace_table.ht
 <tr class="separator:ae8325009d5ea34d1a03db8fc517d3fda"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1ca713e8823d91751bd9df5510d8be8a"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/daf/structastd_1_1_i_trace_table.html#a1ca713e8823d91751bd9df5510d8be8a">setValue</a> (int item, double value, int precision=3)=0</td></tr>
 <tr class="separator:a1ca713e8823d91751bd9df5510d8be8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab0c7d6d9719510871e2de0c9edf309e9"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/daf/structastd_1_1_i_trace_table.html#ab0c7d6d9719510871e2de0c9edf309e9">release</a> ()=0</td></tr>
-<tr class="separator:ab0c7d6d9719510871e2de0c9edf309e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8b072ae6115d55e6af98ed85d068857e"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/daf/structastd_1_1_i_trace_table.html#a8b072ae6115d55e6af98ed85d068857e">removeAll</a> ()=0</td></tr>
 <tr class="separator:a8b072ae6115d55e6af98ed85d068857e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ade77b547ce1778f9367b8e32a34aebcc"><td class="memItemLeft" align="right" valign="top">virtual QList&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/daf/structastd_1_1_i_trace_table.html#ade77b547ce1778f9367b8e32a34aebcc">items</a> () const =0</td></tr>
@@ -156,6 +156,16 @@ $(document).ready(function(){initNavTree('de/daf/structastd_1_1_i_trace_table.ht
 <tr class="separator:a523fa4e6fe239efb14b73ed2ae6d56e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6d7020a2bdf4ff97064a13c8df663a26"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/daf/structastd_1_1_i_trace_table.html#a6d7020a2bdf4ff97064a13c8df663a26">setName</a> (int item, LPCSTR name, LPCSTR suffix)</td></tr>
 <tr class="separator:a6d7020a2bdf4ff97064a13c8df663a26"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Защищенные члены</h2></td></tr>
+<tr class="memitem:ab0c7d6d9719510871e2de0c9edf309e9"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/daf/structastd_1_1_i_trace_table.html#ab0c7d6d9719510871e2de0c9edf309e9">release</a> ()=0</td></tr>
+<tr class="separator:ab0c7d6d9719510871e2de0c9edf309e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
+Друзья</h2></td></tr>
+<tr class="memitem:a0ed90b74e662a436e0abda021d506b65"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/daf/structastd_1_1_i_trace_table.html#a0ed90b74e662a436e0abda021d506b65">TraceTablePtr</a></td></tr>
+<tr class="separator:a0ed90b74e662a436e0abda021d506b65"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Перечисления</h2>
 <a id="a3f0763ffc750c74a64e1a1b0dae325d5"></a>
@@ -221,7 +231,7 @@ $(document).ready(function(){initNavTree('de/daf/structastd_1_1_i_trace_table.ht
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">pure virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -1201,6 +1211,29 @@ $(document).ready(function(){initNavTree('de/daf/structastd_1_1_i_trace_table.ht
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Документация по друзьям класса и функциям, относящимся к классу</h2>
+<a id="a0ed90b74e662a436e0abda021d506b65"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0ed90b74e662a436e0abda021d506b65">&#9670;&nbsp;</a></span>TraceTablePtr</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">friend class <a class="el" href="../../d3/d0a/classastd_1_1_trace_table_ptr.html">TraceTablePtr</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

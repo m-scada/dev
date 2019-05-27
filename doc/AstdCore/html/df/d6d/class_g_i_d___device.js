@@ -15,6 +15,7 @@ var class_g_i_d___device =
     [ "isMy", "df/d6d/class_g_i_d___device.html#ab790f3e1cfc0e789715a515cf2cc9ac5", null ],
     [ "operator QVariant", "df/d6d/class_g_i_d___device.html#a29cd656f83c2fcbbe9d2ad0d99f63d99", null ],
     [ "operator!=", "df/d6d/class_g_i_d___device.html#abc96bef95d5f8d5a9c9d1dce0413ae1d", null ],
+    [ "operator<", "df/d6d/class_g_i_d___device.html#a8bd9d89660669172a456a3b66d90df79", null ],
     [ "operator=", "df/d6d/class_g_i_d___device.html#a1a338cadfdb5380708e4bef5c14339f9", null ],
     [ "operator=", "df/d6d/class_g_i_d___device.html#a162c3789605313bccbd963000a5a7702", null ],
     [ "operator==", "df/d6d/class_g_i_d___device.html#af6715e775ec776feeede7d72179949b6", null ],

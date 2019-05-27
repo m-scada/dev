@@ -1,5 +1,7 @@
 var searchData=
 [
-  ['read',['READ',['../d9/dd2/class_describe_connection.html#a04026117a02bd0fe7bc47b6ca08105e8',1,'DescribeConnection::READ()'],['../d1/d9b/class_describe_station.html#ad3a35b3033278a1238242833adc41271',1,'DescribeStation::READ()']]],
-  ['receivedbytes',['receivedBytes',['../d9/dd2/class_describe_connection.html#ab670963292d30989548dba192e1e3b7d',1,'DescribeConnection']]]
+  ['periodgeneration',['periodGeneration',['../d9/d97/class_describe_input.html#a575564e08a505cbef819b5a9eb6a7b05',1,'DescribeInput']]],
+  ['periodsaveduplicateevent',['periodSaveDuplicateEvent',['../dc/d40/class_describe_archive.html#a7c8033dbb74b590524ce445c0e33ec07',1,'DescribeArchive']]],
+  ['permission',['permission',['../db/d75/class_describe_device.html#ad24f56d4ebf30ada92412528a532f711',1,'DescribeDevice']]],
+  ['precision',['precision',['../d0/d66/class_property_analog_parameter.html#a8333f2560483d28fda1d407bb935b8ba',1,'PropertyAnalogParameter']]]
 ];

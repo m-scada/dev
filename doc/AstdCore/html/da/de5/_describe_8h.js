@@ -1,8 +1,6 @@
 var _describe_8h =
 [
     [ "Describe", "db/d60/class_describe.html", "db/d60/class_describe" ],
-    [ "D_CHECK", "da/de5/_describe_8h.html#a89fd94b5f65d9b749f7bbcc7d9bb1c97", null ],
-    [ "DO_CHECK", "da/de5/_describe_8h.html#ac3a4eefe38bf0fb429aae5a8ff87fa45", null ],
     [ "describe_cast", "da/de5/_describe_8h.html#a755dc744dfe0a127242012447e1bef87", null ],
     [ "describe_cast", "da/de5/_describe_8h.html#ade90f492568702106831bbe22d3647ec", null ],
     [ "describe_cast", "da/de5/_describe_8h.html#a218115ab90aee5150d1d2116b5dcc110", null ],

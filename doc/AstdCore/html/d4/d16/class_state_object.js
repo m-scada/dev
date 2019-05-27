@@ -30,6 +30,7 @@ var class_state_object =
     [ "operator==", "d4/d16/class_state_object.html#af9831b1e469b61c8183b979bf72ce1df", null ],
     [ "Q_ENUM", "d4/d16/class_state_object.html#abc16759ce7af7837400645917ffa609c", null ],
     [ "shortName", "d4/d16/class_state_object.html#a7192777336262b71eeb3b73295be0b32", null ],
+    [ "status", "d4/d16/class_state_object.html#a903400546801a1c4f6cfaf8c3441599f", null ],
     [ "toString", "d4/d16/class_state_object.html#a661d50300ff1da28d15974a524cf2024", null ],
     [ "toVariant", "d4/d16/class_state_object.html#abcc09d892fb3731171e258e990902565", null ]
 ];

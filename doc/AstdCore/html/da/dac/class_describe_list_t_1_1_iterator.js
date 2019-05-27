@@ -10,5 +10,6 @@ var class_describe_list_t_1_1_iterator =
     [ "operator--", "da/dac/class_describe_list_t_1_1_iterator.html#a912472dddbde1e25a39b91d55ca53c05", null ],
     [ "operator--", "da/dac/class_describe_list_t_1_1_iterator.html#a402576f13b8fd80f4b4d7882ded644b5", null ],
     [ "operator->", "da/dac/class_describe_list_t_1_1_iterator.html#a658c7bc87d55df7ce205398206842d0e", null ],
+    [ "operator=", "da/dac/class_describe_list_t_1_1_iterator.html#a3f236b68494ac9ae4e080430c2d6959c", null ],
     [ "operator==", "da/dac/class_describe_list_t_1_1_iterator.html#a89b3b6b1a2aec1676e6df352ec0d6305", null ]
 ];

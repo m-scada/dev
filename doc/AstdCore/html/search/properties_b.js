@@ -1,7 +1,4 @@
 var searchData=
 [
-  ['periodgeneration',['periodGeneration',['../d9/d97/class_describe_input.html#a575564e08a505cbef819b5a9eb6a7b05',1,'DescribeInput']]],
-  ['periodsaveduplicateevent',['periodSaveDuplicateEvent',['../dc/d40/class_describe_archive.html#a7c8033dbb74b590524ce445c0e33ec07',1,'DescribeArchive']]],
-  ['permission',['permission',['../db/d75/class_describe_device.html#ad24f56d4ebf30ada92412528a532f711',1,'DescribeDevice']]],
-  ['precision',['precision',['../d0/d66/class_property_analog_parameter.html#a49ee17461d27d3f75b0cbc95c4ebdfb6',1,'PropertyAnalogParameter']]]
+  ['options',['options',['../d0/d5d/class_describe_algorithm.html#a897bec3dc90bcc90f1c5bc4e54fcaadd',1,'DescribeAlgorithm::options()'],['../d9/db8/class_describe_complex.html#aecfcd64fb602a51e00cd318bf396ed08',1,'DescribeComplex::options()'],['../d9/d97/class_describe_input.html#ab26f2b8a0446c33b32a6e8f73622c50d',1,'DescribeInput::options()'],['../d6/d65/class_describe_module.html#adf9919ccfbcaaff2fae8750e1b762c05',1,'DescribeModule::options()'],['../d1/d9b/class_describe_station.html#ab60b9f9a20174fbe6d03e95a2f07f4e4',1,'DescribeStation::options()']]]
 ];

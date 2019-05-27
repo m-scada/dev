@@ -1,6 +1,7 @@
 var searchData=
 [
-  ['char',['Char',['../dc/dac/class_io_external_data.html#a2657c948b927f630d4c7f17297cb86b8a8e95e84813830072b7516cfaa7dbc1a9',1,'IoExternalData']]],
+  ['char',['Char',['../dc/dac/class_io_external_data.html#a3042c65206f3ac130bcc5eba48d725bea8e95e84813830072b7516cfaa7dbc1a9',1,'IoExternalData']]],
+  ['chararray',['CharArray',['../dc/dac/class_io_external_data.html#a3042c65206f3ac130bcc5eba48d725beac81b062e5c6743c67b5016058f61645f',1,'IoExternalData']]],
   ['client',['Client',['../d1/d9b/class_describe_station.html#af69318dea43273df07cf581c0f6eb341a577d7068826de925ea2aec01dbadf5e4',1,'DescribeStation']]],
   ['complex',['Complex',['../db/d60/class_describe.html#aa71e75544f67f60e7739413aae34ad02a10b4eb76294b70d7fd6df997ff06edb1',1,'Describe']]],
   ['connection',['Connection',['../db/d60/class_describe.html#aa71e75544f67f60e7739413aae34ad02ac2cc7082a89c1ad6631a2f66af5f00c0',1,'Describe']]],

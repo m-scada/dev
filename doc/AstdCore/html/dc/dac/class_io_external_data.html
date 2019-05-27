@@ -102,48 +102,62 @@ $(document).ready(function(){initNavTree('dc/dac/class_io_external_data.html','.
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Открытые типы</h2></td></tr>
-<tr class="memitem:a2657c948b927f630d4c7f17297cb86b8"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dac/class_io_external_data.html#a2657c948b927f630d4c7f17297cb86b8">TypeData</a> : char { <br />
-&#160;&#160;<a class="el" href="../../dc/dac/class_io_external_data.html#a2657c948b927f630d4c7f17297cb86b8aad1869f680471b553f5e5380bc1e2a21">TypeData::Bit0</a> = 0x00, 
-<a class="el" href="../../dc/dac/class_io_external_data.html#a2657c948b927f630d4c7f17297cb86b8aeb294e8854a6b3738ede925d447ee7bf">TypeData::Bit1</a> = 0x01, 
-<a class="el" href="../../dc/dac/class_io_external_data.html#a2657c948b927f630d4c7f17297cb86b8a765020befdece332bbc96719337ce439">TypeData::Bit2</a> = 0x02, 
-<a class="el" href="../../dc/dac/class_io_external_data.html#a2657c948b927f630d4c7f17297cb86b8ae6aee35bda99316f8484bb4d13c83585">TypeData::Bit3</a> = 0x03, 
+<tr class="memitem:a3042c65206f3ac130bcc5eba48d725be"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dac/class_io_external_data.html#a3042c65206f3ac130bcc5eba48d725be">TypeData</a> : byte { <br />
+&#160;&#160;<a class="el" href="../../dc/dac/class_io_external_data.html#a3042c65206f3ac130bcc5eba48d725bea3d104d381ec6f353c515014fae2ba06d">TypeData::ArrayFlag</a> = 0x80, 
+<a class="el" href="../../dc/dac/class_io_external_data.html#a3042c65206f3ac130bcc5eba48d725bea88183b946cc5f0e8c96b2e66e1c74a7e">TypeData::Unknown</a> = BYTE_MAX, 
+<a class="el" href="../../dc/dac/class_io_external_data.html#a3042c65206f3ac130bcc5eba48d725beaad1869f680471b553f5e5380bc1e2a21">TypeData::Bit0</a> = 0x00, 
+<a class="el" href="../../dc/dac/class_io_external_data.html#a3042c65206f3ac130bcc5eba48d725beaeb294e8854a6b3738ede925d447ee7bf">TypeData::Bit1</a> = 0x01, 
 <br />
-&#160;&#160;<a class="el" href="../../dc/dac/class_io_external_data.html#a2657c948b927f630d4c7f17297cb86b8a53ae9f29902d5bcb92c2f769c531c27b">TypeData::Bit4</a> = 0x04, 
-<a class="el" href="../../dc/dac/class_io_external_data.html#a2657c948b927f630d4c7f17297cb86b8a2b7e3d7743800bcf14f7fb84c44e6937">TypeData::Bit5</a> = 0x05, 
-<a class="el" href="../../dc/dac/class_io_external_data.html#a2657c948b927f630d4c7f17297cb86b8af2d5f6de4798a6535ddee773e95f6b1c">TypeData::Bit6</a> = 0x06, 
-<a class="el" href="../../dc/dac/class_io_external_data.html#a2657c948b927f630d4c7f17297cb86b8a9f0dfe291f25fc395bff35d4cad40da7">TypeData::Bit7</a> = 0x07, 
+&#160;&#160;<a class="el" href="../../dc/dac/class_io_external_data.html#a3042c65206f3ac130bcc5eba48d725bea765020befdece332bbc96719337ce439">TypeData::Bit2</a> = 0x02, 
+<a class="el" href="../../dc/dac/class_io_external_data.html#a3042c65206f3ac130bcc5eba48d725beae6aee35bda99316f8484bb4d13c83585">TypeData::Bit3</a> = 0x03, 
+<a class="el" href="../../dc/dac/class_io_external_data.html#a3042c65206f3ac130bcc5eba48d725bea53ae9f29902d5bcb92c2f769c531c27b">TypeData::Bit4</a> = 0x04, 
+<a class="el" href="../../dc/dac/class_io_external_data.html#a3042c65206f3ac130bcc5eba48d725bea2b7e3d7743800bcf14f7fb84c44e6937">TypeData::Bit5</a> = 0x05, 
 <br />
-&#160;&#160;<a class="el" href="../../dc/dac/class_io_external_data.html#a2657c948b927f630d4c7f17297cb86b8a5bcc22a8bc9486d7adb098d299899a29">TypeData::S7_BYTE</a> = 0x0C, 
-<a class="el" href="../../dc/dac/class_io_external_data.html#a2657c948b927f630d4c7f17297cb86b8a2828fea285465f7cff9bc06dfc515e02">TypeData::S7_WORD</a> = 0x08, 
-<a class="el" href="../../dc/dac/class_io_external_data.html#a2657c948b927f630d4c7f17297cb86b8a39bda49cc718bbdb40990411e2120f9a">TypeData::S7_DWORD</a> = 0x0B, 
-<a class="el" href="../../dc/dac/class_io_external_data.html#a2657c948b927f630d4c7f17297cb86b8aff7d24c88b4adde59ffa15272ff11fad">TypeData::S7_CHAR</a> = 0x10, 
+&#160;&#160;<a class="el" href="../../dc/dac/class_io_external_data.html#a3042c65206f3ac130bcc5eba48d725beaf2d5f6de4798a6535ddee773e95f6b1c">TypeData::Bit6</a> = 0x06, 
+<a class="el" href="../../dc/dac/class_io_external_data.html#a3042c65206f3ac130bcc5eba48d725bea9f0dfe291f25fc395bff35d4cad40da7">TypeData::Bit7</a> = 0x07, 
+<a class="el" href="../../dc/dac/class_io_external_data.html#a3042c65206f3ac130bcc5eba48d725bea5bcc22a8bc9486d7adb098d299899a29">TypeData::S7_BYTE</a> = 0x0C, 
+<a class="el" href="../../dc/dac/class_io_external_data.html#a3042c65206f3ac130bcc5eba48d725bea2828fea285465f7cff9bc06dfc515e02">TypeData::S7_WORD</a> = 0x08, 
 <br />
-&#160;&#160;<a class="el" href="../../dc/dac/class_io_external_data.html#a2657c948b927f630d4c7f17297cb86b8afc00855ef700eea1d5f363af6e9eb403">TypeData::S7_INT</a> = 0x09, 
-<a class="el" href="../../dc/dac/class_io_external_data.html#a2657c948b927f630d4c7f17297cb86b8af1737b6472d2d2d9cbbe6e2e744ac2b7">TypeData::S7_DINT</a> = 0x0D, 
-<a class="el" href="../../dc/dac/class_io_external_data.html#a2657c948b927f630d4c7f17297cb86b8a59987384ee97359fc24969c4cb242ab4">TypeData::S7_REAL</a> = 0x0A, 
-<a class="el" href="../../dc/dac/class_io_external_data.html#a2657c948b927f630d4c7f17297cb86b8a7c056b566f2818e01d7c9778a0da65fc">TypeData::S5_TIME</a> = 0x0E, 
+&#160;&#160;<a class="el" href="../../dc/dac/class_io_external_data.html#a3042c65206f3ac130bcc5eba48d725bea39bda49cc718bbdb40990411e2120f9a">TypeData::S7_DWORD</a> = 0x0B, 
+<a class="el" href="../../dc/dac/class_io_external_data.html#a3042c65206f3ac130bcc5eba48d725beaff7d24c88b4adde59ffa15272ff11fad">TypeData::S7_CHAR</a> = 0x10, 
+<a class="el" href="../../dc/dac/class_io_external_data.html#a3042c65206f3ac130bcc5eba48d725beafc00855ef700eea1d5f363af6e9eb403">TypeData::S7_INT</a> = 0x09, 
+<a class="el" href="../../dc/dac/class_io_external_data.html#a3042c65206f3ac130bcc5eba48d725beaf1737b6472d2d2d9cbbe6e2e744ac2b7">TypeData::S7_DINT</a> = 0x0D, 
 <br />
-&#160;&#160;<a class="el" href="../../dc/dac/class_io_external_data.html#a2657c948b927f630d4c7f17297cb86b8a844b373ff2498079cde164734edf813d">TypeData::S7_TIME</a> = 0x0F, 
-<a class="el" href="../../dc/dac/class_io_external_data.html#a2657c948b927f630d4c7f17297cb86b8a14f00fea40103a1b6e9eb273ee178b74">TypeData::S7_DATE</a> = 0x11, 
-<a class="el" href="../../dc/dac/class_io_external_data.html#a2657c948b927f630d4c7f17297cb86b8aecd17dd67b9dea35874f8f92b8ed38fb">TypeData::S7_TOD</a> = 0x12, 
-<a class="el" href="../../dc/dac/class_io_external_data.html#a2657c948b927f630d4c7f17297cb86b8a3ded9cf29cd7b11691530292909a5da3">TypeData::S7_DT</a> = 0x13, 
+&#160;&#160;<a class="el" href="../../dc/dac/class_io_external_data.html#a3042c65206f3ac130bcc5eba48d725bea59987384ee97359fc24969c4cb242ab4">TypeData::S7_REAL</a> = 0x0A, 
+<a class="el" href="../../dc/dac/class_io_external_data.html#a3042c65206f3ac130bcc5eba48d725bea7c056b566f2818e01d7c9778a0da65fc">TypeData::S5_TIME</a> = 0x0E, 
+<a class="el" href="../../dc/dac/class_io_external_data.html#a3042c65206f3ac130bcc5eba48d725bea844b373ff2498079cde164734edf813d">TypeData::S7_TIME</a> = 0x0F, 
+<a class="el" href="../../dc/dac/class_io_external_data.html#a3042c65206f3ac130bcc5eba48d725bea14f00fea40103a1b6e9eb273ee178b74">TypeData::S7_DATE</a> = 0x11, 
 <br />
-&#160;&#160;<a class="el" href="../../dc/dac/class_io_external_data.html#a2657c948b927f630d4c7f17297cb86b8ac26f15e86e3de4c398a8273272aba034">TypeData::Bool</a> = 0x27, 
-<a class="el" href="../../dc/dac/class_io_external_data.html#a2657c948b927f630d4c7f17297cb86b8af97d5cb62f8cf5dbb26c17171dd5fe69">TypeData::UChar</a> = 0x28, 
-<a class="el" href="../../dc/dac/class_io_external_data.html#a2657c948b927f630d4c7f17297cb86b8adfe785f133347f9b473f99009732b1bc">TypeData::UShort</a> = 0x29, 
-<a class="el" href="../../dc/dac/class_io_external_data.html#a2657c948b927f630d4c7f17297cb86b8a0b1291eded63143ac04709711274785a">TypeData::UInt</a> = 0x2A, 
+&#160;&#160;<a class="el" href="../../dc/dac/class_io_external_data.html#a3042c65206f3ac130bcc5eba48d725beaecd17dd67b9dea35874f8f92b8ed38fb">TypeData::S7_TOD</a> = 0x12, 
+<a class="el" href="../../dc/dac/class_io_external_data.html#a3042c65206f3ac130bcc5eba48d725bea3ded9cf29cd7b11691530292909a5da3">TypeData::S7_DT</a> = 0x13, 
+<a class="el" href="../../dc/dac/class_io_external_data.html#a3042c65206f3ac130bcc5eba48d725bea9b6bc6bb5257f973658825cfd0e040ca">TypeData::S7_String</a> = 0x14, 
+<a class="el" href="../../dc/dac/class_io_external_data.html#a3042c65206f3ac130bcc5eba48d725beaadf92d3aaf70b47b671dc97f3dd3b84a">TypeData::S7_ArrayOfChar</a> = 0x15, 
 <br />
-&#160;&#160;<a class="el" href="../../dc/dac/class_io_external_data.html#a2657c948b927f630d4c7f17297cb86b8a8e95e84813830072b7516cfaa7dbc1a9">TypeData::Char</a> = 0x2B, 
-<a class="el" href="../../dc/dac/class_io_external_data.html#a2657c948b927f630d4c7f17297cb86b8a30bb747c98bccdd11b3f89e644c4d0ad">TypeData::Short</a> = 0x2C, 
-<a class="el" href="../../dc/dac/class_io_external_data.html#a2657c948b927f630d4c7f17297cb86b8a1686a6c336b71b36d77354cea19a8b52">TypeData::Int</a> = 0x2D, 
-<a class="el" href="../../dc/dac/class_io_external_data.html#a2657c948b927f630d4c7f17297cb86b8a22ae0e2b89e5e3d477f988cc36d3272b">TypeData::Float</a> = 0x2E, 
+&#160;&#160;<a class="el" href="../../dc/dac/class_io_external_data.html#a3042c65206f3ac130bcc5eba48d725beac26f15e86e3de4c398a8273272aba034">TypeData::Bool</a> = 0x27, 
+<a class="el" href="../../dc/dac/class_io_external_data.html#a3042c65206f3ac130bcc5eba48d725beaf97d5cb62f8cf5dbb26c17171dd5fe69">TypeData::UChar</a> = 0x28, 
+<a class="el" href="../../dc/dac/class_io_external_data.html#a3042c65206f3ac130bcc5eba48d725beadfe785f133347f9b473f99009732b1bc">TypeData::UShort</a> = 0x29, 
+<a class="el" href="../../dc/dac/class_io_external_data.html#a3042c65206f3ac130bcc5eba48d725bea0b1291eded63143ac04709711274785a">TypeData::UInt</a> = 0x2A, 
 <br />
-&#160;&#160;<a class="el" href="../../dc/dac/class_io_external_data.html#a2657c948b927f630d4c7f17297cb86b8ad909d38d705ce75386dd86e611a82f5b">TypeData::Double</a> = 0x2F, 
-<a class="el" href="../../dc/dac/class_io_external_data.html#a2657c948b927f630d4c7f17297cb86b8a27118326006d3829667a400ad23d5d98">TypeData::String</a> = 0x40, 
-<a class="el" href="../../dc/dac/class_io_external_data.html#a2657c948b927f630d4c7f17297cb86b8a88183b946cc5f0e8c96b2e66e1c74a7e">TypeData::Unknown</a> = CHAR_MAX
+&#160;&#160;<a class="el" href="../../dc/dac/class_io_external_data.html#a3042c65206f3ac130bcc5eba48d725bea8e95e84813830072b7516cfaa7dbc1a9">TypeData::Char</a> = 0x2B, 
+<a class="el" href="../../dc/dac/class_io_external_data.html#a3042c65206f3ac130bcc5eba48d725bea30bb747c98bccdd11b3f89e644c4d0ad">TypeData::Short</a> = 0x2C, 
+<a class="el" href="../../dc/dac/class_io_external_data.html#a3042c65206f3ac130bcc5eba48d725bea1686a6c336b71b36d77354cea19a8b52">TypeData::Int</a> = 0x2D, 
+<a class="el" href="../../dc/dac/class_io_external_data.html#a3042c65206f3ac130bcc5eba48d725bea22ae0e2b89e5e3d477f988cc36d3272b">TypeData::Float</a> = 0x2E, 
+<br />
+&#160;&#160;<a class="el" href="../../dc/dac/class_io_external_data.html#a3042c65206f3ac130bcc5eba48d725bead909d38d705ce75386dd86e611a82f5b">TypeData::Double</a> = 0x2F, 
+<a class="el" href="../../dc/dac/class_io_external_data.html#a3042c65206f3ac130bcc5eba48d725beacb4687677601f87c081e7c96f26504d6">TypeData::BoolArray</a> = Bool | ArrayFlag, 
+<a class="el" href="../../dc/dac/class_io_external_data.html#a3042c65206f3ac130bcc5eba48d725bea03915839a2e7afc122c16ee161cb903f">TypeData::UCharArray</a> = UChar | ArrayFlag, 
+<a class="el" href="../../dc/dac/class_io_external_data.html#a3042c65206f3ac130bcc5eba48d725bea1e556589b5d734757180dd785cf2c51f">TypeData::UShortArray</a> = UShort | ArrayFlag, 
+<br />
+&#160;&#160;<a class="el" href="../../dc/dac/class_io_external_data.html#a3042c65206f3ac130bcc5eba48d725bea17c608e339f58942e0b395fbda161d97">TypeData::UIntArray</a> = UInt | ArrayFlag, 
+<a class="el" href="../../dc/dac/class_io_external_data.html#a3042c65206f3ac130bcc5eba48d725beac81b062e5c6743c67b5016058f61645f">TypeData::CharArray</a> = Char | ArrayFlag, 
+<a class="el" href="../../dc/dac/class_io_external_data.html#a3042c65206f3ac130bcc5eba48d725beaf9e06ffee406f0f23f86d1ed57c9d502">TypeData::ShortArray</a> = Short | ArrayFlag, 
+<a class="el" href="../../dc/dac/class_io_external_data.html#a3042c65206f3ac130bcc5eba48d725beaa4cf98abdafab708d30b8d2ae8d57be8">TypeData::IntArray</a> = Int | ArrayFlag, 
+<br />
+&#160;&#160;<a class="el" href="../../dc/dac/class_io_external_data.html#a3042c65206f3ac130bcc5eba48d725beabc79a82fe7b71ebfed2c4d88d5a93afa">TypeData::FloatArray</a> = Float | ArrayFlag, 
+<a class="el" href="../../dc/dac/class_io_external_data.html#a3042c65206f3ac130bcc5eba48d725bea5d361c16229fc173f679fcac5a76446f">TypeData::DoubleArray</a> = Double | ArrayFlag
 <br />
  }</td></tr>
-<tr class="separator:a2657c948b927f630d4c7f17297cb86b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:a3042c65206f3ac130bcc5eba48d725be"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Открытые члены</h2></td></tr>
@@ -153,9 +167,9 @@ $(document).ready(function(){initNavTree('dc/dac/class_io_external_data.html','.
 <tr class="separator:aa5caf713f5fb794a6e007a282e830119"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a671c35ad0339410d1b0522e6fcac6043"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dac/class_io_external_data.html#a671c35ad0339410d1b0522e6fcac6043">setOffset</a> (WORD <a class="el" href="../../dc/dac/class_io_external_data.html#aa5caf713f5fb794a6e007a282e830119">offset</a>)</td></tr>
 <tr class="separator:a671c35ad0339410d1b0522e6fcac6043"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac15919f8a6382a37a164e6e53705d08b"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../dc/dac/class_io_external_data.html#a2657c948b927f630d4c7f17297cb86b8">TypeData</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dac/class_io_external_data.html#ac15919f8a6382a37a164e6e53705d08b">type</a> () const</td></tr>
+<tr class="memitem:ac15919f8a6382a37a164e6e53705d08b"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../dc/dac/class_io_external_data.html#a3042c65206f3ac130bcc5eba48d725be">TypeData</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dac/class_io_external_data.html#ac15919f8a6382a37a164e6e53705d08b">type</a> () const</td></tr>
 <tr class="separator:ac15919f8a6382a37a164e6e53705d08b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab6f3f09236ca087355312900a1d4554f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dac/class_io_external_data.html#ab6f3f09236ca087355312900a1d4554f">setType</a> (const <a class="el" href="../../dc/dac/class_io_external_data.html#a2657c948b927f630d4c7f17297cb86b8">TypeData</a> &amp;<a class="el" href="../../dc/dac/class_io_external_data.html#ac15919f8a6382a37a164e6e53705d08b">type</a>)</td></tr>
+<tr class="memitem:ab6f3f09236ca087355312900a1d4554f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dac/class_io_external_data.html#ab6f3f09236ca087355312900a1d4554f">setType</a> (const <a class="el" href="../../dc/dac/class_io_external_data.html#a3042c65206f3ac130bcc5eba48d725be">TypeData</a> &amp;<a class="el" href="../../dc/dac/class_io_external_data.html#ac15919f8a6382a37a164e6e53705d08b">type</a>)</td></tr>
 <tr class="separator:ab6f3f09236ca087355312900a1d4554f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3c294cfbf7f2e0a271c27918e0855e66"><td class="memItemLeft" align="right" valign="top">QLatin1String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dac/class_io_external_data.html#a3c294cfbf7f2e0a271c27918e0855e66">typeString</a> () const</td></tr>
 <tr class="separator:a3c294cfbf7f2e0a271c27918e0855e66"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -179,7 +193,7 @@ $(document).ready(function(){initNavTree('dc/dac/class_io_external_data.html','.
 <tr class="separator:a0e4e83222b738aa5ae5eea69997da664"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1f4b412f15fc9adc86a5b0b13c98e767"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dac/class_io_external_data.html#a1f4b412f15fc9adc86a5b0b13c98e767">IoExternalData</a> (const <a class="el" href="../../dc/dac/class_io_external_data.html">IoExternalData</a> &amp;src)</td></tr>
 <tr class="separator:a1f4b412f15fc9adc86a5b0b13c98e767"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a67f2337d955d34b005e54062a9b37629"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dac/class_io_external_data.html#a67f2337d955d34b005e54062a9b37629">IoExternalData</a> (const <a class="el" href="../../dc/dac/class_io_external_data.html#a2657c948b927f630d4c7f17297cb86b8">TypeData</a> &amp;<a class="el" href="../../dc/dac/class_io_external_data.html#ac15919f8a6382a37a164e6e53705d08b">type</a>, WORD <a class="el" href="../../dc/dac/class_io_external_data.html#aa5caf713f5fb794a6e007a282e830119">offset</a>, BYTE <a class="el" href="../../dc/dac/class_io_external_data.html#a4741b5c29f862882dcfda99b07ae5bec">size</a>=0)</td></tr>
+<tr class="memitem:a67f2337d955d34b005e54062a9b37629"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dac/class_io_external_data.html#a67f2337d955d34b005e54062a9b37629">IoExternalData</a> (const <a class="el" href="../../dc/dac/class_io_external_data.html#a3042c65206f3ac130bcc5eba48d725be">TypeData</a> &amp;<a class="el" href="../../dc/dac/class_io_external_data.html#ac15919f8a6382a37a164e6e53705d08b">type</a>, WORD <a class="el" href="../../dc/dac/class_io_external_data.html#aa5caf713f5fb794a6e007a282e830119">offset</a>, BYTE <a class="el" href="../../dc/dac/class_io_external_data.html#a4741b5c29f862882dcfda99b07ae5bec">size</a>=0)</td></tr>
 <tr class="separator:a67f2337d955d34b005e54062a9b37629"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0f67cf604ecd71e906c0c84a49905683"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dac/class_io_external_data.html#a0f67cf604ecd71e906c0c84a49905683">IoExternalData</a> (const QLatin1String &amp;<a class="el" href="../../dc/dac/class_io_external_data.html#ac15919f8a6382a37a164e6e53705d08b">type</a>, WORD <a class="el" href="../../dc/dac/class_io_external_data.html#aa5caf713f5fb794a6e007a282e830119">offset</a>, BYTE <a class="el" href="../../dc/dac/class_io_external_data.html#a4741b5c29f862882dcfda99b07ae5bec">size</a>=0)</td></tr>
 <tr class="separator:a0f67cf604ecd71e906c0c84a49905683"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -192,21 +206,21 @@ $(document).ready(function(){initNavTree('dc/dac/class_io_external_data.html','.
 Открытые статические члены</h2></td></tr>
 <tr class="memitem:a5812464c7f304a7f628b8147d52ab2e7"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dac/class_io_external_data.html#a5812464c7f304a7f628b8147d52ab2e7">getItemCount</a> ()</td></tr>
 <tr class="separator:a5812464c7f304a7f628b8147d52ab2e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a802ba785b5359a4b10d603c0a063a225"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dac/class_io_external_data.html#a802ba785b5359a4b10d603c0a063a225">indexType</a> (const <a class="el" href="../../dc/dac/class_io_external_data.html#a2657c948b927f630d4c7f17297cb86b8">TypeData</a> &amp;<a class="el" href="../../dc/dac/class_io_external_data.html#ac15919f8a6382a37a164e6e53705d08b">type</a>)</td></tr>
+<tr class="memitem:a802ba785b5359a4b10d603c0a063a225"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dac/class_io_external_data.html#a802ba785b5359a4b10d603c0a063a225">indexType</a> (const <a class="el" href="../../dc/dac/class_io_external_data.html#a3042c65206f3ac130bcc5eba48d725be">TypeData</a> &amp;<a class="el" href="../../dc/dac/class_io_external_data.html#ac15919f8a6382a37a164e6e53705d08b">type</a>)</td></tr>
 <tr class="separator:a802ba785b5359a4b10d603c0a063a225"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeecff8fbcbb346fb898e8241a60a2aa8"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../dc/dac/class_io_external_data.html#a2657c948b927f630d4c7f17297cb86b8">TypeData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dac/class_io_external_data.html#aeecff8fbcbb346fb898e8241a60a2aa8">typeIndex</a> (const int &amp;index)</td></tr>
+<tr class="memitem:aeecff8fbcbb346fb898e8241a60a2aa8"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../dc/dac/class_io_external_data.html#a3042c65206f3ac130bcc5eba48d725be">TypeData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dac/class_io_external_data.html#aeecff8fbcbb346fb898e8241a60a2aa8">typeIndex</a> (const int &amp;index)</td></tr>
 <tr class="separator:aeecff8fbcbb346fb898e8241a60a2aa8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acc1bfeae70848569254761da13a5fc22"><td class="memItemLeft" align="right" valign="top">static QLatin1String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dac/class_io_external_data.html#acc1bfeae70848569254761da13a5fc22">typeString</a> (const int &amp;index)</td></tr>
 <tr class="separator:acc1bfeae70848569254761da13a5fc22"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a09be9ed8810393cb7ebfe0ba4e594f60"><td class="memItemLeft" align="right" valign="top">static QLatin1String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dac/class_io_external_data.html#a09be9ed8810393cb7ebfe0ba4e594f60">typeString</a> (const <a class="el" href="../../dc/dac/class_io_external_data.html#a2657c948b927f630d4c7f17297cb86b8">TypeData</a> &amp;<a class="el" href="../../dc/dac/class_io_external_data.html#ac15919f8a6382a37a164e6e53705d08b">type</a>)</td></tr>
+<tr class="memitem:a09be9ed8810393cb7ebfe0ba4e594f60"><td class="memItemLeft" align="right" valign="top">static QLatin1String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dac/class_io_external_data.html#a09be9ed8810393cb7ebfe0ba4e594f60">typeString</a> (const <a class="el" href="../../dc/dac/class_io_external_data.html#a3042c65206f3ac130bcc5eba48d725be">TypeData</a> &amp;<a class="el" href="../../dc/dac/class_io_external_data.html#ac15919f8a6382a37a164e6e53705d08b">type</a>)</td></tr>
 <tr class="separator:a09be9ed8810393cb7ebfe0ba4e594f60"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a53ba63cd4651c8e0bb0afe0063ed5d7a"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../dc/dac/class_io_external_data.html#a2657c948b927f630d4c7f17297cb86b8">TypeData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dac/class_io_external_data.html#a53ba63cd4651c8e0bb0afe0063ed5d7a">typeFromString</a> (const QLatin1String &amp;name)</td></tr>
+<tr class="memitem:a53ba63cd4651c8e0bb0afe0063ed5d7a"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../dc/dac/class_io_external_data.html#a3042c65206f3ac130bcc5eba48d725be">TypeData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dac/class_io_external_data.html#a53ba63cd4651c8e0bb0afe0063ed5d7a">typeFromString</a> (const QLatin1String &amp;name)</td></tr>
 <tr class="separator:a53ba63cd4651c8e0bb0afe0063ed5d7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afd1ae2e2c7db9f23398600f2ee31c72c"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../dc/dac/class_io_external_data.html#a2657c948b927f630d4c7f17297cb86b8">TypeData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dac/class_io_external_data.html#afd1ae2e2c7db9f23398600f2ee31c72c">typeFromString</a> (const QString &amp;name)</td></tr>
+<tr class="memitem:afd1ae2e2c7db9f23398600f2ee31c72c"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../dc/dac/class_io_external_data.html#a3042c65206f3ac130bcc5eba48d725be">TypeData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dac/class_io_external_data.html#afd1ae2e2c7db9f23398600f2ee31c72c">typeFromString</a> (const QString &amp;name)</td></tr>
 <tr class="separator:afd1ae2e2c7db9f23398600f2ee31c72c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a781805625061392dc11afa7110c940e5"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dac/class_io_external_data.html#a781805625061392dc11afa7110c940e5">isTypeBit</a> (const <a class="el" href="../../dc/dac/class_io_external_data.html#a2657c948b927f630d4c7f17297cb86b8">TypeData</a> &amp;<a class="el" href="../../dc/dac/class_io_external_data.html#ac15919f8a6382a37a164e6e53705d08b">type</a>)</td></tr>
+<tr class="memitem:a781805625061392dc11afa7110c940e5"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dac/class_io_external_data.html#a781805625061392dc11afa7110c940e5">isTypeBit</a> (const <a class="el" href="../../dc/dac/class_io_external_data.html#a3042c65206f3ac130bcc5eba48d725be">TypeData</a> &amp;<a class="el" href="../../dc/dac/class_io_external_data.html#ac15919f8a6382a37a164e6e53705d08b">type</a>)</td></tr>
 <tr class="separator:a781805625061392dc11afa7110c940e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afb874c41200dc0aeecbea8bf0a230016"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dac/class_io_external_data.html#afb874c41200dc0aeecbea8bf0a230016">isTypeS7</a> (const <a class="el" href="../../dc/dac/class_io_external_data.html#a2657c948b927f630d4c7f17297cb86b8">TypeData</a> &amp;<a class="el" href="../../dc/dac/class_io_external_data.html#ac15919f8a6382a37a164e6e53705d08b">type</a>)</td></tr>
+<tr class="memitem:afb874c41200dc0aeecbea8bf0a230016"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dac/class_io_external_data.html#afb874c41200dc0aeecbea8bf0a230016">isTypeS7</a> (const <a class="el" href="../../dc/dac/class_io_external_data.html#a3042c65206f3ac130bcc5eba48d725be">TypeData</a> &amp;<a class="el" href="../../dc/dac/class_io_external_data.html#ac15919f8a6382a37a164e6e53705d08b">type</a>)</td></tr>
 <tr class="separator:afb874c41200dc0aeecbea8bf0a230016"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a102fc25572cf73aa298db718ced36ecf"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../dc/dac/class_io_external_data.html">IoExternalData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dac/class_io_external_data.html#a102fc25572cf73aa298db718ced36ecf">fromAddressS7</a> (const QString &amp;strAddress, const QString &amp;strType)</td></tr>
 <tr class="separator:a102fc25572cf73aa298db718ced36ecf"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -220,14 +234,14 @@ $(document).ready(function(){initNavTree('dc/dac/class_io_external_data.html','.
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-static-methods"></a>
 Защищенные статические члены</h2></td></tr>
-<tr class="memitem:abcad510acbdfaa8104e11905e2945c63"><td class="memItemLeft" align="right" valign="top">static BYTE&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dac/class_io_external_data.html#abcad510acbdfaa8104e11905e2945c63">sizeofType</a> (const <a class="el" href="../../dc/dac/class_io_external_data.html#a2657c948b927f630d4c7f17297cb86b8">TypeData</a> &amp;<a class="el" href="../../dc/dac/class_io_external_data.html#ac15919f8a6382a37a164e6e53705d08b">type</a>)</td></tr>
+<tr class="memitem:abcad510acbdfaa8104e11905e2945c63"><td class="memItemLeft" align="right" valign="top">static BYTE&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dac/class_io_external_data.html#abcad510acbdfaa8104e11905e2945c63">sizeofType</a> (const <a class="el" href="../../dc/dac/class_io_external_data.html#a3042c65206f3ac130bcc5eba48d725be">TypeData</a> &amp;<a class="el" href="../../dc/dac/class_io_external_data.html#ac15919f8a6382a37a164e6e53705d08b">type</a>)</td></tr>
 <tr class="separator:abcad510acbdfaa8104e11905e2945c63"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2fb71e0461c8e44206d7074a03b882b2"><td class="memItemLeft" align="right" valign="top">static QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dac/class_io_external_data.html#a2fb71e0461c8e44206d7074a03b882b2">toString</a> (const <a class="el" href="../../dc/dac/class_io_external_data.html">IoExternalData</a> &amp;src)</td></tr>
 <tr class="separator:a2fb71e0461c8e44206d7074a03b882b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Перечисления</h2>
-<a id="a2657c948b927f630d4c7f17297cb86b8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2657c948b927f630d4c7f17297cb86b8">&#9670;&nbsp;</a></span>TypeData</h2>
+<a id="a3042c65206f3ac130bcc5eba48d725be"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3042c65206f3ac130bcc5eba48d725be">&#9670;&nbsp;</a></span>TypeData</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -236,7 +250,7 @@ $(document).ready(function(){initNavTree('dc/dac/class_io_external_data.html','.
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">enum <a class="el" href="../../dc/dac/class_io_external_data.html#a2657c948b927f630d4c7f17297cb86b8">IoExternalData::TypeData</a> : char</td>
+          <td class="memname">enum <a class="el" href="../../dc/dac/class_io_external_data.html#a3042c65206f3ac130bcc5eba48d725be">IoExternalData::TypeData</a> : byte</td>
         </tr>
       </table>
   </td>
@@ -246,37 +260,48 @@ $(document).ready(function(){initNavTree('dc/dac/class_io_external_data.html','.
 </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Элементы перечислений</th></tr><tr><td class="fieldname"><a id="a2657c948b927f630d4c7f17297cb86b8aad1869f680471b553f5e5380bc1e2a21"></a>Bit0&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a2657c948b927f630d4c7f17297cb86b8aeb294e8854a6b3738ede925d447ee7bf"></a>Bit1&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a2657c948b927f630d4c7f17297cb86b8a765020befdece332bbc96719337ce439"></a>Bit2&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a2657c948b927f630d4c7f17297cb86b8ae6aee35bda99316f8484bb4d13c83585"></a>Bit3&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a2657c948b927f630d4c7f17297cb86b8a53ae9f29902d5bcb92c2f769c531c27b"></a>Bit4&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a2657c948b927f630d4c7f17297cb86b8a2b7e3d7743800bcf14f7fb84c44e6937"></a>Bit5&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a2657c948b927f630d4c7f17297cb86b8af2d5f6de4798a6535ddee773e95f6b1c"></a>Bit6&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a2657c948b927f630d4c7f17297cb86b8a9f0dfe291f25fc395bff35d4cad40da7"></a>Bit7&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a2657c948b927f630d4c7f17297cb86b8a5bcc22a8bc9486d7adb098d299899a29"></a>S7_BYTE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a2657c948b927f630d4c7f17297cb86b8a2828fea285465f7cff9bc06dfc515e02"></a>S7_WORD&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a2657c948b927f630d4c7f17297cb86b8a39bda49cc718bbdb40990411e2120f9a"></a>S7_DWORD&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a2657c948b927f630d4c7f17297cb86b8aff7d24c88b4adde59ffa15272ff11fad"></a>S7_CHAR&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a2657c948b927f630d4c7f17297cb86b8afc00855ef700eea1d5f363af6e9eb403"></a>S7_INT&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a2657c948b927f630d4c7f17297cb86b8af1737b6472d2d2d9cbbe6e2e744ac2b7"></a>S7_DINT&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a2657c948b927f630d4c7f17297cb86b8a59987384ee97359fc24969c4cb242ab4"></a>S7_REAL&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a2657c948b927f630d4c7f17297cb86b8a7c056b566f2818e01d7c9778a0da65fc"></a>S5_TIME&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a2657c948b927f630d4c7f17297cb86b8a844b373ff2498079cde164734edf813d"></a>S7_TIME&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a2657c948b927f630d4c7f17297cb86b8a14f00fea40103a1b6e9eb273ee178b74"></a>S7_DATE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a2657c948b927f630d4c7f17297cb86b8aecd17dd67b9dea35874f8f92b8ed38fb"></a>S7_TOD&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a2657c948b927f630d4c7f17297cb86b8a3ded9cf29cd7b11691530292909a5da3"></a>S7_DT&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a2657c948b927f630d4c7f17297cb86b8ac26f15e86e3de4c398a8273272aba034"></a>Bool&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a2657c948b927f630d4c7f17297cb86b8af97d5cb62f8cf5dbb26c17171dd5fe69"></a>UChar&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a2657c948b927f630d4c7f17297cb86b8adfe785f133347f9b473f99009732b1bc"></a>UShort&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a2657c948b927f630d4c7f17297cb86b8a0b1291eded63143ac04709711274785a"></a>UInt&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a2657c948b927f630d4c7f17297cb86b8a8e95e84813830072b7516cfaa7dbc1a9"></a>Char&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a2657c948b927f630d4c7f17297cb86b8a30bb747c98bccdd11b3f89e644c4d0ad"></a>Short&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a2657c948b927f630d4c7f17297cb86b8a1686a6c336b71b36d77354cea19a8b52"></a>Int&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a2657c948b927f630d4c7f17297cb86b8a22ae0e2b89e5e3d477f988cc36d3272b"></a>Float&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a2657c948b927f630d4c7f17297cb86b8ad909d38d705ce75386dd86e611a82f5b"></a>Double&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a2657c948b927f630d4c7f17297cb86b8a27118326006d3829667a400ad23d5d98"></a>String&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a2657c948b927f630d4c7f17297cb86b8a88183b946cc5f0e8c96b2e66e1c74a7e"></a>Unknown&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Элементы перечислений</th></tr><tr><td class="fieldname"><a id="a3042c65206f3ac130bcc5eba48d725bea3d104d381ec6f353c515014fae2ba06d"></a>ArrayFlag&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3042c65206f3ac130bcc5eba48d725bea88183b946cc5f0e8c96b2e66e1c74a7e"></a>Unknown&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3042c65206f3ac130bcc5eba48d725beaad1869f680471b553f5e5380bc1e2a21"></a>Bit0&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3042c65206f3ac130bcc5eba48d725beaeb294e8854a6b3738ede925d447ee7bf"></a>Bit1&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3042c65206f3ac130bcc5eba48d725bea765020befdece332bbc96719337ce439"></a>Bit2&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3042c65206f3ac130bcc5eba48d725beae6aee35bda99316f8484bb4d13c83585"></a>Bit3&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3042c65206f3ac130bcc5eba48d725bea53ae9f29902d5bcb92c2f769c531c27b"></a>Bit4&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3042c65206f3ac130bcc5eba48d725bea2b7e3d7743800bcf14f7fb84c44e6937"></a>Bit5&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3042c65206f3ac130bcc5eba48d725beaf2d5f6de4798a6535ddee773e95f6b1c"></a>Bit6&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3042c65206f3ac130bcc5eba48d725bea9f0dfe291f25fc395bff35d4cad40da7"></a>Bit7&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3042c65206f3ac130bcc5eba48d725bea5bcc22a8bc9486d7adb098d299899a29"></a>S7_BYTE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3042c65206f3ac130bcc5eba48d725bea2828fea285465f7cff9bc06dfc515e02"></a>S7_WORD&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3042c65206f3ac130bcc5eba48d725bea39bda49cc718bbdb40990411e2120f9a"></a>S7_DWORD&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3042c65206f3ac130bcc5eba48d725beaff7d24c88b4adde59ffa15272ff11fad"></a>S7_CHAR&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3042c65206f3ac130bcc5eba48d725beafc00855ef700eea1d5f363af6e9eb403"></a>S7_INT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3042c65206f3ac130bcc5eba48d725beaf1737b6472d2d2d9cbbe6e2e744ac2b7"></a>S7_DINT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3042c65206f3ac130bcc5eba48d725bea59987384ee97359fc24969c4cb242ab4"></a>S7_REAL&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3042c65206f3ac130bcc5eba48d725bea7c056b566f2818e01d7c9778a0da65fc"></a>S5_TIME&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3042c65206f3ac130bcc5eba48d725bea844b373ff2498079cde164734edf813d"></a>S7_TIME&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3042c65206f3ac130bcc5eba48d725bea14f00fea40103a1b6e9eb273ee178b74"></a>S7_DATE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3042c65206f3ac130bcc5eba48d725beaecd17dd67b9dea35874f8f92b8ed38fb"></a>S7_TOD&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3042c65206f3ac130bcc5eba48d725bea3ded9cf29cd7b11691530292909a5da3"></a>S7_DT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3042c65206f3ac130bcc5eba48d725bea9b6bc6bb5257f973658825cfd0e040ca"></a>S7_String&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3042c65206f3ac130bcc5eba48d725beaadf92d3aaf70b47b671dc97f3dd3b84a"></a>S7_ArrayOfChar&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3042c65206f3ac130bcc5eba48d725beac26f15e86e3de4c398a8273272aba034"></a>Bool&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3042c65206f3ac130bcc5eba48d725beaf97d5cb62f8cf5dbb26c17171dd5fe69"></a>UChar&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3042c65206f3ac130bcc5eba48d725beadfe785f133347f9b473f99009732b1bc"></a>UShort&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3042c65206f3ac130bcc5eba48d725bea0b1291eded63143ac04709711274785a"></a>UInt&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3042c65206f3ac130bcc5eba48d725bea8e95e84813830072b7516cfaa7dbc1a9"></a>Char&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3042c65206f3ac130bcc5eba48d725bea30bb747c98bccdd11b3f89e644c4d0ad"></a>Short&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3042c65206f3ac130bcc5eba48d725bea1686a6c336b71b36d77354cea19a8b52"></a>Int&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3042c65206f3ac130bcc5eba48d725bea22ae0e2b89e5e3d477f988cc36d3272b"></a>Float&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3042c65206f3ac130bcc5eba48d725bead909d38d705ce75386dd86e611a82f5b"></a>Double&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3042c65206f3ac130bcc5eba48d725beacb4687677601f87c081e7c96f26504d6"></a>BoolArray&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3042c65206f3ac130bcc5eba48d725bea03915839a2e7afc122c16ee161cb903f"></a>UCharArray&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3042c65206f3ac130bcc5eba48d725bea1e556589b5d734757180dd785cf2c51f"></a>UShortArray&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3042c65206f3ac130bcc5eba48d725bea17c608e339f58942e0b395fbda161d97"></a>UIntArray&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3042c65206f3ac130bcc5eba48d725beac81b062e5c6743c67b5016058f61645f"></a>CharArray&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3042c65206f3ac130bcc5eba48d725beaf9e06ffee406f0f23f86d1ed57c9d502"></a>ShortArray&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3042c65206f3ac130bcc5eba48d725beaa4cf98abdafab708d30b8d2ae8d57be8"></a>IntArray&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3042c65206f3ac130bcc5eba48d725beabc79a82fe7b71ebfed2c4d88d5a93afa"></a>FloatArray&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3042c65206f3ac130bcc5eba48d725bea5d361c16229fc173f679fcac5a76446f"></a>DoubleArray&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -345,7 +370,7 @@ $(document).ready(function(){initNavTree('dc/dac/class_io_external_data.html','.
         <tr>
           <td class="memname">IoExternalData::IoExternalData </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../dc/dac/class_io_external_data.html#a2657c948b927f630d4c7f17297cb86b8">TypeData</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../dc/dac/class_io_external_data.html#a3042c65206f3ac130bcc5eba48d725be">TypeData</a> &amp;&#160;</td>
           <td class="paramname"><em>type</em>, </td>
         </tr>
         <tr>
@@ -585,7 +610,7 @@ $(document).ready(function(){initNavTree('dc/dac/class_io_external_data.html','.
         <tr>
           <td class="memname">static int IoExternalData::indexType </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../dc/dac/class_io_external_data.html#a2657c948b927f630d4c7f17297cb86b8">TypeData</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../dc/dac/class_io_external_data.html#a3042c65206f3ac130bcc5eba48d725be">TypeData</a> &amp;&#160;</td>
           <td class="paramname"><em>type</em></td><td>)</td>
           <td></td>
         </tr>
@@ -611,7 +636,7 @@ $(document).ready(function(){initNavTree('dc/dac/class_io_external_data.html','.
         <tr>
           <td class="memname">static bool IoExternalData::isTypeBit </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../dc/dac/class_io_external_data.html#a2657c948b927f630d4c7f17297cb86b8">TypeData</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../dc/dac/class_io_external_data.html#a3042c65206f3ac130bcc5eba48d725be">TypeData</a> &amp;&#160;</td>
           <td class="paramname"><em>type</em></td><td>)</td>
           <td></td>
         </tr>
@@ -662,14 +687,14 @@ $(document).ready(function(){initNavTree('dc/dac/class_io_external_data.html','.
         <tr>
           <td class="memname">static bool IoExternalData::isTypeS7 </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../dc/dac/class_io_external_data.html#a2657c948b927f630d4c7f17297cb86b8">TypeData</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../dc/dac/class_io_external_data.html#a3042c65206f3ac130bcc5eba48d725be">TypeData</a> &amp;&#160;</td>
           <td class="paramname"><em>type</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -892,7 +917,7 @@ $(document).ready(function(){initNavTree('dc/dac/class_io_external_data.html','.
         <tr>
           <td class="memname">void IoExternalData::setType </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../dc/dac/class_io_external_data.html#a2657c948b927f630d4c7f17297cb86b8">TypeData</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../dc/dac/class_io_external_data.html#a3042c65206f3ac130bcc5eba48d725be">TypeData</a> &amp;&#160;</td>
           <td class="paramname"><em>type</em></td><td>)</td>
           <td></td>
         </tr>
@@ -943,7 +968,7 @@ $(document).ready(function(){initNavTree('dc/dac/class_io_external_data.html','.
         <tr>
           <td class="memname">static BYTE IoExternalData::sizeofType </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../dc/dac/class_io_external_data.html#a2657c948b927f630d4c7f17297cb86b8">TypeData</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../dc/dac/class_io_external_data.html#a3042c65206f3ac130bcc5eba48d725be">TypeData</a> &amp;&#160;</td>
           <td class="paramname"><em>type</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1043,7 +1068,7 @@ $(document).ready(function(){initNavTree('dc/dac/class_io_external_data.html','.
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="../../dc/dac/class_io_external_data.html#a2657c948b927f630d4c7f17297cb86b8">TypeData</a>&amp; IoExternalData::type </td>
+          <td class="memname">const <a class="el" href="../../dc/dac/class_io_external_data.html#a3042c65206f3ac130bcc5eba48d725be">TypeData</a>&amp; IoExternalData::type </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -1068,7 +1093,7 @@ $(document).ready(function(){initNavTree('dc/dac/class_io_external_data.html','.
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static <a class="el" href="../../dc/dac/class_io_external_data.html#a2657c948b927f630d4c7f17297cb86b8">TypeData</a> IoExternalData::typeFromString </td>
+          <td class="memname">static <a class="el" href="../../dc/dac/class_io_external_data.html#a3042c65206f3ac130bcc5eba48d725be">TypeData</a> IoExternalData::typeFromString </td>
           <td>(</td>
           <td class="paramtype">const QLatin1String &amp;&#160;</td>
           <td class="paramname"><em>name</em></td><td>)</td>
@@ -1094,7 +1119,7 @@ $(document).ready(function(){initNavTree('dc/dac/class_io_external_data.html','.
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static <a class="el" href="../../dc/dac/class_io_external_data.html#a2657c948b927f630d4c7f17297cb86b8">TypeData</a> IoExternalData::typeFromString </td>
+          <td class="memname">static <a class="el" href="../../dc/dac/class_io_external_data.html#a3042c65206f3ac130bcc5eba48d725be">TypeData</a> IoExternalData::typeFromString </td>
           <td>(</td>
           <td class="paramtype">const QString &amp;&#160;</td>
           <td class="paramname"><em>name</em></td><td>)</td>
@@ -1120,7 +1145,7 @@ $(document).ready(function(){initNavTree('dc/dac/class_io_external_data.html','.
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static <a class="el" href="../../dc/dac/class_io_external_data.html#a2657c948b927f630d4c7f17297cb86b8">TypeData</a> IoExternalData::typeIndex </td>
+          <td class="memname">static <a class="el" href="../../dc/dac/class_io_external_data.html#a3042c65206f3ac130bcc5eba48d725be">TypeData</a> IoExternalData::typeIndex </td>
           <td>(</td>
           <td class="paramtype">const int &amp;&#160;</td>
           <td class="paramname"><em>index</em></td><td>)</td>
@@ -1174,7 +1199,7 @@ $(document).ready(function(){initNavTree('dc/dac/class_io_external_data.html','.
         <tr>
           <td class="memname">static QLatin1String IoExternalData::typeString </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../dc/dac/class_io_external_data.html#a2657c948b927f630d4c7f17297cb86b8">TypeData</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../dc/dac/class_io_external_data.html#a3042c65206f3ac130bcc5eba48d725be">TypeData</a> &amp;&#160;</td>
           <td class="paramname"><em>type</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1249,7 +1274,7 @@ $(document).ready(function(){initNavTree('dc/dac/class_io_external_data.html','.
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dc/dac/class_io_external_data.html#a2657c948b927f630d4c7f17297cb86b8">TypeData</a> IoExternalData::m_type</td>
+          <td class="memname"><a class="el" href="../../dc/dac/class_io_external_data.html#a3042c65206f3ac130bcc5eba48d725be">TypeData</a> IoExternalData::m_type</td>
         </tr>
       </table>
 </div><div class="memdoc">

@@ -99,8 +99,12 @@ $(document).ready(function(){initNavTree('d8/d82/class_describe_parameter.html',
  <div class="center">
   <img src="../../d8/d82/class_describe_parameter.png" usemap="#DescribeParameter_map" alt=""/>
   <map id="DescribeParameter_map" name="DescribeParameter_map">
-<area href="../../db/d60/class_describe.html" alt="Describe" shape="rect" coords="0,0,162,24"/>
-<area href="../../dc/db3/class_describe_parameter_dummy.html" alt="DescribeParameterDummy" shape="rect" coords="0,112,162,136"/>
+<area href="../../db/d60/class_describe.html" alt="Describe" shape="rect" coords="328,0,537,24"/>
+<area href="../../dc/db3/class_describe_parameter_dummy.html" alt="DescribeParameterDummy" shape="rect" coords="328,112,537,136"/>
+<area href="../../d5/d9f/class_describe_parameter_analog_dummy.html" alt="DescribeParameterAnalogDummy" shape="rect" coords="0,168,209,192"/>
+<area href="../../d2/d4e/class_describe_parameter_discrete_dummy.html" alt="DescribeParameterDiscreteDummy" shape="rect" coords="219,168,428,192"/>
+<area href="../../dc/d87/class_describe_parameter_outflow_dummy.html" alt="DescribeParameterOutflowDummy" shape="rect" coords="438,168,647,192"/>
+<area href="../../d0/db1/class_describe_parameter_string_dummy.html" alt="DescribeParameterStringDummy" shape="rect" coords="657,168,866,192"/>
 </map>
  </div></div>
 <table class="memberdecls">
@@ -155,10 +159,26 @@ $(document).ready(function(){initNavTree('d8/d82/class_describe_parameter.html',
 <tr class="separator:a8debd985ac2a67c5c31444107a123382"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1b36453ff43a28c415231a28a4addaf1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d82/class_describe_parameter.html#a1b36453ff43a28c415231a28a4addaf1">Q_FLAGS</a> (ShowFlags)</td></tr>
 <tr class="separator:a1b36453ff43a28c415231a28a4addaf1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5c498aa5e0215501bf2d2f73deb49ed9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d82/class_describe_parameter.html#a5c498aa5e0215501bf2d2f73deb49ed9">initializeForType</a> (const <a class="el" href="../../d8/d82/class_describe_parameter.html#a08868400730da4db7f33a7ce05c4996d">DescribeParameter::Type</a> &amp;<a class="el" href="../../d8/d82/class_describe_parameter.html#a7af97d7f0b4ecab882297659355387b0">type</a>)</td></tr>
+<tr class="separator:a5c498aa5e0215501bf2d2f73deb49ed9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af4ae9cd83042af2daca102217c577903"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d82/class_describe_parameter.html#af4ae9cd83042af2daca102217c577903">isNull</a> () const</td></tr>
 <tr class="separator:af4ae9cd83042af2daca102217c577903"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a286da24758a4301dab0f56fc77f1c0ab"><td class="memItemLeft" align="right" valign="top">CDescribeOfParameter *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d82/class_describe_parameter.html#a286da24758a4301dab0f56fc77f1c0ab">ptr</a> () const</td></tr>
 <tr class="separator:a286da24758a4301dab0f56fc77f1c0ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acc735ed65d61d18efe1622f3bcb147b1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d82/class_describe_parameter.html#acc735ed65d61d18efe1622f3bcb147b1">checkDescribe</a> () const</td></tr>
+<tr class="separator:acc735ed65d61d18efe1622f3bcb147b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a161b0a52a9e458b773d85b9a39522e10"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d82/class_describe_parameter.html#a161b0a52a9e458b773d85b9a39522e10">debugOutput</a> () const</td></tr>
+<tr class="separator:a161b0a52a9e458b773d85b9a39522e10"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a01cdcfccba3a898603989e92f53ea3f9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d82/class_describe_parameter.html#a01cdcfccba3a898603989e92f53ea3f9">update</a> ()</td></tr>
+<tr class="separator:a01cdcfccba3a898603989e92f53ea3f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a30f63874d65bc4d7739e442ecb665767"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d82/class_describe_parameter.html#a30f63874d65bc4d7739e442ecb665767">change</a> (const QVariantMap &amp;values)</td></tr>
+<tr class="separator:a30f63874d65bc4d7739e442ecb665767"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9904930547be782ce0847c6ec83ed8a3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d82/class_describe_parameter.html#a9904930547be782ce0847c6ec83ed8a3">isReserved</a> () const</td></tr>
+<tr class="separator:a9904930547be782ce0847c6ec83ed8a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a05eb42386eb832ebe308947716b1a5df"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d82/class_describe_parameter.html#a05eb42386eb832ebe308947716b1a5df">transferToReserve</a> (<a class="el" href="../../df/d0f/class_describe_list.html">DescribeList</a> *describeList=nullptr)</td></tr>
+<tr class="separator:a05eb42386eb832ebe308947716b1a5df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a35aab1ae8e7ed8827fa6fa199941aa4b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d82/class_describe_parameter.html#a35aab1ae8e7ed8827fa6fa199941aa4b">returnFromReserve</a> (<a class="el" href="../../df/d0f/class_describe_list.html">DescribeList</a> *describeList=nullptr)</td></tr>
+<tr class="separator:a35aab1ae8e7ed8827fa6fa199941aa4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a05fc22a35dcb490334e4b70e55b28232"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dc/d80/class_g_i_d___par.html">GID_Par</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d82/class_describe_parameter.html#a05fc22a35dcb490334e4b70e55b28232">gid</a> () const</td></tr>
 <tr class="separator:a05fc22a35dcb490334e4b70e55b28232"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a81e3d2ca943a57711bdce0ffc55295e5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d82/class_describe_parameter.html#a81e3d2ca943a57711bdce0ffc55295e5">setGid</a> (const <a class="el" href="../../dc/d80/class_g_i_d___par.html">GID_Par</a> &amp;<a class="el" href="../../d8/d82/class_describe_parameter.html#ab38633e390bbf2532854298d64fd6c1a">gid</a>)</td></tr>
@@ -283,10 +303,6 @@ $(document).ready(function(){initNavTree('d8/d82/class_describe_parameter.html',
 <tr class="separator:a68b93ef2f6f94ab284849341992a4b0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac19f8703522535026c65d2d437c3ea28"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d82/class_describe_parameter.html#ac19f8703522535026c65d2d437c3ea28">defineState</a> (CValueEvent &amp;value) const</td></tr>
 <tr class="separator:ac19f8703522535026c65d2d437c3ea28"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a30318ec25d0e3d3ff0e8716b4fea796d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d82/class_describe_parameter.html#a30318ec25d0e3d3ff0e8716b4fea796d">operator==</a> (const <a class="el" href="../../d8/d82/class_describe_parameter.html">DescribeParameter</a> &amp;src) const</td></tr>
-<tr class="separator:a30318ec25d0e3d3ff0e8716b4fea796d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abfe59e09f2e9d80e8d2a1e2f1ee45904"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d82/class_describe_parameter.html#abfe59e09f2e9d80e8d2a1e2f1ee45904">operator!=</a> (const <a class="el" href="../../d8/d82/class_describe_parameter.html">DescribeParameter</a> &amp;src) const</td></tr>
-<tr class="separator:abfe59e09f2e9d80e8d2a1e2f1ee45904"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a72d2b9c3b902a07df790c1e5c592af68"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d8/d82/class_describe_parameter.html">DescribeParameter</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d82/class_describe_parameter.html#a72d2b9c3b902a07df790c1e5c592af68">operator=</a> (const <a class="el" href="../../d8/d82/class_describe_parameter.html">DescribeParameter</a> &amp;src)</td></tr>
 <tr class="separator:a72d2b9c3b902a07df790c1e5c592af68"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab1f59bc1a789089cdecd30562cf43126"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d8/d82/class_describe_parameter.html">DescribeParameter</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d82/class_describe_parameter.html#ab1f59bc1a789089cdecd30562cf43126">operator=</a> (const <a class="el" href="../../db/d60/class_describe.html">Describe</a> &amp;src)</td></tr>
@@ -301,10 +317,10 @@ $(document).ready(function(){initNavTree('d8/d82/class_describe_parameter.html',
 <tr class="separator:a1fa44f0a8cf9499ad8a7502b08e01621"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2bd146205da88e8a6fb16ff96796e623"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d82/class_describe_parameter.html#a2bd146205da88e8a6fb16ff96796e623">DescribeParameter</a> (const <a class="el" href="../../db/d60/class_describe.html">Describe</a> &amp;src)</td></tr>
 <tr class="separator:a2bd146205da88e8a6fb16ff96796e623"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aad03cca64aa4b997141df2560d38f1dc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d82/class_describe_parameter.html#aad03cca64aa4b997141df2560d38f1dc">DescribeParameter</a> (CDescribe *src)</td></tr>
-<tr class="separator:aad03cca64aa4b997141df2560d38f1dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9e5b66f4ddf4cc994f933c6ed90080fc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d82/class_describe_parameter.html#a9e5b66f4ddf4cc994f933c6ed90080fc">DescribeParameter</a> (CDescribeOfParameter *src)</td></tr>
 <tr class="separator:a9e5b66f4ddf4cc994f933c6ed90080fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad03cca64aa4b997141df2560d38f1dc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d82/class_describe_parameter.html#aad03cca64aa4b997141df2560d38f1dc">DescribeParameter</a> (CDescribe *src)</td></tr>
+<tr class="separator:aad03cca64aa4b997141df2560d38f1dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4ab59263e8367103731323ab520b65db"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d82/class_describe_parameter.html#a4ab59263e8367103731323ab520b65db">DescribeParameter</a> (const <a class="el" href="../../dc/d80/class_g_i_d___par.html">GID_Par</a> &amp;<a class="el" href="../../d8/d82/class_describe_parameter.html#ab38633e390bbf2532854298d64fd6c1a">gid</a>)</td></tr>
 <tr class="separator:a4ab59263e8367103731323ab520b65db"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a290702d6279776a8fb2a70b8e82786dd"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d82/class_describe_parameter.html#a290702d6279776a8fb2a70b8e82786dd">~DescribeParameter</a> ()</td></tr>
@@ -452,6 +468,8 @@ $(document).ready(function(){initNavTree('d8/d82/class_describe_parameter.html',
 <tr class="memitem:a8240b288fb9213f800f385dc50311af5"><td class="memItemLeft" align="right" valign="top">static const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d82/class_describe_parameter.html#a8240b288fb9213f800f385dc50311af5">lenFormatUnits</a> ()</td></tr>
 <tr class="separator:a8240b288fb9213f800f385dc50311af5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_static_methods_class_describe"><td colspan="2" onclick="javascript:toggleInherit('pub_static_methods_class_describe')"><img src="../../closed.png" alt="-"/>&#160;Открытые статические члены унаследованные от <a class="el" href="../../db/d60/class_describe.html">Describe</a></td></tr>
+<tr class="memitem:acdd5fedf4c3b1c36312a8e9b78cb86b3 inherit pub_static_methods_class_describe"><td class="memItemLeft" align="right" valign="top">static QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d60/class_describe.html#acdd5fedf4c3b1c36312a8e9b78cb86b3">debugOutput</a> (const <a class="el" href="../../db/d60/class_describe.html">Describe</a> &amp;d)</td></tr>
+<tr class="separator:acdd5fedf4c3b1c36312a8e9b78cb86b3 inherit pub_static_methods_class_describe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0974e62c88d7ac35a079dce525adf72e inherit pub_static_methods_class_describe"><td class="memItemLeft" align="right" valign="top">static QStringList&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d60/class_describe.html#a0974e62c88d7ac35a079dce525adf72e">fields</a> ()</td></tr>
 <tr class="separator:a0974e62c88d7ac35a079dce525adf72e inherit pub_static_methods_class_describe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a72d4d40afbfebc06fc8493fd2afc0e6e inherit pub_static_methods_class_describe"><td class="memItemLeft" align="right" valign="top">static QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d60/class_describe.html#a72d4d40afbfebc06fc8493fd2afc0e6e">typeDescribeString</a> (const <a class="el" href="../../db/d60/class_describe.html#aa71e75544f67f60e7739413aae34ad02">Describe::TypeDescribe</a> &amp;type)</td></tr>
@@ -476,6 +494,8 @@ $(document).ready(function(){initNavTree('d8/d82/class_describe_parameter.html',
 <tr class="inherit_header pro_methods_class_describe"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_class_describe')"><img src="../../closed.png" alt="-"/>&#160;Защищенные члены унаследованные от <a class="el" href="../../db/d60/class_describe.html">Describe</a></td></tr>
 <tr class="memitem:a87a32959047a67dc251e0052e8f8c0ef inherit pro_methods_class_describe"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d60/class_describe.html#a87a32959047a67dc251e0052e8f8c0ef">checkDescribePtr</a> (const CDescribe *d, const char *msg, const char *file, int line, const char *func) const</td></tr>
 <tr class="separator:a87a32959047a67dc251e0052e8f8c0ef inherit pro_methods_class_describe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a15ed33558a84ec3c6addd463b5596c7f inherit pro_methods_class_describe"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d60/class_describe.html#a15ed33558a84ec3c6addd463b5596c7f">checkDescribe</a> () const</td></tr>
+<tr class="separator:a15ed33558a84ec3c6addd463b5596c7f inherit pro_methods_class_describe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
 Свойства</h2></td></tr>
@@ -574,9 +594,6 @@ $(document).ready(function(){initNavTree('d8/d82/class_describe_parameter.html',
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">DescribeParameter::DescribeParameter </td>
@@ -585,11 +602,6 @@ $(document).ready(function(){initNavTree('d8/d82/class_describe_parameter.html',
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 </div>
@@ -599,9 +611,6 @@ $(document).ready(function(){initNavTree('d8/d82/class_describe_parameter.html',
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">DescribeParameter::DescribeParameter </td>
@@ -611,11 +620,6 @@ $(document).ready(function(){initNavTree('d8/d82/class_describe_parameter.html',
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 </div>
@@ -639,33 +643,7 @@ $(document).ready(function(){initNavTree('d8/d82/class_describe_parameter.html',
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">explicit</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aad03cca64aa4b997141df2560d38f1dc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aad03cca64aa4b997141df2560d38f1dc">&#9670;&nbsp;</a></span>DescribeParameter() <span class="overload">[4/6]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">DescribeParameter::DescribeParameter </td>
-          <td>(</td>
-          <td class="paramtype">CDescribe *&#160;</td>
-          <td class="paramname"><em>src</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">explicit</span></span>  </td>
+<span class="mlabels"><span class="mlabel">explicit</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -673,7 +651,7 @@ $(document).ready(function(){initNavTree('d8/d82/class_describe_parameter.html',
 </div>
 </div>
 <a id="a9e5b66f4ddf4cc994f933c6ed90080fc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9e5b66f4ddf4cc994f933c6ed90080fc">&#9670;&nbsp;</a></span>DescribeParameter() <span class="overload">[5/6]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a9e5b66f4ddf4cc994f933c6ed90080fc">&#9670;&nbsp;</a></span>DescribeParameter() <span class="overload">[4/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -691,7 +669,33 @@ $(document).ready(function(){initNavTree('d8/d82/class_describe_parameter.html',
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">explicit</span></span>  </td>
+<span class="mlabels"><span class="mlabel">explicit</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aad03cca64aa4b997141df2560d38f1dc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aad03cca64aa4b997141df2560d38f1dc">&#9670;&nbsp;</a></span>DescribeParameter() <span class="overload">[5/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">DescribeParameter::DescribeParameter </td>
+          <td>(</td>
+          <td class="paramtype">CDescribe *&#160;</td>
+          <td class="paramname"><em>src</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">explicit</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -717,7 +721,7 @@ $(document).ready(function(){initNavTree('d8/d82/class_describe_parameter.html',
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">explicit</span></span>  </td>
+<span class="mlabels"><span class="mlabel">explicit</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -750,6 +754,41 @@ $(document).ready(function(){initNavTree('d8/d82/class_describe_parameter.html',
 </div>
 </div>
 <h2 class="groupheader">Методы</h2>
+<a id="a30f63874d65bc4d7739e442ecb665767"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a30f63874d65bc4d7739e442ecb665767">&#9670;&nbsp;</a></span>change()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool DescribeParameter::change </td>
+          <td>(</td>
+          <td class="paramtype">const QVariantMap &amp;&#160;</td>
+          <td class="paramname"><em>values</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="acc735ed65d61d18efe1622f3bcb147b1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acc735ed65d61d18efe1622f3bcb147b1">&#9670;&nbsp;</a></span>checkDescribe()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool DescribeParameter::checkDescribe </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a4959cb9e9622ca5a3efd7b4b05c32099"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4959cb9e9622ca5a3efd7b4b05c32099">&#9670;&nbsp;</a></span>connectToSource() <span class="overload">[1/4]</span></h2>
 
@@ -842,6 +881,23 @@ $(document).ready(function(){initNavTree('d8/d82/class_describe_parameter.html',
 <span class="mlabels"><span class="mlabel">inline</span></span>  </td>
   </tr>
 </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a161b0a52a9e458b773d85b9a39522e10"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a161b0a52a9e458b773d85b9a39522e10">&#9670;&nbsp;</a></span>debugOutput()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString DescribeParameter::debugOutput </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
 </div><div class="memdoc">
 
 </div>
@@ -1445,6 +1501,24 @@ $(document).ready(function(){initNavTree('d8/d82/class_describe_parameter.html',
 
 </div>
 </div>
+<a id="a5c498aa5e0215501bf2d2f73deb49ed9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5c498aa5e0215501bf2d2f73deb49ed9">&#9670;&nbsp;</a></span>initializeForType()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DescribeParameter::initializeForType </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d8/d82/class_describe_parameter.html#a08868400730da4db7f33a7ce05c4996d">DescribeParameter::Type</a> &amp;&#160;</td>
+          <td class="paramname"><em>type</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="aec72f17c44637a5fb1176121864f3a9d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aec72f17c44637a5fb1176121864f3a9d">&#9670;&nbsp;</a></span>isAnalog()</h2>
 
@@ -1538,6 +1612,23 @@ $(document).ready(function(){initNavTree('d8/d82/class_describe_parameter.html',
       <table class="memname">
         <tr>
           <td class="memname">bool DescribeParameter::isOutflow </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9904930547be782ce0847c6ec83ed8a3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9904930547be782ce0847c6ec83ed8a3">&#9670;&nbsp;</a></span>isReserved()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool DescribeParameter::isReserved </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -1734,40 +1825,11 @@ $(document).ready(function(){initNavTree('d8/d82/class_describe_parameter.html',
 
 </div>
 </div>
-<a id="abfe59e09f2e9d80e8d2a1e2f1ee45904"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abfe59e09f2e9d80e8d2a1e2f1ee45904">&#9670;&nbsp;</a></span>operator!=()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool DescribeParameter::operator!= </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../d8/d82/class_describe_parameter.html">DescribeParameter</a> &amp;&#160;</td>
-          <td class="paramname"><em>src</em></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a72d2b9c3b902a07df790c1e5c592af68"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a72d2b9c3b902a07df790c1e5c592af68">&#9670;&nbsp;</a></span>operator=() <span class="overload">[1/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="../../d8/d82/class_describe_parameter.html">DescribeParameter</a>&amp; DescribeParameter::operator= </td>
@@ -1777,11 +1839,6 @@ $(document).ready(function(){initNavTree('d8/d82/class_describe_parameter.html',
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 </div>
@@ -1791,9 +1848,6 @@ $(document).ready(function(){initNavTree('d8/d82/class_describe_parameter.html',
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="../../d8/d82/class_describe_parameter.html">DescribeParameter</a>&amp; DescribeParameter::operator= </td>
@@ -1803,11 +1857,6 @@ $(document).ready(function(){initNavTree('d8/d82/class_describe_parameter.html',
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 </div>
@@ -1817,9 +1866,6 @@ $(document).ready(function(){initNavTree('d8/d82/class_describe_parameter.html',
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="../../d8/d82/class_describe_parameter.html">DescribeParameter</a>&amp; DescribeParameter::operator= </td>
@@ -1829,11 +1875,6 @@ $(document).ready(function(){initNavTree('d8/d82/class_describe_parameter.html',
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 </div>
@@ -1843,9 +1884,6 @@ $(document).ready(function(){initNavTree('d8/d82/class_describe_parameter.html',
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="../../d8/d82/class_describe_parameter.html">DescribeParameter</a>&amp; DescribeParameter::operator= </td>
@@ -1855,37 +1893,6 @@ $(document).ready(function(){initNavTree('d8/d82/class_describe_parameter.html',
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a30318ec25d0e3d3ff0e8716b4fea796d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a30318ec25d0e3d3ff0e8716b4fea796d">&#9670;&nbsp;</a></span>operator==()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool DescribeParameter::operator== </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../d8/d82/class_describe_parameter.html">DescribeParameter</a> &amp;&#160;</td>
-          <td class="paramname"><em>src</em></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 </div>
@@ -2116,6 +2123,24 @@ $(document).ready(function(){initNavTree('d8/d82/class_describe_parameter.html',
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a35aab1ae8e7ed8827fa6fa199941aa4b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a35aab1ae8e7ed8827fa6fa199941aa4b">&#9670;&nbsp;</a></span>returnFromReserve()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DescribeParameter::returnFromReserve </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../df/d0f/class_describe_list.html">DescribeList</a> *&#160;</td>
+          <td class="paramname"><em>describeList</em> = <code>nullptr</code></td><td>)</td>
+          <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2654,6 +2679,24 @@ $(document).ready(function(){initNavTree('d8/d82/class_describe_parameter.html',
 
 </div>
 </div>
+<a id="a05eb42386eb832ebe308947716b1a5df"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a05eb42386eb832ebe308947716b1a5df">&#9670;&nbsp;</a></span>transferToReserve()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DescribeParameter::transferToReserve </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../df/d0f/class_describe_list.html">DescribeList</a> *&#160;</td>
+          <td class="paramname"><em>describeList</em> = <code>nullptr</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ab83d431815e482dd22ba45b7465bdc3d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab83d431815e482dd22ba45b7465bdc3d">&#9670;&nbsp;</a></span>type()</h2>
 
@@ -2967,6 +3010,23 @@ $(document).ready(function(){initNavTree('d8/d82/class_describe_parameter.html',
 
 </div>
 </div>
+<a id="a01cdcfccba3a898603989e92f53ea3f9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a01cdcfccba3a898603989e92f53ea3f9">&#9670;&nbsp;</a></span>update()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool DescribeParameter::update </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Полный список свойств</h2>
 <a id="a5acc7cc92b176fb308e40e65eae37a59"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5acc7cc92b176fb308e40e65eae37a59">&#9670;&nbsp;</a></span>enableWork</h2>
@@ -2983,7 +3043,7 @@ $(document).ready(function(){initNavTree('d8/d82/class_describe_parameter.html',
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">read</span></span>  </td>
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -3027,7 +3087,7 @@ $(document).ready(function(){initNavTree('d8/d82/class_describe_parameter.html',
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">read</span></span>  </td>
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -3049,7 +3109,7 @@ $(document).ready(function(){initNavTree('d8/d82/class_describe_parameter.html',
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">read</span></span>  </td>
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -3071,7 +3131,7 @@ $(document).ready(function(){initNavTree('d8/d82/class_describe_parameter.html',
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">read</span></span>  </td>
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -3093,7 +3153,7 @@ $(document).ready(function(){initNavTree('d8/d82/class_describe_parameter.html',
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">read</span></span>  </td>
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -3115,7 +3175,7 @@ $(document).ready(function(){initNavTree('d8/d82/class_describe_parameter.html',
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">read</span></span>  </td>
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -3137,7 +3197,7 @@ $(document).ready(function(){initNavTree('d8/d82/class_describe_parameter.html',
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">read</span></span>  </td>
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -3225,7 +3285,7 @@ $(document).ready(function(){initNavTree('d8/d82/class_describe_parameter.html',
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">read</span></span>  </td>
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -3247,7 +3307,7 @@ $(document).ready(function(){initNavTree('d8/d82/class_describe_parameter.html',
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">read</span></span>  </td>
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -3269,7 +3329,7 @@ $(document).ready(function(){initNavTree('d8/d82/class_describe_parameter.html',
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">read</span></span>  </td>
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

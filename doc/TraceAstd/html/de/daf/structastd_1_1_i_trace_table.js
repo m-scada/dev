@@ -31,5 +31,6 @@ var structastd_1_1_i_trace_table =
     [ "setValue", "de/daf/structastd_1_1_i_trace_table.html#a1ca713e8823d91751bd9df5510d8be8a", null ],
     [ "setValueSuffix", "de/daf/structastd_1_1_i_trace_table.html#ab2b4f148db3a25e43fb98f3bd54667bc", null ],
     [ "setValueSuffix", "de/daf/structastd_1_1_i_trace_table.html#a12cf5425718bddcfcfde377abad3645a", null ],
-    [ "setValueSuffix", "de/daf/structastd_1_1_i_trace_table.html#acd7bc7c02699336dfa959eeba3bf4f98", null ]
+    [ "setValueSuffix", "de/daf/structastd_1_1_i_trace_table.html#acd7bc7c02699336dfa959eeba3bf4f98", null ],
+    [ "TraceTablePtr", "de/daf/structastd_1_1_i_trace_table.html#a0ed90b74e662a436e0abda021d506b65", null ]
 ];

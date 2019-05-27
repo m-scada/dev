@@ -3,6 +3,7 @@ var class_g_i_d___archive =
     [ "GID_Archive", "da/d5e/class_g_i_d___archive.html#a42de77d5d3b26fcb45f4796370a820ac", null ],
     [ "GID_Archive", "da/d5e/class_g_i_d___archive.html#a4122844de9ba51f681babcd777686f1a", null ],
     [ "GID_Archive", "da/d5e/class_g_i_d___archive.html#a672bd23778d8ef09dc656d582c72a7d3", null ],
+    [ "GID_Archive", "da/d5e/class_g_i_d___archive.html#a6fdd13db7a88904ac0ff3151a96ff1b1", null ],
     [ "clear", "da/d5e/class_g_i_d___archive.html#ae22076623184c37effef8c5221314935", null ],
     [ "isEmpty", "da/d5e/class_g_i_d___archive.html#a0d022a2fc28908666024f5737fc932a3", null ],
     [ "operator QVariant", "da/d5e/class_g_i_d___archive.html#a765d3ef3c4af856c4e10a3c1b042c571", null ],

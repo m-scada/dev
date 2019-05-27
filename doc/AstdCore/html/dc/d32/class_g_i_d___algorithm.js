@@ -3,6 +3,7 @@ var class_g_i_d___algorithm =
     [ "GID_Algorithm", "dc/d32/class_g_i_d___algorithm.html#a42fa5dafaba703c0dbd210db11384523", null ],
     [ "GID_Algorithm", "dc/d32/class_g_i_d___algorithm.html#a540c429fb28e3798629e30a4c19bc243", null ],
     [ "GID_Algorithm", "dc/d32/class_g_i_d___algorithm.html#abaf200ba8361be63e804eeca6d3a6867", null ],
+    [ "GID_Algorithm", "dc/d32/class_g_i_d___algorithm.html#ab28c4b0e87eb5ca408900252a3882d05", null ],
     [ "clear", "dc/d32/class_g_i_d___algorithm.html#af24971041689d76818a905a3198be241", null ],
     [ "isEmpty", "dc/d32/class_g_i_d___algorithm.html#a8ff49ca1d5f47670591a18db283374e4", null ],
     [ "operator QVariant", "dc/d32/class_g_i_d___algorithm.html#abbcd43dad4066c52e9adeb5040a57abf", null ],

@@ -10,6 +10,7 @@ var class_permission =
     [ "isUserGroup", "d5/db9/class_permission.html#a4c0fab7a465b51c1410833e474dc23f5", null ],
     [ "operator!=", "d5/db9/class_permission.html#a612aeea4d5078a15cf500bf6aff58a59", null ],
     [ "operator!=", "d5/db9/class_permission.html#ac0fbc242e64ec4ec47504c1e3f00eb9f", null ],
+    [ "operator<", "d5/db9/class_permission.html#aa2478d7797091ced820b18310b2c4ea4", null ],
     [ "operator=", "d5/db9/class_permission.html#ae6f1c90d59aa05b9bc9f4a5f6d40fe20", null ],
     [ "operator=", "d5/db9/class_permission.html#a3ab7420b0e28f30025b89a4023bbce70", null ],
     [ "operator==", "d5/db9/class_permission.html#af6e08e02619bbef1a1a8f051808b44fe", null ],

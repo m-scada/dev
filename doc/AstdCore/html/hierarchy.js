@@ -31,6 +31,7 @@ var hierarchy =
       [ "GID_Par", "dc/d80/class_g_i_d___par.html", null ]
     ] ],
     [ "CompressDirectoryArgs", "da/ded/struct_compress_directory_args.html", null ],
+    [ "CompressManager", "d3/d28/class_compress_manager.html", null ],
     [ "ConversionDiscreteParameter", "de/d6e/class_conversion_discrete_parameter.html", null ],
     [ "CParameter", null, [
       [ "EventSource", "d8/d20/class_event_source.html", null ]
@@ -70,7 +71,12 @@ var hierarchy =
         [ "DescribeModuleDummy", "db/de1/class_describe_module_dummy.html", null ]
       ] ],
       [ "DescribeParameter", "d8/d82/class_describe_parameter.html", [
-        [ "DescribeParameterDummy", "dc/db3/class_describe_parameter_dummy.html", null ]
+        [ "DescribeParameterDummy", "dc/db3/class_describe_parameter_dummy.html", [
+          [ "DescribeParameterAnalogDummy", "d5/d9f/class_describe_parameter_analog_dummy.html", null ],
+          [ "DescribeParameterDiscreteDummy", "d2/d4e/class_describe_parameter_discrete_dummy.html", null ],
+          [ "DescribeParameterOutflowDummy", "dc/d87/class_describe_parameter_outflow_dummy.html", null ],
+          [ "DescribeParameterStringDummy", "d0/db1/class_describe_parameter_string_dummy.html", null ]
+        ] ]
       ] ],
       [ "DescribeStation", "d1/d9b/class_describe_station.html", [
         [ "DescribeStationDummy", "d3/d79/class_describe_station_dummy.html", null ]
@@ -163,9 +169,6 @@ var hierarchy =
     [ "astd::Heap", "d0/dd5/classastd_1_1_heap.html", null ],
     [ "astd::HeapCommonAllocator< T >", "d2/d65/classastd_1_1_heap_common_allocator.html", null ],
     [ "astd::HeapOwnerAllocator< T >", "d0/d0d/classastd_1_1_heap_owner_allocator.html", null ],
-    [ "IAstdUnknown", null, [
-      [ "IServicePoint", "d7/dd6/struct_i_service_point.html", null ]
-    ] ],
     [ "IFilterUser", null, [
       [ "AbstractFilterDescibeList", "d9/dd7/class_abstract_filter_descibe_list.html", [
         [ "DescribeAlgorithmList::FilterByName", "dc/dc8/class_describe_algorithm_list_1_1_filter_by_name.html", null ],
@@ -227,12 +230,11 @@ var hierarchy =
         [ "DeviceWizardReport", "d6/dcb/class_device_wizard_report.html", null ]
       ] ]
     ] ],
-    [ "IServicePointClient", "d5/d63/struct_i_service_point_client.html", null ],
-    [ "IServicePointRouter", "d6/d67/struct_i_service_point_router.html", null ],
     [ "IoExternalData::Item", "df/db7/struct_io_external_data_1_1_item.html", null ],
+    [ "DescribeList::Iterator", "df/dc3/class_describe_list_1_1_iterator.html", null ],
+    [ "DescribeListObjectT< TDescribe >::Iterator< TList >", "da/d88/class_describe_list_object_t_1_1_iterator.html", null ],
     [ "DescribeListT< TDescribe >::Iterator< TList >", "da/dac/class_describe_list_t_1_1_iterator.html", null ],
     [ "VectorContainer::Iterator", "d8/d60/class_vector_container_1_1_iterator.html", null ],
-    [ "DescribeList::Iterator", "df/dc3/class_describe_list_1_1_iterator.html", null ],
     [ "JsonParcer", "dc/d19/class_json_parcer.html", null ],
     [ "LevelAccess", "d1/dc6/class_level_access.html", null ],
     [ "Permission", "d5/db9/class_permission.html", null ],
