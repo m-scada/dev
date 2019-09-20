@@ -23,11 +23,12 @@ var dir_80de6486d62bd6b69076e2edc3481d55 =
       [ "CoreDeviceUI", "d6/d31/class_core_device_u_i.html", "d6/d31/class_core_device_u_i" ]
     ] ],
     [ "CorePlugin.h", "de/d6f/_core_plugin_8h.html", "de/d6f/_core_plugin_8h" ],
-    [ "DebugInfo.h", "da/da3/_debug_info_8h.html", "da/da3/_debug_info_8h" ],
+    [ "DebugInfo.h", "da/da3/_debug_info_8h.html", null ],
     [ "Describe.h", "da/de5/_describe_8h.html", "da/de5/_describe_8h" ],
     [ "DescribeAlgorithm.h", "d2/deb/_describe_algorithm_8h.html", "d2/deb/_describe_algorithm_8h" ],
     [ "DescribeAlgorithmList.h", "da/daf/_describe_algorithm_list_8h.html", [
       [ "DescribeAlgorithmList", "d4/dd1/class_describe_algorithm_list.html", "d4/dd1/class_describe_algorithm_list" ],
+      [ "AbstractFilter", "da/d2b/class_describe_algorithm_list_1_1_abstract_filter.html", "da/d2b/class_describe_algorithm_list_1_1_abstract_filter" ],
       [ "FilterByName", "dc/dc8/class_describe_algorithm_list_1_1_filter_by_name.html", "dc/dc8/class_describe_algorithm_list_1_1_filter_by_name" ]
     ] ],
     [ "DescribeAlgorithmListObject.h", "d2/d48/_describe_algorithm_list_object_8h.html", [
@@ -36,6 +37,7 @@ var dir_80de6486d62bd6b69076e2edc3481d55 =
     [ "DescribeArchive.h", "d4/d0a/_describe_archive_8h.html", "d4/d0a/_describe_archive_8h" ],
     [ "DescribeArchiveList.h", "db/d56/_describe_archive_list_8h.html", [
       [ "DescribeArchiveList", "de/db1/class_describe_archive_list.html", "de/db1/class_describe_archive_list" ],
+      [ "AbstractFilter", "da/dff/class_describe_archive_list_1_1_abstract_filter.html", "da/dff/class_describe_archive_list_1_1_abstract_filter" ],
       [ "FilterByName", "d2/d25/class_describe_archive_list_1_1_filter_by_name.html", "d2/d25/class_describe_archive_list_1_1_filter_by_name" ]
     ] ],
     [ "DescribeArchiveListObject.h", "d1/d27/_describe_archive_list_object_8h.html", [
@@ -45,6 +47,7 @@ var dir_80de6486d62bd6b69076e2edc3481d55 =
     [ "DescribeComplexList.h", "d4/d03/_describe_complex_list_8h.html", [
       [ "DescribeComplexList", "df/dbb/class_describe_complex_list.html", "df/dbb/class_describe_complex_list" ],
       [ "FilterById", "d1/d6a/class_describe_complex_list_1_1_filter_by_id.html", "d1/d6a/class_describe_complex_list_1_1_filter_by_id" ],
+      [ "AbstractFilter", "de/dda/class_describe_complex_list_1_1_abstract_filter.html", "de/dda/class_describe_complex_list_1_1_abstract_filter" ],
       [ "FilterByIoDriver", "d2/dd9/class_describe_complex_list_1_1_filter_by_io_driver.html", "d2/dd9/class_describe_complex_list_1_1_filter_by_io_driver" ],
       [ "FilterWithoutIoDriver", "d3/d84/class_describe_complex_list_1_1_filter_without_io_driver.html", "d3/d84/class_describe_complex_list_1_1_filter_without_io_driver" ],
       [ "FilterByName", "d6/d61/class_describe_complex_list_1_1_filter_by_name.html", "d6/d61/class_describe_complex_list_1_1_filter_by_name" ]
@@ -55,6 +58,7 @@ var dir_80de6486d62bd6b69076e2edc3481d55 =
     [ "DescribeConnection.h", "d1/dfd/_describe_connection_8h.html", "d1/dfd/_describe_connection_8h" ],
     [ "DescribeConnectionList.h", "d3/d14/_describe_connection_list_8h.html", [
       [ "DescribeConnectionList", "de/d50/class_describe_connection_list.html", "de/d50/class_describe_connection_list" ],
+      [ "AbstractFilter", "d5/d26/class_describe_connection_list_1_1_abstract_filter.html", "d5/d26/class_describe_connection_list_1_1_abstract_filter" ],
       [ "FilterWithoutClientIncomingServer", "d3/d75/class_describe_connection_list_1_1_filter_without_client_incoming_server.html", "d3/d75/class_describe_connection_list_1_1_filter_without_client_incoming_server" ],
       [ "FilterById", "d9/de1/class_describe_connection_list_1_1_filter_by_id.html", "d9/de1/class_describe_connection_list_1_1_filter_by_id" ]
     ] ],
@@ -64,6 +68,7 @@ var dir_80de6486d62bd6b69076e2edc3481d55 =
     [ "DescribeDevice.h", "d2/d80/_describe_device_8h.html", "d2/d80/_describe_device_8h" ],
     [ "DescribeDeviceList.h", "db/dce/_describe_device_list_8h.html", [
       [ "DescribeDeviceList", "d8/d14/class_describe_device_list.html", "d8/d14/class_describe_device_list" ],
+      [ "AbstractFilter", "da/dad/class_describe_device_list_1_1_abstract_filter.html", "da/dad/class_describe_device_list_1_1_abstract_filter" ],
       [ "FilterByType", "db/d6b/class_describe_device_list_1_1_filter_by_type.html", "db/d6b/class_describe_device_list_1_1_filter_by_type" ],
       [ "FilterById", "d2/dff/class_describe_device_list_1_1_filter_by_id.html", "d2/dff/class_describe_device_list_1_1_filter_by_id" ],
       [ "FilterByLibrary", "d5/dee/class_describe_device_list_1_1_filter_by_library.html", "d5/dee/class_describe_device_list_1_1_filter_by_library" ],
@@ -77,6 +82,7 @@ var dir_80de6486d62bd6b69076e2edc3481d55 =
     [ "DescribeFolder.h", "da/d9b/_describe_folder_8h.html", "da/d9b/_describe_folder_8h" ],
     [ "DescribeFolderList.h", "d1/d0f/_describe_folder_list_8h.html", [
       [ "DescribeFolderList", "d7/df2/class_describe_folder_list.html", "d7/df2/class_describe_folder_list" ],
+      [ "AbstractFilter", "dd/d11/class_describe_folder_list_1_1_abstract_filter.html", "dd/d11/class_describe_folder_list_1_1_abstract_filter" ],
       [ "FilterByName", "d8/dc3/class_describe_folder_list_1_1_filter_by_name.html", "d8/dc3/class_describe_folder_list_1_1_filter_by_name" ],
       [ "FilterByParent", "d2/d84/class_describe_folder_list_1_1_filter_by_parent.html", "d2/d84/class_describe_folder_list_1_1_filter_by_parent" ]
     ] ],
@@ -86,6 +92,7 @@ var dir_80de6486d62bd6b69076e2edc3481d55 =
     [ "DescribeInput.h", "d1/ddf/_describe_input_8h.html", "d1/ddf/_describe_input_8h" ],
     [ "DescribeInputList.h", "d8/d0f/_describe_input_list_8h.html", [
       [ "DescribeInputList", "da/d88/class_describe_input_list.html", "da/d88/class_describe_input_list" ],
+      [ "AbstractFilter", "dd/d10/class_describe_input_list_1_1_abstract_filter.html", "dd/d10/class_describe_input_list_1_1_abstract_filter" ],
       [ "FilterByName", "d6/d64/class_describe_input_list_1_1_filter_by_name.html", "d6/d64/class_describe_input_list_1_1_filter_by_name" ],
       [ "FilterByType", "dd/d74/class_describe_input_list_1_1_filter_by_type.html", "dd/d74/class_describe_input_list_1_1_filter_by_type" ]
     ] ],
@@ -101,6 +108,7 @@ var dir_80de6486d62bd6b69076e2edc3481d55 =
     [ "DescribeModule.h", "d6/da5/_describe_module_8h.html", "d6/da5/_describe_module_8h" ],
     [ "DescribeModuleList.h", "de/dfc/_describe_module_list_8h.html", [
       [ "DescribeModuleList", "d4/d6c/class_describe_module_list.html", "d4/d6c/class_describe_module_list" ],
+      [ "AbstractFilter", "df/dfd/class_describe_module_list_1_1_abstract_filter.html", "df/dfd/class_describe_module_list_1_1_abstract_filter" ],
       [ "FilterByName", "d8/de5/class_describe_module_list_1_1_filter_by_name.html", "d8/de5/class_describe_module_list_1_1_filter_by_name" ]
     ] ],
     [ "DescribeModuleListObject.h", "d1/d18/_describe_module_list_object_8h.html", [
@@ -109,6 +117,7 @@ var dir_80de6486d62bd6b69076e2edc3481d55 =
     [ "DescribeParameter.h", "d0/d84/_describe_parameter_8h.html", "d0/d84/_describe_parameter_8h" ],
     [ "DescribeParameterList.h", "db/d00/_describe_parameter_list_8h.html", [
       [ "DescribeParameterList", "d3/d7c/class_describe_parameter_list.html", "d3/d7c/class_describe_parameter_list" ],
+      [ "AbstractFilter", "d4/d05/class_describe_parameter_list_1_1_abstract_filter.html", "d4/d05/class_describe_parameter_list_1_1_abstract_filter" ],
       [ "FilterByFolder", "dc/d4d/class_describe_parameter_list_1_1_filter_by_folder.html", "dc/d4d/class_describe_parameter_list_1_1_filter_by_folder" ],
       [ "FilterByFolderContents", "d6/da9/class_describe_parameter_list_1_1_filter_by_folder_contents.html", "d6/da9/class_describe_parameter_list_1_1_filter_by_folder_contents" ],
       [ "FilterByFolderUnknown", "d4/d2f/class_describe_parameter_list_1_1_filter_by_folder_unknown.html", "d4/d2f/class_describe_parameter_list_1_1_filter_by_folder_unknown" ],
@@ -119,7 +128,6 @@ var dir_80de6486d62bd6b69076e2edc3481d55 =
       [ "FilterByPrefixName", "de/d1b/class_describe_parameter_list_1_1_filter_by_prefix_name.html", "de/d1b/class_describe_parameter_list_1_1_filter_by_prefix_name" ],
       [ "FilterByArchive", "de/dac/class_describe_parameter_list_1_1_filter_by_archive.html", "de/dac/class_describe_parameter_list_1_1_filter_by_archive" ],
       [ "FilterByType", "d4/d98/class_describe_parameter_list_1_1_filter_by_type.html", "d4/d98/class_describe_parameter_list_1_1_filter_by_type" ],
-      [ "FilterByRegistrator", "d8/dc4/class_describe_parameter_list_1_1_filter_by_registrator.html", "d8/dc4/class_describe_parameter_list_1_1_filter_by_registrator" ],
       [ "FilterByPattern", "df/d4f/class_describe_parameter_list_1_1_filter_by_pattern.html", "df/d4f/class_describe_parameter_list_1_1_filter_by_pattern" ],
       [ "SpareDescribeParameterList", "d3/dec/class_spare_describe_parameter_list.html", "d3/dec/class_spare_describe_parameter_list" ]
     ] ],
@@ -129,7 +137,9 @@ var dir_80de6486d62bd6b69076e2edc3481d55 =
     [ "DescribeStation.h", "d8/d61/_describe_station_8h.html", "d8/d61/_describe_station_8h" ],
     [ "DescribeStationList.h", "dd/dca/_describe_station_list_8h.html", [
       [ "DescribeStationList", "d6/d3e/class_describe_station_list.html", "d6/d3e/class_describe_station_list" ],
+      [ "AbstractFilter", "d8/dd3/class_describe_station_list_1_1_abstract_filter.html", "d8/dd3/class_describe_station_list_1_1_abstract_filter" ],
       [ "FilterById", "d8/de0/class_describe_station_list_1_1_filter_by_id.html", "d8/de0/class_describe_station_list_1_1_filter_by_id" ],
+      [ "FilterByType", "d4/d55/class_describe_station_list_1_1_filter_by_type.html", "d4/d55/class_describe_station_list_1_1_filter_by_type" ],
       [ "FilterByName", "d0/d29/class_describe_station_list_1_1_filter_by_name.html", "d0/d29/class_describe_station_list_1_1_filter_by_name" ],
       [ "FilterByIp", "d7/d59/class_describe_station_list_1_1_filter_by_ip.html", "d7/d59/class_describe_station_list_1_1_filter_by_ip" ],
       [ "FilterByProject", "dd/d9a/class_describe_station_list_1_1_filter_by_project.html", "dd/d9a/class_describe_station_list_1_1_filter_by_project" ]
@@ -139,7 +149,8 @@ var dir_80de6486d62bd6b69076e2edc3481d55 =
     ] ],
     [ "DescribeUserGroup.h", "dd/d62/_describe_user_group_8h.html", "dd/d62/_describe_user_group_8h" ],
     [ "DescribeUserGroupList.h", "d0/df0/_describe_user_group_list_8h.html", [
-      [ "DescribeUserGroupList", "de/d0f/class_describe_user_group_list.html", "de/d0f/class_describe_user_group_list" ]
+      [ "DescribeUserGroupList", "de/d0f/class_describe_user_group_list.html", "de/d0f/class_describe_user_group_list" ],
+      [ "AbstractFilter", "d0/df7/class_describe_user_group_list_1_1_abstract_filter.html", "d0/df7/class_describe_user_group_list_1_1_abstract_filter" ]
     ] ],
     [ "DescribeUserGroupListObject.h", "dd/dfd/_describe_user_group_list_object_8h.html", [
       [ "DescribeUserGroupListObject", "dd/d2b/class_describe_user_group_list_object.html", "dd/d2b/class_describe_user_group_list_object" ]

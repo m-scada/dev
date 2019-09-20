@@ -19,7 +19,7 @@ var class_describe_folder =
     [ "operator=", "da/d40/class_describe_folder.html#acea937641aa062526a26a398de42cb5f", null ],
     [ "path", "da/d40/class_describe_folder.html#afc34018a48a73612e0c2e197c20f6cec", null ],
     [ "ptr", "da/d40/class_describe_folder.html#ae5b2abe549ccfc4f6d629e58d23a6c0d", null ],
-    [ "rawName", "da/d40/class_describe_folder.html#a5dc5579c40df7cb743c56428018d5baf", null ],
+    [ "rawName", "da/d40/class_describe_folder.html#afc93859c3014fedd0e680c60813a7700", null ],
     [ "setGid", "da/d40/class_describe_folder.html#a2e285347c088be5009ab4ea1018ab3f1", null ],
     [ "setGidParent", "da/d40/class_describe_folder.html#afc62b2007c3a5bad9f05db640e6e51c3", null ],
     [ "setName", "da/d40/class_describe_folder.html#ac1743d3c822ea1531d3a03bbb2fc27a4", null ],

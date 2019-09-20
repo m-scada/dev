@@ -14,6 +14,8 @@ var class_conversion_discrete_parameter =
       [ "Bin", "de/d6e/class_conversion_discrete_parameter.html#a8da1fa2996cf412f633fd6c7a5ccc281a807dbe7d1c25a633894d4a231b1c76d3", null ],
       [ "TimeSec", "de/d6e/class_conversion_discrete_parameter.html#a8da1fa2996cf412f633fd6c7a5ccc281afc00d2df7568c9f6a766e80ec12f4e35", null ],
       [ "TimeSpanSec", "de/d6e/class_conversion_discrete_parameter.html#a8da1fa2996cf412f633fd6c7a5ccc281a20ca68575f048f81f8aa24cd7e156337", null ],
+      [ "TimeMSec", "de/d6e/class_conversion_discrete_parameter.html#a8da1fa2996cf412f633fd6c7a5ccc281a2218a01cf44cb5f21401498adafa3974", null ],
+      [ "TimeSpanMSec", "de/d6e/class_conversion_discrete_parameter.html#a8da1fa2996cf412f633fd6c7a5ccc281a0de1124b3a23a5d92e3c90e8de80d879", null ],
       [ "UnknownType", "de/d6e/class_conversion_discrete_parameter.html#a8da1fa2996cf412f633fd6c7a5ccc281a916c74f40cb3a7d245c9f9eefde044db", null ]
     ] ],
     [ "ConversionDiscreteParameter", "de/d6e/class_conversion_discrete_parameter.html#a73e87434765071fbb1f958c5e9fdb235", null ],
@@ -25,7 +27,9 @@ var class_conversion_discrete_parameter =
     [ "isTypeDec", "de/d6e/class_conversion_discrete_parameter.html#a7d2ba89ab640e234e8f83f2eb720c5bd", null ],
     [ "isTypeHex", "de/d6e/class_conversion_discrete_parameter.html#ad714554f055e5484edcc7d613cd6062e", null ],
     [ "isTypeTable", "de/d6e/class_conversion_discrete_parameter.html#a4e3caf518a11021933056a8e68f5b99e", null ],
+    [ "isTypeTimeMSec", "de/d6e/class_conversion_discrete_parameter.html#a1f3e34b00871ac3d97c1875569d5b855", null ],
     [ "isTypeTimeSec", "de/d6e/class_conversion_discrete_parameter.html#ac317c3b6b47cea546fe19f465be69fb5", null ],
+    [ "isTypeTimeSpanMSec", "de/d6e/class_conversion_discrete_parameter.html#adc6ac81a179890e87475ca84e45fabc8", null ],
     [ "isTypeTimeSpanSec", "de/d6e/class_conversion_discrete_parameter.html#a4977d7ddf7e9d1ce9e202350286d4fac", null ],
     [ "isUppercase", "de/d6e/class_conversion_discrete_parameter.html#a920a172f2300cb6962c57c8c18988535", null ],
     [ "numberWidth", "de/d6e/class_conversion_discrete_parameter.html#a982114aee0095cd7aba0db975ced247e", null ],

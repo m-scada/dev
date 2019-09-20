@@ -3,7 +3,7 @@ var annotated_dup =
     [ "astd", "d9/d4f/namespaceastd.html", "d9/d4f/namespaceastd" ],
     [ "astdcore", "d4/da8/namespaceastdcore.html", "d4/da8/namespaceastdcore" ],
     [ "std", "d8/dcc/namespacestd.html", "d8/dcc/namespacestd" ],
-    [ "AbstractFilterDescibeList", "d9/dd7/class_abstract_filter_descibe_list.html", "d9/dd7/class_abstract_filter_descibe_list" ],
+    [ "AbstractFilterDescribeList", "dc/d9d/class_abstract_filter_describe_list.html", "dc/d9d/class_abstract_filter_describe_list" ],
     [ "AbstractValueSource", "d0/d51/class_abstract_value_source.html", "d0/d51/class_abstract_value_source" ],
     [ "ApplicationConfig", "de/db7/class_application_config.html", "de/db7/class_application_config" ],
     [ "BorderAlgorithm", "d5/d81/class_border_algorithm.html", "d5/d81/class_border_algorithm" ],

@@ -170,40 +170,61 @@ var hierarchy =
     [ "astd::HeapCommonAllocator< T >", "d2/d65/classastd_1_1_heap_common_allocator.html", null ],
     [ "astd::HeapOwnerAllocator< T >", "d0/d0d/classastd_1_1_heap_owner_allocator.html", null ],
     [ "IFilterUser", null, [
-      [ "AbstractFilterDescibeList", "d9/dd7/class_abstract_filter_descibe_list.html", [
-        [ "DescribeAlgorithmList::FilterByName", "dc/dc8/class_describe_algorithm_list_1_1_filter_by_name.html", null ],
-        [ "DescribeArchiveList::FilterByName", "d2/d25/class_describe_archive_list_1_1_filter_by_name.html", null ],
-        [ "DescribeComplexList::FilterByIoDriver", "d2/dd9/class_describe_complex_list_1_1_filter_by_io_driver.html", null ],
-        [ "DescribeComplexList::FilterByName", "d6/d61/class_describe_complex_list_1_1_filter_by_name.html", null ],
-        [ "DescribeComplexList::FilterWithoutIoDriver", "d3/d84/class_describe_complex_list_1_1_filter_without_io_driver.html", null ],
-        [ "DescribeConnectionList::FilterById", "d9/de1/class_describe_connection_list_1_1_filter_by_id.html", null ],
-        [ "DescribeConnectionList::FilterWithoutClientIncomingServer", "d3/d75/class_describe_connection_list_1_1_filter_without_client_incoming_server.html", null ],
-        [ "DescribeDeviceList::FilterByLibrary", "d5/dee/class_describe_device_list_1_1_filter_by_library.html", null ],
-        [ "DescribeDeviceList::FilterByName", "d0/db9/class_describe_device_list_1_1_filter_by_name.html", null ],
-        [ "DescribeDeviceList::FilterByOwner", "da/dd0/class_describe_device_list_1_1_filter_by_owner.html", null ],
-        [ "DescribeDeviceList::FilterBySelf", "dc/dad/class_describe_device_list_1_1_filter_by_self.html", null ],
-        [ "DescribeDeviceList::FilterByType", "db/d6b/class_describe_device_list_1_1_filter_by_type.html", null ],
-        [ "DescribeFolderList::FilterByName", "d8/dc3/class_describe_folder_list_1_1_filter_by_name.html", null ],
-        [ "DescribeFolderList::FilterByParent", "d2/d84/class_describe_folder_list_1_1_filter_by_parent.html", null ],
-        [ "DescribeInputList::FilterByName", "d6/d64/class_describe_input_list_1_1_filter_by_name.html", null ],
-        [ "DescribeInputList::FilterByType", "dd/d74/class_describe_input_list_1_1_filter_by_type.html", null ],
-        [ "DescribeModuleList::FilterByName", "d8/de5/class_describe_module_list_1_1_filter_by_name.html", null ],
-        [ "DescribeParameterList::FilterByArchive", "de/dac/class_describe_parameter_list_1_1_filter_by_archive.html", null ],
-        [ "DescribeParameterList::FilterByFolder", "dc/d4d/class_describe_parameter_list_1_1_filter_by_folder.html", null ],
-        [ "DescribeParameterList::FilterByFolderContents", "d6/da9/class_describe_parameter_list_1_1_filter_by_folder_contents.html", null ],
-        [ "DescribeParameterList::FilterByFolderUnknown", "d4/d2f/class_describe_parameter_list_1_1_filter_by_folder_unknown.html", null ],
-        [ "DescribeParameterList::FilterByName", "d5/db3/class_describe_parameter_list_1_1_filter_by_name.html", null ],
-        [ "DescribeParameterList::FilterByOwner", "d2/d15/class_describe_parameter_list_1_1_filter_by_owner.html", null ],
-        [ "DescribeParameterList::FilterByPattern", "df/d4f/class_describe_parameter_list_1_1_filter_by_pattern.html", null ],
-        [ "DescribeParameterList::FilterByPrefixName", "de/d1b/class_describe_parameter_list_1_1_filter_by_prefix_name.html", null ],
-        [ "DescribeParameterList::FilterByRegistrator", "d8/dc4/class_describe_parameter_list_1_1_filter_by_registrator.html", null ],
-        [ "DescribeParameterList::FilterByShortName", "d3/d49/class_describe_parameter_list_1_1_filter_by_short_name.html", null ],
-        [ "DescribeParameterList::FilterByType", "d4/d98/class_describe_parameter_list_1_1_filter_by_type.html", null ],
-        [ "DescribeParameterList::FilterWithoutSource", "d1/d43/class_describe_parameter_list_1_1_filter_without_source.html", null ],
-        [ "DescribeStationList::FilterById", "d8/de0/class_describe_station_list_1_1_filter_by_id.html", null ],
-        [ "DescribeStationList::FilterByIp", "d7/d59/class_describe_station_list_1_1_filter_by_ip.html", null ],
-        [ "DescribeStationList::FilterByName", "d0/d29/class_describe_station_list_1_1_filter_by_name.html", null ],
-        [ "DescribeStationList::FilterByProject", "dd/d9a/class_describe_station_list_1_1_filter_by_project.html", null ]
+      [ "AbstractFilterDescribeList", "dc/d9d/class_abstract_filter_describe_list.html", [
+        [ "DescribeAlgorithmList::AbstractFilter", "da/d2b/class_describe_algorithm_list_1_1_abstract_filter.html", [
+          [ "DescribeAlgorithmList::FilterByName", "dc/dc8/class_describe_algorithm_list_1_1_filter_by_name.html", null ]
+        ] ],
+        [ "DescribeArchiveList::AbstractFilter", "da/dff/class_describe_archive_list_1_1_abstract_filter.html", [
+          [ "DescribeArchiveList::FilterByName", "d2/d25/class_describe_archive_list_1_1_filter_by_name.html", null ]
+        ] ],
+        [ "DescribeComplexList::AbstractFilter", "de/dda/class_describe_complex_list_1_1_abstract_filter.html", [
+          [ "DescribeComplexList::FilterByIoDriver", "d2/dd9/class_describe_complex_list_1_1_filter_by_io_driver.html", null ],
+          [ "DescribeComplexList::FilterByName", "d6/d61/class_describe_complex_list_1_1_filter_by_name.html", null ],
+          [ "DescribeComplexList::FilterWithoutIoDriver", "d3/d84/class_describe_complex_list_1_1_filter_without_io_driver.html", null ]
+        ] ],
+        [ "DescribeConnectionList::AbstractFilter", "d5/d26/class_describe_connection_list_1_1_abstract_filter.html", [
+          [ "DescribeConnectionList::FilterById", "d9/de1/class_describe_connection_list_1_1_filter_by_id.html", null ],
+          [ "DescribeConnectionList::FilterWithoutClientIncomingServer", "d3/d75/class_describe_connection_list_1_1_filter_without_client_incoming_server.html", null ]
+        ] ],
+        [ "DescribeDeviceList::AbstractFilter", "da/dad/class_describe_device_list_1_1_abstract_filter.html", [
+          [ "DescribeDeviceList::FilterByLibrary", "d5/dee/class_describe_device_list_1_1_filter_by_library.html", null ],
+          [ "DescribeDeviceList::FilterByName", "d0/db9/class_describe_device_list_1_1_filter_by_name.html", null ],
+          [ "DescribeDeviceList::FilterByOwner", "da/dd0/class_describe_device_list_1_1_filter_by_owner.html", null ],
+          [ "DescribeDeviceList::FilterBySelf", "dc/dad/class_describe_device_list_1_1_filter_by_self.html", null ],
+          [ "DescribeDeviceList::FilterByType", "db/d6b/class_describe_device_list_1_1_filter_by_type.html", null ]
+        ] ],
+        [ "DescribeFolderList::AbstractFilter", "dd/d11/class_describe_folder_list_1_1_abstract_filter.html", [
+          [ "DescribeFolderList::FilterByName", "d8/dc3/class_describe_folder_list_1_1_filter_by_name.html", null ],
+          [ "DescribeFolderList::FilterByParent", "d2/d84/class_describe_folder_list_1_1_filter_by_parent.html", null ]
+        ] ],
+        [ "DescribeInputList::AbstractFilter", "dd/d10/class_describe_input_list_1_1_abstract_filter.html", [
+          [ "DescribeInputList::FilterByName", "d6/d64/class_describe_input_list_1_1_filter_by_name.html", null ],
+          [ "DescribeInputList::FilterByType", "dd/d74/class_describe_input_list_1_1_filter_by_type.html", null ]
+        ] ],
+        [ "DescribeModuleList::AbstractFilter", "df/dfd/class_describe_module_list_1_1_abstract_filter.html", [
+          [ "DescribeModuleList::FilterByName", "d8/de5/class_describe_module_list_1_1_filter_by_name.html", null ]
+        ] ],
+        [ "DescribeParameterList::AbstractFilter", "d4/d05/class_describe_parameter_list_1_1_abstract_filter.html", [
+          [ "DescribeParameterList::FilterByArchive", "de/dac/class_describe_parameter_list_1_1_filter_by_archive.html", null ],
+          [ "DescribeParameterList::FilterByFolder", "dc/d4d/class_describe_parameter_list_1_1_filter_by_folder.html", null ],
+          [ "DescribeParameterList::FilterByFolderContents", "d6/da9/class_describe_parameter_list_1_1_filter_by_folder_contents.html", null ],
+          [ "DescribeParameterList::FilterByFolderUnknown", "d4/d2f/class_describe_parameter_list_1_1_filter_by_folder_unknown.html", null ],
+          [ "DescribeParameterList::FilterByName", "d5/db3/class_describe_parameter_list_1_1_filter_by_name.html", null ],
+          [ "DescribeParameterList::FilterByOwner", "d2/d15/class_describe_parameter_list_1_1_filter_by_owner.html", null ],
+          [ "DescribeParameterList::FilterByPattern", "df/d4f/class_describe_parameter_list_1_1_filter_by_pattern.html", null ],
+          [ "DescribeParameterList::FilterByPrefixName", "de/d1b/class_describe_parameter_list_1_1_filter_by_prefix_name.html", null ],
+          [ "DescribeParameterList::FilterByShortName", "d3/d49/class_describe_parameter_list_1_1_filter_by_short_name.html", null ],
+          [ "DescribeParameterList::FilterByType", "d4/d98/class_describe_parameter_list_1_1_filter_by_type.html", null ],
+          [ "DescribeParameterList::FilterWithoutSource", "d1/d43/class_describe_parameter_list_1_1_filter_without_source.html", null ]
+        ] ],
+        [ "DescribeStationList::AbstractFilter", "d8/dd3/class_describe_station_list_1_1_abstract_filter.html", [
+          [ "DescribeStationList::FilterById", "d8/de0/class_describe_station_list_1_1_filter_by_id.html", null ],
+          [ "DescribeStationList::FilterByIp", "d7/d59/class_describe_station_list_1_1_filter_by_ip.html", null ],
+          [ "DescribeStationList::FilterByName", "d0/d29/class_describe_station_list_1_1_filter_by_name.html", null ],
+          [ "DescribeStationList::FilterByProject", "dd/d9a/class_describe_station_list_1_1_filter_by_project.html", null ],
+          [ "DescribeStationList::FilterByType", "d4/d55/class_describe_station_list_1_1_filter_by_type.html", null ]
+        ] ],
+        [ "DescribeUserGroupList::AbstractFilter", "d0/df7/class_describe_user_group_list_1_1_abstract_filter.html", null ]
       ] ]
     ] ],
     [ "IIUDeviceImp", null, [
@@ -231,10 +252,10 @@ var hierarchy =
       ] ]
     ] ],
     [ "IoExternalData::Item", "df/db7/struct_io_external_data_1_1_item.html", null ],
-    [ "DescribeList::Iterator", "df/dc3/class_describe_list_1_1_iterator.html", null ],
-    [ "DescribeListObjectT< TDescribe >::Iterator< TList >", "da/d88/class_describe_list_object_t_1_1_iterator.html", null ],
     [ "DescribeListT< TDescribe >::Iterator< TList >", "da/dac/class_describe_list_t_1_1_iterator.html", null ],
     [ "VectorContainer::Iterator", "d8/d60/class_vector_container_1_1_iterator.html", null ],
+    [ "DescribeListObjectT< TDescribe >::Iterator< TList >", "da/d88/class_describe_list_object_t_1_1_iterator.html", null ],
+    [ "DescribeList::Iterator", "df/dc3/class_describe_list_1_1_iterator.html", null ],
     [ "JsonParcer", "dc/d19/class_json_parcer.html", null ],
     [ "LevelAccess", "d1/dc6/class_level_access.html", null ],
     [ "Permission", "d5/db9/class_permission.html", null ],
@@ -278,8 +299,8 @@ var hierarchy =
     [ "QSharedPointer", null, [
       [ "VectorEventPtr", "d6/d8a/class_vector_event_ptr.html", null ]
     ] ],
-    [ "std::allocator_owner_heap< _Ty >::rebind< _Other >", "d1/d8b/structstd_1_1allocator__owner__heap_1_1rebind.html", null ],
     [ "std::allocator_common_heap< _Ty >::rebind< _Other >", "d1/de4/structstd_1_1allocator__common__heap_1_1rebind.html", null ],
+    [ "std::allocator_owner_heap< _Ty >::rebind< _Other >", "d1/d8b/structstd_1_1allocator__owner__heap_1_1rebind.html", null ],
     [ "ReceiverHost", "de/d25/class_receiver_host.html", null ],
     [ "ServerDataAstd", "d0/d2e/class_server_data_astd.html", null ],
     [ "ServerPartInfo", "d8/dd9/struct_server_part_info.html", null ],
