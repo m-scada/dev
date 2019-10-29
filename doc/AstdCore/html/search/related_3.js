@@ -1,7 +1,5 @@
 var searchData=
 [
-  ['propertyanalogparameterdummy',['PropertyAnalogParameterDummy',['../d0/d66/class_property_analog_parameter.html#a2a8968fda28340b1d1194aa68f8a0bf2',1,'PropertyAnalogParameter']]],
-  ['propertydiscreteparameterdummy',['PropertyDiscreteParameterDummy',['../de/d80/class_property_discrete_parameter.html#a7e547692aae831fb8d8fc7887a9a4f33',1,'PropertyDiscreteParameter']]],
-  ['propertyoutflowparameterdummy',['PropertyOutflowParameterDummy',['../df/d48/class_property_outflow_parameter.html#ab218be9dff261c45faae86ae54125520',1,'PropertyOutflowParameter']]],
-  ['propertystringparameterdummy',['PropertyStringParameterDummy',['../de/dcd/class_property_string_parameter.html#a1c1ffe5a6653dfc01e213ba568480448',1,'PropertyStringParameter']]]
+  ['operator_3c_3c',['operator&lt;&lt;',['../da/dfe/class_g_i_d___folder.html#a7ba50086b0e1f86011497801309ef88f',1,'GID_Folder::operator&lt;&lt;()'],['../d6/d6e/class_g_i_d___station.html#a1e8c4b21cb05e0431a488e97e7c20954',1,'GID_Station::operator&lt;&lt;()']]],
+  ['operator_3e_3e',['operator&gt;&gt;',['../da/dfe/class_g_i_d___folder.html#aed51aa1a5aacbed3ebbc6cecb5dba4a2',1,'GID_Folder::operator&gt;&gt;()'],['../d6/d6e/class_g_i_d___station.html#a2cdcfdcf8ba7af6d5965724b95f5196e',1,'GID_Station::operator&gt;&gt;()']]]
 ];

@@ -1,6 +1,7 @@
 var searchData=
 [
   ['make',['make',['../d6/d8a/class_vector_event_ptr.html#a187dea38244215a656aea91396659cd3',1,'VectorEventPtr::make(int size)'],['../d6/d8a/class_vector_event_ptr.html#a43b54902309672ea246b0c809d90d424',1,'VectorEventPtr::make(CVectorEvent *vector)']]],
+  ['masterserver',['masterServer',['../d0/d2e/class_server_data_astd.html#a4c7ce6ab00d4fd1c34c54d6f936c6868',1,'ServerDataAstd']]],
   ['max_5fsize',['max_size',['../da/ddf/classstd_1_1allocator__common__heap.html#a28e05f6e0cac4e5edefde3e64f503c79',1,'std::allocator_common_heap::max_size()'],['../d7/d29/classstd_1_1allocator__owner__heap.html#a37c66d067e096df5b8e52ea9d77ff154',1,'std::allocator_owner_heap::max_size()']]],
   ['maxcount',['maxCount',['../d6/d8a/class_vector_event_ptr.html#a81103cdef173df3d07b1f46d0c4c23ba',1,'VectorEventPtr']]],
   ['maxcountstate',['maxCountState',['../de/d80/class_property_discrete_parameter.html#ac28b484de7a61c7bad6251a0622f4a9c',1,'PropertyDiscreteParameter']]],

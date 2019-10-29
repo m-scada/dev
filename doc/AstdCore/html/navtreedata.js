@@ -40,18 +40,19 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"d1/d2d/struct_extract_directory_args.html#abc1430cf3d778f9bbc8f9f220a1489d4",
-"d1/dfd/_describe_connection_8h.html#a40f8f62dcb1c9b3d62802338139be655",
-"d4/d43/class_time_astd_range.html#a5f9c9696ad6b89108c9f5e346558411b",
-"d5/df2/class_value_source_device.html#a6d945da5540bd605603106828a5c563ca5bda814c4aedb126839228f1a3d92f09",
-"d7/d59/class_describe_station_list_1_1_filter_by_ip.html#a97945327fcb8ce05941771b2b8bb07d7",
-"d8/d82/class_describe_parameter.html#aec72f17c44637a5fb1176121864f3a9d",
-"d9/d97/class_describe_input.html#acd20b1a557276529cca7277a0ce99adf",
-"da/d96/class_describe_list_object.html#a325d6cb4b18ebd02da4c21ad24f6cabe",
-"db/d75/class_describe_device.html#ad2a2508a034a65c5e37c0138dc491417",
-"dc/dac/class_io_external_data.html#ab82b243d4afd15151d17175c0ab525d6",
-"de/d38/class_core_device.html#a35d47b079e4031e369d7399816d99896",
-"df/d0f/class_describe_list.html#a5a815d51dc922d582d8ec5a64eb8b7fe"
+"d0/ddb/struct_server_part_status.html#a7345ab6375d25f3a08b13e382b74d2dfaa60852f204ed8028c1c58808b746d115",
+"d1/de4/class_s_p_message.html",
+"d4/d1b/class_g_i_d___module.html#a5ecd81b7a48b3356be3d657f95891fc0",
+"d5/de0/class_describe_list_t.html#ad4362b33b7594195577933d2fac55213",
+"d7/d29/classstd_1_1allocator__owner__heap.html#a848fb06a6352a3322a92ce8aa542a640",
+"d8/d82/class_describe_parameter.html#aad03cca64aa4b997141df2560d38f1dc",
+"d9/d97/class_describe_input.html#ab50198fb9578b75b76fc51b3e7d25116",
+"da/d96/class_core_plugin.html#a10a66fbae833008165c7b78003bfdd28",
+"db/d75/class_describe_device.html#a9c467701072f636c787483ed67df3441",
+"dc/dac/class_io_external_data.html#a3042c65206f3ac130bcc5eba48d725beaff7d24c88b4adde59ffa15272ff11fad",
+"de/d34/class_describe_list_object_t.html#a160f5b1a126c6d3f7eae184f7f218b86",
+"df/d0f/class_describe_list.html#a1f916e8eed8993fcffe4de8cc64f99ce",
+"namespacemembers_func.html"
 ];
 
 var SYNCONMSG = 'нажмите на выключить для синхронизации панелей';

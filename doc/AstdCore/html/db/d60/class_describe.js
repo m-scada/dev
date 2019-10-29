@@ -58,6 +58,6 @@ var class_describe =
     [ "status", "db/d60/class_describe.html#ad9f9b9e6dd733ad7d73e239b9a3417b1", null ],
     [ "typeDescribe", "db/d60/class_describe.html#a37039bce5c4d090e10feee0fc7e8c1dd", null ],
     [ "typeDescribeString", "db/d60/class_describe.html#a6da285d5c2c5431734380e86f8ffd244", null ],
-    [ "update", "db/d60/class_describe.html#ad43080bdde85c5cd130e99a2668bf74b", null ],
+    [ "update", "db/d60/class_describe.html#a374de8a2bae0436841dccd802d18a144", null ],
     [ "m_describe", "db/d60/class_describe.html#af23eabe44bf611c2d8b21cba4f5aec6d", null ]
 ];

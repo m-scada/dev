@@ -25,7 +25,7 @@ var class_describe_archive =
     [ "setGid", "dc/d40/class_describe_archive.html#ae7b2d15aeac687aaf7ee423d729b5805", null ],
     [ "setName", "dc/d40/class_describe_archive.html#a14a07bb103fdcc8e4312416d25765947", null ],
     [ "setPeriodSaveDuplicateEvent", "dc/d40/class_describe_archive.html#ad4fb03c320ac7a794d9eb4c60a2292af", null ],
-    [ "update", "dc/d40/class_describe_archive.html#a294958f4beac16e2a2e3bc687162e307", null ],
+    [ "update", "dc/d40/class_describe_archive.html#af7b4143768ca5405c0ae1b3f8fe9562b", null ],
     [ "durationStore", "dc/d40/class_describe_archive.html#a88a68d1a9eba31e9173ff8fb01a0754e", null ],
     [ "enableWork", "dc/d40/class_describe_archive.html#a7fe9b328f140608934c5f2342f08fa58", null ],
     [ "eventPerRecord", "dc/d40/class_describe_archive.html#ada0d91f578a50d631e23fc968d09eb25", null ],

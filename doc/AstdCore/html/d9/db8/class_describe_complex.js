@@ -29,7 +29,7 @@ var class_describe_complex =
     [ "setGidListModule", "d9/db8/class_describe_complex.html#a2b1bb2135973db47b5925571053feb36", null ],
     [ "setName", "d9/db8/class_describe_complex.html#a4202396bb41cc468c85d371658a571c7", null ],
     [ "setOptions", "d9/db8/class_describe_complex.html#a2ba2cac9b53ba77e0d7d92b5e893a07b", null ],
-    [ "update", "d9/db8/class_describe_complex.html#a0df78d5037a61df70554ba09e6b1584e", null ],
+    [ "update", "d9/db8/class_describe_complex.html#a1c5fa858bf047cb89e91cee8dafca901", null ],
     [ "enableWork", "d9/db8/class_describe_complex.html#a4d7661bd54bd2080e2c99ce029441178", null ],
     [ "gid", "d9/db8/class_describe_complex.html#a5428a2b3dfc35e53dab96f22250d49a8", null ],
     [ "gidDevice", "d9/db8/class_describe_complex.html#ae17d0f5b41a975c2c82cd657532495f4", null ],

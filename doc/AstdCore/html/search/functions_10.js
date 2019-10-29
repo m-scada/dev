@@ -32,7 +32,7 @@ var searchData=
   ['remove',['remove',['../df/d0f/class_describe_list.html#abb351cf1b0906a6d71823137384e3dfe',1,'DescribeList::remove()'],['../d5/de0/class_describe_list_t.html#af28e948698f39d6858731fa49e13b70e',1,'DescribeListT::remove()']]],
   ['removebom',['removeBOM',['../d7/dbe/_astd_core_utils_8h.html#a766fca81222b08ca4eaadb1765922ec9',1,'AstdCoreUtils.h']]],
   ['removedirectory',['removeDirectory',['../d7/dbe/_astd_core_utils_8h.html#a5b6bc40aef03bc8c747cf52c49280672',1,'AstdCoreUtils.h']]],
-  ['removefromlist',['removeFromList',['../df/d0f/class_describe_list.html#a2791cdcc88fa7533dd297878aa69542a',1,'DescribeList']]],
+  ['removefromlist',['removeFromList',['../df/d0f/class_describe_list.html#ac53728609e6911f01b7fe004b7113f1d',1,'DescribeList']]],
   ['removeoption',['removeOption',['../d4/d8d/class_options.html#a5381e604bdd6d76f3b2ab8268fc50a46',1,'Options::removeOption(const QString &amp;name)'],['../d4/d8d/class_options.html#ab6e70eea12005b7bc6ed8cca10d44b0e',1,'Options::removeOption(const QLatin1String &amp;name)']]],
   ['repositoryhosts',['repositoryHosts',['../de/db7/class_application_config.html#a8977a13718f04ba0dfa2949c18e1c1a8',1,'ApplicationConfig']]],
   ['requestdenied',['requestDenied',['../dd/d2b/class_history_engine.html#a4a68cebc1f3cf716731e5d55c074ed20',1,'HistoryEngine']]],

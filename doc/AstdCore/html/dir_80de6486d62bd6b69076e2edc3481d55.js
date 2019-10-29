@@ -224,7 +224,7 @@ var dir_80de6486d62bd6b69076e2edc3481d55 =
       [ "ReceiverHost", "de/d25/class_receiver_host.html", "de/d25/class_receiver_host" ]
     ] ],
     [ "ServerDataAstd.h", "d0/df7/_server_data_astd_8h.html", [
-      [ "ServerPartInfo", "d8/dd9/struct_server_part_info.html", "d8/dd9/struct_server_part_info" ],
+      [ "ServerPartStatus", "d0/ddb/struct_server_part_status.html", "d0/ddb/struct_server_part_status" ],
       [ "ServerDataAstd", "d0/d2e/class_server_data_astd.html", "d0/d2e/class_server_data_astd" ]
     ] ],
     [ "SignalGenerator.h", "d1/d90/_signal_generator_8h.html", "d1/d90/_signal_generator_8h" ],

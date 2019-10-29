@@ -29,7 +29,7 @@ var class_describe_algorithm =
     [ "setName", "d0/d5d/class_describe_algorithm.html#a8bdb24255d40b6afce3a15b836f217c0", null ],
     [ "setNote", "d0/d5d/class_describe_algorithm.html#a5c527f5fbf6b53e2bf0e7e1ec808ecb4", null ],
     [ "setOptions", "d0/d5d/class_describe_algorithm.html#a4c53fe33aab2fd5035067da4a9481bf1", null ],
-    [ "update", "d0/d5d/class_describe_algorithm.html#a5f49ff603c00ffa6ac8d9e80313905d8", null ],
+    [ "update", "d0/d5d/class_describe_algorithm.html#a0df94c21398f20e05edb1d7e96f207a5", null ],
     [ "enableWork", "d0/d5d/class_describe_algorithm.html#a5abdf35f4842e5506696773dde44f474", null ],
     [ "fileName", "d0/d5d/class_describe_algorithm.html#a09cc25dffe03d59b6b17bcd4a8821319", null ],
     [ "gid", "d0/d5d/class_describe_algorithm.html#ad4023d95a026c16c816ff2ca628270fc", null ],

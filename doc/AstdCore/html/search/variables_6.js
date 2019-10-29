@@ -9,6 +9,6 @@ var searchData=
   ['sectionstorage',['SectionStorage',['../d9/d73/class_project_config.html#a0aa5fda03c4031a744fe0cb902ec2993',1,'ProjectConfig']]],
   ['sectionupdateserver',['SectionUpdateServer',['../de/db7/class_application_config.html#a2f5f9e4fe4a1235a9a35f959b4f62f9c',1,'ApplicationConfig']]],
   ['sm_5fheap',['sm_heap',['../d0/d0d/classastd_1_1_heap_owner_allocator.html#a9c87f3c5b6aca26972129b0847e72b5a',1,'astd::HeapOwnerAllocator']]],
-  ['status',['status',['../d8/dd9/struct_server_part_info.html#a024ecf75e79599c1ddce9a49c2f70e00',1,'ServerPartInfo']]],
+  ['status',['status',['../d0/ddb/struct_server_part_status.html#a3b9fc4368279ab3251b8a7bab9720c0e',1,'ServerPartStatus']]],
   ['subdir',['subDir',['../d0/d09/struct_extract_sub_directory_args.html#ae286e756a7b85e5933b2c644f20c3caf',1,'ExtractSubDirectoryArgs']]]
 ];

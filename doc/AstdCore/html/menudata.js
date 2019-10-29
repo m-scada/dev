@@ -71,12 +71,10 @@ var menudata={children:[
 {text:"Определения типов",url:"functions_type.html"},
 {text:"Перечисления",url:"functions_enum.html"},
 {text:"Элементы перечислений",url:"functions_eval.html",children:[
-{text:"a",url:"functions_eval.html#index_a"},
 {text:"b",url:"functions_eval.html#index_b"},
 {text:"c",url:"functions_eval.html#index_c"},
 {text:"e",url:"functions_eval.html#index_e"},
 {text:"l",url:"functions_eval.html#index_l"},
-{text:"m",url:"functions_eval.html#index_m"},
 {text:"n",url:"functions_eval.html#index_n"},
 {text:"o",url:"functions_eval.html#index_o"},
 {text:"p",url:"functions_eval.html#index_p"},

@@ -112,7 +112,7 @@ var annotated_dup =
     [ "ReceiverHost", "de/d25/class_receiver_host.html", "de/d25/class_receiver_host" ],
     [ "ReceiverImpl", "d9/d2f/class_receiver_impl.html", "d9/d2f/class_receiver_impl" ],
     [ "ServerDataAstd", "d0/d2e/class_server_data_astd.html", "d0/d2e/class_server_data_astd" ],
-    [ "ServerPartInfo", "d8/dd9/struct_server_part_info.html", "d8/dd9/struct_server_part_info" ],
+    [ "ServerPartStatus", "d0/ddb/struct_server_part_status.html", "d0/ddb/struct_server_part_status" ],
     [ "SignalGenerator", "df/d44/class_signal_generator.html", "df/d44/class_signal_generator" ],
     [ "SpareDescribeParameterList", "d3/dec/class_spare_describe_parameter_list.html", "d3/dec/class_spare_describe_parameter_list" ],
     [ "SPMessage", "d1/de4/class_s_p_message.html", "d1/de4/class_s_p_message" ],

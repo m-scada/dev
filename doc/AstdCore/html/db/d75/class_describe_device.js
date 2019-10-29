@@ -69,7 +69,7 @@ var class_describe_device =
     [ "typeIcon", "db/d75/class_describe_device.html#a48cff5555fc5a422f15db960456df535", null ],
     [ "typeString", "db/d75/class_describe_device.html#a05d07738bb1d53cd80950ea4204a9c00", null ],
     [ "typeStringTr", "db/d75/class_describe_device.html#a62ea6f5b8e6316c56bdbb740df777ff5", null ],
-    [ "update", "db/d75/class_describe_device.html#a353e320f8702f9534a7151e16c139cc4", null ],
+    [ "update", "db/d75/class_describe_device.html#a9910271b5eec728db21146e49587a53e", null ],
     [ "borderSleepingForExit", "db/d75/class_describe_device.html#a28b0c5651b851ac7be7a335bc5e6e976", null ],
     [ "enableWork", "db/d75/class_describe_device.html#a1e9dba28f9c46e2c80c6045eed7ee6d8", null ],
     [ "gid", "db/d75/class_describe_device.html#aa29bf6883527bb03065c709b9cdf9f4e", null ],

@@ -13,7 +13,7 @@ var class_core_device =
     [ "regEntry", "de/d38/class_core_device.html#ad5881089ec49618121bcdfe767cd2685", null ],
     [ "release", "de/d38/class_core_device.html#a37bc60a011cb0a4152ba92351d1fbf19", null ],
     [ "releaseDevice", "de/d38/class_core_device.html#a41bbcf1072d65e4517639fd96dbcd29a", null ],
-    [ "server", "de/d38/class_core_device.html#a83aa36ab3c48b21d9808dd76b2ea1901", null ],
+    [ "server", "de/d38/class_core_device.html#afe16accea575b3ca5089479b371143fe", null ],
     [ "signalCloseDevice", "de/d38/class_core_device.html#a83be06bc67564042b7cdb6676d4417d7", null ],
     [ "signalInitialize", "de/d38/class_core_device.html#a95d9c2bab5f12f5bcda81a2730fa1663", null ],
     [ "signalOpenDevice", "de/d38/class_core_device.html#a7087d9fa268cd67cb8318ddd757658db", null ],

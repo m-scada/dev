@@ -1,9 +1,5 @@
 var searchData=
 [
-  ['partinfo',['partInfo',['../d0/d2e/class_server_data_astd.html#a1c8c257c629306a0dab1425d39c6bf85',1,'ServerDataAstd']]],
-  ['partlongtermstorage',['partLongtermStorage',['../d8/dd9/struct_server_part_info.html#a53dc7343201aa2d79bbb3dde47f186b5',1,'ServerPartInfo']]],
-  ['partmanagerprofile',['partManagerProfile',['../d8/dd9/struct_server_part_info.html#a7dc00989a38710277c2f0721cbcaa207',1,'ServerPartInfo']]],
-  ['partservicepoint',['partServicePoint',['../d8/dd9/struct_server_part_info.html#a075fab3fb2460fe7c8c5fdc43a42af83',1,'ServerPartInfo']]],
   ['passwordcustomproxyserver',['passwordCustomProxyServer',['../de/db7/class_application_config.html#a46c511c313090fe2cac55f6d6f805455',1,'ApplicationConfig']]],
   ['path',['path',['../da/d40/class_describe_folder.html#afc34018a48a73612e0c2e197c20f6cec',1,'DescribeFolder']]],
   ['pathassets',['pathAssets',['../de/db7/class_application_config.html#a56f08d70f983f90c30f9c247742aa912',1,'ApplicationConfig']]],

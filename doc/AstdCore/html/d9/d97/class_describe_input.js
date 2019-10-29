@@ -69,7 +69,7 @@ var class_describe_input =
     [ "typeRefusal", "d9/d97/class_describe_input.html#a4a88ab8fea31a0391b5555eca5d18e33", null ],
     [ "typeString", "d9/d97/class_describe_input.html#ab484a6ac359704c778e5fbfebf8b9400", null ],
     [ "typeStringTr", "d9/d97/class_describe_input.html#ad564b5dc73285afa4f6b778d40dbbac3", null ],
-    [ "update", "d9/d97/class_describe_input.html#a24839baae06107eb8feca9311293570e", null ],
+    [ "update", "d9/d97/class_describe_input.html#a1b923d5644454212e4062f653cb6ef47", null ],
     [ "deadbands", "d9/d97/class_describe_input.html#aef8bd4d6309d131bcd40cb499c2df0f8", null ],
     [ "enableWork", "d9/d97/class_describe_input.html#add39880709ab4cf8981e5adbd99b060b", null ],
     [ "extAddress", "d9/d97/class_describe_input.html#a2e2c19b50ff92d924693de4098afd82b", null ],

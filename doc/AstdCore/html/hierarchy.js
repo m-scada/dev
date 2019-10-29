@@ -294,6 +294,7 @@ var hierarchy =
       [ "MessageService", "d6/d38/class_message_service.html", null ],
       [ "NotifierDescribeList", "d2/d03/class_notifier_describe_list.html", null ],
       [ "ProjectConfig", "d9/d73/class_project_config.html", null ],
+      [ "ServerDataAstd", "d0/d2e/class_server_data_astd.html", null ],
       [ "SignalGenerator", "df/d44/class_signal_generator.html", null ]
     ] ],
     [ "QSharedPointer", null, [
@@ -302,8 +303,7 @@ var hierarchy =
     [ "std::allocator_common_heap< _Ty >::rebind< _Other >", "d1/de4/structstd_1_1allocator__common__heap_1_1rebind.html", null ],
     [ "std::allocator_owner_heap< _Ty >::rebind< _Other >", "d1/d8b/structstd_1_1allocator__owner__heap_1_1rebind.html", null ],
     [ "ReceiverHost", "de/d25/class_receiver_host.html", null ],
-    [ "ServerDataAstd", "d0/d2e/class_server_data_astd.html", null ],
-    [ "ServerPartInfo", "d8/dd9/struct_server_part_info.html", null ],
+    [ "ServerPartStatus", "d0/ddb/struct_server_part_status.html", null ],
     [ "SPMessage", "d1/de4/class_s_p_message.html", null ],
     [ "PropertyDiscreteParameter::StateItem", "d1/d30/class_property_discrete_parameter_1_1_state_item.html", null ],
     [ "TimeAstdSpan", "dc/d0e/class_time_astd_span.html", null ],

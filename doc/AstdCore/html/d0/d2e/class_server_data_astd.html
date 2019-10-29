@@ -81,7 +81,10 @@ $(document).ready(function(){initNavTree('d0/d2e/class_server_data_astd.html','.
 
 <div class="header">
   <div class="summary">
+<a href="#signals">Сигналы</a> &#124;
 <a href="#pub-methods">Открытые члены</a> &#124;
+<a href="#pub-static-methods">Открытые статические члены</a> &#124;
+<a href="#pro-methods">Защищенные члены</a> &#124;
 <a href="../../d3/d2a/class_server_data_astd-members.html">Полный список членов класса</a>  </div>
   <div class="headertitle">
 <div class="title">Класс ServerDataAstd</div>  </div>
@@ -89,24 +92,63 @@ $(document).ready(function(){initNavTree('d0/d2e/class_server_data_astd.html','.
 <div class="contents">
 
 <p><code>#include &lt;<a class="el" href="../../d0/df7/_server_data_astd_8h_source.html">ServerDataAstd.h</a>&gt;</code></p>
+<div class="dynheader">
+Граф наследования:ServerDataAstd:</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="../../d0/d2e/class_server_data_astd.png" usemap="#ServerDataAstd_map" alt=""/>
+  <map id="ServerDataAstd_map" name="ServerDataAstd_map">
+</map>
+ </div></div>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="signals"></a>
+Сигналы</h2></td></tr>
+<tr class="memitem:a3f441be0733bdd17f5e69fb75328f192"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d2e/class_server_data_astd.html#a3f441be0733bdd17f5e69fb75328f192">statusServicePointChanged</a> (const <a class="el" href="../../d0/ddb/struct_server_part_status.html">ServerPartStatus</a> &amp;<a class="el" href="../../d0/d2e/class_server_data_astd.html#a9ad4756c8e9f11e0051390efb2e84da3">status</a>)</td></tr>
+<tr class="separator:a3f441be0733bdd17f5e69fb75328f192"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac21351892540594435a842f36a881b36"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d2e/class_server_data_astd.html#ac21351892540594435a842f36a881b36">statusManagerProfileChanged</a> (const <a class="el" href="../../d0/ddb/struct_server_part_status.html">ServerPartStatus</a> &amp;<a class="el" href="../../d0/d2e/class_server_data_astd.html#a9ad4756c8e9f11e0051390efb2e84da3">status</a>)</td></tr>
+<tr class="separator:ac21351892540594435a842f36a881b36"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a33bec2aa4b5fdc50a8432e84a7e65686"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d2e/class_server_data_astd.html#a33bec2aa4b5fdc50a8432e84a7e65686">statusLongtermStorageChanged</a> (const <a class="el" href="../../d0/ddb/struct_server_part_status.html">ServerPartStatus</a> &amp;<a class="el" href="../../d0/d2e/class_server_data_astd.html#a9ad4756c8e9f11e0051390efb2e84da3">status</a>)</td></tr>
+<tr class="separator:a33bec2aa4b5fdc50a8432e84a7e65686"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Открытые члены</h2></td></tr>
 <tr class="memitem:a7c58407072dc655d2064e2cfc77b405b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d2e/class_server_data_astd.html#a7c58407072dc655d2064e2cfc77b405b">isCreated</a> () const</td></tr>
 <tr class="separator:a7c58407072dc655d2064e2cfc77b405b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad8d3915023951ccfa24013ff6646dd39"><td class="memItemLeft" align="right" valign="top">UINT&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d2e/class_server_data_astd.html#ad8d3915023951ccfa24013ff6646dd39">id</a> () const</td></tr>
+<tr class="separator:ad8d3915023951ccfa24013ff6646dd39"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42a47a36d45fe24c4b67189a8f9dde1e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d2e/class_server_data_astd.html#a42a47a36d45fe24c4b67189a8f9dde1e">isMaster</a> () const</td></tr>
+<tr class="separator:a42a47a36d45fe24c4b67189a8f9dde1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf1fcf2d26e03a2159c98c5b02df4e52"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d2e/class_server_data_astd.html#abf1fcf2d26e03a2159c98c5b02df4e52">isAuthorized</a> () const</td></tr>
+<tr class="separator:abf1fcf2d26e03a2159c98c5b02df4e52"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a40f64276ce9dff53f9e2454874a28f15"><td class="memItemLeft" align="right" valign="top">QPair&lt; bool, QString &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d2e/class_server_data_astd.html#a40f64276ce9dff53f9e2454874a28f15">authorization</a> (const <a class="el" href="../../d9/d73/class_project_config.html">ProjectConfig</a> &amp;projectConfig)</td></tr>
+<tr class="separator:a40f64276ce9dff53f9e2454874a28f15"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa5fadcb1d551925d957c7b9f59a8b9f9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d2e/class_server_data_astd.html#aa5fadcb1d551925d957c7b9f59a8b9f9">create</a> (const <a class="el" href="../../d9/d73/class_project_config.html">ProjectConfig</a> &amp;projectConfig)</td></tr>
+<tr class="separator:aa5fadcb1d551925d957c7b9f59a8b9f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a47c0fd8394a13e74363cf87fc105ef5c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d2e/class_server_data_astd.html#a47c0fd8394a13e74363cf87fc105ef5c">create</a> (IIUDeviceImp *device)</td></tr>
 <tr class="separator:a47c0fd8394a13e74363cf87fc105ef5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa2b1d4477c5bf761a9f917499d430005"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d2e/class_server_data_astd.html#aa2b1d4477c5bf761a9f917499d430005">destroy</a> ()</td></tr>
 <tr class="separator:aa2b1d4477c5bf761a9f917499d430005"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad8d3915023951ccfa24013ff6646dd39"><td class="memItemLeft" align="right" valign="top">UINT&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d2e/class_server_data_astd.html#ad8d3915023951ccfa24013ff6646dd39">id</a> () const</td></tr>
-<tr class="separator:ad8d3915023951ccfa24013ff6646dd39"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1c8c257c629306a0dab1425d39c6bf85"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d8/dd9/struct_server_part_info.html">ServerPartInfo</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d2e/class_server_data_astd.html#a1c8c257c629306a0dab1425d39c6bf85">partInfo</a> (const QLatin1String &amp;namePart) const</td></tr>
-<tr class="memdesc:a1c8c257c629306a0dab1425d39c6bf85"><td class="mdescLeft">&#160;</td><td class="mdescRight">Name status: "ServicePoint", "SPSynchSrv", "LTS".  <a href="#a1c8c257c629306a0dab1425d39c6bf85">Подробнее...</a><br /></td></tr>
-<tr class="separator:a1c8c257c629306a0dab1425d39c6bf85"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a457ead31ca4ebd460a8f64e32738652b"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../d0/ddb/struct_server_part_status.html">ServerPartStatus</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d2e/class_server_data_astd.html#a457ead31ca4ebd460a8f64e32738652b">statusServicePoint</a> () const</td></tr>
+<tr class="separator:a457ead31ca4ebd460a8f64e32738652b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec284ba090e3b9b6a71cb6141628e015"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../d0/ddb/struct_server_part_status.html">ServerPartStatus</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d2e/class_server_data_astd.html#aec284ba090e3b9b6a71cb6141628e015">statusManagerProfile</a> () const</td></tr>
+<tr class="separator:aec284ba090e3b9b6a71cb6141628e015"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac49ca0422d5944fcd38938a1d710beb4"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../d0/ddb/struct_server_part_status.html">ServerPartStatus</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d2e/class_server_data_astd.html#ac49ca0422d5944fcd38938a1d710beb4">statusLongtermStorage</a> () const</td></tr>
+<tr class="separator:ac49ca0422d5944fcd38938a1d710beb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abb4cee7604547831d5afbbd8a9ed3f50"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d2e/class_server_data_astd.html#abb4cee7604547831d5afbbd8a9ed3f50">ServerDataAstd</a> ()</td></tr>
 <tr class="separator:abb4cee7604547831d5afbbd8a9ed3f50"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a43c6bd0b08c1cbdf8a1ecc04d256d159"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d2e/class_server_data_astd.html#a43c6bd0b08c1cbdf8a1ecc04d256d159">~ServerDataAstd</a> ()</td></tr>
-<tr class="separator:a43c6bd0b08c1cbdf8a1ecc04d256d159"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a950e411e101c109b4d3effd676d91458"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d2e/class_server_data_astd.html#a950e411e101c109b4d3effd676d91458">~ServerDataAstd</a> ()</td></tr>
+<tr class="separator:a950e411e101c109b4d3effd676d91458"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Открытые статические члены</h2></td></tr>
+<tr class="memitem:a4c7ce6ab00d4fd1c34c54d6f936c6868"><td class="memItemLeft" align="right" valign="top">static const <a class="el" href="../../d0/d2e/class_server_data_astd.html">ServerDataAstd</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d2e/class_server_data_astd.html#a4c7ce6ab00d4fd1c34c54d6f936c6868">masterServer</a> ()</td></tr>
+<tr class="separator:a4c7ce6ab00d4fd1c34c54d6f936c6868"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Защищенные члены</h2></td></tr>
+<tr class="memitem:a9ad4756c8e9f11e0051390efb2e84da3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/ddb/struct_server_part_status.html">ServerPartStatus</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d2e/class_server_data_astd.html#a9ad4756c8e9f11e0051390efb2e84da3">status</a> (const QLatin1String &amp;namePart) const</td></tr>
+<tr class="memdesc:a9ad4756c8e9f11e0051390efb2e84da3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Name status: "ServicePoint", "SPSynchSrv", "LTS".  <a href="#a9ad4756c8e9f11e0051390efb2e84da3">Подробнее...</a><br /></td></tr>
+<tr class="separator:a9ad4756c8e9f11e0051390efb2e84da3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Конструктор(ы)</h2>
 <a id="abb4cee7604547831d5afbbd8a9ed3f50"></a>
@@ -114,9 +156,6 @@ $(document).ready(function(){initNavTree('d0/d2e/class_server_data_astd.html','.
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">ServerDataAstd::ServerDataAstd </td>
@@ -125,17 +164,12 @@ $(document).ready(function(){initNavTree('d0/d2e/class_server_data_astd.html','.
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a43c6bd0b08c1cbdf8a1ecc04d256d159"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a43c6bd0b08c1cbdf8a1ecc04d256d159">&#9670;&nbsp;</a></span>~ServerDataAstd()</h2>
+<a id="a950e411e101c109b4d3effd676d91458"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a950e411e101c109b4d3effd676d91458">&#9670;&nbsp;</a></span>~ServerDataAstd()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -144,7 +178,7 @@ $(document).ready(function(){initNavTree('d0/d2e/class_server_data_astd.html','.
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">ServerDataAstd::~ServerDataAstd </td>
+          <td class="memname">virtual ServerDataAstd::~ServerDataAstd </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -152,7 +186,7 @@ $(document).ready(function(){initNavTree('d0/d2e/class_server_data_astd.html','.
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -160,14 +194,47 @@ $(document).ready(function(){initNavTree('d0/d2e/class_server_data_astd.html','.
 </div>
 </div>
 <h2 class="groupheader">Методы</h2>
-<a id="a47c0fd8394a13e74363cf87fc105ef5c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a47c0fd8394a13e74363cf87fc105ef5c">&#9670;&nbsp;</a></span>create()</h2>
+<a id="a40f64276ce9dff53f9e2454874a28f15"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a40f64276ce9dff53f9e2454874a28f15">&#9670;&nbsp;</a></span>authorization()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QPair&lt;bool, QString&gt; ServerDataAstd::authorization </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d9/d73/class_project_config.html">ProjectConfig</a> &amp;&#160;</td>
+          <td class="paramname"><em>projectConfig</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa5fadcb1d551925d957c7b9f59a8b9f9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa5fadcb1d551925d957c7b9f59a8b9f9">&#9670;&nbsp;</a></span>create() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ServerDataAstd::create </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d9/d73/class_project_config.html">ProjectConfig</a> &amp;&#160;</td>
+          <td class="paramname"><em>projectConfig</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a47c0fd8394a13e74363cf87fc105ef5c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a47c0fd8394a13e74363cf87fc105ef5c">&#9670;&nbsp;</a></span>create() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">bool ServerDataAstd::create </td>
@@ -177,11 +244,6 @@ $(document).ready(function(){initNavTree('d0/d2e/class_server_data_astd.html','.
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 </div>
@@ -191,9 +253,6 @@ $(document).ready(function(){initNavTree('d0/d2e/class_server_data_astd.html','.
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">bool ServerDataAstd::destroy </td>
@@ -202,11 +261,6 @@ $(document).ready(function(){initNavTree('d0/d2e/class_server_data_astd.html','.
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 </div>
@@ -216,9 +270,6 @@ $(document).ready(function(){initNavTree('d0/d2e/class_server_data_astd.html','.
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">UINT ServerDataAstd::id </td>
@@ -227,11 +278,23 @@ $(document).ready(function(){initNavTree('d0/d2e/class_server_data_astd.html','.
           <td> const</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abf1fcf2d26e03a2159c98c5b02df4e52"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abf1fcf2d26e03a2159c98c5b02df4e52">&#9670;&nbsp;</a></span>isAuthorized()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ServerDataAstd::isAuthorized </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
 </div><div class="memdoc">
 
 </div>
@@ -261,8 +324,25 @@ $(document).ready(function(){initNavTree('d0/d2e/class_server_data_astd.html','.
 
 </div>
 </div>
-<a id="a1c8c257c629306a0dab1425d39c6bf85"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1c8c257c629306a0dab1425d39c6bf85">&#9670;&nbsp;</a></span>partInfo()</h2>
+<a id="a42a47a36d45fe24c4b67189a8f9dde1e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a42a47a36d45fe24c4b67189a8f9dde1e">&#9670;&nbsp;</a></span>isMaster()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ServerDataAstd::isMaster </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4c7ce6ab00d4fd1c34c54d6f936c6868"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4c7ce6ab00d4fd1c34c54d6f936c6868">&#9670;&nbsp;</a></span>masterServer()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -271,10 +351,62 @@ $(document).ready(function(){initNavTree('d0/d2e/class_server_data_astd.html','.
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d8/dd9/struct_server_part_info.html">ServerPartInfo</a> ServerDataAstd::partInfo </td>
+          <td class="memname">static const <a class="el" href="../../d0/d2e/class_server_data_astd.html">ServerDataAstd</a>* ServerDataAstd::masterServer </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9ad4756c8e9f11e0051390efb2e84da3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9ad4756c8e9f11e0051390efb2e84da3">&#9670;&nbsp;</a></span>status()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d0/ddb/struct_server_part_status.html">ServerPartStatus</a> ServerDataAstd::status </td>
           <td>(</td>
           <td class="paramtype">const QLatin1String &amp;&#160;</td>
           <td class="paramname"><em>namePart</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Name status: "ServicePoint", "SPSynchSrv", "LTS". </p>
+
+</div>
+</div>
+<a id="ac49ca0422d5944fcd38938a1d710beb4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac49ca0422d5944fcd38938a1d710beb4">&#9670;&nbsp;</a></span>statusLongtermStorage()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="../../d0/ddb/struct_server_part_status.html">ServerPartStatus</a>&amp; ServerDataAstd::statusLongtermStorage </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
@@ -285,7 +417,133 @@ $(document).ready(function(){initNavTree('d0/d2e/class_server_data_astd.html','.
 </table>
 </div><div class="memdoc">
 
-<p>Name status: "ServicePoint", "SPSynchSrv", "LTS". </p>
+</div>
+</div>
+<a id="a33bec2aa4b5fdc50a8432e84a7e65686"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a33bec2aa4b5fdc50a8432e84a7e65686">&#9670;&nbsp;</a></span>statusLongtermStorageChanged</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ServerDataAstd::statusLongtermStorageChanged </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d0/ddb/struct_server_part_status.html">ServerPartStatus</a> &amp;&#160;</td>
+          <td class="paramname"><em>status</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aec284ba090e3b9b6a71cb6141628e015"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aec284ba090e3b9b6a71cb6141628e015">&#9670;&nbsp;</a></span>statusManagerProfile()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="../../d0/ddb/struct_server_part_status.html">ServerPartStatus</a>&amp; ServerDataAstd::statusManagerProfile </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac21351892540594435a842f36a881b36"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac21351892540594435a842f36a881b36">&#9670;&nbsp;</a></span>statusManagerProfileChanged</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ServerDataAstd::statusManagerProfileChanged </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d0/ddb/struct_server_part_status.html">ServerPartStatus</a> &amp;&#160;</td>
+          <td class="paramname"><em>status</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a457ead31ca4ebd460a8f64e32738652b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a457ead31ca4ebd460a8f64e32738652b">&#9670;&nbsp;</a></span>statusServicePoint()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="../../d0/ddb/struct_server_part_status.html">ServerPartStatus</a>&amp; ServerDataAstd::statusServicePoint </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3f441be0733bdd17f5e69fb75328f192"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3f441be0733bdd17f5e69fb75328f192">&#9670;&nbsp;</a></span>statusServicePointChanged</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ServerDataAstd::statusServicePointChanged </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d0/ddb/struct_server_part_status.html">ServerPartStatus</a> &amp;&#160;</td>
+          <td class="paramname"><em>status</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>

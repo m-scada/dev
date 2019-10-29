@@ -1,7 +1,7 @@
 var searchData=
 [
   ['serverdataastd',['ServerDataAstd',['../d0/d2e/class_server_data_astd.html',1,'']]],
-  ['serverpartinfo',['ServerPartInfo',['../d8/dd9/struct_server_part_info.html',1,'']]],
+  ['serverpartstatus',['ServerPartStatus',['../d0/ddb/struct_server_part_status.html',1,'']]],
   ['signalgenerator',['SignalGenerator',['../df/d44/class_signal_generator.html',1,'']]],
   ['sparedescribeparameterlist',['SpareDescribeParameterList',['../d3/dec/class_spare_describe_parameter_list.html',1,'']]],
   ['spmessage',['SPMessage',['../d1/de4/class_s_p_message.html',1,'']]],

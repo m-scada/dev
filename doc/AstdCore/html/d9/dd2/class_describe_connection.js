@@ -44,7 +44,7 @@ var class_describe_connection =
     [ "typeIcon", "d9/dd2/class_describe_connection.html#aa965cd06a695d77ff981947a8be14964", null ],
     [ "typeString", "d9/dd2/class_describe_connection.html#aac767ea2b3899a5543ff7796f4ac5c8a", null ],
     [ "typeStringTr", "d9/dd2/class_describe_connection.html#a56ad037ca268d421d97b276d44a542a2", null ],
-    [ "update", "d9/dd2/class_describe_connection.html#a3a27d1da9087b116808cb061484614e4", null ],
+    [ "update", "d9/dd2/class_describe_connection.html#a4bd99422a81685eb5c517650a865868a", null ],
     [ "durationSilent", "d9/dd2/class_describe_connection.html#afb39ccbab987eaee0ad882a29363d41c", null ],
     [ "enableWork", "d9/dd2/class_describe_connection.html#a749e812230d67a233d5e297047c9a269", null ],
     [ "gid", "d9/dd2/class_describe_connection.html#acbf10033d79c633fdbd1c7e721e60154", null ],

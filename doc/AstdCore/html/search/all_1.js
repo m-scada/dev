@@ -50,7 +50,7 @@ var searchData=
   ['applicationname',['applicationName',['../de/db7/class_application_config.html#aa79aabe2ca0991860dbb85e2338ae6f5',1,'ApplicationConfig']]],
   ['archive',['Archive',['../db/d60/class_describe.html#aa71e75544f67f60e7739413aae34ad02ae727b00944f81e1d0a95c12886ac4641',1,'Describe']]],
   ['arrayflag',['ArrayFlag',['../dc/dac/class_io_external_data.html#a3042c65206f3ac130bcc5eba48d725bea3d104d381ec6f353c515014fae2ba06d',1,'IoExternalData']]],
-  ['askabouttobackup',['AskAboutToBackup',['../d9/d73/class_project_config.html#adc8ce295118f77aa22346459dcc816fdae098e82387e6661286874c4375cba062',1,'ProjectConfig']]],
+  ['askabouttobackup',['AskAboutToBackup',['../d9/d73/class_project_config.html#adc8ce295118f77aa22346459dcc816fdaf5312edefc301495f7858ac3ecdcbc85',1,'ProjectConfig']]],
   ['astd',['astd',['../d9/d4f/namespaceastd.html',1,'']]],
   ['astdcore',['astdcore',['../d4/da8/namespaceastdcore.html',1,'']]],
   ['astdcore_5fexport',['ASTDCORE_EXPORT',['../d3/d48/_astd_core_export_8h.html#a146b39e3df4f07ad5b74bcfbdcb0dc3b',1,'AstdCoreExport.h']]],
@@ -59,5 +59,6 @@ var searchData=
   ['astdcoreutils_2eh',['AstdCoreUtils.h',['../d7/dbe/_astd_core_utils_8h.html',1,'']]],
   ['at',['at',['../df/d0f/class_describe_list.html#ab9d8331b2f4df7fb2698529b3756da92',1,'DescribeList::at()'],['../d5/de0/class_describe_list_t.html#a63b44aab5eb084e68533fd2c07cc8d25',1,'DescribeListT::at()'],['../de/d34/class_describe_list_object_t.html#a5d7895cda6b6fc05346603d9c9fb4ebe',1,'DescribeListObjectT::at()']]],
   ['attach',['attach',['../df/d0f/class_describe_list.html#a604c5dcd3be1853c8c9747a294fe4399',1,'DescribeList::attach(const DescribeList &amp;list)'],['../df/d0f/class_describe_list.html#a6fb3cf576456a016536206ef238a473c',1,'DescribeList::attach(IAstdListOfItems *list, UINT status=0)'],['../d5/de0/class_describe_list_t.html#ad4362b33b7594195577933d2fac55213',1,'DescribeListT::attach(const DescribeList &amp;list)'],['../d5/de0/class_describe_list_t.html#a2d0494887063e21e63e5dcee67dcc2e4',1,'DescribeListT::attach(IAstdListOfItems *list, UINT status=0)'],['../da/d96/class_describe_list_object.html#aa685a429b89af0dcb5f16bdaede2e3ff',1,'DescribeListObject::attach(const DescribeList &amp;list)'],['../da/d96/class_describe_list_object.html#a7e60aef4b26f9fb7b28e72ed3c3e8c3c',1,'DescribeListObject::attach(IAstdListOfItems *list, UINT status=0)'],['../de/d34/class_describe_list_object_t.html#a9245667637068aeb0a9f5098650aa10a',1,'DescribeListObjectT::attach(const DescribeList &amp;list)'],['../de/d34/class_describe_list_object_t.html#afe0ce7aa727d85421b93063385101d27',1,'DescribeListObjectT::attach(IAstdListOfItems *list, UINT status=0)'],['../d9/d7b/classastdcore_1_1_device_interface_enum_t_1_1_interface_lock_ptr.html#afb2d2a661792b45c887b9a7d2adfcb56',1,'astdcore::DeviceInterfaceEnumT::InterfaceLockPtr::attach()']]],
+  ['authorization',['authorization',['../d0/d2e/class_server_data_astd.html#a40f64276ce9dff53f9e2454874a28f15',1,'ServerDataAstd']]],
   ['auto',['Auto',['../de/d6e/class_conversion_discrete_parameter.html#ad80e4cb3b070b736e31f78f49b05ce40a06b9281e396db002010bde1de57262eb',1,'ConversionDiscreteParameter']]]
 ];
